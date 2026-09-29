@@ -1,0 +1,15 @@
+/* Make the Storybook canvas and docs follow the app theme (light/dark). */
+html,
+body,
+.sb-show-main,
+.sb-main-fullscreen,
+.sb-main-centered,
+.sb-main-padded,
+.sbdocs,
+.sbdocs-wrapper,
+.sbdocs-content,
+.docs-story {
+  /* biome-ignore lint/complexity/noImportantStyles: overrides Storybook inline background */
+  background-color: var(--background) !important;
+  color: var(--foreground);
+}
