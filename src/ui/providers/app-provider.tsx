@@ -1,6 +1,14 @@
 import type { ReactNode } from "react";
-import { ProfileProvider } from "@/ui/providers/profile-provider";
+import { LocaleProvider } from "@/ui/providers/locale-provider";
+import { MockArticleProvider } from "@/ui/providers/mocks/mock-article-provider";
+import { ThemeProvider } from "@/ui/providers/theme-provider";
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  return <ProfileProvider>{children}</ProfileProvider>;
+  return (
+    <ThemeProvider>
+      <LocaleProvider>
+        <MockArticleProvider>{children}</MockArticleProvider>
+      </LocaleProvider>
+    </ThemeProvider>
+  );
 }

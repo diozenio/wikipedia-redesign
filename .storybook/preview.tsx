@@ -1,6 +1,7 @@
 import { withThemeByClassName } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/nextjs-vite";
 import { Geist, Geist_Mono } from "next/font/google";
+import { AppProvider } from "../src/ui/providers/app-provider";
 import "../src/app/globals.css";
 import "./preview.css";
 
@@ -35,6 +36,11 @@ const preview: Preview = {
       themes: { light: "", dark: "dark" },
       defaultTheme: "light",
     }),
+    (Story) => (
+      <AppProvider>
+        <Story />
+      </AppProvider>
+    ),
     (Story) => {
       // The app applies these on <html> (see src/app/layout.tsx), so the
       // font variables must live there too for `font-sans` on <body>.

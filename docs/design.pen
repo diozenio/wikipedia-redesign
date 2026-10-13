@@ -1,5 +1,5 @@
 {
-  "version": "2.19",
+  "version": "2.21",
   "children": [
     {
       "type": "frame",
@@ -1175,39 +1175,6 @@
                         },
                         {
                           "type": "frame",
-                          "id": "JWRnH",
-                          "name": "Button Editar",
-                          "cornerRadius": "$radius-md",
-                          "gap": 6,
-                          "padding": [
-                            6,
-                            12
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "X3dk9y",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "opDvI",
-                              "fill": "$foreground",
-                              "content": "Editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
                           "id": "Fq5md",
                           "name": "Button Ver histórico",
                           "cornerRadius": "$radius-md",
@@ -1577,33 +1544,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ah95u",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "W6NXR",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "ioWU1",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -1663,386 +1603,178 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "X366Rt",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "Wk37b",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "r92C5",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
                     {
-                      "type": "frame",
-                      "id": "d1HZE",
-                      "name": "Timeline",
-                      "clip": true,
+                      "type": "text",
+                      "id": "H4sxb6",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "cornerRadius": "$radius-lg",
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "layout": "vertical",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "F7CqZ6",
-                          "name": "Era Antes de 1940",
-                          "width": "fill_container",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "h2f7tz",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "vcMa7",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "rZwji",
-                                  "fill": "$foreground",
-                                  "content": "Antes de 1940",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "rJrEk",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Registros manuais e máquinas mecânicas de cálculo e tabulação.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "KuAqB",
-                          "name": "Era 1940–1952",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "NPbBF",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "y7mrhb",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "rzuFp",
-                                  "fill": "$foreground",
-                                  "content": "1940–1952",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "Kf8JI",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Primeiros computadores eletrônicos, baseados em válvulas.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "pJoa4",
-                          "name": "Era 1952–1964",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "VuSGS",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "sn05W",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "XCCMt",
-                                  "fill": "$foreground",
-                                  "content": "1952–1964",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "OpGm1",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Transistores e o início do processamento de dados nas empresas.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "L2Nixe",
-                          "name": "Era 1964–1971",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "EqFPb",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "Zq0w2",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "g7OWv",
-                                  "fill": "$foreground",
-                                  "content": "1964–1971",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "ya8Qg",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Circuitos integrados e os grandes sistemas centralizados.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ImSZW",
-                          "name": "Era 1971–1981",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "cLbu3",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "skvk8",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "vkNn6",
-                                  "fill": "$foreground",
-                                  "content": "1971–1981",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "uKffy",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Microprocessadores e a chegada dos computadores pessoais.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "PElpN",
-                          "name": "Era 1981–atual",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "bZtYp",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "u5nVxT",
-                                  "fill": "$primary",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "DjJkP",
-                                  "fill": "$foreground",
-                                  "content": "1981–atual",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "CrOag",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Redes, internet e sistemas de informação distribuídos.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        }
-                      ]
+                      "content": "O Século XX é considerado aquele do advento da Era da Informação. A partir de então, a informação começou a fluir com velocidade maior que a dos corpos físicos. Desde a invenção do telégrafo elétrico em 1837, passando pelos meios de comunicação de massa, e até mais recentemente, o surgimento da grande rede de comunicação de dados que é a Internet, o ser humano tem de conviver e lidar com um crescimento exponencial do volume de dados disponíveis.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ORIYR",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "O domínio da informação disponível é uma fonte de poder, uma vez que permite analisar fatores do passado, compreender o presente, e principalmente, antever o futuro. Os sistemas de informação surgiram antes mesmo da informática.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b7nVRJ",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "Antes de 1940",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "vfXWb",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Antes da popularização dos computadores, os sistemas de informação nas organizações baseavam-se em técnicas de arquivamento e recuperação de informações de grandes arquivos. Geralmente existia a figura do bibliotecário, que é a pessoa responsável em organizar os dados, registrá-los, catalogá-los e recuperá-los quando necessário. Esse método, apesar de simples, exigia um grande esforço para manter os dados atualizados bem como para recuperá-los. As informações em papéis também não possibilitavam a facilidade de cruzamento e análise dos dados. Por exemplo, o inventário de estoque de uma empresa não era uma tarefa trivial nessa época, pois a atualização dos dados não era uma tarefa prática e quase sempre envolvia muitas pessoas, aumentando a probabilidade de ocorrerem erros.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qc26V",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1940 - 1952",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "KRr8l",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nessa época os computadores eram constituídos de válvulas eletrônicas, componentes grandes, caros e de vida curta. Nessa época os computadores só tinham utilidade cientifica, para poder fazer cálculos mais rápidos (algumas vezes a mais que nossa capacidade de calcular). A mão de obra utilizada era muito grande para manter o computador funcionando, para fazer a manutenção de válvulas e fios (quilômetros), que eram trocados e ligados todos manualmente. Essas máquinas ocupavam grandes áreas, como salas ou galpões. A programação era feita diretamente, na linguagem de máquina. A forma de colocar novos dados era por papel perfurado.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WFTtI",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1952 - 1964",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "l1CLoR",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Período destacado pela origem dos transistores e grande diminuição de cabos e fios, diminuição de tamanho das máquinas e aumento da capacidade de execução de cálculos em relação à geração anterior. O começo da comercialização dos computadores foi marcado, eram vendidos para as grandes empresas. Foi utilizada a técnica de integração em que em uma pequena cápsula continha vários transistores, chegando a milhares em um espaço menor que uma unha. É o começo do microprocessador, a linguagem de programação sendo feita por mnemônicos (comandos abreviados). A linguagem dominante era a de montagem (assembly language) e os cálculos estavam na casa dos milionésimos de segundo. Surgiram formas de armazenamento de volumes grandes de dados com capacidades progressivamente maiores, como as fitas e tambores magnéticos.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Amwat",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1964 - 1971",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "f6Cfke",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Foi criada a tecnologia de integração de circuitos SLT (Solid Logic Technology), precursora da tecnologia de microcircuitos. A partir destes avanços foi possível passar a executar processos simultâneos, dando um grande salto de processamento, ainda tendo novas evoluções para técnica de integração SSI (integração em pequena escala) e MSI (integração em média escala). As técnicas de integração evoluíram de SSI (integração em pequena escala) para LSI (integração em grande escala) e depois para VLSI (integração em muito grande escala). As linguagens utilizadas na época eram linguagens orientadas (linguagem universal, assemelhando-se cada vez mais com a linguagem humana). Esses processos chegaram a bilionésimos de segundos.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vs8Tx",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1971 - 1981",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "OfHf2",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nessa geração surgiram os microprocessadores, e com isso a redução dos computadores (microcomputadores). Também o surgimento de linguagens novas de alto nível, bem como a transmissão de dados entre computadores através de rede.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TIV6t",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1981 - atual",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "DlUr6",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Com a nova geração em que estamos vivendo, surgiu com VLSI, a Inteligência artificial, com altíssima velocidade (com um ou mais núcleos por processadores, grande frequência e transferência de dados entre os componentes do computador), programas com alto grau de interatividade com o usuário e a grande rede mundial (Internet). Tudo isso impulsionou mais ainda a informática.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2088,33 +1820,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "YAZD0",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "npOOj",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "l1XOzR",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -2390,33 +2095,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "L9C8Q",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "EtGxu",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "Kr6Rt",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -3700,104 +3378,284 @@
           "id": "jaZPh",
           "name": "Footer",
           "width": "fill_container",
-          "fill": "$muted",
+          "fill": "$background",
           "stroke": "$border",
           "strokeWidth": {
             "top": 1
           },
           "strokeAlignment": "inner",
           "layout": "vertical",
-          "gap": 20,
-          "padding": 32,
           "children": [
             {
               "type": "frame",
-              "id": "cvg3a",
-              "name": "Footer Categories",
-              "gap": 8,
-              "alignItems": "center",
+              "id": "cL19q",
+              "name": "Footer Main",
+              "width": "fill_container",
+              "gap": 64,
+              "padding": 48,
+              "justifyContent": "space_between",
               "children": [
                 {
-                  "type": "text",
-                  "id": "H5YWD",
-                  "fill": "$foreground",
-                  "content": "Categorias:",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                },
-                {
                   "type": "frame",
-                  "id": "KHfCz",
-                  "name": "Ciência da computação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "xVvlK",
+                  "name": "Brand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 12,
                   "children": [
                     {
+                      "type": "frame",
+                      "id": "j2M55l",
+                      "name": "Logo Row",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bdAQT",
+                          "name": "Logo Mark",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$primary",
+                          "cornerRadius": "$radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tmCkA",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "lucide",
+                              "fill": "$primary-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SAv4m",
+                          "name": "Name Col",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Z3Ysej",
+                              "name": "Name",
+                              "fill": "$foreground",
+                              "content": "Wikipédia",
+                              "fontFamily": "Geist",
+                              "fontSize": 16,
+                              "fontWeight": "600",
+                              "letterSpacing": -0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "jhNG2",
+                              "name": "Tagline",
+                              "fill": "$muted-foreground",
+                              "content": "A enciclopédia livre",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "type": "text",
-                      "id": "SZ4g3",
-                      "fill": "$foreground",
-                      "content": "Ciência da computação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "id": "V2uOt",
+                      "name": "Description",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Um projeto colaborativo para criar uma enciclopédia livre e multilíngue, mantida por milhares de voluntários ao redor do mundo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "Ow7r7",
-                  "name": "Sistemas de informação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "Voopv",
+                  "name": "Sobre",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
                   "children": [
                     {
                       "type": "text",
-                      "id": "IqL0u",
+                      "id": "l85ae",
+                      "name": "Heading",
                       "fill": "$foreground",
-                      "content": "Sistemas de informação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "content": "Sobre",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K30VY",
+                      "name": "Sobre a Wikipédia",
+                      "fill": "$muted-foreground",
+                      "content": "Sobre a Wikipédia",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iiXPj",
+                      "name": "Portal comunitário",
+                      "fill": "$muted-foreground",
+                      "content": "Portal comunitário",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RK07r",
+                      "name": "Página de boas-vindas",
+                      "fill": "$muted-foreground",
+                      "content": "Página de boas-vindas",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dQWWZ",
+                      "name": "Contato",
+                      "fill": "$muted-foreground",
+                      "content": "Contato",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "tyLKD",
-                  "name": "Engenharia de computação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "P9DB2j",
+                  "name": "Comunidade",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
                   "children": [
                     {
                       "type": "text",
-                      "id": "HBrXC",
+                      "id": "xdwf4",
+                      "name": "Heading",
                       "fill": "$foreground",
-                      "content": "Engenharia de computação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "content": "Comunidade",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ytJNE",
+                      "name": "Alterações recentes",
+                      "fill": "$muted-foreground",
+                      "content": "Alterações recentes",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O0VZHq",
+                      "name": "Página de testes",
+                      "fill": "$muted-foreground",
+                      "content": "Página de testes",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AryfS",
+                      "name": "Café dos novatos",
+                      "fill": "$muted-foreground",
+                      "content": "Café dos novatos",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W0gMVB",
+                      "name": "Página de manutenção",
+                      "fill": "$muted-foreground",
+                      "content": "Página de manutenção",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jHKnH",
+                  "name": "Projetos Wikimedia",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tzMih",
+                      "name": "Heading",
+                      "fill": "$foreground",
+                      "content": "Projetos Wikimedia",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W7gKm",
+                      "name": "Wikimedia Commons",
+                      "fill": "$muted-foreground",
+                      "content": "Wikimedia Commons",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n9KUH",
+                      "name": "Wikcionário",
+                      "fill": "$muted-foreground",
+                      "content": "Wikcionário",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W9BKpx",
+                      "name": "Wikilivros",
+                      "fill": "$muted-foreground",
+                      "content": "Wikilivros",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D93R3",
+                      "name": "Wikidata",
+                      "fill": "$muted-foreground",
+                      "content": "Wikidata",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -3805,65 +3663,733 @@
             },
             {
               "type": "frame",
-              "id": "EN7Ly",
+              "id": "YCTlg",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "oDovY",
               "name": "Footer Bottom",
               "width": "fill_container",
+              "padding": [
+                20,
+                48
+              ],
               "justifyContent": "space_between",
               "alignItems": "center",
               "children": [
                 {
                   "type": "text",
-                  "id": "hDV6m",
+                  "id": "HxIfj",
+                  "name": "Copyright",
                   "fill": "$muted-foreground",
-                  "textGrowth": "fixed-width",
-                  "width": 720,
-                  "content": "O texto é disponibilizado sob a licença Creative Commons Atribuição-CompartilhaIgual 4.0; pode estar sujeito a condições adicionais.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
+                  "content": "© 2026 Wikipédia.",
+                  "fontFamily": "Geist",
                   "fontSize": 13,
                   "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "wnsbl",
-                  "name": "Links",
+                  "id": "Qpxy1",
+                  "name": "Legal Links",
                   "gap": 20,
                   "children": [
                     {
                       "type": "text",
-                      "id": "Pruli",
-                      "fill": "$foreground",
+                      "id": "pk5wO",
+                      "name": "Privacidade",
+                      "fill": "$muted-foreground",
                       "content": "Privacidade",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     },
                     {
                       "type": "text",
-                      "id": "xguUo",
-                      "fill": "$foreground",
-                      "content": "Sobre a Wikipédia",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "k75jV",
-                      "fill": "$foreground",
+                      "id": "JA1Mm",
+                      "name": "Termos de uso",
+                      "fill": "$muted-foreground",
                       "content": "Termos de uso",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     },
                     {
                       "type": "text",
-                      "id": "d3UcVn",
-                      "fill": "$foreground",
+                      "id": "Z19G1k",
+                      "name": "Contato",
+                      "fill": "$muted-foreground",
                       "content": "Contato",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WdY0g",
+      "x": 0,
+      "y": 3747,
+      "name": "Header - Search Focused",
+      "theme": {
+        "mode": "light"
+      },
+      "width": 1440,
+      "height": 420,
+      "fill": "$background",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EBn8a",
+          "name": "Header Bar",
+          "theme": {
+            "mode": "light"
+          },
+          "width": 1440,
+          "height": 64,
+          "fill": "$background",
+          "stroke": "$border",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            0,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aDWje",
+              "name": "Brand",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F04th6",
+                  "name": "Button menu",
+                  "cornerRadius": "$radius-md",
+                  "gap": 8,
+                  "padding": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qUCL5",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XFAv6",
+                  "name": "Logo Mark",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$primary",
+                  "cornerRadius": "$radius-md",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hkn1v",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "book-open",
+                      "library": "lucide",
+                      "fill": "$primary-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wuTYf",
+                  "name": "Brand Text",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oFrXK",
+                      "fill": "$foreground",
+                      "content": "Wikipédia",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZLrsP",
+                      "fill": "$muted-foreground",
+                      "content": "A enciclopédia livre",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j9kxN",
+              "name": "Search Wrapper",
+              "width": 480,
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uU5PT",
+                  "name": "Search",
+                  "width": 480,
+                  "height": 40,
+                  "fill": "$background",
+                  "cornerRadius": "$radius-md",
+                  "stroke": "$ring",
+                  "strokeWidth": 2,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000d",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "X7xZX",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "search",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "text",
+                      "id": "exxM3",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "sistema",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f1txn",
+                      "name": "Clear",
+                      "cornerRadius": "$radius-sm",
+                      "padding": 4,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "QdCQ1",
+                          "name": "X Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v6rO1n",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 48,
+                  "name": "Search Results Dropdown",
+                  "width": 480,
+                  "fill": "$background",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001f",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 1,
+                  "padding": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lx0ar",
+                      "name": "Sistema de informação",
+                      "width": "fill_container",
+                      "fill": "$accent",
+                      "cornerRadius": "$radius-md",
+                      "gap": 10,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "P88Swj",
+                          "name": "Result Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k7DUA",
+                          "name": "Text",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "walWQ",
+                              "name": "Title",
+                              "fill": "$foreground",
+                              "content": "Sistema de informação",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "iiOCN",
+                              "name": "Breadcrumb",
+                              "fill": "$muted-foreground",
+                              "content": "Wikipédia › Ciência da computação",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PUDBq",
+                      "name": "Sistemas de informação geográfica",
+                      "width": "fill_container",
+                      "cornerRadius": "$radius-md",
+                      "gap": 10,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xz1sS",
+                          "name": "Result Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "p6pMAp",
+                          "name": "Text",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "I76ca",
+                              "name": "Title",
+                              "fill": "$foreground",
+                              "content": "Sistemas de informação geográfica",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zEHnN",
+                              "name": "Breadcrumb",
+                              "fill": "$muted-foreground",
+                              "content": "Wikipédia › Geografia",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H76NV",
+                      "name": "Teoria de sistemas",
+                      "width": "fill_container",
+                      "cornerRadius": "$radius-md",
+                      "gap": 10,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "adYbA",
+                          "name": "Result Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GJdaW",
+                          "name": "Text",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OXFGt",
+                              "name": "Title",
+                              "fill": "$foreground",
+                              "content": "Teoria de sistemas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZRaAE",
+                              "name": "Breadcrumb",
+                              "fill": "$muted-foreground",
+                              "content": "Wikipédia › Filosofia",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j3XI4b",
+                      "name": "Sistema operacional",
+                      "width": "fill_container",
+                      "cornerRadius": "$radius-md",
+                      "gap": 10,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "G63oi",
+                          "name": "Result Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Tg98W",
+                          "name": "Text",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VkUlx",
+                              "name": "Title",
+                              "fill": "$foreground",
+                              "content": "Sistema operacional",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uOCLV",
+                              "name": "Breadcrumb",
+                              "fill": "$muted-foreground",
+                              "content": "Wikipédia › Ciência da computação",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QjKz2",
+                      "name": "Divider Wrap",
+                      "width": "fill_container",
+                      "padding": [
+                        4,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "I7TPzW",
+                          "name": "Divider",
+                          "width": "fill_container",
+                          "height": 1,
+                          "fill": "$border"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X66KdI",
+                      "name": "Footer",
+                      "width": "fill_container",
+                      "cornerRadius": "$radius-md",
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BVlCz",
+                          "name": "Footer Left",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "dF8GV",
+                              "name": "Search Icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "$foreground"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q7COZ6",
+                              "name": "Footer Label",
+                              "fill": "$foreground",
+                              "content": "Ver todos os resultados",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon",
+                          "id": "KSTta",
+                          "name": "Arrow Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$muted-foreground"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VSCDY",
+              "name": "Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OqxrU",
+                  "name": "Button Português",
+                  "fill": "$background",
+                  "cornerRadius": "$radius-md",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000d",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gK8UO",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "languages",
+                      "library": "lucide",
+                      "fill": "$foreground"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w9QD9s",
+                      "fill": "$foreground",
+                      "content": "Português",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "BlLNg",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D0eSeh",
+                  "name": "Button moon",
+                  "cornerRadius": "$radius-md",
+                  "gap": 8,
+                  "padding": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "L45byk",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "moon",
+                      "library": "lucide",
+                      "fill": "$foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "glsDP",
+                  "name": "Button Criar conta",
+                  "cornerRadius": "$radius-md",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O3eVv",
+                      "fill": "$foreground",
+                      "content": "Criar conta",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jeRiQ",
+                  "name": "Button Entrar",
+                  "fill": "$primary",
+                  "cornerRadius": "$radius-md",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "rMCyJ",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "log-in",
+                      "library": "lucide",
+                      "fill": "$primary-foreground"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v3ptJ",
+                      "fill": "$primary-foreground",
+                      "content": "Entrar",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
                     }
                   ]
                 }

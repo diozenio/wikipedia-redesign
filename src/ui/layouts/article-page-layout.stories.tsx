@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { MainLayout } from "@/ui/layouts/main-layout";
+import { ArticlePageLayout } from "@/ui/layouts/article-page-layout";
 import { AppProvider } from "@/ui/providers/app-provider";
 
 const meta = {
-  title: "Layouts/MainLayout",
-  component: MainLayout,
+  title: "Layouts/ArticlePageLayout",
+  component: ArticlePageLayout,
   parameters: { center: false },
   decorators: [
     (Story) => (
@@ -13,7 +13,7 @@ const meta = {
       </AppProvider>
     ),
   ],
-} satisfies Meta<typeof MainLayout>;
+} satisfies Meta<typeof ArticlePageLayout>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
