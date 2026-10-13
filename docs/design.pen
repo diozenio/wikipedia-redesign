@@ -1175,39 +1175,6 @@
                         },
                         {
                           "type": "frame",
-                          "id": "JWRnH",
-                          "name": "Button Editar",
-                          "cornerRadius": "$radius-md",
-                          "gap": 6,
-                          "padding": [
-                            6,
-                            12
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "X3dk9y",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "opDvI",
-                              "fill": "$foreground",
-                              "content": "Editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
                           "id": "Fq5md",
                           "name": "Button Ver histórico",
                           "cornerRadius": "$radius-md",
@@ -1577,33 +1544,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ah95u",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "W6NXR",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "ioWU1",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -1663,386 +1603,178 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "X366Rt",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "Wk37b",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "r92C5",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
                     {
-                      "type": "frame",
-                      "id": "d1HZE",
-                      "name": "Timeline",
-                      "clip": true,
+                      "type": "text",
+                      "id": "H4sxb6",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "cornerRadius": "$radius-lg",
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "layout": "vertical",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "F7CqZ6",
-                          "name": "Era Antes de 1940",
-                          "width": "fill_container",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "h2f7tz",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "vcMa7",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "rZwji",
-                                  "fill": "$foreground",
-                                  "content": "Antes de 1940",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "rJrEk",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Registros manuais e máquinas mecânicas de cálculo e tabulação.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "KuAqB",
-                          "name": "Era 1940–1952",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "NPbBF",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "y7mrhb",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "rzuFp",
-                                  "fill": "$foreground",
-                                  "content": "1940–1952",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "Kf8JI",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Primeiros computadores eletrônicos, baseados em válvulas.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "pJoa4",
-                          "name": "Era 1952–1964",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "VuSGS",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "sn05W",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "XCCMt",
-                                  "fill": "$foreground",
-                                  "content": "1952–1964",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "OpGm1",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Transistores e o início do processamento de dados nas empresas.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "L2Nixe",
-                          "name": "Era 1964–1971",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "EqFPb",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "Zq0w2",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "g7OWv",
-                                  "fill": "$foreground",
-                                  "content": "1964–1971",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "ya8Qg",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Circuitos integrados e os grandes sistemas centralizados.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ImSZW",
-                          "name": "Era 1971–1981",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "cLbu3",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "skvk8",
-                                  "fill": "$ring",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "vkNn6",
-                                  "fill": "$foreground",
-                                  "content": "1971–1981",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "uKffy",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Microprocessadores e a chegada dos computadores pessoais.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "PElpN",
-                          "name": "Era 1981–atual",
-                          "width": "fill_container",
-                          "stroke": "$border",
-                          "strokeWidth": {
-                            "top": 1
-                          },
-                          "strokeAlignment": "inner",
-                          "gap": 20,
-                          "padding": [
-                            14,
-                            20
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "bZtYp",
-                              "name": "Period",
-                              "width": 120,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "ellipse",
-                                  "id": "u5nVxT",
-                                  "fill": "$primary",
-                                  "width": 8,
-                                  "height": 8
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "DjJkP",
-                                  "fill": "$foreground",
-                                  "content": "1981–atual",
-                                  "fontFamily": "$font-sans",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "CrOag",
-                              "fill": "$muted-foreground",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Redes, internet e sistemas de informação distribuídos.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$font-sans",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        }
-                      ]
+                      "content": "O Século XX é considerado aquele do advento da Era da Informação. A partir de então, a informação começou a fluir com velocidade maior que a dos corpos físicos. Desde a invenção do telégrafo elétrico em 1837, passando pelos meios de comunicação de massa, e até mais recentemente, o surgimento da grande rede de comunicação de dados que é a Internet, o ser humano tem de conviver e lidar com um crescimento exponencial do volume de dados disponíveis.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ORIYR",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "O domínio da informação disponível é uma fonte de poder, uma vez que permite analisar fatores do passado, compreender o presente, e principalmente, antever o futuro. Os sistemas de informação surgiram antes mesmo da informática.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b7nVRJ",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "Antes de 1940",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "vfXWb",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Antes da popularização dos computadores, os sistemas de informação nas organizações baseavam-se em técnicas de arquivamento e recuperação de informações de grandes arquivos. Geralmente existia a figura do bibliotecário, que é a pessoa responsável em organizar os dados, registrá-los, catalogá-los e recuperá-los quando necessário. Esse método, apesar de simples, exigia um grande esforço para manter os dados atualizados bem como para recuperá-los. As informações em papéis também não possibilitavam a facilidade de cruzamento e análise dos dados. Por exemplo, o inventário de estoque de uma empresa não era uma tarefa trivial nessa época, pois a atualização dos dados não era uma tarefa prática e quase sempre envolvia muitas pessoas, aumentando a probabilidade de ocorrerem erros.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qc26V",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1940 - 1952",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "KRr8l",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nessa época os computadores eram constituídos de válvulas eletrônicas, componentes grandes, caros e de vida curta. Nessa época os computadores só tinham utilidade cientifica, para poder fazer cálculos mais rápidos (algumas vezes a mais que nossa capacidade de calcular). A mão de obra utilizada era muito grande para manter o computador funcionando, para fazer a manutenção de válvulas e fios (quilômetros), que eram trocados e ligados todos manualmente. Essas máquinas ocupavam grandes áreas, como salas ou galpões. A programação era feita diretamente, na linguagem de máquina. A forma de colocar novos dados era por papel perfurado.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WFTtI",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1952 - 1964",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "l1CLoR",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Período destacado pela origem dos transistores e grande diminuição de cabos e fios, diminuição de tamanho das máquinas e aumento da capacidade de execução de cálculos em relação à geração anterior. O começo da comercialização dos computadores foi marcado, eram vendidos para as grandes empresas. Foi utilizada a técnica de integração em que em uma pequena cápsula continha vários transistores, chegando a milhares em um espaço menor que uma unha. É o começo do microprocessador, a linguagem de programação sendo feita por mnemônicos (comandos abreviados). A linguagem dominante era a de montagem (assembly language) e os cálculos estavam na casa dos milionésimos de segundo. Surgiram formas de armazenamento de volumes grandes de dados com capacidades progressivamente maiores, como as fitas e tambores magnéticos.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Amwat",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1964 - 1971",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "f6Cfke",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Foi criada a tecnologia de integração de circuitos SLT (Solid Logic Technology), precursora da tecnologia de microcircuitos. A partir destes avanços foi possível passar a executar processos simultâneos, dando um grande salto de processamento, ainda tendo novas evoluções para técnica de integração SSI (integração em pequena escala) e MSI (integração em média escala). As técnicas de integração evoluíram de SSI (integração em pequena escala) para LSI (integração em grande escala) e depois para VLSI (integração em muito grande escala). As linguagens utilizadas na época eram linguagens orientadas (linguagem universal, assemelhando-se cada vez mais com a linguagem humana). Esses processos chegaram a bilionésimos de segundos.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vs8Tx",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1971 - 1981",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "OfHf2",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Nessa geração surgiram os microprocessadores, e com isso a redução dos computadores (microcomputadores). Também o surgimento de linguagens novas de alto nível, bem como a transmissão de dados entre computadores através de rede.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TIV6t",
+                      "name": "Subheading",
+                      "fill": "$foreground",
+                      "content": "1981 - atual",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "DlUr6",
+                      "name": "Paragraph",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Com a nova geração em que estamos vivendo, surgiu com VLSI, a Inteligência artificial, com altíssima velocidade (com um ou mais núcleos por processadores, grande frequência e transferência de dados entre os componentes do computador), programas com alto grau de interatividade com o usuário e a grande rede mundial (Internet). Tudo isso impulsionou mais ainda a informática.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2088,33 +1820,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "YAZD0",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "npOOj",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "l1XOzR",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -2390,33 +2095,6 @@
                           "fontSize": 26,
                           "fontWeight": "600",
                           "letterSpacing": -0.5
-                        },
-                        {
-                          "type": "frame",
-                          "id": "L9C8Q",
-                          "name": "Edit",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "EtGxu",
-                              "width": 12,
-                              "height": 12,
-                              "icon": "pencil",
-                              "library": "lucide",
-                              "fill": "$muted-foreground"
-                            },
-                            {
-                              "type": "text",
-                              "id": "Kr6Rt",
-                              "fill": "$muted-foreground",
-                              "content": "editar",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     },
@@ -3877,7 +3555,7 @@
       "type": "frame",
       "id": "WdY0g",
       "x": 0,
-      "y": 2181,
+      "y": 3587,
       "name": "Header - Search Focused",
       "theme": {
         "mode": "light"
