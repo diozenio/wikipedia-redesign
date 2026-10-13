@@ -3378,104 +3378,284 @@
           "id": "jaZPh",
           "name": "Footer",
           "width": "fill_container",
-          "fill": "$muted",
+          "fill": "$background",
           "stroke": "$border",
           "strokeWidth": {
             "top": 1
           },
           "strokeAlignment": "inner",
           "layout": "vertical",
-          "gap": 20,
-          "padding": 32,
           "children": [
             {
               "type": "frame",
-              "id": "cvg3a",
-              "name": "Footer Categories",
-              "gap": 8,
-              "alignItems": "center",
+              "id": "cL19q",
+              "name": "Footer Main",
+              "width": "fill_container",
+              "gap": 64,
+              "padding": 48,
+              "justifyContent": "space_between",
               "children": [
                 {
-                  "type": "text",
-                  "id": "H5YWD",
-                  "fill": "$foreground",
-                  "content": "Categorias:",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 13,
-                  "fontWeight": "600"
-                },
-                {
                   "type": "frame",
-                  "id": "KHfCz",
-                  "name": "Ciência da computação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "xVvlK",
+                  "name": "Brand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 12,
                   "children": [
                     {
+                      "type": "frame",
+                      "id": "j2M55l",
+                      "name": "Logo Row",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bdAQT",
+                          "name": "Logo Mark",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$primary",
+                          "cornerRadius": "$radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tmCkA",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "lucide",
+                              "fill": "$primary-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SAv4m",
+                          "name": "Name Col",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Z3Ysej",
+                              "name": "Name",
+                              "fill": "$foreground",
+                              "content": "Wikipédia",
+                              "fontFamily": "Geist",
+                              "fontSize": 16,
+                              "fontWeight": "600",
+                              "letterSpacing": -0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "jhNG2",
+                              "name": "Tagline",
+                              "fill": "$muted-foreground",
+                              "content": "A enciclopédia livre",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "type": "text",
-                      "id": "SZ4g3",
-                      "fill": "$foreground",
-                      "content": "Ciência da computação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "id": "V2uOt",
+                      "name": "Description",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Um projeto colaborativo para criar uma enciclopédia livre e multilíngue, mantida por milhares de voluntários ao redor do mundo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "Ow7r7",
-                  "name": "Sistemas de informação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "Voopv",
+                  "name": "Sobre",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
                   "children": [
                     {
                       "type": "text",
-                      "id": "IqL0u",
+                      "id": "l85ae",
+                      "name": "Heading",
                       "fill": "$foreground",
-                      "content": "Sistemas de informação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "content": "Sobre",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K30VY",
+                      "name": "Sobre a Wikipédia",
+                      "fill": "$muted-foreground",
+                      "content": "Sobre a Wikipédia",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iiXPj",
+                      "name": "Portal comunitário",
+                      "fill": "$muted-foreground",
+                      "content": "Portal comunitário",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RK07r",
+                      "name": "Página de boas-vindas",
+                      "fill": "$muted-foreground",
+                      "content": "Página de boas-vindas",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dQWWZ",
+                      "name": "Contato",
+                      "fill": "$muted-foreground",
+                      "content": "Contato",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "tyLKD",
-                  "name": "Engenharia de computação",
-                  "fill": "$background",
-                  "cornerRadius": 9999,
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "padding": [
-                    3,
-                    10
-                  ],
+                  "id": "P9DB2j",
+                  "name": "Comunidade",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
                   "children": [
                     {
                       "type": "text",
-                      "id": "HBrXC",
+                      "id": "xdwf4",
+                      "name": "Heading",
                       "fill": "$foreground",
-                      "content": "Engenharia de computação",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "500"
+                      "content": "Comunidade",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ytJNE",
+                      "name": "Alterações recentes",
+                      "fill": "$muted-foreground",
+                      "content": "Alterações recentes",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O0VZHq",
+                      "name": "Página de testes",
+                      "fill": "$muted-foreground",
+                      "content": "Página de testes",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AryfS",
+                      "name": "Café dos novatos",
+                      "fill": "$muted-foreground",
+                      "content": "Café dos novatos",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W0gMVB",
+                      "name": "Página de manutenção",
+                      "fill": "$muted-foreground",
+                      "content": "Página de manutenção",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jHKnH",
+                  "name": "Projetos Wikimedia",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tzMih",
+                      "name": "Heading",
+                      "fill": "$foreground",
+                      "content": "Projetos Wikimedia",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W7gKm",
+                      "name": "Wikimedia Commons",
+                      "fill": "$muted-foreground",
+                      "content": "Wikimedia Commons",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n9KUH",
+                      "name": "Wikcionário",
+                      "fill": "$muted-foreground",
+                      "content": "Wikcionário",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W9BKpx",
+                      "name": "Wikilivros",
+                      "fill": "$muted-foreground",
+                      "content": "Wikilivros",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D93R3",
+                      "name": "Wikidata",
+                      "fill": "$muted-foreground",
+                      "content": "Wikidata",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -3483,63 +3663,67 @@
             },
             {
               "type": "frame",
-              "id": "EN7Ly",
+              "id": "YCTlg",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$border"
+            },
+            {
+              "type": "frame",
+              "id": "oDovY",
               "name": "Footer Bottom",
               "width": "fill_container",
+              "padding": [
+                20,
+                48
+              ],
               "justifyContent": "space_between",
               "alignItems": "center",
               "children": [
                 {
                   "type": "text",
-                  "id": "hDV6m",
+                  "id": "HxIfj",
+                  "name": "Copyright",
                   "fill": "$muted-foreground",
-                  "textGrowth": "fixed-width",
-                  "width": 720,
-                  "content": "O texto é disponibilizado sob a licença Creative Commons Atribuição-CompartilhaIgual 4.0; pode estar sujeito a condições adicionais.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
+                  "content": "© 2026 Wikipédia.",
+                  "fontFamily": "Geist",
                   "fontSize": 13,
                   "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "wnsbl",
-                  "name": "Links",
+                  "id": "Qpxy1",
+                  "name": "Legal Links",
                   "gap": 20,
                   "children": [
                     {
                       "type": "text",
-                      "id": "Pruli",
-                      "fill": "$foreground",
+                      "id": "pk5wO",
+                      "name": "Privacidade",
+                      "fill": "$muted-foreground",
                       "content": "Privacidade",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     },
                     {
                       "type": "text",
-                      "id": "xguUo",
-                      "fill": "$foreground",
-                      "content": "Sobre a Wikipédia",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "k75jV",
-                      "fill": "$foreground",
+                      "id": "JA1Mm",
+                      "name": "Termos de uso",
+                      "fill": "$muted-foreground",
                       "content": "Termos de uso",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     },
                     {
                       "type": "text",
-                      "id": "d3UcVn",
-                      "fill": "$foreground",
+                      "id": "Z19G1k",
+                      "name": "Contato",
+                      "fill": "$muted-foreground",
                       "content": "Contato",
-                      "fontFamily": "$font-sans",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     }
@@ -3555,7 +3739,7 @@
       "type": "frame",
       "id": "WdY0g",
       "x": 0,
-      "y": 3587,
+      "y": 3747,
       "name": "Header - Search Focused",
       "theme": {
         "mode": "light"
