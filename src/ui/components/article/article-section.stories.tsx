@@ -7,7 +7,8 @@ const meta = {
   component: ArticleSection,
   parameters: { center: false },
   args: {
-    titleWidth: "w-48",
+    id: "atividades-envolvidas",
+    title: "Atividades envolvidas",
     children: (
       <>
         <Skeleton className="h-4 w-full" />
