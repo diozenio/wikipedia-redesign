@@ -1,22 +1,41 @@
-import { Skeleton } from "@/ui/primitives/skeleton";
+import { ArrowRight, Languages } from "lucide-react";
+
+const row1 = ["English", "Español", "Français"];
+const row2 = ["Deutsch", "日本語"];
 
 export function LanguagesCard() {
   return (
     <div className="flex w-full flex-col rounded-xl border border-border bg-card shadow-xs">
       <div className="flex items-center gap-2 px-5 pt-4 pb-2">
-        <Skeleton className="size-4" />
-        <Skeleton className="h-3.5 w-20" />
+        <Languages className="size-4 text-muted-foreground" />
+        <span className="text-sm font-semibold text-foreground">
+          65 idiomas
+        </span>
       </div>
       <div className="flex flex-col gap-2 px-5 pb-4">
         <div className="flex gap-2">
-          <Skeleton className="h-6 w-16 rounded-md" />
-          <Skeleton className="h-6 w-16 rounded-md" />
-          <Skeleton className="h-6 w-16 rounded-md" />
+          {row1.map((language) => (
+            <span
+              key={language}
+              className="rounded-md border border-border bg-card px-3 py-1.5 text-[13px] font-medium text-foreground"
+            >
+              {language}
+            </span>
+          ))}
         </div>
         <div className="flex items-center gap-2">
-          <Skeleton className="h-6 w-16 rounded-md" />
-          <Skeleton className="h-6 w-16 rounded-md" />
-          <Skeleton className="h-6 w-20 rounded-md" />
+          {row2.map((language) => (
+            <span
+              key={language}
+              className="rounded-md border border-border bg-card px-3 py-1.5 text-[13px] font-medium text-foreground"
+            >
+              {language}
+            </span>
+          ))}
+          <span className="flex items-center gap-1 px-1 text-[13px] font-medium text-foreground">
+            Ver todos
+            <ArrowRight className="size-3.5" />
+          </span>
         </div>
       </div>
     </div>
