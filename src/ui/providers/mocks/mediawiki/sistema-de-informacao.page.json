@@ -1,0 +1,65 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "Sistema_de_informação",
+        "to": "Sistema de informação"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 7327,
+        "ns": 0,
+        "title": "Sistema de informação",
+        "contentmodel": "wikitext",
+        "pagelanguage": "pt",
+        "pagelanguagehtmlcode": "pt",
+        "pagelanguagedir": "ltr",
+        "touched": "2026-10-12T12:46:32Z",
+        "lastrevid": 73189975,
+        "length": 43244,
+        "fullurl": "https://pt.wikipedia.org/wiki/Sistema_de_informa%C3%A7%C3%A3o",
+        "editurl": "https://pt.wikipedia.org/w/index.php?title=Sistema_de_informa%C3%A7%C3%A3o&action=edit",
+        "canonicalurl": "https://pt.wikipedia.org/wiki/Sistema_de_informa%C3%A7%C3%A3o",
+        "categories": [
+          {
+            "ns": 14,
+            "title": "Categoria:!Artigos com ligações inativas"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:!Artigos que carecem de notas de rodapé desde março de 2019"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:!Artigos que carecem de notas de rodapé sem indicação de tema"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:!CS1 inglês-fontes em língua (en)"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:!Páginas com títulos de exibição ignorados"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:Ciência da computação"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:Engenharia de computação"
+          },
+          {
+            "ns": 14,
+            "title": "Categoria:Sistemas de informação"
+          }
+        ],
+        "extract": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual.\nInformações são dados oferecidos de uma forma significativa e útil para os indivíduos. Dados são correntes de fatos brutos que importam eventos ocorrendo nas organizações ou no ambiente físico, antes de terem sido organizados e arranjados de uma forma que as pessoas possam entendê-los e usá-los.\nTodo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo.\nSegundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados.\nPara Laudon um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações. De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente  a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas.\nOs sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\". Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\". As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo. Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\". Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde.  \nOs sistemas de informações podem ser classificados a princípio como formais ou informais. Os sistemas de informação formais incluem processo pré-definidos, entrada e saídas padronizadas e definições fixas. Quantos aos informais, estes assumem diversas formas, que vão desde uma rede de comunicação informal em uma empresa,  um grupo de amigos que troca correspondência eletronicamente.\nEntendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro, os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software. \nO mercado de trabalho para o analista de sistemas é bastante promissor, assim como para qualquer outro bacharel que trabalhe com Tecnologia da Informação (TI). Destaca-se, inclusive, o excedente de vagas não preenchidas pela falta de profissionais qualificados e, além disso, fala-se hoje que programação é o novo Inglês \nTipos de sistemas de informação: \nÉ impossível imaginar as empresas do século XXI, ou até do século XX, sem os processos informatizados que coordenam suas atividades. São várias aplicações de sistemas de informação, seja para trabalhar nos registros, análises, planejamento e tomada de decisões em todos os níveis da organização. Trabalhar com egressos de sistema de informação é fundamental para sua estratégia de negócios.\n\nCiência da Computação - modelos teóricos matemáticos que fundamentam a Computação;\nLicenciatura em Computação - foco no ensino-aprendizagem de computação, informática e tecnologia da informação e sistemas de informação;\nAnálise e Desenvolvimento de Sistemas - análise de requisitos, modelagem, projetos de dados e/ou interface(análise) e implementação(desenvolvimento) de diferentes sistemas;\nSistemas de Informação - aplicação da Computação nas organizações;\nEngenharia da Computação - foco no estudo da física e eletricidade no desenvolvimento de componentes de hardware e eletrônica digital.",
+        "languageCount": 65
+      }
+    ]
+  }
+}
