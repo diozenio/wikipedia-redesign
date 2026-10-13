@@ -8,7 +8,7 @@ export function ArticlePageLayout() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <div className="flex w-full gap-12 px-8 pt-8 pb-12">
+      <div className="flex w-full items-start gap-12 px-8 pt-8 pb-12">
         <TableOfContents />
         <ArticleColumn />
         <ArticleSidebar />
