@@ -11,7 +11,8 @@ export function HeaderThemeToggle() {
     <Button
       variant="ghost"
       size="icon"
-      aria-label="Alternar tema"
+      aria-label="Tema escuro"
+      aria-pressed={theme === "dark"}
       onClick={toggleTheme}
     >
       {theme === "dark" ? <Sun /> : <Moon />}
