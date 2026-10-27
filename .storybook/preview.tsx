@@ -1,6 +1,7 @@
-import { withThemeByClassName } from "@storybook/addon-themes";
+import { withThemeByDataAttribute } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/nextjs-vite";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { AppProvider } from "../src/ui/providers/app-provider";
 import "../src/app/globals.css";
 import "./preview.css";
@@ -13,6 +14,24 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const openDyslexic = localFont({
+  variable: "--font-opendyslexic",
+  display: "swap",
+  preload: false,
+  src: [
+    {
+      path: "../src/app/fonts/opendyslexic/opendyslexic-latin-400-normal.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../src/app/fonts/opendyslexic/opendyslexic-latin-700-normal.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
 });
 
 const preview: Preview = {
@@ -28,13 +47,19 @@ const preview: Preview = {
       },
     },
     a11y: {
-      test: "todo",
+      // Fails the story test on violations, including AA color contrast.
+      test: "error",
     },
   },
   decorators: [
-    withThemeByClassName({
-      themes: { light: "", dark: "dark" },
+    withThemeByDataAttribute({
+      themes: {
+        light: "light",
+        dark: "dark",
+        "high-contrast": "high-contrast",
+      },
       defaultTheme: "light",
+      attributeName: "data-theme",
     }),
     (Story) => (
       <AppProvider>
@@ -47,6 +72,7 @@ const preview: Preview = {
       document.documentElement.classList.add(
         geistSans.variable,
         geistMono.variable,
+        openDyslexic.variable,
         "antialiased",
       );
 
