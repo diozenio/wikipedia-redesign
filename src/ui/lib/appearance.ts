@@ -1,14 +1,9 @@
-// Shared by the client provider and the inline script in the root layout, so
-// it must stay free of "use client" and React imports.
-
 export const THEMES = ["light", "dark", "high-contrast"] as const;
 export type Theme = (typeof THEMES)[number];
 
-// Steps follow WCAG 1.4.4: text must be resizable up to 200%.
 export const FONT_SCALES = [87.5, 100, 112.5, 125, 150, 200] as const;
 export type FontScale = (typeof FONT_SCALES)[number];
 
-// "wide" matches the WCAG 1.4.12 minimums; "wider" goes beyond them.
 export const SPACINGS = ["default", "wide", "wider"] as const;
 export type Spacing = (typeof SPACINGS)[number];
 
@@ -77,17 +72,13 @@ export function writeStoredAppearance(appearance: Appearance) {
       APPEARANCE_STORAGE_KEY,
       JSON.stringify(appearance),
     );
-  } catch {
-    // Storage can be unavailable (private mode, blocked site data).
-  }
+  } catch {}
 }
 
 export function clearStoredAppearance() {
   try {
     window.localStorage.removeItem(APPEARANCE_STORAGE_KEY);
-  } catch {
-    // Storage can be unavailable (private mode, blocked site data).
-  }
+  } catch {}
 }
 
 export function getInitialAppearance(): Appearance {
@@ -113,7 +104,4 @@ export function applyAppearance(
   }
 }
 
-// Runs synchronously in <head> before the first paint, mirroring
-// getInitialAppearance + applyAppearance, so a returning visitor never sees
-// the default appearance flash in.
 export const APPEARANCE_SCRIPT = `(function(){var d=document.documentElement,a={};try{a=JSON.parse(localStorage.getItem(${JSON.stringify(APPEARANCE_STORAGE_KEY)}))||{}}catch(e){}function m(q){return !!window.matchMedia&&matchMedia(q).matches}d.dataset.theme=${JSON.stringify(THEMES)}.indexOf(a.theme)>-1?a.theme:m("(prefers-contrast: more)")?"high-contrast":m("(prefers-color-scheme: dark)")?"dark":"light";d.dataset.fontScale=String(${JSON.stringify(FONT_SCALES)}.indexOf(a.fontScale)>-1?a.fontScale:${DEFAULT_APPEARANCE.fontScale});d.dataset.spacing=${JSON.stringify(SPACINGS)}.indexOf(a.spacing)>-1?a.spacing:${JSON.stringify(DEFAULT_APPEARANCE.spacing)};if(a.dyslexicFont===true)d.dataset.dyslexic="true"})()`;

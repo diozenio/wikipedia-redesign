@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
-import { APPEARANCE_SCRIPT } from "@/ui/lib/appearance";
+import { AppearanceScript } from "@/ui/components/appearance/appearance-script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Opt-in reading font, so it is not preloaded for every visitor.
 const openDyslexic = localFont({
   variable: "--font-opendyslexic",
   display: "swap",
@@ -44,7 +43,7 @@ const openDyslexic = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Sistema de informação – Wikipédia",
+  title: { default: "Wikipédia", template: "%s – Wikipédia" },
   description: "Wikipédia, a enciclopédia livre.",
 };
 
@@ -59,10 +58,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <head>
-        <script
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: static script that applies saved appearance before the first paint
-          dangerouslySetInnerHTML={{ __html: APPEARANCE_SCRIPT }}
-        />
+        <AppearanceScript />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
