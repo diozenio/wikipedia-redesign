@@ -8,7 +8,7 @@ export function ArticleBreadcrumb() {
   const { breadcrumb } = useArticle();
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
       {breadcrumb.map((item, index) => {
         const isLast = index === breadcrumb.length - 1;
         return (

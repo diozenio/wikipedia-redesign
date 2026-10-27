@@ -3,8 +3,8 @@ import { Separator } from "@/ui/primitives/separator";
 
 export function ArticleToolbar() {
   return (
-    <div className="flex w-full items-center justify-between">
-      <div className="flex gap-0.5 rounded-md bg-muted p-0.75">
+    <div className="flex w-full flex-wrap items-center justify-between gap-2">
+      <div className="flex flex-wrap gap-0.5 rounded-md bg-muted p-0.75">
         <div className="rounded-[calc(var(--radius-md)-2px)] bg-background px-3.5 py-1.5 text-sm font-medium text-foreground shadow-xs">
           Artigo
         </div>
@@ -12,7 +12,7 @@ export function ArticleToolbar() {
           Discussão
         </div>
       </div>
-      <div className="flex items-center gap-1">
+      <div className="flex flex-wrap items-center gap-1">
         <div className="flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm font-medium text-foreground">
           <BookOpen className="size-4" />
           Ler

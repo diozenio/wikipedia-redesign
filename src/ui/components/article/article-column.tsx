@@ -13,7 +13,7 @@ export function ArticleColumn() {
   const { sections } = useArticle();
 
   return (
-    <div className="flex w-full flex-col gap-6">
+    <div className="flex w-full min-w-0 flex-col gap-6">
       <ArticleBreadcrumb />
       <ArticleToolbar />
       <div id="inicio" className="flex scroll-mt-8 flex-col gap-6">
