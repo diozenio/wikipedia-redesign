@@ -26,7 +26,7 @@ const RICH_TEXT_RENDERERS: {
 
 export function RichText({ blocks }: { blocks: RichTextBlock[] }) {
   return (
-    <div className="flex w-full flex-col gap-4">
+    <div className="flex w-full flex-col gap-(--reading-paragraph-gap)">
       {blocks.map((block, index) => {
         const render = RICH_TEXT_RENDERERS[block.type] as
           | ((block: RichTextBlock) => React.ReactNode)
