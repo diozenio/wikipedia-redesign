@@ -1,7 +1,10 @@
 "use client";
 
 import { ArticleBreadcrumb } from "@/ui/components/article/article-breadcrumb";
-import { ArticleHeader } from "@/ui/components/article/article-header";
+import {
+  ARTICLE_TITLE_ID,
+  ArticleHeader,
+} from "@/ui/components/article/article-header";
 import { ArticleIntro } from "@/ui/components/article/article-intro";
 import { ArticleSection } from "@/ui/components/article/article-section";
 import { ArticleToolbar } from "@/ui/components/article/article-toolbar";
@@ -13,10 +16,13 @@ export function ArticleColumn() {
   const { sections } = useArticle();
 
   return (
-    <div className="flex w-full flex-col gap-6">
+    <article
+      aria-labelledby={ARTICLE_TITLE_ID}
+      className="flex w-full flex-col gap-6"
+    >
       <ArticleBreadcrumb />
       <ArticleToolbar />
-      <div id="inicio" className="flex scroll-mt-8 flex-col gap-6">
+      <div id="inicio" className="flex scroll-mt-8 flex-col gap-6 outline-none">
         <ArticleHeader />
         <Separator />
         <ArticleIntro />
@@ -26,6 +32,6 @@ export function ArticleColumn() {
           <RichText blocks={section.blocks} />
         </ArticleSection>
       ))}
-    </div>
+    </article>
   );
 }
