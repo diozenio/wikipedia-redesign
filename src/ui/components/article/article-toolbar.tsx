@@ -1,4 +1,8 @@
-import { BookOpen, Ellipsis, History, Star } from "lucide-react";
+"use client";
+
+import { Ellipsis, History, Star } from "lucide-react";
+import { LayoutGroup, motion } from "motion/react";
+import { ArticleReadButton } from "@/ui/components/article/article-read-button";
 import { Separator } from "@/ui/primitives/separator";
 
 export function ArticleToolbar() {
@@ -12,31 +16,37 @@ export function ArticleToolbar() {
           Discussão
         </div>
       </div>
-      <div className="flex flex-wrap items-center gap-1">
-        <div className="flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm font-medium text-foreground">
-          <BookOpen className="size-4" />
-          Ler
+      <LayoutGroup>
+        <div className="flex flex-wrap items-center gap-1">
+          <ArticleReadButton />
+          <motion.div
+            layout
+            className="flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium text-foreground"
+          >
+            <History className="size-4" />
+            Ver histórico
+          </motion.div>
+          <motion.div layout className="flex items-center">
+            <Separator orientation="vertical" className="mx-1 h-5" />
+          </motion.div>
+          <motion.button
+            layout
+            type="button"
+            aria-label="Favoritar artigo"
+            className="flex size-7 items-center justify-center rounded-md text-foreground hover:bg-muted"
+          >
+            <Star className="size-4" />
+          </motion.button>
+          <motion.button
+            layout
+            type="button"
+            aria-label="Mais opções"
+            className="flex size-7 items-center justify-center rounded-md text-foreground hover:bg-muted"
+          >
+            <Ellipsis className="size-4" />
+          </motion.button>
         </div>
-        <div className="flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium text-foreground">
-          <History className="size-4" />
-          Ver histórico
-        </div>
-        <Separator orientation="vertical" className="mx-1 h-5" />
-        <button
-          type="button"
-          aria-label="Favoritar artigo"
-          className="flex size-7 items-center justify-center rounded-md text-foreground hover:bg-muted"
-        >
-          <Star className="size-4" />
-        </button>
-        <button
-          type="button"
-          aria-label="Mais opções"
-          className="flex size-7 items-center justify-center rounded-md text-foreground hover:bg-muted"
-        >
-          <Ellipsis className="size-4" />
-        </button>
-      </div>
+      </LayoutGroup>
     </div>
   );
 }

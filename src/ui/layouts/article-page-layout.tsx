@@ -1,11 +1,10 @@
 import { ArticleColumn } from "@/ui/components/article/article-column";
 import { ArticleSidebar } from "@/ui/components/article-sidebar/article-sidebar";
+import { ArticleAudioPlayer } from "@/ui/components/audio-player/article-audio-player";
 import { SiteFooter } from "@/ui/components/footer/site-footer";
 import { SiteHeader } from "@/ui/components/header/site-header";
 import { TableOfContents } from "@/ui/components/table-of-contents/table-of-contents";
 
-// Breakpoints are container queries in rem, so they react to the reading
-// font scale as well as to browser zoom: larger text reflows to fewer columns.
 export function ArticlePageLayout() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -18,6 +17,7 @@ export function ArticlePageLayout() {
         </div>
       </div>
       <SiteFooter />
+      <ArticleAudioPlayer />
     </div>
   );
 }
