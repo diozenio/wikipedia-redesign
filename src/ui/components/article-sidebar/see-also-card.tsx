@@ -1,29 +1,45 @@
 import { Compass, CornerDownRight } from "lucide-react";
+import { SidebarCard } from "@/ui/components/article-sidebar/sidebar-card";
+import { cn, focusRing } from "@/ui/lib/utils";
 
 const items = [
-  "Tecnologia da informação",
-  "Banco de dados",
-  "Gestão do conhecimento",
-  "Engenharia de software",
+  {
+    label: "Tecnologia da informação",
+    href: "https://pt.wikipedia.org/wiki/Tecnologia_da_informação",
+  },
+  {
+    label: "Banco de dados",
+    href: "https://pt.wikipedia.org/wiki/Banco_de_dados",
+  },
+  {
+    label: "Gestão do conhecimento",
+    href: "https://pt.wikipedia.org/wiki/Gestão_do_conhecimento",
+  },
+  {
+    label: "Engenharia de software",
+    href: "https://pt.wikipedia.org/wiki/Engenharia_de_software",
+  },
 ];
 
 export function SeeAlsoCard() {
   return (
-    <div className="flex w-full flex-col rounded-xl border border-border bg-card shadow-xs">
-      <div className="flex items-center gap-2 px-5 pt-4 pb-2">
-        <Compass className="size-4 text-muted-foreground" />
-        <span className="text-sm font-semibold text-foreground">
-          Ver também
-        </span>
-      </div>
-      <div className="flex flex-col px-5 pb-4">
+    <SidebarCard icon={Compass} title="Ver também">
+      <ul className="flex flex-col px-5 pb-4">
         {items.map((item) => (
-          <div key={item} className="flex items-center gap-2 py-1.5">
-            <CornerDownRight className="size-3.5 text-muted-foreground" />
-            <span className="text-sm text-foreground">{item}</span>
-          </div>
+          <li key={item.label}>
+            <a
+              href={item.href}
+              className={cn(
+                "flex items-center gap-2 rounded-md py-1.5 text-sm text-foreground hover:underline",
+                focusRing,
+              )}
+            >
+              <CornerDownRight className="size-3.5 text-muted-foreground" />
+              {item.label}
+            </a>
+          </li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </SidebarCard>
   );
 }
