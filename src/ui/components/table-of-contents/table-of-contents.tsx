@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  ChevronDown,
   ChevronRight,
   Heart,
   House,
@@ -38,7 +39,23 @@ export function TableOfContents() {
     [sections],
   );
 
+  const titles = useMemo(
+    () =>
+      new Map([
+        [INICIO_ID, "Início"],
+        ...sections.flatMap((section) => [
+          [section.id, section.title] as const,
+          ...section.subsections.map(
+            (subsection) => [subsection.id, subsection.title] as const,
+          ),
+        ]),
+      ]),
+    [sections],
+  );
+
   const [activeId, setActiveId] = useState(flatIds[0]);
+  // Only used in the stacked layout, where the list collapses under a toggle.
+  const [open, setOpen] = useState(false);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
   const itemRefs = useRef(new Map<string, HTMLAnchorElement>());
 
@@ -105,10 +122,22 @@ export function TableOfContents() {
       });
     }
 
+    // Scroll only the list's own viewport: scrollIntoView would also scroll
+    // the window when the list sits at the top of the stacked layout.
     const frame = requestAnimationFrame(() => {
-      itemRefs.current
-        .get(activeId)
-        ?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      const item = itemRefs.current.get(activeId);
+      const viewport = item?.closest<HTMLElement>(
+        "[data-slot='scroll-area-viewport']",
+      );
+      if (!item || !viewport) return;
+
+      const itemRect = item.getBoundingClientRect();
+      const viewportRect = viewport.getBoundingClientRect();
+      const offset =
+        itemRect.top < viewportRect.top
+          ? itemRect.top - viewportRect.top
+          : Math.max(0, itemRect.bottom - viewportRect.bottom);
+      if (offset !== 0) viewport.scrollBy({ top: offset, behavior: "smooth" });
     });
     return () => cancelAnimationFrame(frame);
   }, [activeId, sections]);
@@ -130,18 +159,49 @@ export function TableOfContents() {
     if (!target) return;
     event.preventDefault();
     setActiveId(id);
+    setOpen(false);
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   return (
-    <nav className="sticky top-8 grid max-h-[calc(100vh-4rem)] w-[232px] shrink-0 grid-rows-[auto_minmax(0,1fr)_auto] gap-6">
-      <div className="flex items-center gap-2">
+    <nav
+      aria-label="Neste artigo"
+      className="flex w-full flex-col rounded-md border border-border @min-[64rem]/page:col-span-2 @min-[84rem]/page:sticky @min-[84rem]/page:top-8 @min-[84rem]/page:col-span-1 @min-[84rem]/page:grid @min-[84rem]/page:max-h-[calc(100vh-4rem)] @min-[84rem]/page:grid-rows-[auto_minmax(0,1fr)_auto] @min-[84rem]/page:gap-6 @min-[84rem]/page:rounded-none @min-[84rem]/page:border-0"
+    >
+      <div className="hidden items-center gap-2 @min-[84rem]/page:flex">
         <List className="size-4 text-muted-foreground" />
-        <span className="text-[13px] font-semibold text-foreground">
+        <span className="text-[0.8125rem] font-semibold text-foreground">
           Neste artigo
         </span>
       </div>
-      <ScrollArea className="min-h-0">
+      <button
+        type="button"
+        aria-expanded={open}
+        aria-controls="table-of-contents-list"
+        onClick={() => setOpen((previous) => !previous)}
+        className="flex w-full items-center gap-2 rounded-md px-3.5 py-2.5 text-left text-sm @min-[84rem]/page:hidden"
+      >
+        <List className="size-4 shrink-0 text-muted-foreground" />
+        <span className="font-semibold text-foreground">Neste artigo</span>
+        <span className="min-w-0 flex-1 truncate text-muted-foreground">
+          · {titles.get(activeId)}
+        </span>
+        <ChevronDown
+          className={cn(
+            "size-4 shrink-0 text-muted-foreground transition-transform",
+            open && "rotate-180",
+          )}
+        />
+      </button>
+      <ScrollArea
+        id="table-of-contents-list"
+        className={cn(
+          "min-h-0 @min-[84rem]/page:block",
+          open
+            ? "border-t border-border p-2 @min-[84rem]/page:border-0 @min-[84rem]/page:p-0"
+            : "hidden",
+        )}
+      >
         <div className="pr-3">
           <ul className="flex flex-col gap-0.5 border-l border-border">
             <li>
@@ -150,7 +210,7 @@ export function TableOfContents() {
                 href={`#${INICIO_ID}`}
                 onClick={(event) => handleClick(event, INICIO_ID)}
                 className={cn(
-                  "block rounded-r-md py-1.5 pr-3 pl-3 text-[13px]",
+                  "block rounded-r-md py-1.5 pr-3 pl-3 text-[0.8125rem]",
                   activeId === INICIO_ID
                     ? "bg-accent font-medium text-foreground"
                     : "text-muted-foreground hover:text-foreground",
@@ -171,7 +231,7 @@ export function TableOfContents() {
                       href={`#${section.id}`}
                       onClick={(event) => handleClick(event, section.id)}
                       className={cn(
-                        "block flex-1 rounded-r-md py-1.5 pr-3 pl-3 text-[13px]",
+                        "block flex-1 rounded-r-md py-1.5 pr-3 pl-3 text-[0.8125rem]",
                         activeId === section.id
                           ? "bg-accent font-medium text-foreground"
                           : "text-muted-foreground hover:text-foreground",
@@ -208,7 +268,7 @@ export function TableOfContents() {
                               handleClick(event, subsection.id)
                             }
                             className={cn(
-                              "block rounded-r-md py-1.5 pr-3 pl-6.5 text-[13px]",
+                              "block rounded-r-md py-1.5 pr-3 pl-6.5 text-[0.8125rem]",
                               activeId === subsection.id
                                 ? "bg-accent font-medium text-foreground"
                                 : "text-muted-foreground hover:text-foreground",
@@ -226,15 +286,15 @@ export function TableOfContents() {
           </ul>
         </div>
       </ScrollArea>
-      <div className="flex flex-col gap-2">
-        <span className="text-[11px] font-semibold tracking-[0.8px] text-muted-foreground">
+      <div className="hidden flex-col gap-2 @min-[84rem]/page:flex">
+        <span className="text-[0.6875rem] font-semibold tracking-[0.07em] text-muted-foreground">
           NAVEGAÇÃO
         </span>
         <div className="flex flex-col gap-1">
           {navItems.map((item) => (
             <div
               key={item.label}
-              className="flex items-center gap-2 py-1.5 text-[13px] text-foreground"
+              className="flex items-center gap-2 py-1.5 text-[0.8125rem] text-foreground"
             >
               <item.icon className="size-3.5 text-muted-foreground" />
               {item.label}
