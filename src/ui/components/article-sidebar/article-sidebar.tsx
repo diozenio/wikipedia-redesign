@@ -5,7 +5,10 @@ import { ToolsCard } from "@/ui/components/article-sidebar/tools-card";
 
 export function ArticleSidebar() {
   return (
-    <aside className="flex w-80 shrink-0 flex-col gap-4">
+    <aside
+      aria-label="Sobre o artigo"
+      className="flex w-80 shrink-0 flex-col gap-4"
+    >
       <SummaryCard />
       <ToolsCard />
       <LanguagesCard />
