@@ -5338,7 +5338,7 @@
                   "fill": "$muted-foreground",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Amplo segue os mínimos da WCAG 1.4.12 (linha 1,5×, letras 0,12em).",
+                  "content": "Aumenta a altura das linhas e o espaço entre letras, palavras e parágrafos.",
                   "lineHeight": 1.4,
                   "fontFamily": "$font-sans",
                   "fontSize": 12,
@@ -21160,7 +21160,7 @@
                   "fill": "$muted-foreground",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Amplo segue os mínimos da WCAG 1.4.12 (linha 1,5×, letras 0,12em).",
+                  "content": "Aumenta a altura das linhas e o espaço entre letras, palavras e parágrafos.",
                   "lineHeight": 1.4,
                   "fontFamily": "$font-sans",
                   "fontSize": 12,
@@ -25682,7 +25682,7 @@
       "type": "color",
       "value": [
         {
-          "value": "#e7000b",
+          "value": "#c10007",
           "theme": {
             "mode": "light"
           }
