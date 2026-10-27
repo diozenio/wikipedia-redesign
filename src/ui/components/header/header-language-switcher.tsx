@@ -23,7 +23,11 @@ export function HeaderLanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger
         render={
-          <Button variant="outline" className="h-auto gap-2 px-3.5 py-2">
+          <Button
+            variant="outline"
+            aria-label={`Idioma da interface: ${current?.label}`}
+            className="h-auto gap-2 px-3.5 py-2"
+          >
             <Languages className="size-4" />
             <span className="text-sm font-medium">{current?.label}</span>
             <ChevronDown className="size-3.5 text-muted-foreground" />
@@ -36,7 +40,11 @@ export function HeaderLanguageSwitcher() {
           onValueChange={(value) => setLocale(value as Locale)}
         >
           {LOCALE_OPTIONS.map((option) => (
-            <DropdownMenuRadioItem key={option.code} value={option.code}>
+            <DropdownMenuRadioItem
+              key={option.code}
+              value={option.code}
+              lang={option.code}
+            >
               {option.label}
             </DropdownMenuRadioItem>
           ))}
