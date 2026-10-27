@@ -25,7 +25,6 @@ const DESCRIPTION = "Suas preferências ficam salvas neste navegador.";
 const titleClassName = "text-base font-semibold text-foreground";
 const descriptionClassName = "text-[0.8125rem] text-muted-foreground";
 
-// Rendered through the trigger's `render` prop, which merges props onto it.
 const triggerButton = (
   <Button variant="ghost" size="icon" aria-label={TITLE}>
     <ALargeSmall />

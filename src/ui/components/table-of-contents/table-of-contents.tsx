@@ -54,7 +54,6 @@ export function TableOfContents() {
   );
 
   const [activeId, setActiveId] = useState(flatIds[0]);
-  // Only used in the stacked layout, where the list collapses under a toggle.
   const [open, setOpen] = useState(false);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
   const itemRefs = useRef(new Map<string, HTMLAnchorElement>());
@@ -122,8 +121,6 @@ export function TableOfContents() {
       });
     }
 
-    // Scroll only the list's own viewport: scrollIntoView would also scroll
-    // the window when the list sits at the top of the stacked layout.
     const frame = requestAnimationFrame(() => {
       const item = itemRefs.current.get(activeId);
       const viewport = item?.closest<HTMLElement>(

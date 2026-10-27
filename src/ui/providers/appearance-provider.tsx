@@ -22,16 +22,11 @@ import {
 } from "@/ui/lib/appearance";
 
 export function AppearanceProvider({ children }: { children: ReactNode }) {
-  // Lazy init reads the same storage as the inline script in the root layout,
-  // so React state matches the attributes already applied to <html>.
   const [appearance, setAppearance] = useState<Appearance>(() =>
     typeof window === "undefined" ? DEFAULT_APPEARANCE : getInitialAppearance(),
   );
-  // Only persist after an explicit change, so visitors who never touch the
-  // panel keep following their system theme.
   const shouldPersist = useRef(false);
 
-  // Also re-applies after React's dev remount resets <html> attributes.
   useLayoutEffect(() => {
     applyAppearance(appearance);
     if (shouldPersist.current) {
