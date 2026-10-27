@@ -1,4 +1,6 @@
 import { Database, FileDown, Link, Printer, Quote, Wrench } from "lucide-react";
+import { SidebarCard } from "@/ui/components/article-sidebar/sidebar-card";
+import { cn, focusRing } from "@/ui/lib/utils";
 
 const tools = [
   { label: "Citar esta página", icon: Quote },
@@ -10,21 +12,23 @@ const tools = [
 
 export function ToolsCard() {
   return (
-    <div className="flex w-full flex-col rounded-xl border border-border bg-card shadow-xs">
-      <div className="flex items-center gap-2 px-5 pt-4 pb-2">
-        <Wrench className="size-4 text-muted-foreground" />
-        <span className="text-sm font-semibold text-foreground">
-          Ferramentas
-        </span>
-      </div>
-      <div className="flex flex-col gap-1 px-5 pb-4">
+    <SidebarCard icon={Wrench} title="Ferramentas">
+      <ul className="flex flex-col gap-1 px-5 pb-4">
         {tools.map(({ label, icon: Icon }) => (
-          <div key={label} className="flex items-center gap-2.5 rounded-md p-2">
-            <Icon className="size-4 text-muted-foreground" />
-            <span className="text-sm text-foreground">{label}</span>
-          </div>
+          <li key={label}>
+            <button
+              type="button"
+              className={cn(
+                "flex w-full items-center gap-2.5 rounded-md p-2 text-left hover:bg-muted",
+                focusRing,
+              )}
+            >
+              <Icon className="size-4 text-muted-foreground" />
+              <span className="text-sm text-foreground">{label}</span>
+            </button>
+          </li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </SidebarCard>
   );
 }
