@@ -21,15 +21,15 @@ const SEARCH_RESULTS = [
   },
 ];
 
-export function HeaderSearch() {
+export function HeaderSearch({ autoFocus = false }: { autoFocus?: boolean }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
 
   return (
-    <div className="relative">
+    <div className="relative w-full max-w-120">
       <div
         className={cn(
-          "flex h-10 w-[480px] items-center gap-2 rounded-md border bg-background px-3 shadow-xs transition-colors",
+          "flex h-10 w-full items-center gap-2 rounded-md border bg-background px-3 shadow-xs transition-colors",
           open ? "border-ring ring-3 ring-ring/50" : "border-input",
         )}
       >
@@ -39,8 +39,11 @@ export function HeaderSearch() {
           onChange={(event) => setQuery(event.target.value)}
           onFocus={() => setOpen(true)}
           onBlur={() => setOpen(false)}
+          // biome-ignore lint/a11y/noAutofocus: focuses the field the user just revealed with the search button
+          autoFocus={autoFocus}
+          aria-label="Pesquisar na Wikipédia"
           placeholder="Pesquisar na Wikipédia"
-          className="flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
+          className="min-w-0 flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
         />
         {query ? (
           <button
@@ -83,7 +86,7 @@ export function HeaderSearch() {
           <div className="flex items-center justify-between rounded-md px-2.5 py-2">
             <div className="flex items-center gap-2">
               <Search className="size-3.5 text-foreground" />
-              <span className="text-[13px] font-medium text-foreground">
+              <span className="text-[0.8125rem] font-medium text-foreground">
                 Ver todos os resultados
               </span>
             </div>
