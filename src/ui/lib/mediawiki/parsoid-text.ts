@@ -135,7 +135,7 @@ function dimension(image: Element, rendered: string, original: string) {
   );
 }
 
-const THUMBNAIL_WIDTH = 960;
+const THUMBNAIL_STEPS = [250, 330, 500, 960] as const;
 
 function largerThumbnail(
   src: string,
@@ -146,8 +146,10 @@ function largerThumbnail(
   const match = src.match(/\/(\d+)px-[^/]+$/);
   if (!match || !width) return { src, width, height };
 
-  const target = Math.min(THUMBNAIL_WIDTH, fileWidth || THUMBNAIL_WIDTH);
-  if (target <= width) return { src, width, height };
+  const target = THUMBNAIL_STEPS.findLast(
+    (step) => step > width && (!fileWidth || step <= fileWidth),
+  );
+  if (!target) return { src, width, height };
 
   return {
     src: src.replace(/\/(\d+)px-([^/]+)$/, `/${target}px-$2`),
