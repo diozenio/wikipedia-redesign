@@ -53,9 +53,11 @@ Abra **http://localhost:3000**. Bons artigos para testar:
 | Padrão de código | `pnpm check:lint` | "No fixes applied" |
 | **Componentes no Storybook**: 150 testes de interação, cada um com checagem automática de acessibilidade (axe) | `pnpm test` | `150 passed` |
 | **Site inteiro no navegador** (desktop, tablet e celular): axe/WCAG 2.1 AA, teclado, preferências salvas, zoom sem quebrar o layout, imagens com descrição, leitura facilitada e artigo em menos de 3 s | `pnpm test:e2e` | `105 passed` (21 são pulados de propósito: os testes de zoom rodam só no desktop, e o teste com rede real só roda se você ativar) |
-| **Lighthouse** (nota de acessibilidade e desempenho) | com o `pnpm dev` aberto: `pnpm audit:lighthouse` | acessibilidade ≥ 95 (deu **100**); o relatório fica em `reports/lighthouse/` |
+| **Lighthouse** (nota de acessibilidade e desempenho, no **celular** e no **computador**) | com o `pnpm dev` aberto: `pnpm audit:lighthouse` | uma tabela-resumo com as notas dos dois; acessibilidade ≥ 95 (deu **100** nos dois). Os relatórios ficam em `reports/lighthouse/` |
 
 > O `pnpm test:e2e` usa dados de exemplo (modo mock) e roda sozinho, na porta 3100. Não precisa de internet nem do `pnpm dev`.
+>
+> Para rodar o Lighthouse só num tipo de aparelho: `LIGHTHOUSE_PRESET=desktop pnpm audit:lighthouse` (ou `mobile`). O desempenho fica mais alto na versão de produção (`pnpm build && pnpm start`) do que no `pnpm dev`.
 >
 > Para medir o tempo de carregamento com a Wikipédia real: deixe o `pnpm dev` aberto e rode `E2E_LIVE=1 pnpm test:e2e performance`.
 

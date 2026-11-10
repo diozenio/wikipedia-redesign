@@ -7,8 +7,13 @@ import { chromium } from "playwright";
 const url =
   process.env.LIGHTHOUSE_URL ??
   "http://localhost:3000/articles/Sistema_de_informa%C3%A7%C3%A3o";
-const preset =
-  process.env.LIGHTHOUSE_PRESET === "desktop" ? "desktop" : "mobile";
+const PRESET_LABELS = { mobile: "Celular", desktop: "Computador" };
+const presets = Object.hasOwn(
+  PRESET_LABELS,
+  process.env.LIGHTHOUSE_PRESET ?? "",
+)
+  ? [process.env.LIGHTHOUSE_PRESET]
+  : ["mobile", "desktop"];
 const minAccessibility = Number(process.env.LIGHTHOUSE_MIN_A11Y ?? 0.95);
 const outputDir = path.resolve("reports", "lighthouse");
 const categories = ["accessibility", "performance", "best-practices"];
@@ -31,7 +36,7 @@ const browser = await chromium.launch({
   args: [`--remote-debugging-port=${port}`],
 });
 
-try {
+async function audit(preset) {
   const result = await lighthouse(
     url,
     {
@@ -52,7 +57,7 @@ try {
   await writeFile(path.join(outputDir, `${name}.json`), json);
 
   const { categories: scores, audits } = result.lhr;
-  console.log(`Lighthouse (${preset}) ${url}`);
+  console.log(`\nLighthouse — ${PRESET_LABELS[preset]} (${preset}) ${url}`);
   for (const id of categories) {
     console.log(`  ${scores[id].title}: ${Math.round(scores[id].score * 100)}`);
   }
@@ -65,14 +70,40 @@ try {
   }
 
   console.log(
-    `Relatórios em ${path.relative(process.cwd(), outputDir)}/${name}.{html,json}`,
+    `  Relatórios em ${path.relative(process.cwd(), outputDir)}/${name}.{html,json}`,
   );
 
-  if (scores.accessibility.score < minAccessibility) {
-    console.error(
-      `Acessibilidade ${scores.accessibility.score} abaixo do mínimo ${minAccessibility}`,
-    );
-    process.exitCode = 1;
+  return { preset, scores };
+}
+
+try {
+  const results = [];
+  for (const preset of presets) {
+    results.push(await audit(preset));
+  }
+
+  console.log("\nResumo");
+  console.table(
+    Object.fromEntries(
+      results.map(({ preset, scores }) => [
+        PRESET_LABELS[preset],
+        Object.fromEntries(
+          categories.map((id) => [
+            scores[id].title,
+            Math.round(scores[id].score * 100),
+          ]),
+        ),
+      ]),
+    ),
+  );
+
+  for (const { preset, scores } of results) {
+    if (scores.accessibility.score < minAccessibility) {
+      console.error(
+        `Acessibilidade (${PRESET_LABELS[preset]}) ${scores.accessibility.score} abaixo do mínimo ${minAccessibility}`,
+      );
+      process.exitCode = 1;
+    }
   }
 } finally {
   await browser.close();

@@ -41,7 +41,7 @@ pnpm ui:docs           # Storybook em http://localhost:6006
 | `pnpm ui:docs` | abre o Storybook com todos os componentes documentados |
 | `pnpm test` | roda os testes de interação do Storybook e o axe em cada história |
 | `pnpm test:e2e` | roda os testes de ponta a ponta com Playwright e axe (desktop, tablet e celular) |
-| `pnpm audit:lighthouse` | gera o relatório do Lighthouse em `reports/lighthouse/` (precisa do site rodando) |
+| `pnpm audit:lighthouse` | roda o Lighthouse no celular e no computador, imprime as notas e salva os relatórios em `reports/lighthouse/` (precisa do site rodando) |
 | `pnpm check:types` / `pnpm check:lint` | checam os tipos e o padrão de código |
 
 Com `NEXT_PUBLIC_USE_MOCKS=true`, o site usa os artigos de exemplo de `src/ui/providers/mocks/` em vez da API real. É o modo usado pelos testes e2e.
