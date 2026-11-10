@@ -2,11 +2,12 @@
 
 import { X } from "lucide-react";
 import { motion } from "motion/react";
+import { useEffect, useRef } from "react";
+import { PlayerButton } from "@/ui/components/audio-player/player-button";
 import { PlayerControls } from "@/ui/components/audio-player/player-controls";
 import { PlayerTimeline } from "@/ui/components/audio-player/player-timeline";
 import { PlayerVolume } from "@/ui/components/audio-player/player-volume";
 import type { Playback } from "@/ui/lib/article-audio/audio-element";
-import { Button } from "@/ui/primitives/button";
 
 export type AudioPlayerBarProps = {
   title: string;
@@ -23,10 +24,24 @@ const SLIDE = { type: "spring", stiffness: 260, damping: 30 } as const;
 
 function NowPlaying({ title }: { title: string }) {
   return (
-    <div className="min-w-0 flex-1">
+    <div className="min-w-0 basis-full sm:order-2 sm:basis-auto sm:flex-1">
       <p className="text-xs text-muted-foreground">Ouvindo artigo</p>
       <p className="truncate text-sm font-medium text-foreground">{title}</p>
     </div>
+  );
+}
+
+function playbackStatus({ isPlaying, muted }: Playback): string {
+  const state = isPlaying ? "Reproduzindo" : "Pausado";
+  return muted ? `${state}, som silenciado` : state;
+}
+
+function hasLostFocus(): boolean {
+  const active = document.activeElement;
+  return (
+    !active ||
+    active === document.body ||
+    active.closest("[data-audio-trigger]") !== null
   );
 }
 
@@ -40,44 +55,54 @@ export function AudioPlayerBar({
   onToggleMute,
   onStop,
 }: AudioPlayerBarProps) {
+  const playButtonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (hasLostFocus()) playButtonRef.current?.focus({ preventScroll: true });
+  }, []);
+
   return (
     <motion.section
       aria-label="Player do artigo"
-      className="fixed inset-x-0 bottom-0 z-40 px-4 pb-4"
+      data-audio-player=""
+      className="sticky bottom-0 z-40 px-4 pb-4"
       initial={{ y: "120%", opacity: 0, scale: 0.96 }}
       animate={{ y: 0, opacity: 1, scale: 1 }}
       exit={{ y: "120%", opacity: 0, scale: 0.96 }}
       transition={SLIDE}
     >
       <div className="mx-auto flex max-w-4xl flex-col gap-2 rounded-2xl border border-border bg-background/95 p-3 shadow-lg backdrop-blur">
-        <div className="flex items-center gap-3">
-          <PlayerControls
-            isPlaying={playback.isPlaying}
-            onTogglePlay={onTogglePlay}
-            onSkip={onSkip}
-          />
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
           <NowPlaying title={title} />
+          <div className="sm:order-1">
+            <PlayerControls
+              isPlaying={playback.isPlaying}
+              onTogglePlay={onTogglePlay}
+              onSkip={onSkip}
+              playButtonRef={playButtonRef}
+            />
+          </div>
           <PlayerVolume
-            className="hidden sm:flex"
+            className="hidden sm:order-3 sm:flex"
             volume={playback.volume}
             muted={playback.muted}
             onVolumeChange={onVolumeChange}
             onToggleMute={onToggleMute}
           />
-          <Button
-            variant="ghost"
-            size="icon"
-            aria-label="Parar e fechar o player"
+          <PlayerButton
+            className="ml-auto sm:order-4 sm:ml-0"
+            icon={<X />}
+            label="Fechar"
+            srLabel="o player e parar o áudio"
             onClick={onStop}
-          >
-            <X />
-          </Button>
+          />
         </div>
         <PlayerTimeline
           currentTime={playback.currentTime}
           duration={playback.duration}
           onSeek={onSeek}
         />
+        <output className="sr-only">{playbackStatus(playback)}</output>
       </div>
     </motion.section>
   );
