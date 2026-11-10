@@ -8,7 +8,7 @@ Redesenho da página de artigo da Wikipédia em português, com foco em acessibi
 
 - **Estrutura:** HTML semântico (`header`, `nav`, `main`, `article`, `aside`, `footer`), ARIA, link "Pular para o conteúdo" e sumário navegável.
 - **Teclado:** navegação completa, com foco sempre visível.
-- **Painel de aparência:**
+- **Painel de acessibilidade:**
   - tema claro, escuro ou alto contraste;
   - tamanho do texto de 87,5% a 200%;
   - espaçamento;

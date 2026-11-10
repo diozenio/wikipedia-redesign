@@ -54,7 +54,7 @@ export async function analyzeWcag(page: Page) {
 }
 
 export async function openAppearancePanel(page: Page) {
-  await page.getByRole("button", { name: "Aparência" }).click();
+  await page.getByRole("button", { name: "Acessibilidade" }).click();
   await expect(
     page.getByRole("radio", { name: "Alto contraste" }),
   ).toBeVisible();

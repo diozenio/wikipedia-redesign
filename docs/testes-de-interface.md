@@ -20,7 +20,7 @@ cada item da lista é um passo (`step`) do teste.
 - Depois de cada história, o **axe** (addon de acessibilidade) analisa a tela.
   Qualquer violação (contraste, nome faltando, landmark repetido…) **reprova**
   o teste (`a11y.test: "error"` em `.storybook/preview.tsx`).
-- Histórias que mexem nas preferências de aparência apagam o que ficou salvo
+- Histórias que mexem nas preferências de acessibilidade apagam o que ficou salvo
   no navegador antes e depois de rodar (`resetAppearance` e
   `withStoredAppearance` em `src/ui/testing/story-helpers.ts`), para que uma
   não influencie a outra.
@@ -69,7 +69,7 @@ preenche esse context é um **provider**:
 
 ## Preferência “Números de notas de rodapé”
 
-No painel **Aparência** há o interruptor “Números de notas de rodapé”
+No painel **Acessibilidade** há o interruptor “Números de notas de rodapé”
 (ligado por padrão). Desligado, os números `[1]`, `[2]`… somem do meio do
 texto (não são nem renderizados, então leitores de tela também os pulam). A
 seção “Notas e referências” continua no fim do artigo, mas sem os links
@@ -538,27 +538,27 @@ Arquivo: `src/ui/components/footer/site-footer.stories.tsx`
 Arquivo: `src/ui/components/header/header-actions.stories.tsx`
 
 
-**Default** — As ações do cabeçalho: trocar o idioma da interface, abrir a aparência, criar conta e entrar. O seletor de idioma é um menu com opções de rádio, e cada opção tem o atributo `lang` do próprio idioma.
+**Default** — As ações do cabeçalho: trocar o idioma da interface, abrir o painel de acessibilidade, criar conta e entrar. O seletor de idioma é um menu com opções de rádio, e cada opção tem o atributo `lang` do próprio idioma.
 
 - Então o botão de idioma mostra o idioma atual no nome
 - Quando o usuário abre o seletor de idioma, então aparecem as opções
 - Quando o usuário aperta Esc, então o menu fecha
-- Então Aparência, Criar conta e Entrar estão disponíveis
+- Então Acessibilidade, Criar conta e Entrar estão disponíveis
 
 ### Header/HeaderAppearanceMenu
 
 Arquivo: `src/ui/components/header/header-appearance-menu.stories.tsx`
 
 
-**Default** — No computador, o botão "Aparência" abre um balão (popover) com o painel de preferências. As mudanças valem na hora e o Esc fecha o balão devolvendo o foco ao botão.
+**Default** — No computador, o botão "Acessibilidade" abre um balão (popover) com o painel de preferências. As mudanças valem na hora e o Esc fecha o balão devolvendo o foco ao botão.
 
-- Quando o usuário clica em Aparência, então o painel abre
+- Quando o usuário clica em Acessibilidade, então o painel abre
 - Quando o usuário escolhe o tema Escuro, então a página muda na hora
 - Quando o usuário aperta Esc, então o painel fecha e o foco volta ao botão
 
 **Mobile** — No celular, o mesmo painel abre como uma gaveta que sobe da parte de baixo da tela.
 
-- Quando o usuário toca em Aparência, então a gaveta com o painel abre
+- Quando o usuário toca em Acessibilidade, então a gaveta com o painel abre
 - Quando o usuário aperta Esc, então a gaveta fecha
 
 ### Header/HeaderBrand
@@ -634,7 +634,7 @@ Arquivo: `src/ui/components/header/header-search.stories.tsx`
 Arquivo: `src/ui/components/header/site-header.stories.tsx`
 
 
-**Default** — No computador, o cabeçalho é um landmark `banner` com o menu, o logotipo (link para a página principal), a pesquisa sempre visível e as ações (idioma, aparência, criar conta e entrar).
+**Default** — No computador, o cabeçalho é um landmark `banner` com o menu, o logotipo (link para a página principal), a pesquisa sempre visível e as ações (idioma, acessibilidade, criar conta e entrar).
 
 - Então o cabeçalho é o banner da página
 - Então o logotipo leva para a página principal

@@ -18,7 +18,7 @@ const meta = {
     header: (
       <div className="flex flex-col gap-0.5">
         <span className="text-base font-semibold text-foreground">
-          Aparência
+          Acessibilidade
         </span>
         <span className="text-[0.8125rem] text-muted-foreground">
           Suas preferências ficam salvas neste navegador.

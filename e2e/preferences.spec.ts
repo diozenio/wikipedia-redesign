@@ -68,7 +68,7 @@ test("tema e tamanho do texto persistem entre recargas e novas abas", async ({
     "high-contrast",
   );
 
-  await secondPage.getByRole("button", { name: "Aparência" }).click();
+  await secondPage.getByRole("button", { name: "Acessibilidade" }).click();
   await expect(
     secondPage.getByRole("radio", { name: "Alto contraste" }),
   ).toBeChecked();

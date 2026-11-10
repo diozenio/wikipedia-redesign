@@ -20,7 +20,7 @@ function clearAppearance() {
 }
 
 /**
- * `beforeEach` para histórias que mexem nas preferências de aparência.
+ * `beforeEach` para histórias que mexem nas preferências de acessibilidade.
  * Apaga as preferências salvas antes da história e devolve uma limpeza que
  * roda depois dela, para que uma história nunca influencie a seguinte.
  */
@@ -29,7 +29,7 @@ export function resetAppearance() {
   return clearAppearance;
 }
 
-/** Salva preferências de aparência antes da história ser montada. */
+/** Salva preferências de acessibilidade antes da história ser montada. */
 export function withStoredAppearance(appearance: Record<string, unknown>) {
   return () => {
     clearAppearance();

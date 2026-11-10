@@ -19,7 +19,7 @@ import {
   SheetTrigger,
 } from "@/ui/primitives/sheet";
 
-const TITLE = "Aparência";
+const TITLE = "Acessibilidade";
 const DESCRIPTION = "Suas preferências ficam salvas neste navegador.";
 
 const titleClassName = "text-base font-semibold text-foreground";

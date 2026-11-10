@@ -13,20 +13,22 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 /**
- * No computador, o botão "Aparência" abre um balão (popover) com o painel de
+ * No computador, o botão "Acessibilidade" abre um balão (popover) com o painel de
  * preferências. As mudanças valem na hora e o Esc fecha o balão devolvendo o
  * foco ao botão.
  */
 export const Default: Story = {
   play: async ({ canvasElement, step }) => {
     const canvas = within(canvasElement);
-    const trigger = canvas.getByRole("button", { name: "Aparência" });
+    const trigger = canvas.getByRole("button", { name: "Acessibilidade" });
 
     await step(
-      "Quando o usuário clica em Aparência, então o painel abre",
+      "Quando o usuário clica em Acessibilidade, então o painel abre",
       async () => {
         await userEvent.click(trigger);
-        const dialog = await screen.findByRole("dialog", { name: "Aparência" });
+        const dialog = await screen.findByRole("dialog", {
+          name: "Acessibilidade",
+        });
         await expect(dialog).toHaveAccessibleDescription(
           "Suas preferências ficam salvas neste navegador.",
         );
@@ -37,7 +39,7 @@ export const Default: Story = {
     await step(
       "Quando o usuário escolhe o tema Escuro, então a página muda na hora",
       async () => {
-        const dialog = screen.getByRole("dialog", { name: "Aparência" });
+        const dialog = screen.getByRole("dialog", { name: "Acessibilidade" });
         await userEvent.click(
           within(dialog).getByRole("radio", { name: "Escuro" }),
         );
@@ -71,12 +73,14 @@ export const Mobile: Story = {
     const canvas = within(canvasElement);
 
     await step(
-      "Quando o usuário toca em Aparência, então a gaveta com o painel abre",
+      "Quando o usuário toca em Acessibilidade, então a gaveta com o painel abre",
       async () => {
         await userEvent.click(
-          canvas.getByRole("button", { name: "Aparência" }),
+          canvas.getByRole("button", { name: "Acessibilidade" }),
         );
-        const dialog = await screen.findByRole("dialog", { name: "Aparência" });
+        const dialog = await screen.findByRole("dialog", {
+          name: "Acessibilidade",
+        });
         await expect(
           within(dialog).getByRole("switch", { name: "Leitura facilitada" }),
         ).toBeInTheDocument();
@@ -93,7 +97,7 @@ export const Mobile: Story = {
           expect(screen.queryByRole("dialog")).not.toBeInTheDocument(),
         );
         await expect(
-          canvas.getByRole("button", { name: "Aparência" }),
+          canvas.getByRole("button", { name: "Acessibilidade" }),
         ).toHaveFocus();
       },
     );

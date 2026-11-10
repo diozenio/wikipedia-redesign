@@ -55,9 +55,11 @@ for (const scenario of scenarios) {
   });
 }
 
-test("sem violações com o painel de aparência aberto", async ({ page }) => {
+test("sem violações com o painel de acessibilidade aberto", async ({
+  page,
+}) => {
   await page.goto(ARTICLE_PATH);
-  await page.getByRole("button", { name: "Aparência" }).click();
+  await page.getByRole("button", { name: "Acessibilidade" }).click();
   await expect(
     page.getByRole("radio", { name: "Alto contraste" }),
   ).toBeVisible();

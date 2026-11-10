@@ -19,7 +19,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 /**
- * As ações do cabeçalho: trocar o idioma da interface, abrir a aparência,
+ * As ações do cabeçalho: trocar o idioma da interface, abrir o painel de acessibilidade,
  * criar conta e entrar. O seletor de idioma é um menu com opções de rádio, e
  * cada opção tem o atributo `lang` do próprio idioma.
  */
@@ -63,10 +63,10 @@ export const Default: Story = {
     });
 
     await step(
-      "Então Aparência, Criar conta e Entrar estão disponíveis",
+      "Então Acessibilidade, Criar conta e Entrar estão disponíveis",
       async () => {
         await expect(
-          canvas.getByRole("button", { name: "Aparência" }),
+          canvas.getByRole("button", { name: "Acessibilidade" }),
         ).toBeVisible();
         await expect(
           canvas.getByRole("button", { name: "Criar conta" }),

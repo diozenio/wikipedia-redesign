@@ -14,7 +14,7 @@ type Story = StoryObj<typeof meta>;
 /**
  * No computador, o cabeçalho é um landmark `banner` com o menu, o logotipo
  * (link para a página principal), a pesquisa sempre visível e as ações
- * (idioma, aparência, criar conta e entrar).
+ * (idioma, acessibilidade, criar conta e entrar).
  */
 export const Default: Story = {
   play: async ({ canvasElement, step }) => {
@@ -55,7 +55,7 @@ export const Default: Story = {
         canvas.getByRole("button", { name: /Idioma da interface/ }),
       ).toBeVisible();
       await expect(
-        canvas.getByRole("button", { name: "Aparência" }),
+        canvas.getByRole("button", { name: "Acessibilidade" }),
       ).toBeVisible();
       await expect(
         canvas.getByRole("button", { name: "Criar conta" }),

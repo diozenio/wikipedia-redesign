@@ -88,8 +88,8 @@ Marque cada item conforme for conferindo. Use um artigo como o **Shawn Mendes**.
 - [ ] Aperte **Ctrl + K** (no Mac, **Cmd + K**). O foco vai para a busca. Digite "Brasil", use as **setas** e aperte **Enter**. O artigo abre.
 - [ ] **Esc** fecha as sugestões da busca e também qualquer painel ou menu aberto.
 
-### 4.2 Painel de aparência
-Clique no ícone de aparência no topo, à direita (no celular ele abre embaixo).
+### 4.2 Painel de acessibilidade
+Clique no botão **Acessibilidade** (ícone "Aa") no topo, à direita (no celular ele abre embaixo).
 - [ ] **Tema**: Claro, Escuro e **Alto contraste** (fundo preto, texto branco, destaques amarelos).
 - [ ] **Tamanho do texto**: os botões − e + vão de 87,5% a 200%.
 - [ ] **Espaçamento**: Padrão, Amplo e Mais amplo (aumenta o espaço entre linhas, letras e palavras).
@@ -108,7 +108,7 @@ Clique no ícone de aparência no topo, à direita (no celular ele abre embaixo)
 - [ ] Tabelas largas rolam dentro do próprio quadro, sem quebrar a página.
 
 ### 4.5 Leitura facilitada
-- [ ] Ative **Leitura facilitada** no painel de aparência.
+- [ ] Ative **Leitura facilitada** no painel de acessibilidade.
 - [ ] Os parágrafos longos ficam divididos em **blocos curtos** (até 2 frases cada).
 - [ ] No topo do artigo aparece o quadro **"Resumo simplificado"**, com até 3 frases geradas por IA. Sem a chave do OpenRouter, o quadro aparece como **"Introdução do artigo"**, com as 2 primeiras frases da Wikipédia.
 
@@ -135,7 +135,7 @@ Confira:
 - [ ] As **regiões** são anunciadas: banner (topo), navegação, busca, principal (o artigo), complementar ("Sobre o artigo") e rodapé.
 - [ ] Os **títulos** seguem uma ordem lógica: um único título nível 1 (o nome do artigo), depois as seções (nível 2) e as subseções (nível 3).
 - [ ] As **imagens** são lidas pela descrição, como "Ampliar imagem: Mendes na abertura da turnê…".
-- [ ] Os **botões com ícone** são lidos pelo nome, como "Abrir menu", "Aparência" e "Ler o artigo em voz alta".
+- [ ] Os **botões com ícone** são lidos pelo nome, como "Abrir menu", "Acessibilidade" e "Ler o artigo em voz alta".
 - [ ] As **notas** são lidas como "Nota 1", e não como "colchete 1".
 - [ ] Na **busca**, o leitor anuncia quantos resultados apareceram.
 - [ ] No sumário, o item da seção atual é anunciado como "atual".

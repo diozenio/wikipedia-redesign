@@ -159,9 +159,9 @@ for (const path of ["/", ARTICLE_PATH]) {
   });
 }
 
-test("painel de aparência abre e fecha pelo teclado", async ({ page }) => {
+test("painel de acessibilidade abre e fecha pelo teclado", async ({ page }) => {
   await page.goto("/");
-  const trigger = page.getByRole("button", { name: "Aparência" });
+  const trigger = page.getByRole("button", { name: "Acessibilidade" });
   await trigger.focus();
   await page.keyboard.press("Enter");
   const highContrast = page.getByRole("radio", { name: "Alto contraste" });
