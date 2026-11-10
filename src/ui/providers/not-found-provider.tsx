@@ -13,7 +13,7 @@ export function NotFoundProvider({ children }: { children: ReactNode }) {
       title: "Página não encontrada",
       description: "A página que você procura não existe ou foi movida.",
       action: {
-        label: "Ir para a página inicial",
+        label: "Ir para a página principal",
         onClick: () => router.push("/"),
       },
     }),

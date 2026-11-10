@@ -18,9 +18,13 @@ export function EmptyState() {
     <Empty>
       <EmptyHeader>
         {media && (
-          <EmptyMedia className="text-5xl font-semibold">{media}</EmptyMedia>
+          <EmptyMedia className="text-5xl font-semibold" aria-hidden="true">
+            {media}
+          </EmptyMedia>
         )}
-        <EmptyTitle>{title}</EmptyTitle>
+        <EmptyTitle>
+          <h1>{title}</h1>
+        </EmptyTitle>
         {description && <EmptyDescription>{description}</EmptyDescription>}
       </EmptyHeader>
       {action && (

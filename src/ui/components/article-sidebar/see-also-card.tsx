@@ -2,20 +2,16 @@
 
 import { Compass, CornerDownRight } from "lucide-react";
 import Link from "next/link";
+import { SidebarCard } from "@/ui/components/article-sidebar/sidebar-card";
 import { useSeeAlso } from "@/ui/contexts/see-also-context";
+import { cn, focusRing } from "@/ui/lib/utils";
 import { Skeleton } from "@/ui/primitives/skeleton";
 
 export function SeeAlsoCard() {
   const { status, articles } = useSeeAlso();
 
   return (
-    <div className="flex w-full flex-col rounded-xl border border-border bg-card shadow-xs">
-      <div className="flex items-center gap-2 px-5 pt-4 pb-2">
-        <Compass className="size-4 text-muted-foreground" />
-        <span className="text-sm font-semibold text-foreground">
-          Ver também
-        </span>
-      </div>
+    <SidebarCard icon={Compass} title="Ver também">
       <div className="flex flex-col px-5 pb-4">
         {status === "loading" ? (
           <div aria-busy="true" className="flex flex-col gap-3 py-1.5">
@@ -30,7 +26,10 @@ export function SeeAlsoCard() {
               <li key={article.id}>
                 <Link
                   href={`/articles/${encodeURIComponent(article.slug)}`}
-                  className="group flex items-start gap-2 rounded-sm py-1.5 outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
+                  className={cn(
+                    "group flex items-start gap-2 rounded-sm py-1.5",
+                    focusRing,
+                  )}
                 >
                   <CornerDownRight className="mt-0.5 size-3.5 shrink-0 text-muted-foreground" />
                   <span className="flex min-w-0 flex-col gap-px">
@@ -55,6 +54,6 @@ export function SeeAlsoCard() {
           </p>
         )}
       </div>
-    </div>
+    </SidebarCard>
   );
 }

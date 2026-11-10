@@ -25,7 +25,7 @@ export function HeaderLanguageSwitcher() {
         render={
           <Button
             variant="outline"
-            aria-label={`Idioma: ${current?.label}`}
+            aria-label={`Idioma da interface: ${current?.label}`}
             className="h-auto gap-2 px-2.5 py-2 @min-[64rem]:px-3.5"
           >
             <Languages className="size-4" />
@@ -42,7 +42,11 @@ export function HeaderLanguageSwitcher() {
           onValueChange={(value) => setLocale(value as Locale)}
         >
           {LOCALE_OPTIONS.map((option) => (
-            <DropdownMenuRadioItem key={option.code} value={option.code}>
+            <DropdownMenuRadioItem
+              key={option.code}
+              value={option.code}
+              lang={option.code}
+            >
               {option.label}
             </DropdownMenuRadioItem>
           ))}
