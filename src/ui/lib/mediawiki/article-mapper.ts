@@ -15,6 +15,10 @@ const SKIPPED_HEADINGS = new Set([
   "Ligações externas",
 ]);
 
+export function toArticleKey(title: string) {
+  return title.replaceAll(" ", "_");
+}
+
 function slugify(text: string) {
   return text
     .normalize("NFD")
@@ -120,6 +124,8 @@ export function mapMediaWikiArticleToDomain(
   }
 
   return {
+    id: String(page.pageid),
+    slug: toArticleKey(page.title),
     breadcrumb: [
       { label: "Wikipédia" },
       ...(topicCategory
@@ -131,7 +137,7 @@ export function mapMediaWikiArticleToDomain(
     origin: "Origem: Wikipédia, a enciclopédia livre.",
     badges,
     meta: {
-      languages: page.languageCount,
+      languages: page.langlinkscount ?? 0,
       lastEditedLabel: "Última edição há 3 semanas",
       watchersLabel: "Acompanhar página",
     },

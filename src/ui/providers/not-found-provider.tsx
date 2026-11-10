@@ -10,10 +10,10 @@ export function NotFoundProvider({ children }: { children: ReactNode }) {
   const value = useMemo(
     () => ({
       media: "404",
-      title: "Page not found",
-      description: "The page you are looking for doesn't exist or was moved.",
+      title: "Página não encontrada",
+      description: "A página que você procura não existe ou foi movida.",
       action: {
-        label: "Go home",
+        label: "Ir para a página inicial",
         onClick: () => router.push("/"),
       },
     }),

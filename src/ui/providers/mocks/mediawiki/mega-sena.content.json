@@ -1,0 +1,703 @@
+[
+  {
+    "id": "0",
+    "heading": null,
+    "level": null,
+    "blocks": [
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Esta página cita fontes, mas que não cobrem todo o conteúdo. Ajude a inserir referências (Encontre fontes: Google (N • L • A • I • WP refs) • ABW • CAPES). (dezembro de 2012)"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A Mega-Sena é a maior modalidade lotérica do Brasil, sendo uma entre as dez modalidades atuais das loterias da Caixa (Caixa Econômica Federal), com sorteios ordinários três vezes por semana, além da Mega-Sena da Virada e outras modalidades de prêmios."
+      },
+      {
+        "type": "p",
+        "text": "Para ganhar o prêmio máximo da Mega-Sena, denominado sena, é necessário obter coincidência entre seis dos números apostados e os seis números sorteados, de um total de seis dezenas (de um a sessenta), independentemente da ordem da aposta ou da ordem do sorteio. O concurso prevê também a chance de se ganhar parte do prêmio máximo, pelo acerto da quina (apenas cinco dos números sorteados), ou da quadra (apenas quatro dos números sorteados), com prêmios significativamente menores que aquele que seria pago na ocorrência do acerto da sena, sendo o da quina maior que o da quadra."
+      },
+      {
+        "type": "p",
+        "text": "Atualmente, o preço da aposta simples, com seis dezenas, é de R$ 6,00, a partir do concurso 2588 (03/05/2023)."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "heading": "Histórico",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A Mega-Sena foi criada pela Caixa Econômica Federal (CEF) a partir da estrutura de uma antiga loteria, a Sena. O primeiro concurso foi realizado em 11 de março de 1996. Em 10 de outubro de 1999 foi pago um prêmio no valor de aproximadamente R$ 64 milhões para um apostador de Salvador, Bahia. O maior prêmio em concursos regulares — e maior premiação individual já registrada — foi pago para um único apostador: mais de R$ 289 milhões, em 11 de maio de 2019."
+      },
+      {
+        "type": "p",
+        "text": "Em 2008 foi lançada a Mega-Sena da Virada. Na tabela abaixo estão listados os dez maiores prêmios já distribuídos pela Mega Sena, suas datas de sorteio, o número de bilhetes premiados com a Sena, o número do concurso e os números sorteados."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Ranking",
+            "Valor",
+            "Data do sorteio",
+            "Número de bilhetes premiados",
+            "Número do concurso",
+            "Números sorteados",
+            "Prêmio dividido"
+          ],
+          [
+            "1",
+            "R$ 541 969 966,29",
+            "31 de dezembro de 2022",
+            "5",
+            "2550",
+            "04 – 05 – 10 – 34 – 58 – 59",
+            "R$ 108 393 993,25"
+          ],
+          [
+            "2",
+            "R$ 378 124 727,48",
+            "31 de dezembro de 2021",
+            "2",
+            "2440",
+            "12 – 15 – 23 – 32 – 33 – 46",
+            "R$ 189 062 363,74"
+          ],
+          [
+            "3",
+            "R$ 325 250 216,44",
+            "31 de dezembro de 2020",
+            "2",
+            "2330",
+            "17 – 20 – 22 – 35 – 41 – 42",
+            "R$ 162 625 108,22"
+          ],
+          [
+            "4",
+            "R$ 317 853 788,53",
+            "1 de outubro de 2022",
+            "2",
+            "2525",
+            "04 – 13 – 21 – 26 – 47 – 51",
+            "R$ 158 926 894,26"
+          ],
+          [
+            "5",
+            "R$ 306 718 743,71",
+            "31 de dezembro de 2017",
+            "17",
+            "2000",
+            "03 – 06 – 10 – 17 – 34 – 37",
+            "R$ 18 042 279,04"
+          ],
+          [
+            "6",
+            "R$ 304 213 838,63",
+            "31 de dezembro de 2019",
+            "4",
+            "2220",
+            "03 – 35 – 38 – 40 – 57 – 58",
+            "R$ 76 053 459,65"
+          ],
+          [
+            "7",
+            "R$ 302 536 382,72",
+            "31 de dezembro de 2018",
+            "52",
+            "2110",
+            "05 – 10 – 12 – 18 – 25 – 33",
+            "R$ 5 818 007,36"
+          ],
+          [
+            "8",
+            "R$ 289 420 865,00",
+            "11 de maio de 2019",
+            "1",
+            "2150",
+            "23 – 24 – 26 – 38 – 42 – 49",
+            "R$ 289 420 865,00"
+          ],
+          [
+            "9",
+            "R$ 263 295 552,64",
+            "31 de dezembro de 2014",
+            "4",
+            "1665",
+            "01 – 05 – 11 – 16 – 20 – 56",
+            "R$ 65 823 888,16"
+          ],
+          [
+            "10",
+            "R$ 246 533 514,29",
+            "31 de dezembro de 2015",
+            "6",
+            "1775",
+            "02 – 18 – 31 – 42 – 51 – 56",
+            "R$ 41 088 919,04"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Loteria_Mega-Sena_%282011%29.jpg/250px-Loteria_Mega-Sena_%282011%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "width": 2662,
+        "height": 1772,
+        "caption": "Apostadores em casa lotérica de Brasília jogando na Mega Sena."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "heading": "Sorteio",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os sorteios comuns (ou ordinários) acontecem três vezes por semana, às terças-feiras, às quintas-feiras e aos sábados, de costume às 20h (horário de Brasília, UTC-3), e acontecem a cada vez numa capital diferente das 27 unidades da Federação, a critério e sorteio da Caixa Econômica Federal (CEF). O princípio do jogo é simples: são sorteados seis números (as dezenas) diferentes de um total de sessenta dezenas (de 01 e 60) com 50.063.860 combinações possíveis. Até 2009, os sorteios eram realizados em globos duplos (duas gaiolas esféricas girando) e, após cada extração, havia reposição da bola extraída, de modo a manter a estrutura matemática probabilística inicial. Os números eram sorteados em dígitos separados, que formavam uma dezena (um número decimal de dois dígitos), de 01 a 60. A primeira gaiola tinha esferas variando de 0 a 5 para o primeiro dígito, e a outra tinha esferas variando de 0 a 9 para o segundo. O número 00 correspondia ao 60. Quando seis pares de números originais eram extraídos o sorteio estaria concluído."
+      },
+      {
+        "type": "p",
+        "text": "Desde o sorteio n.º 1 140, os dois globos, originariamente de metal, foram substituídos por um único globo de acrílico, com bolas numeradas de 01 a 60, todas coloridas, uma cor para cada dezena, perfazendo, portanto, seis cores."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "heading": "Prêmios",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os prêmios correspondem a 32,2% da renda das apostas (Prêmio Bruto de 46,0% — 13,8% de imposto de renda), sendo:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "35% para quem marcou 6 pontos (sena).",
+          "19% para quem marcou 5 pontos (quina).",
+          "19% para quem marcou 4 pontos (quadra).",
+          "22% acumulado para o próximo sorteio de final 0 ou 5.",
+          "5% acumulado para o sorteio especial de final de ano."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ao imposto de renda correspondem 13,8% de todas as apostas. Os vencedores têm 90 dias para retirar seus prêmios, apresentando o bilhete correspondente em casas lotéricas (se o prêmio for de até 1 787,77 reais) ou agências da Caixa Econômica Federal (para prêmios superiores a 1 787,77 reais). Se o período de 90 dias expirar, o dinheiro do prêmio será transferido ao Tesouro Nacional e investido em programas educacionais."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "heading": "Probabilidades de acerto",
+    "level": "h2",
+    "blocks": []
+  },
+  {
+    "id": "5",
+    "heading": "Um jogo de seis dezenas",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Prêmio",
+            "Critério",
+            "Dividendo",
+            "Probabilidade",
+            "Investimento (em R$) por real de aposta"
+          ],
+          [
+            "Sena",
+            "Todos os seis números sorteados",
+            "35% do fundo após dedução",
+            "1 ( 60 6 ) = 1 50.063.860 {\\displaystyle {\\frac {1}{60 \\choose 6}}={\\frac {1}{50.063.860}}}",
+            "50 063 860,00"
+          ],
+          [
+            "Quina",
+            "Cinco dos seis números sorteados",
+            "19% do fundo após dedução",
+            "( 6 5 ) ( 54 1 ) ( 60 6 ) ≅ 1 154.518 {\\displaystyle {\\frac {{6 \\choose 5}{54 \\choose 1}}{60 \\choose 6}}\\ \\cong {\\frac {1}{154.518}}}",
+            "154 518,00"
+          ],
+          [
+            "Quadra",
+            "Quatro dos seis números sorteados",
+            "19% do fundo após dedução",
+            "( 6 4 ) ( 54 2 ) ( 60 6 ) ≅ 1 2.332 {\\displaystyle {\\frac {{6 \\choose 4}{54 \\choose 2}}{60 \\choose 6}}\\ \\cong {\\frac {1}{2.332}}}",
+            "2 332,00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "heading": "Mais de seis dezenas",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Número de dezenas num único volante",
+            "Probabilidade equitativa (expressão exata da)",
+            "Probabilidade percentual (valor aproximado da)erro absoluto < 10−2"
+          ],
+          [
+            "6",
+            "( 6 6 ) ( 60 6 ) = 1 50.063.860 {\\displaystyle {\\frac {6 \\choose 6}{60 \\choose 6}}\\ ={\\frac {1}{50.063.860}}}",
+            "2,00 x 10−6 %"
+          ],
+          [
+            "7",
+            "( 7 6 ) ( 60 6 ) = 1 7.151.980 {\\displaystyle {\\frac {7 \\choose 6}{60 \\choose 6}}\\ ={\\frac {1}{7.151.980}}}",
+            "1,40 x 10−5 %"
+          ],
+          [
+            "8",
+            "( 8 6 ) ( 60 6 ) = 1 1.787.995 {\\displaystyle {\\frac {8 \\choose 6}{60 \\choose 6}}\\ ={\\frac {1}{1.787.995}}}",
+            "5,59 x 10−5 %"
+          ],
+          [
+            "9",
+            "( 9 6 ) ( 60 6 ) ≅ 1 595.998 {\\displaystyle {\\frac {9 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{595.998}}}",
+            "1,68 x 10−4 %"
+          ],
+          [
+            "10",
+            "( 10 6 ) ( 60 6 ) ≅ 1 238.399 {\\displaystyle {\\frac {10 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{238.399}}}",
+            "4,19 x 10−4 %"
+          ],
+          [
+            "11",
+            "( 11 6 ) ( 60 6 ) ≅ 1 108.363 {\\displaystyle {\\frac {11 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{108.363}}}",
+            "9,23 x 10−4 %"
+          ],
+          [
+            "12",
+            "( 12 6 ) ( 60 6 ) ≅ 1 54.182 {\\displaystyle {\\frac {12 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{54.182}}}",
+            "1,85 x 10−3 %"
+          ],
+          [
+            "13",
+            "( 13 6 ) ( 60 6 ) ≅ 1 29.175 {\\displaystyle {\\frac {13 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{29.175}}}",
+            "3,43 x 10−3 %"
+          ],
+          [
+            "14",
+            "( 14 6 ) ( 60 6 ) ≅ 1 16.671 {\\displaystyle {\\frac {14 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{16.671}}}",
+            "6,00 x 10−3 %"
+          ],
+          [
+            "15",
+            "( 15 6 ) ( 60 6 ) ≅ 1 10.003 {\\displaystyle {\\frac {15 \\choose 6}{60 \\choose 6}}\\ \\cong {\\frac {1}{10.003}}}",
+            "1,00 x 10−2 %"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "heading": "Distribuição",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Do total da arrecadação de cada edição da Mega-Sena, 54% da renda dessa loteria são destinadas ao custeio de diversos programas sociais."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "heading": "Mega-Sena da Virada",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A Mega-Sena da Virada ou Mega da Virada é um concurso especial da Mega-Sena, realizado no último dia de cada ano."
+      },
+      {
+        "type": "p",
+        "text": "Criado em 2008 como Mega-Sena Especial de Final de Ano, o último concurso do ano de 2008, realizado no dia 31 de dezembro, começou a arrecadação apenas seis meses antes da data prevista, com a fração de 5% de cada concurso realizado pela Mega-Sena destinado para a edição especial. Neste ano (2008), o concurso especial foi o de número 1.035 e as dezenas sorteadas foram: 01-11-26-51-59-60. Neste concurso não houve ganhador, sendo acumulado o montante final, no valor de 37 025 110,94 reais, para a próxima edição (1.036). A edição especial de 2008 foi realizada na cidade de São Paulo."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "heading": "Edição de 2009",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No Concurso 1140 da Mega-Sena de 2009, a edição especial teve nova nomenclatura, agora como “Mega-Sena da Virada” e foi reformulada em relação à edição especial de 2008. Com a intenção de pagar o maior prêmio das loterias da América do Sul, 5% do total destinado a prêmios em todos os concursos da Mega-Sena desde o início de 2009 foram reservados para o sorteio especial e este montante foi acrescentado aos valores arrecadados especificamente para a Mega da Virada, que iniciou suas apostas em novembro de 2009. Outra diferença da edição de 2009 para sua antecessora (2008) foi que o prêmio não seria acumulado para o próximo concurso, ou seja, caso os seis números sorteados (sena) não constem em nenhuma das apostas cadastradas no sistema, o prêmio irá para a quina (cinco números) ou a quadra (quatro números) e desta forma o concurso especial entregará seu valor para um ou mais apostadores."
+      },
+      {
+        "type": "p",
+        "text": "A Mega–Sena da Virada de 2009 foi realizada no concurso 1 140 da mega-sena, no dia 31 de dezembro de 2009, na cidade de São Paulo, mais especificamente, na Estação da Luz e transmitida ao vivo pela Rede Globo de Televisão. Seus números finais foram: arrecadação total de 435 346 884,00 reais; o prêmio consolidado para o sorteio foi de 144 901 494,91 reais; cerca de 70 milhões de pessoas registraram bilhetes com uma média de três apostas por cartão."
+      },
+      {
+        "type": "p",
+        "text": "Os números sorteados foram: 10 - 27 - 40 - 46 - 49 -58."
+      },
+      {
+        "type": "p",
+        "text": "As premiações foram: para a sena foram dois ganhadores com o valor do prêmio para cada aposta de 72 450 747,46 reais; para a quina foram 734 ganhadores com um valor de 34 724,23 reais para cada aposta; a quadra pagou 650,33 reais para 55 988 ganhadores."
+      },
+      {
+        "type": "p",
+        "text": "As duas apostas ganhadoras da sena foram registradas nas cidades de Brasília, no Distrito Federal, e Santa Rita do Passa-Quatro, em São Paulo."
+      },
+      {
+        "type": "p",
+        "text": "Estabeleceram-se as estimativas inicias em que o prêmio do concurso especial de final do ano de 2009 foi, até 31 de dezembro, o maior valor pago na América do Sul."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "heading": "Edição de 2010",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso 1245, a Caixa Econômica Federal (CEF) anunciou que, no sorteio de 2010, quatro apostas ganharam a Mega da Virada. Cada ganhador recebeu um valor de 48 598 800,00 reais. Os quatro premiados foram das cidades de Cariacica (ES), Belo Horizonte (MG), Fazenda Rio Grande (PR) e Pinhais (PR). As lotéricas que registraram as apostas foram, respectivamente, a Loteria Ponto 5, a Ponto da Sorte, a Grande Lotérico e a Pinhais Loterias."
+      },
+      {
+        "type": "p",
+        "text": "Os números sorteados foram: 02 - 10 - 34 - 37 - 43 - 50."
+      },
+      {
+        "type": "p",
+        "text": "Outras 1 561 apostas acertaram cinco dezenas e levaram 17 722,09 reais. Outros 94 921 apostadores acertaram quatro dezenas receberam 416,34 reais. De acordo com a Caixa, o prêmio da Mega da Virada de 2010 foi um recorde absoluto nas loterias brasileiras, superando o recorde anterior."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "heading": "Edição de 2011",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso 1350, foi sorteado a Mega da Virada, realizado às 20h25 do dia 31 de dezembro de 2011. Com uma arrecadação total de 549,3 milhões de reais para 88 milhões de bilhetes vendidos, o rateio final foi o montante de 177,6 milhões de reais entre cinco bilhetes, contabilizando o valor de 35 523 497,52 reais para cada sorteado."
+      },
+      {
+        "type": "p",
+        "text": "A Caixa divulgou que 954 apostadores acertaram a quina e levaram 33 711,30 reais cada. Outras 85 582 apostas acertaram a quadra e ganharam 536,83 reais cada. Para o ano de 2011, o valor total do prêmio foi o maior pago na América Latina, porém, não bateu o recorde que ainda é da Mega da Virada de 2010 com um prêmio de 194 milhões de reais. Os números sorteados de 2011 no Concurso 1350: 03 - 04 - 29 - 36 - 45 - 55."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "heading": "Edição de 2012",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso n.º 1455, foi sorteado a Mega da Virada, como sempre, no último dia do ano, dia 31 de dezembro de 2012. Para esta edição da Mega da Virada foram vendidos 85 milhões de bilhetes, totalizando a arrecadação em 640,5 milhões de reais. O prêmio anunciado para a Sena desta edição foi de 244,7 milhões de reais, o maior já pago pelas loterias da Caixa em 50 anos."
+      },
+      {
+        "type": "p",
+        "text": "Três apostas acertaram a Sena e levaram 81,5 milhões de reais cada. Os ganhadores são das cidades de Franca, São Paulo e Aparecida de Goiânia. Na segunda faixa de premiação, 1 368 apostadores acertaram cinco dezenas e levaram 27 413,18 reais cada, e 113 258 apostadores acertaram quatro dezenas, e receberam 473,01 reais cada. Os números sorteados na Mega da Virada de 2012 foram: 33 - 14 - 52 - 36 - 32 - 41."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "heading": "Edição de 2013",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "O concurso 1560 da Mega Sena foi sorteado na Mega da Virada 2013, com um prêmio acumulado em 224,6 milhões de reais, um pouco menos que a edição anterior. Neste concurso houve quatro ganhadores do primeiro prêmio, cada um levando para casa um total de 56,1 milhões de reais. Os bilhetes sorteados eram das cidades de Curitiba, Palotina (PR), Maceió e Teofilândia (BA). A aposta de Palotina era um bolão de 10 cotas, resultando em 5 616 946 reais para cada participante. Na segunda faixa de premiação, 1 147 apostadores acertaram cinco dezenas e levaram 38 701,20 reais cada, e 90 376 apostadores acertaram quatro dezenas e levaram 701,67 cada."
+      },
+      {
+        "type": "p",
+        "text": "A Caixa arrecadou neste sorteio um total de 758 218 978,00 reais e os números sorteados foram: 20 - 30 - 36 - 38 - 47 - 53."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "heading": "Edição de 2014",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso n.º 1665, foi sorteado a Mega da Virada, como sempre, no último dia do ano, dia 31 de dezembro de 2014. Do início das apostas, em 10 de novembro de 2014, até seu seu encerramento às 14h de 31 de dezembro de 2014, foram realizadas mais de 348 milhões de apostas em todo país, numa arrecadação total de 871,3 milhões de reais."
+      },
+      {
+        "type": "p",
+        "text": "Quatro apostas dividiram o prêmio da Mega da Virada e levaram 65 823 888,16 reais cada. Os ganhadores são das cidades de São Paulo, Brasília e Santa Rita do Trivelato (MT). A Quina premiou 2 581 apostas com 19 764,32 reais. A Quadra registrou 168.546 apostas vencedoras e cada uma receberá 432,36 reais. Confira as dezenas sorteadas: 01 - 05 - 11 - 16 - 20 - 56"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "heading": "Edição de 2015",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso n.º 1775 foi sorteada a Mega da Virada, como sempre, no último dia do ano, 31 de dezembro de 2015. Do início das apostas, em 16 de novembro de 2015, até seu encerramento às 14h de 31 de dezembro de 2015, foram realizadas mais de 348 milhões de apostas em todo país, numa arrecadação total de 620,3 milhões de reais. Seis apostas dividiram o prêmio da Mega da Virada e levaram 41 088 919,05 reais cada. As apostas premiadas são das cidades de Água Branca (AL), Cerquilho (SP), Vitória (ES), Vila Velha (ES) e Guaçuí (ES). A Quina premiou 827 apostas com 43 913,49 reais. A Quadra registrou 62 767 apostas vencedoras e cada uma receberá 826,55 reais. Dezenas sorteadas: 02 - 18 - 31 - 42 - 51 - 56."
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "heading": "Edição de 2016",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No concurso n.º 1890 foi sorteada a Mega da Virada nos Estúdio de TV Globo em São Paulo e como desde sua primeira realização, no último dia do ano, 31 de dezembro de 2016, em um sábado. Do início das apostas, em 31 de outubro de 2016, até seu encerramento às 14h de 31 de dezembro de 2016, com uma arrecadação total de 735 869 326,50 reais. Seis apostas dividiram o prêmio da Mega da Virada e levaram 36 824 758,22 reais cada. As apostas premiadas são das cidades de Salvador (BA), Fortaleza (CE), Trizidela do Vale (MA), Belo Horizonte (MG), Campo Grande (MS) e Fazenda Vilanova (RS). A Quina premiou 1 665 apostas ganhadoras, sendo 25 481,21 reais cada. A Quadra registrou 124 889 apostas ganhadoras e cada uma receberá 485,30 reais. Dezenas sorteadas: 05 - 11 - 22 - 24 - 51 - 53."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "heading": "Edição de 2017",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "O concurso 2000, feito no dia 21 de dezembro de 2017, sorteou a Mega da Virada. Nesse sorteio, 17 apostas acertaram as seis dezenas, e cada uma recebeu o valor de R$ 18 042 279,04 milhões."
+      },
+      {
+        "type": "p",
+        "text": "Os ganhadores fizeram os seus jogos nos seguintes estados: São Paulo (6 apostas: quatro na capital e duas em Guarulhos); Bahia (3 apostas: Prado, Uruçuca e Cruz das Almas); Paraná (2 apostas: São João do Triunfo e Rio Azul); Minas Gerais (2 apostas: Carmo do Cajuru e Contagem); Rio de Janeiro (2 apostas: Rio de Janeiro e Seropédica); Pará (uma aposta em Belém); e Santa Catarina (uma aposta em Brusque). Dezenas sorteadas: 06 – 37 – 34 – 10 – 03 – 17."
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "heading": "Edição de 2018",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada foram sorteados na noite do dia 31 de dezembro, de 2018, em São Paulo. O valor do prêmio foi de R$ 302,5 milhões. Segundo a Caixa, 52 apostas dividirão o prêmio. Assim, cada aposta ganhadora levará R$ 5 818 007,36."
+      },
+      {
+        "type": "p",
+        "text": "Os ganhadores por estado: São Paulo (dez apostas: Adamantina, Guarujá, Pedreira, Praia Grande, Ribeirão Preto, São Bernardo do Campo, Votorantim e três na capital); Acre (uma aposta em Rio Branco); Amazonas (uma aposta em Manaus); Bahia (cinco apostas: Salvador, Feira de Santana, Mata de São João, Valença e três em Euclides da Cunha); Ceará (uma aposta em Várzea Alegre); Distrito Federal (uma aposta em Brasília); Goiás (duas apostas: Bela Vista de Goiás e Jataí); Maranhão (duas apostas: Pedreiras e São Luís); Minas Gerais (seis apostas: Alfenas, Divinópolis, Martinho Campos, São Sebastião do Paraíso e duas em Belo Horizonte); Mato Grosso do Sul (três apostas: Corumbá, Costa Rica e Coxim); Pará (duas apostas: Almeirim e Itaituba); Paraíba (uma aposta em João Pessoa); Pernambuco (uma aposta em Lagoa do Itaenga); Paraná (duas apostas: Campo Mourão e Curitiba); Rio de Janeiro (oito apostas: Angra dos Reis, Barra do Piraí, Nova Iguaçu, Santo Antônio de Pádua e quatro na capital); Santa Catarina (uma aposta em Blumenau); Três apostas ganhadoras foram feitas por canal eletrônico. Dezenas sorteadas: 05 - 10 - 12 - 18 - 25 - 33."
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "heading": "Edição de 2019",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2019 foram sorteados na noite do dia 31 de dezembro de 2019. O valor do prêmio foi de R$ 304.213.838,63. os ganhadores foram quatro apostas que receberam um valor de pouco mais de R$ 76 milhões. As dezenas: 03 - 35 - 38 - 40 - 57 - 58."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "heading": "Edição de 2020",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2020 foram sorteados na noite do dia 31 de dezembro de 2020. O valor do prêmio foi de R$ 325 milhões. Os ganhadores foram duas apostas que receberam o valor de R$ 162.625.108,22. As dezenas: 17 - 20 - 22 - 35 - 41 - 42."
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "heading": "Edição de 2021",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2021 foram sorteados na noite do dia 31 de dezembro de 2021. O valor do prêmio foi de R$ 378 milhões. Os ganhadores foram duas apostas que receberam o valor de R$ 189.062.363,74 cada, nos municípios de Cabo Frio e Campinas. As dezenas: 12 - 15 - 23 - 32 - 33 - 46."
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "heading": "Edição de 2022",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Cinco apostas ganharam o prêmio da Mega Sena da Virada na noite do sábado 31 de dezembro de 2022. O prêmio foi de R$ 541.969.966,29. Os vencedores saíram dos municípios de Arroio do Sal, Florestal, Natal, Santos e São José da Bela Vista. As dezenas sorteadas foram: 04 - 05 - 10 - 34 - 58 - 59."
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "heading": "Edição de 2023",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2023 foram sorteados na noite do dia 31 de dezembro de 2023. O valor do prêmio foi de R$ 588.891.021,22, valor considerado o maior de todos. As dezenas: 21 - 24 - 33 - 41 - 48 - 56. Os vencedores dos seis números saíram dos municípios de Bom Despacho, Ferraz de Vasconcelos, Ipira, Redenção e Salvador. Cada uma das cinco apostas recebeu o valor de R$ 177.778.204,25."
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "heading": "Edição de 2024",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2024 foram sorteados na noite do dia 31 de dezembro de 2024. O valor do prêmio foi de R$ 635.486.165,38, superando o maior valor ocorrido no ano anterior. As dezenas: 01 - 17 - 19 - 29 - 50 - 57. Oito apostas fizeram os seis números, sendo duas de Brasília e de Curitiba, e uma dos municípios de Nova Lima, Osasco, Pinhais e Tupã. Cada aposta vencedora ganhou um prêmio de R$ 79.435.770,67."
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "heading": "Edição de 2025",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Os números da Mega da Virada de 2025 seriam sorteados na noite do dia 31 de dezembro de 2025. Porém, a Caixa Econômica Federal, alegando necessidade de ajustes operacionais, optou por adiar o sorteio para a manhã do dia 01 de janeiro de 2026. Esta foi a primeira vez na história que o sorteio não foi realizado antes da chegada do Ano Novo. O prêmio recorde, previsto em R$1 bilhão, gerou um movimento inédito nos canais de aposta, que chegou a 120 mil transações por segundo no canal digital e 4.745 transações por segundo nas unidades lotéricas. A edição de 2025 previa um premio de 850 milhões de reais, mas chegou a 1 bilhão de reais ou quase 200 milhões de dólares, o que o tornou o maior premio de loteria da Mega sena."
+      },
+      {
+        "type": "p",
+        "text": "As dezenas sorteadas foram: 09 - 13 - 21 - 32 - 33 - 59."
+      },
+      {
+        "type": "p",
+        "text": "Seis apostas dividiram o prêmio, nas cidades de João Pessoa, Ponta Porã e Franco da Rocha, além de outras três apostas feitas em canal eletrônico. Cada vencedor levou pra casa R$ 181.892.881,09. 3.921 apostas acertaram a quina, e cada uma recebeu R$ 11.931,42. Em seguida, 308.315 apostas acertaram a quadra, e cada uma delas recebeu R$216,76."
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "heading": "Controvérsias",
+    "level": "h2",
+    "blocks": []
+  },
+  {
+    "id": "27",
+    "heading": "Acusações de fraude",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "No dia 25 de novembro de 2015, na cidade de Brasília, no Distrito Federal, uma pessoa levou sozinha o prêmio de 205 milhões de reais ao acertar os seis números do concurso 1 764. Primeiramente a Caixa tinha informado que ninguém tinha ganhado o prêmio, depois noticiou que havia um ganhador. Com este caso, o senador Alvaro Dias, reforçou a acusação de que existe fraudes no sorteio, e cobrou mais fiscalização."
+      },
+      {
+        "type": "p",
+        "text": "Em resposta a acusação do senador, a Caixa Econômica disse que \"houve atraso na atualização dos dados, o que manteve a palavra 'acumulou' referente ao sorteio anterior. No entanto, desde o primeiro momento, as informações sobre o referido concurso foram atualizadas normalmente na página específica da modalidade Mega-Sena e no aplicativo da Caixa para celular.\" Sobre a fiscalização, afirmou que \"o processo é fiscalizado por órgãos e agências como Tribunal de Contas da União (TCU), Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro) e Conselho de Controle de Atividades Financeiras (Coaf).\""
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "heading": "Números suspeitos",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "O sorteio 2052 da Mega-sena veio acompanhado de diversas suspeitas sobre a manipulação dos resultados. As bolas sorteadas vieram quase em uma sequência. Entusiastas criaram teorias da conspiração e apontaram como mais um indício de fraude no jogo. Os números sorteados foram: 50, 51, 56, 57, 58, 59. Neste dia, 4 pessoas ganharam, o que é incomum, aumentando ainda mais as desconfianças."
+      },
+      {
+        "type": "p",
+        "text": "Segundo o estatístico Rhuan Lima, \"a probabilidade de sair uma sequência como esta, ou mesmo a sequência 01, 02, 03, 04, 05 e 06 ou qualquer outra é a mesma (...) até hoje já tivemos 2052 sorteios, ou seja, 2052 combinações. Uma hora essa ia sair. Conspiração seria se ela não saísse.\""
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "heading": "Fraude em 2014",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A Caixa Econômica Federal sofre uma fraude milionária. As investigações da Polícia Federal foram divulgadas em janeiro de 2017. O desfalque foi de 73 milhões de reais. A Caixa Econômica Federal conseguiu recuperar cerca de 64 milhões de reais."
+      },
+      {
+        "type": "p",
+        "text": "Um dos suspeitos é Ernesto Vieira de Carvalho Neto, suplente de deputado federal, que disputou a eleição de 2010 pelo PMDB do Maranhão. O golpe foi descoberto seis dias depois da transferência do prêmio total da mega sena milionária."
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "heading": "Atraso na Edição de 2025 da Mega da Virada",
+    "level": "h3",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A edição de 2025 da Mega da Virada foi agendada para o dia 31 de dezembro de 2025, às 22 horas (horário de Brasília), diferentemente dos outros anos, em que ela era realizada por volta das 20h30. Outra diferença estava no meio de transmissão do sorteio em questão, que sempre esteve em TV aberta, porém, a Caixa anunciou que nesta edição, apenas redes oficiais da Caixa Econômica Federal na internet transmitiriam o evento. Todavia, o sorteio não foi realizado na noite do dia 31 de dezembro, pois a Caixa alegou problemas operacionais, e por isso, adiou para a manhã do dia 01 de janeiro de 2026. O adiamento repercutiu negativamente nas redes sociais, gerando questionamentos por parte de usuários e figuras públicas. Alguns políticos, como o Deputado federal Nikolas Ferreira, do PL de Minas Gerais, questionaram e levantaram suspeitas sobre o sorteio. O fato disso ter acontecido na edição de maior premiação da história das loterias no Brasil, contribui para o levantamento de questionamentos a respeito."
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "heading": "Ver também",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Análise combinatória",
+          "Estatística",
+          "Jogo de azar",
+          "Probabilidade"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "-1",
+    "heading": "Notas e referências",
+    "level": "h2",
+    "blocks": []
+  },
+  {
+    "id": "-1",
+    "heading": "Notas",
+    "level": "h3",
+    "blocks": []
+  },
+  {
+    "id": "-1",
+    "heading": "Referências",
+    "level": "h3",
+    "blocks": []
+  },
+  {
+    "id": "32",
+    "heading": "Ligações externas",
+    "level": "h2",
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Página oficial",
+          "Nexo Jornal. Quanto dinheiro a loteria arrecada, para onde ele vai e qual a chance de ganhar. Rodolfo Almeida e Daniel Mariani. Publicado em 22 de Maio de 2017."
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Portal do Brasil",
+          "Portal da sociedade"
+        ]
+      }
+    ]
+  }
+]

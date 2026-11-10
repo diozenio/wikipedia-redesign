@@ -13,26 +13,26 @@ export function LanguagesCard() {
         </span>
       </div>
       <div className="flex flex-col gap-2 px-5 pb-4">
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {row1.map((language) => (
             <span
               key={language}
-              className="rounded-md border border-border bg-card px-3 py-1.5 text-[13px] font-medium text-foreground"
+              className="rounded-md border border-border bg-card px-3 py-1.5 text-[0.8125rem] font-medium text-foreground"
             >
               {language}
             </span>
           ))}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           {row2.map((language) => (
             <span
               key={language}
-              className="rounded-md border border-border bg-card px-3 py-1.5 text-[13px] font-medium text-foreground"
+              className="rounded-md border border-border bg-card px-3 py-1.5 text-[0.8125rem] font-medium text-foreground"
             >
               {language}
             </span>
           ))}
-          <span className="flex items-center gap-1 px-1 text-[13px] font-medium text-foreground">
+          <span className="flex items-center gap-1 px-1 text-[0.8125rem] font-medium text-foreground">
             Ver todos
             <ArrowRight className="size-3.5" />
           </span>

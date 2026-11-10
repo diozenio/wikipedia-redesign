@@ -2,13 +2,13 @@ export function RichTextTable({ rows }: { rows: string[][] }) {
   const [header, ...body] = rows;
 
   return (
-    <div className="flex w-full flex-col overflow-hidden rounded-lg border border-border">
+    <div className="flex w-full flex-col overflow-x-auto rounded-lg border border-border">
       {header && (
         <div className="flex items-center gap-4 bg-muted px-4 py-3">
           {header.map((cell, index) => (
             <span
               key={`${index}-${cell}`}
-              className="flex-1 text-sm font-medium text-foreground"
+              className="min-w-0 flex-1 text-sm font-medium text-foreground"
             >
               {cell}
             </span>
@@ -23,7 +23,7 @@ export function RichTextTable({ rows }: { rows: string[][] }) {
           {row.map((cell, cellIndex) => (
             <span
               key={`${cellIndex}-${cell}`}
-              className="flex-1 text-sm text-muted-foreground"
+              className="min-w-0 flex-1 text-sm text-muted-foreground"
             >
               {cell}
             </span>

@@ -1,0 +1,66 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "232918": {
+        "pageid": 232918,
+        "ns": 0,
+        "title": "Análise de sistemas",
+        "index": 3,
+        "description": "administracao geral classificacao de sistema",
+        "descriptionsource": "central",
+        "extract": "Análise de sistemas é a atividade que tem como finalidade a realização de estudos de processos a fim de encontrar o melhor caminho racional para que a informação possa ser processada. Um analista de sistemas pode trabalhar no projeto de criação de um novo sistema ou no serviço de manutenção de sistemas já prontos."
+      },
+      "5587370": {
+        "pageid": 5587370,
+        "ns": 0,
+        "title": "Infraestrutura de TI",
+        "index": 5,
+        "description": "Maquinas, Servidores, Redes e Serviços",
+        "descriptionsource": "central",
+        "extract": "A infraestrutura de TI consiste nos componentes e serviços que fornecem a base para sustentar todos os sistemas de informação de uma organização. Ter uma organização competitiva exige uma grande variedade de equipamentos, softwares e ferramentas de comunicação para funcionar e fazer o básico, além dos serviços de profissionais treinados que saibam operar e administrar toda essa tecnologia."
+      },
+      "2123084": {
+        "pageid": 2123084,
+        "ns": 0,
+        "title": "Processo de negócio",
+        "index": 6,
+        "description": "conjunto de atividades ou tarefas relacionadas e estruturadas que produzem um serviço ou produto específico para um cliente ou clientes específicos",
+        "descriptionsource": "central",
+        "extract": "Um processo de negócio, processo organizacional ou método de negócio é um conjunto de atividades ou tarefas estruturadas relacionadas que produzem um serviço ou produto específico (fornece uma meta particular) para seus clientes ou para um cliente particular."
+      },
+      "5833338": {
+        "pageid": 5833338,
+        "ns": 0,
+        "title": "Profissional de Sistemas de Informação",
+        "index": 2,
+        "extract": "Os profissionais de SI(Sistemas de informação) são formados para criar, inovar e propor soluções práticas, inteligentes e usuais dentro do ramo da Tecnologia da informação. Esse profissional é responsável por desenvolver e gerenciar programas informatizados que armazenam e compartilham dados."
+      },
+      "50283": {
+        "pageid": 50283,
+        "ns": 0,
+        "title": "Sistema de informação de gestão",
+        "index": 4,
+        "extract": "Sistema de informação de gestão ou sistema de informações gerenciais (SIG) ou MIS (do inglês, management information system) é um sistema de informação, tipicamente baseado em computadores, utilizado no seio de uma organização. A WordNet descreve um sistema de informação como \"um sistema que consiste na rede de canais de comunicação numa organização\"."
+      },
+      "23652": {
+        "pageid": 23652,
+        "ns": 0,
+        "title": "Tecnologia da informação",
+        "index": 1,
+        "thumbnail": {
+          "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Papertape3.jpg/330px-Papertape3.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "width": 320,
+          "height": 210
+        },
+        "description": "desenvolvimento, gerenciamento e uso de sistemas de informação baseados em computador",
+        "descriptionsource": "central",
+        "extract": "A tecnologia da informação (abreviado TI) é um conjunto de recursos utilizados para criar, processar, armazenar, recuperar e trocar dados e informações; um processo que faz parte das tecnologias da informação e comunicação (TIC). Um sistema de tecnologia da informação (sistema de TI) é geralmente um sistema de informação, um sistema de comunicação ou, mais especificamente falando, um sistema computacional – incluindo todo o hardware, software e, equipamentos periféricos — operado por um grupo limitado de usuários de TI que faz o tratamento de dados (estatística, relatório e decisão)."
+      }
+    }
+  }
+}

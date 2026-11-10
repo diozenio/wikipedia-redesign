@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/server/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ArticleAudioStatus {
+  PENDING
+  PROCESSING
+  READY
+  FAILED
+}
+
+model ArticleAudio {
+  id          String             @id @default(cuid())
+  articleId   String
+  contentHash String
+  voice       String
+  status      ArticleAudioStatus @default(PENDING)
+  progress    Int                @default(0)
+  storageKey  String?
+  contentType String?
+  error       String?
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@unique([articleId, contentHash])
+}

@@ -12,6 +12,8 @@ export type ArticleSectionData = {
 };
 
 export type ArticleData = {
+  id: string;
+  slug: string;
   breadcrumb: ArticleBreadcrumbItem[];
   title: string;
   origin: string;
@@ -23,4 +25,13 @@ export type ArticleData = {
   };
   introBlocks: RichTextBlock[];
   sections: ArticleSectionData[];
+};
+
+export type ArticleSummaryData = {
+  id: string;
+  slug: string;
+  title: string;
+  description: string | null;
+  excerpt: string | null;
+  thumbnail: { src: string; width: number; height: number } | null;
 };

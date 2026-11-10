@@ -20,6 +20,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Leitura em voz alta
+
+O botão **Ouvir** narra o artigo. O áudio é gerado uma vez por versão do conteúdo + voz e fica salvo no backend.
+
+Fluxo: `POST /api/articles/:id/audio` → registro `PENDING` no Postgres (Prisma) + evento `article-audio.requested` na fila (Redis/BullMQ) → o worker sintetiza a voz (Kokoro), salva o arquivo no Silo (S3) e marca `READY` → o player toca `GET /api/articles/:id/audio/file`.
+
+A lógica fica em `src/server/article-audio` e depende só das interfaces em `ports.ts`. As implementações concretas ficam em `src/server/adapters` e são escolhidas em `src/server/container.ts`. Para trocar o modelo de voz, o storage, a fila ou a fonte dos artigos, basta criar um adapter novo e registrá-lo ali. Qualquer servidor compatível com `POST /v1/audio/speech` da OpenAI funciona só mudando as variáveis `TTS_*`.
+
+```bash
+cp .env.example .env
+docker compose up -d --build   # postgres, redis, silo (:9000/:9001), kokoro (:8880) e worker
+pnpm dev                       # app
+```
+
+O container `worker` aplica as migrações (`prisma migrate deploy`) antes de começar a consumir a fila. Para rodar o worker fora do Docker, use `docker compose stop worker` e `pnpm worker`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

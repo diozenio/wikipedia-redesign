@@ -1,5 +1,4 @@
 import { RichTextHeading } from "@/ui/components/rich-text/blocks/rich-text-heading";
-// import { RichTextImage } from "@/ui/components/rich-text/blocks/rich-text-image";
 import { RichTextList } from "@/ui/components/rich-text/blocks/rich-text-list";
 import { RichTextParagraph } from "@/ui/components/rich-text/blocks/rich-text-paragraph";
 import { RichTextTable } from "@/ui/components/rich-text/blocks/rich-text-table";
@@ -14,19 +13,11 @@ const RICH_TEXT_RENDERERS: {
   heading: (block) => <RichTextHeading id={block.id} text={block.text} />,
   list: (block) => <RichTextList ordered={block.ordered} items={block.items} />,
   table: (block) => <RichTextTable rows={block.rows} />,
-  // image: (block) => (
-  //   <RichTextImage
-  //     src={block.src}
-  //     caption={block.caption}
-  //     width={block.width}
-  //     height={block.height}
-  //   />
-  // ),
 };
 
 export function RichText({ blocks }: { blocks: RichTextBlock[] }) {
   return (
-    <div className="flex w-full flex-col gap-4">
+    <div className="flex w-full flex-col gap-(--reading-paragraph-gap)">
       {blocks.map((block, index) => {
         const render = RICH_TEXT_RENDERERS[block.type] as
           | ((block: RichTextBlock) => React.ReactNode)

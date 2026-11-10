@@ -6,7 +6,6 @@ import {
   type EmptyStateContextValue,
 } from "@/ui/contexts/empty-state-context";
 
-// The component takes no props: story args are the EmptyStateContext value.
 const meta = {
   title: "Components/EmptyState",
   component: EmptyState,

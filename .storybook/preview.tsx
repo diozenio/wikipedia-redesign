@@ -1,7 +1,13 @@
-import { withThemeByClassName } from "@storybook/addon-themes";
+import { withThemeByDataAttribute } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/nextjs-vite";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { AppProvider } from "../src/ui/providers/app-provider";
+import { ArticleAudioProvider } from "../src/ui/providers/article-audio-provider";
+import { MockArticleProvider } from "../src/ui/providers/mocks/mock-article-provider";
+import { MockFeaturedArticlesProvider } from "../src/ui/providers/mocks/mock-featured-articles-provider";
+import { MockSearchProvider } from "../src/ui/providers/mocks/mock-search-provider";
+import { MockSeeAlsoProvider } from "../src/ui/providers/mocks/mock-see-also-provider";
 import "../src/app/globals.css";
 import "./preview.css";
 
@@ -15,10 +21,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const openDyslexic = localFont({
+  variable: "--font-opendyslexic",
+  display: "swap",
+  preload: false,
+  src: [
+    {
+      path: "../src/app/fonts/opendyslexic/opendyslexic-latin-400-normal.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../src/app/fonts/opendyslexic/opendyslexic-latin-700-normal.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
+
 const preview: Preview = {
   parameters: {
     layout: "fullscreen",
-    // Custom: stories are centered on both axes unless they set `center: false`.
     center: true,
     nextjs: { appDirectory: true },
     controls: {
@@ -28,25 +51,39 @@ const preview: Preview = {
       },
     },
     a11y: {
-      test: "todo",
+      test: "error",
     },
   },
   decorators: [
-    withThemeByClassName({
-      themes: { light: "", dark: "dark" },
+    withThemeByDataAttribute({
+      themes: {
+        light: "light",
+        dark: "dark",
+        "high-contrast": "high-contrast",
+      },
       defaultTheme: "light",
+      attributeName: "data-theme",
     }),
     (Story) => (
       <AppProvider>
-        <Story />
+        <MockArticleProvider>
+          <ArticleAudioProvider>
+            <MockSeeAlsoProvider>
+              <MockSearchProvider>
+                <MockFeaturedArticlesProvider>
+                  <Story />
+                </MockFeaturedArticlesProvider>
+              </MockSearchProvider>
+            </MockSeeAlsoProvider>
+          </ArticleAudioProvider>
+        </MockArticleProvider>
       </AppProvider>
     ),
     (Story) => {
-      // The app applies these on <html> (see src/app/layout.tsx), so the
-      // font variables must live there too for `font-sans` on <body>.
       document.documentElement.classList.add(
         geistSans.variable,
         geistMono.variable,
+        openDyslexic.variable,
         "antialiased",
       );
 

@@ -12,7 +12,7 @@ export function RichTextImage({
   height: number;
 }) {
   return (
-    <figure className="ml-auto flex w-[220px] flex-col gap-1.5 rounded-sm border border-border bg-muted/30 p-1.5">
+    <figure className="ml-auto flex w-55 max-w-full flex-col gap-1.5 rounded-sm border border-border bg-muted/30 p-1.5">
       <Image
         src={src}
         alt={caption}
