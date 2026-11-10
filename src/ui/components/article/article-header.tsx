@@ -21,9 +21,9 @@ export function ArticleHeader() {
         aria-label="Selos do artigo"
         className="flex flex-wrap items-center gap-2"
       >
-        {badges.map((badge) => (
+        {badges.map((badge, index) => (
           <li
-            key={badge}
+            key={`${index}-${badge}`}
             className="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground"
           >
             {badge}

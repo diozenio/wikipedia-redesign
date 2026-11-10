@@ -12,7 +12,10 @@ export function ArticleBreadcrumb() {
         {breadcrumb.map((item, index) => {
           const isLast = index === breadcrumb.length - 1;
           return (
-            <li key={item.label} className="flex items-center gap-2">
+            <li
+              key={`${index}-${item.label}`}
+              className="flex items-center gap-2"
+            >
               {index > 0 && (
                 <ChevronRight className="size-3.5 shrink-0 text-muted-foreground" />
               )}
