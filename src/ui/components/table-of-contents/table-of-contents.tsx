@@ -1,16 +1,8 @@
 "use client";
 
-import {
-  ChevronDown,
-  ChevronRight,
-  Heart,
-  House,
-  List,
-  Newspaper,
-  Shuffle,
-  Star,
-} from "lucide-react";
+import { ChevronDown, ChevronRight, List } from "lucide-react";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { siteNavItems } from "@/ui/components/site-navigation/site-nav-items";
 import { useArticle } from "@/ui/contexts/article-context";
 import { cn, focusRing } from "@/ui/lib/utils";
 import { ScrollArea } from "@/ui/primitives/scroll-area";
@@ -18,30 +10,7 @@ import { ScrollArea } from "@/ui/primitives/scroll-area";
 const INICIO_ID = "inicio";
 const TOC_HEADING_ID = "sumario-titulo";
 const SITE_NAV_HEADING_ID = "navegacao-titulo";
-
-const navItems = [
-  { label: "Página principal", icon: House, href: "/" },
-  {
-    label: "Conteúdo destacado",
-    icon: Star,
-    href: "https://pt.wikipedia.org/wiki/Portal:Conteúdo_destacado",
-  },
-  {
-    label: "Eventos atuais",
-    icon: Newspaper,
-    href: "https://pt.wikipedia.org/wiki/Portal:Eventos_atuais",
-  },
-  {
-    label: "Página aleatória",
-    icon: Shuffle,
-    href: "https://pt.wikipedia.org/wiki/Especial:Aleatória",
-  },
-  {
-    label: "Fazer uma doação",
-    icon: Heart,
-    href: "https://donate.wikimedia.org/?uselang=pt",
-  },
-] as const;
+const HEADING_SELECTOR = "h1, h2, h3, h4, h5, h6";
 
 function scrollBehavior(): ScrollBehavior {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -190,12 +159,13 @@ export function TableOfContents() {
     setOpen(false);
     target.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
 
-    // Move focus to the target so keyboard and screen reader users continue
-    // from the section they jumped to, like a native anchor navigation would.
-    if (!target.hasAttribute("tabindex")) {
-      target.setAttribute("tabindex", "-1");
+    const focusTarget = target.matches(HEADING_SELECTOR)
+      ? target
+      : (target.querySelector<HTMLElement>(HEADING_SELECTOR) ?? target);
+    if (!focusTarget.hasAttribute("tabindex")) {
+      focusTarget.setAttribute("tabindex", "-1");
     }
-    target.focus({ preventScroll: true });
+    focusTarget.focus({ preventScroll: true });
   }
 
   return (
@@ -360,7 +330,7 @@ export function TableOfContents() {
           Navegação
         </h2>
         <ul className="flex flex-col gap-1">
-          {navItems.map((item) => (
+          {siteNavItems.map((item) => (
             <li key={item.label}>
               <a
                 href={item.href}
