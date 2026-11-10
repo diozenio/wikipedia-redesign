@@ -3,12 +3,15 @@ import { ArticlePageLayout } from "@/ui/layouts/article-page-layout";
 import { ArticlePageLoadingLayout } from "@/ui/layouts/article-page-loading-layout";
 import { EmptyLayout } from "@/ui/layouts/empty-layout";
 import { AppProvider } from "@/ui/providers/app-provider";
-import { ArticleAudioProvider } from "@/ui/providers/article-audio-provider";
 import { ArticleErrorProvider } from "@/ui/providers/article-error-provider";
 import { ArticleNotFoundProvider } from "@/ui/providers/article-not-found-provider";
-import { MediaWikiArticleProvider } from "@/ui/providers/mediawiki-article-provider";
-import { MediaWikiSearchProvider } from "@/ui/providers/mediawiki-search-provider";
-import { MediaWikiSeeAlsoProvider } from "@/ui/providers/mediawiki-see-also-provider";
+import {
+  ArticleAudioProvider,
+  ArticleProvider,
+  ArticleSummaryProvider,
+  SearchProvider,
+  SeeAlsoProvider,
+} from "@/ui/providers/data-providers";
 
 function decodeArticleKey(slug: string) {
   try {
@@ -32,8 +35,8 @@ export default async function ArticlePage({
 
   return (
     <AppProvider>
-      <MediaWikiSearchProvider>
-        <MediaWikiArticleProvider
+      <SearchProvider>
+        <ArticleProvider
           slug={decodeArticleKey(slug)}
           fallback={<ArticlePageLoadingLayout />}
           notFound={
@@ -48,12 +51,14 @@ export default async function ArticlePage({
           }
         >
           <ArticleAudioProvider>
-            <MediaWikiSeeAlsoProvider>
-              <ArticlePageLayout />
-            </MediaWikiSeeAlsoProvider>
+            <ArticleSummaryProvider>
+              <SeeAlsoProvider>
+                <ArticlePageLayout />
+              </SeeAlsoProvider>
+            </ArticleSummaryProvider>
           </ArticleAudioProvider>
-        </MediaWikiArticleProvider>
-      </MediaWikiSearchProvider>
+        </ArticleProvider>
+      </SearchProvider>
     </AppProvider>
   );
 }

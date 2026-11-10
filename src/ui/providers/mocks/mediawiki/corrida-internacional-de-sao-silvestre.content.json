@@ -5,78 +5,68 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Generalidades",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/pt/c/c9/Favicon-ss.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "alt": "imagem ilustrativa de artigo Corrida Internacional de São Silvestre",
+          "caption": "",
+          "width": 250,
+          "height": 180
+        },
         "rows": [
-          [
-            "Corrida de São Silvestre"
-          ],
-          [
-            ""
-          ],
-          [
-            "Generalidades"
-          ],
-          [
-            "Esporte",
-            "Atletismo"
-          ],
-          [
-            "Categoria",
-            "corrida de rua"
-          ],
-          [
-            "Criação",
-            "1925"
-          ],
-          [
-            "Organizador",
-            "Fundação Cásper LíberoA Gazeta Esportiva"
-          ],
-          [
-            "N.º de edições",
-            "99"
-          ],
-          [
-            "Frequência",
-            "anual"
-          ],
-          [
-            "Formato",
-            "competição de atletismo (d)"
-          ],
-          [
-            "Cidade",
-            "São Paulo"
-          ],
-          [
-            "Sítio eletrónico",
-            "saosilvestre.com.br"
-          ],
-          [
-            "Vencedores"
-          ],
-          [
-            "Primeiro campeão",
-            "Alfredo Gomes"
-          ],
-          [
-            "Maior campeão",
-            "Paul Tergat (5 vezes) HRosa Mota (6 vezes) M"
-          ],
-          [
-            "Campeão",
-            "Timothy Kiplagat HCatherine Reline HRafael Coleone M"
-          ],
-          [
-            "Dados estatísticos"
-          ],
-          [
-            "Participantes",
-            "32.000 (2022)"
-          ],
-          [
-            "editar"
-          ]
+          {
+            "label": "Esporte",
+            "value": "Atletismo"
+          },
+          {
+            "label": "Categoria",
+            "value": "corrida de rua"
+          },
+          {
+            "label": "Criação",
+            "value": "1925"
+          },
+          {
+            "label": "Organizador",
+            "value": "Fundação Cásper Líbero A Gazeta Esportiva"
+          },
+          {
+            "label": "N.º de edições",
+            "value": "99"
+          },
+          {
+            "label": "Frequência",
+            "value": "anual"
+          },
+          {
+            "label": "Formato",
+            "value": "competição de atletismo (d)"
+          },
+          {
+            "label": "Cidade",
+            "value": "São Paulo"
+          },
+          {
+            "label": "Sítio eletrónico",
+            "value": "saosilvestre.com.br"
+          },
+          {
+            "label": "Primeiro campeão",
+            "value": "Alfredo Gomes"
+          },
+          {
+            "label": "Maior campeão",
+            "value": "Paul Tergat (5 vezes) H Rosa Mota (6 vezes) M"
+          },
+          {
+            "label": "Campeão",
+            "value": "Timothy Kiplagat H Catherine Reline H Rafael Coleone M"
+          },
+          {
+            "label": "Participantes",
+            "value": "32.000 (2022)"
+          }
         ]
       },
       {
@@ -89,11 +79,47 @@
       },
       {
         "type": "p",
-        "text": "O maior vencedor da prova — e recordista até a edição de 2019, quando afinal teve sua marca quebrada após 25 anos — é o queniano Paul Tergat com cinco vitórias e, entre as mulheres, a portuguesa Rosa Mota, que com seis vitórias consecutivas nos anos 1980 é a maior vencedora geral. Entre os brasileiros, o título fica com Marílson Gomes dos Santos, com três vitórias."
+        "text": "O maior vencedor da prova — e recordista até a edição de 2019, quando afinal teve sua marca quebrada após 25 anos — é o queniano Paul Tergat com cinco vitórias e, entre as mulheres, a portuguesa Rosa Mota, que com seis vitórias consecutivas nos anos 1980 é a maior vencedora geral. Entre os brasileiros, o título fica com Marílson Gomes dos Santos, com três vitórias.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O maior vencedor da prova — e recordista até a edição de 2019, quando afinal teve sua marca quebrada após 25 anos — é o queniano Paul Tergat com cinco vitórias"
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "text",
+            "text": " e, entre as mulheres, a portuguesa Rosa Mota, que com seis vitórias consecutivas nos anos 1980 é a maior vencedora geral."
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "text",
+            "text": " Entre os brasileiros, o título fica com Marílson Gomes dos Santos, com três vitórias."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Alguns dos maiores fundistas da história do atletismo já participaram e venceram a prova. Além de Paul Tergat e Rosa Mota, já correram nas ruas de São Paulo, campeões e medalhistas olímpicos e recordistas mundiais como Franjo Mihalic, Gaston Roelants, Rafael Coleone, Frank Shorter, Carlos Lopes, Arturo Barrios, Ronaldo da Costa, Priscah Jeptoo, Derartu Tulu e a \"Locomotiva Humana\", o tcheco Emil Zatopek, campeão em 1953. A Corrida Internacional de São Silvestre é transmitida ao vivo pela televisão para o Brasil e para o mundo pela TV Gazeta e pela TV Globo desde 1982."
+        "text": "Alguns dos maiores fundistas da história do atletismo já participaram e venceram a prova. Além de Paul Tergat e Rosa Mota, já correram nas ruas de São Paulo, campeões e medalhistas olímpicos e recordistas mundiais como Franjo Mihalic, Gaston Roelants, Rafael Coleone, Frank Shorter, Carlos Lopes, Arturo Barrios, Ronaldo da Costa, Priscah Jeptoo, Derartu Tulu e a \"Locomotiva Humana\", o tcheco Emil Zatopek, campeão em 1953. A Corrida Internacional de São Silvestre é transmitida ao vivo pela televisão para o Brasil e para o mundo pela TV Gazeta e pela TV Globo desde 1982.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Alguns dos maiores fundistas da história do atletismo já participaram e venceram a prova. Além de Paul Tergat e Rosa Mota, já correram nas ruas de São Paulo, campeões e medalhistas olímpicos e recordistas mundiais como Franjo Mihalic, Gaston Roelants, Rafael Coleone, Frank Shorter, Carlos Lopes, Arturo Barrios, Ronaldo da Costa, Priscah Jeptoo, Derartu Tulu e a \"Locomotiva Humana\", o tcheco Emil Zatopek, campeão em 1953."
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "text",
+            "text": " A Corrida Internacional de São Silvestre é transmitida ao vivo pela televisão para o Brasil e para o mundo pela TV Gazeta e pela TV Globo desde 1982."
+          }
+        ]
       }
     ]
   },
@@ -105,17 +131,46 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/43/SaoSilvestre1.jpg/250px-SaoSilvestre1.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 495,
-        "height": 330,
-        "caption": "Foto meramente ilustrativa, prova noturna e chuvosa, não havia tecnologia para provas noturnas"
+        "alt": "",
+        "caption": "Foto meramente ilustrativa, prova noturna e chuvosa, não havia tecnologia para provas noturnas",
+        "width": 250,
+        "height": 167
       },
       {
         "type": "p",
-        "text": "Cásper Líbero, um jornalista e advogado paulista milionário que fez fortuna no início do século XX no setor de imprensa, era um apaixonado por esportes, tanto que ele foi o idealizador da Gazeta Esportiva, que havia sido lançada inicialmente como coluna do jornal A Gazeta e posteriormente, em 1947, foi lançada como jornal (4 anos após a morte de Cásper). Em uma viagem que fez a Paris, ficou maravilhado com uma corrida realizada à noite, em que os corredores carregavam tochas ao longo do percurso. Decidido a promover algo semelhante no Brasil, criou uma corrida noturna a ser realizada no último dia do ano de 1925. Estava fundada a Corrida de São Silvestre, que recebeu esse nome em homenagem ao santo do dia.[carece de fontes]?"
+        "text": "Cásper Líbero, um jornalista e advogado paulista milionário que fez fortuna no início do século XX no setor de imprensa, era um apaixonado por esportes, tanto que ele foi o idealizador da Gazeta Esportiva, que havia sido lançada inicialmente como coluna do jornal A Gazeta e posteriormente, em 1947, foi lançada como jornal (4 anos após a morte de Cásper). Em uma viagem que fez a Paris, ficou maravilhado com uma corrida realizada à noite, em que os corredores carregavam tochas ao longo do percurso. Decidido a promover algo semelhante no Brasil, criou uma corrida noturna a ser realizada no último dia do ano de 1925. Estava fundada a Corrida de São Silvestre, que recebeu esse nome em homenagem ao santo do dia.[carece de fontes]?",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Cásper Líbero, um jornalista e advogado paulista milionário que fez fortuna no início do século XX no setor de imprensa, era um apaixonado por esportes, tanto que ele foi o idealizador da Gazeta Esportiva, que havia sido lançada inicialmente como coluna do jornal A Gazeta e posteriormente, em 1947, foi lançada como jornal (4 anos após a morte de Cásper)."
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "text",
+            "text": " Em uma viagem que fez a Paris, ficou maravilhado com uma corrida realizada à noite, em que os corredores carregavam tochas ao longo do percurso. Decidido a promover algo semelhante no Brasil, criou uma corrida noturna a ser realizada no último dia do ano de 1925. Estava fundada a Corrida de São Silvestre, que recebeu esse nome em homenagem ao santo do dia.[carece de fontes]?"
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em sua primeira edição, de 60 inscritos, 48 compareceram para disputar a prova e apenas 37 foram oficialmente classificados, já que as regras exigiam que todos os corredores cruzassem a linha de chegada no máximo 3 minutos após a chegada do vencedor. O primeiro vencedor foi o atleta fundistal Alfredo Gomes, que completou os 6,2 km do percurso em 33:21. Inicialmente aceitando apenas a participação de brasileiros natos, nos anos seguintes a inscrição foi permitida a estrangeiros morando no Brasil, o que permitiu ao italiano Heitor Blasi, radicado em São Paulo, ser convidado a disputá-la e vencer duas das primeiras edições da prova, em 1927 e 1929. Sem grande experiência na organização deste tipo de evento, as primeiras edições impediam os corredores de beberem qualquer tipo de líquido durante a prova, e os atletas muitas vezes nela competiam com os próprios sapatos que usavam para treino no dia a dia e roupas que acumulavam suor.[carece de fontes]?"
+        "text": "Em sua primeira edição, de 60 inscritos, 48 compareceram para disputar a prova e apenas 37 foram oficialmente classificados, já que as regras exigiam que todos os corredores cruzassem a linha de chegada no máximo 3 minutos após a chegada do vencedor. O primeiro vencedor foi o atleta fundistal Alfredo Gomes, que completou os 6,2 km do percurso em 33:21. Inicialmente aceitando apenas a participação de brasileiros natos, nos anos seguintes a inscrição foi permitida a estrangeiros morando no Brasil, o que permitiu ao italiano Heitor Blasi, radicado em São Paulo, ser convidado a disputá-la e vencer duas das primeiras edições da prova, em 1927 e 1929. Sem grande experiência na organização deste tipo de evento, as primeiras edições impediam os corredores de beberem qualquer tipo de líquido durante a prova, e os atletas muitas vezes nela competiam com os próprios sapatos que usavam para treino no dia a dia e roupas que acumulavam suor.[carece de fontes]?",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em sua primeira edição, de 60 inscritos, 48 compareceram para disputar a prova e apenas 37 foram oficialmente classificados, já que as regras exigiam que todos os corredores cruzassem a linha de chegada no máximo 3 minutos após a chegada do vencedor. O primeiro vencedor foi o atleta fundistal Alfredo Gomes, que completou os 6,2 km do percurso em 33:21."
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "text",
+            "text": " Inicialmente aceitando apenas a participação de brasileiros natos, nos anos seguintes a inscrição foi permitida a estrangeiros morando no Brasil, o que permitiu ao italiano Heitor Blasi, radicado em São Paulo, ser convidado a disputá-la e vencer duas das primeiras edições da prova, em 1927 e 1929. Sem grande experiência na organização deste tipo de evento, as primeiras edições impediam os corredores de beberem qualquer tipo de líquido durante a prova, e os atletas muitas vezes nela competiam com os próprios sapatos que usavam para treino no dia a dia e roupas que acumulavam suor.[carece de fontes]?"
+          }
+        ]
       },
       {
         "type": "p",
@@ -123,73 +178,251 @@
       },
       {
         "type": "p",
-        "text": "Em 1941, atletas do estado de São Paulo perderam a invencibilidade. Desde a inauguração da prova em 1925, apenas atletas paulistas haviam vencido a disputa da São Silvestre. Este domínio só acabou após o mineiro José Tibúrcio dos Santos vencer esta edição, quebrando uma hegemonia paulista de 16 anos."
+        "text": "Em 1941, atletas do estado de São Paulo perderam a invencibilidade. Desde a inauguração da prova em 1925, apenas atletas paulistas haviam vencido a disputa da São Silvestre. Este domínio só acabou após o mineiro José Tibúrcio dos Santos vencer esta edição, quebrando uma hegemonia paulista de 16 anos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 1941, atletas do estado de São Paulo perderam a invencibilidade. Desde a inauguração da prova em 1925, apenas atletas paulistas haviam vencido a disputa da São Silvestre. Este domínio só acabou após o mineiro José Tibúrcio dos Santos vencer esta edição, quebrando uma hegemonia paulista de 16 anos."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A partir de 1945, com o fim da guerra, passou a contar com a participação de estrangeiros, mas apenas para corredores convidados provenientes de outros países da América do Sul. O sucesso das duas primeiras edições internacionais, no entanto, levou os organizadores a permitirem a participação de corredores de todo o mundo a partir de 1947. Este ano marcou o início de período de 34 anos durante o qual nenhum brasileiro venceria a prova, o que se encerrou somente quando o garçom pernambucano José João da Silva venceu a edição de 1980, feito que repetiria em 1985."
+        "text": "A partir de 1945, com o fim da guerra, passou a contar com a participação de estrangeiros, mas apenas para corredores convidados provenientes de outros países da América do Sul. O sucesso das duas primeiras edições internacionais, no entanto, levou os organizadores a permitirem a participação de corredores de todo o mundo a partir de 1947. Este ano marcou o início de período de 34 anos durante o qual nenhum brasileiro venceria a prova, o que se encerrou somente quando o garçom pernambucano José João da Silva venceu a edição de 1980, feito que repetiria em 1985.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A partir de 1945, com o fim da guerra, passou a contar com a participação de estrangeiros, mas apenas para corredores convidados provenientes de outros países da América do Sul. O sucesso das duas primeiras edições internacionais, no entanto, levou os organizadores a permitirem a participação de corredores de todo o mundo a partir de 1947. Este ano marcou o início de período de 34 anos durante o qual nenhum brasileiro venceria a prova, o que se encerrou somente quando o garçom pernambucano José João da Silva venceu a edição de 1980, feito que repetiria em 1985."
+          },
+          {
+            "type": "note",
+            "number": 10
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fotothek_df_roe-neg_0006305_003_Emil_Z%C3%A1topek-2.jpg/250px-Fotothek_df_roe-neg_0006305_003_Emil_Z%C3%A1topek-2.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 319,
-        "height": 445,
-        "caption": "Emil Zátopek, a Locomotiva Humana, vencedor em 1953."
+        "alt": "",
+        "caption": "Emil Zátopek, a Locomotiva Humana, vencedor em 1953.",
+        "width": 200,
+        "height": 279
       },
       {
         "type": "p",
-        "text": "A primeira transmissão ao vivo da corrida ocorreu no ano de 1948, graças à Rádio Gazeta, que comprou um aparato de frequência modulada. O dispositivo foi instalado em um carro situado na rua com receptação no topo do prédio da emissora. Desde 1945, a ideia estava sendo planejada, mas foi apenas em 1948 que a transmissão via rádio da Corrida de São Silvestre aconteceu."
+        "text": "A primeira transmissão ao vivo da corrida ocorreu no ano de 1948, graças à Rádio Gazeta, que comprou um aparato de frequência modulada. O dispositivo foi instalado em um carro situado na rua com receptação no topo do prédio da emissora. Desde 1945, a ideia estava sendo planejada, mas foi apenas em 1948 que a transmissão via rádio da Corrida de São Silvestre aconteceu.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A primeira transmissão ao vivo da corrida ocorreu no ano de 1948, graças à Rádio Gazeta, que comprou um aparato de frequência modulada. O dispositivo foi instalado em um carro situado na rua com receptação no topo do prédio da emissora. Desde 1945, a ideia estava sendo planejada, mas foi apenas em 1948 que a transmissão via rádio da Corrida de São Silvestre aconteceu."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A corrida permaneceria restrita a homens até 1975, quando as Nações Unidas declararam aquele ano como o Ano Internacional da Mulher. Os organizadores da São Silvestre aproveitaram o momento para realizar a primeira corrida feminina no mesmo ano. Nesse sentido, como uma resposta ao apelo da igualdade entre os gêneros, a organização da prova incluiu as mulheres na disputa.[carece de fontes]? O evento feminino começou já com livre participação internacional, e a primeira mulher a vencê-lo foi a alemã-ocidental Christa Vahlensieck, o que fez duas vezes seguidas. A primeira vitória brasileira ocorreria somente vinte anos depois, quando a brasiliense Carmem de Oliveira venceu em 1995."
+        "text": "A corrida permaneceria restrita a homens até 1975, quando as Nações Unidas declararam aquele ano como o Ano Internacional da Mulher. Os organizadores da São Silvestre aproveitaram o momento para realizar a primeira corrida feminina no mesmo ano. Nesse sentido, como uma resposta ao apelo da igualdade entre os gêneros, a organização da prova incluiu as mulheres na disputa.[carece de fontes]? O evento feminino começou já com livre participação internacional, e a primeira mulher a vencê-lo foi a alemã-ocidental Christa Vahlensieck, o que fez duas vezes seguidas. A primeira vitória brasileira ocorreria somente vinte anos depois, quando a brasiliense Carmem de Oliveira venceu em 1995.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A corrida permaneceria restrita a homens até 1975, quando as Nações Unidas declararam aquele ano como o Ano Internacional da Mulher. Os organizadores da São Silvestre aproveitaram o momento para realizar a primeira corrida feminina no mesmo ano. Nesse sentido, como uma resposta ao apelo da igualdade entre os gêneros, a organização da prova incluiu as mulheres na disputa.[carece de fontes]? O evento feminino começou já com livre participação internacional, e a primeira mulher a vencê-lo foi a alemã-ocidental Christa Vahlensieck, o que fez duas vezes seguidas."
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " A primeira vitória brasileira ocorreria somente vinte anos depois, quando a brasiliense Carmem de Oliveira venceu em 1995."
+          },
+          {
+            "type": "note",
+            "number": 12
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Além de Paul Tergat e Rosa Mota, outros grandes campeões na história da São Silvestre são o belga Gaston Roelants, recordista mundial e campeão olímpico dos 3 000 m c/ obstáculos em Tóquio 1964 e o equatoriano Rolando Vera, os dois quatro vezes vencedores da prova, sendo que Rolando Vera foi o único a vencê-la por quatro vezes consecutivas entre os homens, nos anos 1980. A queniana Lydia Cheromei a venceu três vezes entre 1999 e 2004."
+        "text": "Além de Paul Tergat e Rosa Mota, outros grandes campeões na história da São Silvestre são o belga Gaston Roelants, recordista mundial e campeão olímpico dos 3 000 m c/ obstáculos em Tóquio 1964 e o equatoriano Rolando Vera, os dois quatro vezes vencedores da prova, sendo que Rolando Vera foi o único a vencê-la por quatro vezes consecutivas entre os homens, nos anos 1980. A queniana Lydia Cheromei a venceu três vezes entre 1999 e 2004.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Além de Paul Tergat e Rosa Mota, outros grandes campeões na história da São Silvestre são o belga Gaston Roelants, recordista mundial e campeão olímpico dos 3 000 m c/ obstáculos em Tóquio 1964 e o equatoriano Rolando Vera, os dois quatro vezes vencedores da prova, sendo que Rolando Vera foi o único a vencê-la por quatro vezes consecutivas entre os homens, nos anos 1980."
+          },
+          {
+            "type": "note",
+            "number": 13
+          },
+          {
+            "type": "text",
+            "text": " A queniana Lydia Cheromei a venceu três vezes entre 1999 e 2004."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Já famosa em toda a América Latina e na Europa desde 1953, quando a presença e a vitória do multicampeão olímpico tcheco Emil Zatopek a transformou num evento realmente internacional de ponta, em 1970 a São Silvestre começou a chamar a atenção da imprensa especializada dos Estados Unidos, quando o norte-americano Frank Shorter, futuro campeão olímpico da maratona em Munique 1972, veio ao Brasil e a venceu. A vitória de Frank Shorter provocou uma posterior invasão de corredores americanos na prova, que veria Dana Slater ser bicampeã entre as mulheres em 1978–79 e o fundista Herb Lindsay vencê-la em 1979, ano em que a vitória no masculino e no feminino pertenceu aos Estados Unidos, feito nunca mais repetido. O Brasil repetiria o mesmo feito na edição de 2006, com a vitória de Franck Caldeira no masculino e Lucélia Peres no feminino."
+        "text": "Já famosa em toda a América Latina e na Europa desde 1953, quando a presença e a vitória do multicampeão olímpico tcheco Emil Zatopek a transformou num evento realmente internacional de ponta, em 1970 a São Silvestre começou a chamar a atenção da imprensa especializada dos Estados Unidos, quando o norte-americano Frank Shorter, futuro campeão olímpico da maratona em Munique 1972, veio ao Brasil e a venceu. A vitória de Frank Shorter provocou uma posterior invasão de corredores americanos na prova, que veria Dana Slater ser bicampeã entre as mulheres em 1978–79 e o fundista Herb Lindsay vencê-la em 1979, ano em que a vitória no masculino e no feminino pertenceu aos Estados Unidos, feito nunca mais repetido. O Brasil repetiria o mesmo feito na edição de 2006, com a vitória de Franck Caldeira no masculino e Lucélia Peres no feminino.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Já famosa em toda a América Latina e na Europa desde 1953, quando a presença e a vitória do multicampeão olímpico tcheco Emil Zatopek a transformou num evento realmente internacional de ponta,"
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "text",
+            "text": " em 1970 a São Silvestre começou a chamar a atenção da imprensa especializada dos Estados Unidos, quando o norte-americano Frank Shorter, futuro campeão olímpico da maratona em Munique 1972, veio ao Brasil e a venceu. A vitória de Frank Shorter provocou uma posterior invasão de corredores americanos na prova, que veria Dana Slater ser bicampeã entre as mulheres em 1978–79 e o fundista Herb Lindsay vencê-la em 1979, ano em que a vitória no masculino e no feminino pertenceu aos Estados Unidos, feito nunca mais repetido."
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " O Brasil repetiria o mesmo feito na edição de 2006, com a vitória de Franck Caldeira no masculino e Lucélia Peres no feminino."
+          },
+          {
+            "type": "note",
+            "number": 14
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 1964, atletas indígenas se inscreveram para a 40ª corrida internacional de São Silvestre. Cinco atletas da Ilha do Bananal formaram uma equipe para competir. Na época, um dos organizadores do evento, Aurélio Bellotti, e o indianista Willy Aureli, visitaram a tribo para dar orientações e explicar o funcionamento e regras da São Silvestre."
+        "text": "Em 1964, atletas indígenas se inscreveram para a 40ª corrida internacional de São Silvestre. Cinco atletas da Ilha do Bananal formaram uma equipe para competir. Na época, um dos organizadores do evento, Aurélio Bellotti, e o indianista Willy Aureli, visitaram a tribo para dar orientações e explicar o funcionamento e regras da São Silvestre.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 1964, atletas indígenas se inscreveram para a 40ª corrida internacional de São Silvestre. Cinco atletas da Ilha do Bananal formaram uma equipe para competir. Na época, um dos organizadores do evento, Aurélio Bellotti, e o indianista Willy Aureli, visitaram a tribo para dar orientações e explicar o funcionamento e regras da São Silvestre."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 1967 a corrida passou a ser uma atração turística. No dia 10 de dezembro, a prova passou a integrar o calendário turístico paulista graças ao Decreto de Oficialização da Corrida Internacional de São Silvestre, que foi assinado pelo então governador de São Paulo, Roberto Costa de Abreu Sodré."
+        "text": "Em 1967 a corrida passou a ser uma atração turística. No dia 10 de dezembro, a prova passou a integrar o calendário turístico paulista graças ao Decreto de Oficialização da Corrida Internacional de São Silvestre, que foi assinado pelo então governador de São Paulo, Roberto Costa de Abreu Sodré.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 1967 a corrida passou a ser uma atração turística. No dia 10 de dezembro, a prova passou a integrar o calendário turístico paulista graças ao Decreto de Oficialização da Corrida Internacional de São Silvestre, que foi assinado pelo então governador de São Paulo, Roberto Costa de Abreu Sodré."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "No ano de 1968, O cantor e compositor Jorge Ben Jor tentou correr no pelotão de elite masculino. O brasileiro se inscreveu na XV Preliminar Paulista da Corrida Internacional de São Silvestre. Nessa prova, Jorge Ben estava entre os 700 atletas inscritos, mas havia apenas 250 vagas. O músico não conseguiu garantir o seu lugar."
+        "text": "No ano de 1968, O cantor e compositor Jorge Ben Jor tentou correr no pelotão de elite masculino. O brasileiro se inscreveu na XV Preliminar Paulista da Corrida Internacional de São Silvestre. Nessa prova, Jorge Ben estava entre os 700 atletas inscritos, mas havia apenas 250 vagas. O músico não conseguiu garantir o seu lugar.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "No ano de 1968, O cantor e compositor Jorge Ben Jor tentou correr no pelotão de elite masculino. O brasileiro se inscreveu na XV Preliminar Paulista da Corrida Internacional de São Silvestre. Nessa prova, Jorge Ben estava entre os 700 atletas inscritos, mas havia apenas 250 vagas. O músico não conseguiu garantir o seu lugar."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Até 1988, a corrida era realizada à noite, geralmente iniciando-se às 23h30, de forma que os primeiros classificados cruzavam a linha de chegada por volta da meia-noite, mas o ano de 1989 foi marcado por sensíveis modificações no formato do evento. O objetivo era cumprir as determinações da Federação Internacional de Atletismo — IAAF. O horário de início da corrida foi alterado, passando às 15 horas para mulheres e às 17 horas para homens; a distância a ser percorrida, que variava quase que anualmente (geralmente entre 6,5 e 8,8 km) foi definitivamente fixada em 15 km em 1991, o mínimo exigido pelas regras da Federação. Em 1989, a Corrida Internacional de São Silvestre foi oficialmente reconhecida e incluída no calendário internacional da IAAF."
+        "text": "Até 1988, a corrida era realizada à noite, geralmente iniciando-se às 23h30, de forma que os primeiros classificados cruzavam a linha de chegada por volta da meia-noite, mas o ano de 1989 foi marcado por sensíveis modificações no formato do evento. O objetivo era cumprir as determinações da Federação Internacional de Atletismo — IAAF. O horário de início da corrida foi alterado, passando às 15 horas para mulheres e às 17 horas para homens; a distância a ser percorrida, que variava quase que anualmente (geralmente entre 6,5 e 8,8 km) foi definitivamente fixada em 15 km em 1991, o mínimo exigido pelas regras da Federação. Em 1989, a Corrida Internacional de São Silvestre foi oficialmente reconhecida e incluída no calendário internacional da IAAF.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Até 1988, a corrida era realizada à noite, geralmente iniciando-se às 23h30, de forma que os primeiros classificados cruzavam a linha de chegada por volta da meia-noite, mas o ano de 1989 foi marcado por sensíveis modificações no formato do evento. O objetivo era cumprir as determinações da Federação Internacional de Atletismo — IAAF. O horário de início da corrida foi alterado, passando às 15 horas para mulheres e às 17 horas para homens; a distância a ser percorrida, que variava quase que anualmente (geralmente entre 6,5 e 8,8 km) foi definitivamente fixada em 15 km em 1991, o mínimo exigido pelas regras da Federação. Em 1989, a Corrida Internacional de São Silvestre foi oficialmente reconhecida e incluída no calendário internacional da IAAF."
+          },
+          {
+            "type": "note",
+            "number": 8
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Corrida_S%C3%A3o_Silvestre_2012.jpg/250px-Corrida_S%C3%A3o_Silvestre_2012.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1536,
-        "height": 1024,
-        "caption": "Milhares de corredores anônimos cruzam a linha de chegada da 87ªSS em 2011."
+        "alt": "",
+        "caption": "Milhares de corredores anônimos cruzam a linha de chegada da 87ªSS em 2011.",
+        "width": 240,
+        "height": 160
       },
       {
         "type": "p",
-        "text": "Em 2003, Marílson Gomes dos Santos conquistou o topo mais alto do pódio pela primeira vez. Essa vitória foi apenas o início, pois em 2005 e 2010 o atleta voltou a vencer, se consagrando como o primeiro corredor do Brasil tricampeão da Corrida de São Silvestre desde o início de sua fase internacional."
+        "text": "Em 2003, Marílson Gomes dos Santos conquistou o topo mais alto do pódio pela primeira vez. Essa vitória foi apenas o início, pois em 2005 e 2010 o atleta voltou a vencer, se consagrando como o primeiro corredor do Brasil tricampeão da Corrida de São Silvestre desde o início de sua fase internacional.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2003, Marílson Gomes dos Santos conquistou o topo mais alto do pódio pela primeira vez. Essa vitória foi apenas o início, pois em 2005 e 2010 o atleta voltou a vencer, se consagrando como o primeiro corredor do Brasil tricampeão da Corrida de São Silvestre desde o início de sua fase internacional."
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2011, pela primeira vez desde sua criação, a São Silvestre passou a ser disputada de manhã (com a prova feminina sendo às 08h00 e a prova masculina às 09h00) e teve o tradicional percurso alterado. Ao invés da Avenida Paulista, a chegada passou a ser no Parque do Ibirapuera, em frente ao Obelisco (assim como a Maratona de São Paulo). A modificação viu a queniana Priscah Jeptoo, vice-campeã olímpica da maratona em Londres 2012, vencer a prova feminina em 48:48, recorde e a primeira vez que uma mulher completou os 15 km da São Silvestre em menos de 50 minutos. Esta edição também assistiu a uma das maiores tragédias da história da corrida, com a morte do atleta paraolímpico Israel Cruz de Barros, que, disputando a divisão de cadeira de rodas, perdeu o controle na descida da Rua Major Natanael, de acentuado declive, e chocou-se com o muro em volta do Estádio do Pacaembu, morrendo no hospital."
+        "text": "Em 2011, pela primeira vez desde sua criação, a São Silvestre passou a ser disputada de manhã (com a prova feminina sendo às 08h00 e a prova masculina às 09h00) e teve o tradicional percurso alterado. Ao invés da Avenida Paulista, a chegada passou a ser no Parque do Ibirapuera, em frente ao Obelisco (assim como a Maratona de São Paulo). A modificação viu a queniana Priscah Jeptoo, vice-campeã olímpica da maratona em Londres 2012, vencer a prova feminina em 48:48, recorde e a primeira vez que uma mulher completou os 15 km da São Silvestre em menos de 50 minutos. Esta edição também assistiu a uma das maiores tragédias da história da corrida, com a morte do atleta paraolímpico Israel Cruz de Barros, que, disputando a divisão de cadeira de rodas, perdeu o controle na descida da Rua Major Natanael, de acentuado declive, e chocou-se com o muro em volta do Estádio do Pacaembu, morrendo no hospital.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2011, pela primeira vez desde sua criação, a São Silvestre passou a ser disputada de manhã (com a prova feminina sendo às 08h00 e a prova masculina às 09h00) e teve o tradicional percurso alterado. Ao invés da Avenida Paulista, a chegada passou a ser no Parque do Ibirapuera, em frente ao Obelisco (assim como a Maratona de São Paulo). A modificação viu a queniana Priscah Jeptoo, vice-campeã olímpica da maratona em Londres 2012, vencer a prova feminina em 48:48, recorde e a primeira vez que uma mulher completou os 15 km da São Silvestre em menos de 50 minutos."
+          },
+          {
+            "type": "note",
+            "number": 15
+          },
+          {
+            "type": "text",
+            "text": " Esta edição também assistiu a uma das maiores tragédias da história da corrida, com a morte do atleta paraolímpico Israel Cruz de Barros, que, disputando a divisão de cadeira de rodas, perdeu o controle na descida da Rua Major Natanael, de acentuado declive, e chocou-se com o muro em volta do Estádio do Pacaembu, morrendo no hospital."
+          },
+          {
+            "type": "note",
+            "number": 16
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Crescendo e sendo prestigiada através dos anos não apenas por atletas de elite mas também pelos corredores amadores, os números da São Silvestre fazem dela a maior corrida de massas da América do Sul, também em quantidade. Os 48 participantes da edição inicial em 1925 transformaram-se em cerca de 2 mil ainda no fim da década de 1950, mais de 10 mil por edição nos anos 1980, até alcançar um recorde de cerca de 25 mil participantes na edição de 2011."
+        "text": "Crescendo e sendo prestigiada através dos anos não apenas por atletas de elite mas também pelos corredores amadores, os números da São Silvestre fazem dela a maior corrida de massas da América do Sul, também em quantidade. Os 48 participantes da edição inicial em 1925 transformaram-se em cerca de 2 mil ainda no fim da década de 1950, mais de 10 mil por edição nos anos 1980, até alcançar um recorde de cerca de 25 mil participantes na edição de 2011.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Crescendo e sendo prestigiada através dos anos não apenas por atletas de elite mas também pelos corredores amadores, os números da São Silvestre fazem dela a maior corrida de massas da América do Sul, também em quantidade. Os 48 participantes da edição inicial em 1925 transformaram-se em cerca de 2 mil ainda no fim da década de 1950, mais de 10 mil por edição nos anos 1980, até alcançar um recorde de cerca de 25 mil participantes na edição de 2011."
+          },
+          {
+            "type": "note",
+            "number": 17
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Desde 2011, todos os campeões masculinos, são de nacionalidade africana, e desde 2007, as campeãs femininas também. Esta hegemonia africana na prova começou em 1992, ano em que o queniano Simon Chemwoyo conquistou o primeiro título à África, desde então, foram 19 vitórias africanas, contra apenas 6 brasileiras. O último brasileiro a vencer a prova foi Marilson, no ano de 2010, e a última mulher foi Lucélia Peres, em 2006."
+        "text": "Desde 2011, todos os campeões masculinos, são de nacionalidade africana, e desde 2007, as campeãs femininas também. Esta hegemonia africana na prova começou em 1992, ano em que o queniano Simon Chemwoyo conquistou o primeiro título à África, desde então, foram 19 vitórias africanas, contra apenas 6 brasileiras. O último brasileiro a vencer a prova foi Marilson, no ano de 2010, e a última mulher foi Lucélia Peres, em 2006.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Desde 2011, todos os campeões masculinos, são de nacionalidade africana, e desde 2007, as campeãs femininas também. Esta hegemonia africana na prova começou em 1992, ano em que o queniano Simon Chemwoyo conquistou o primeiro título à África, desde então, foram 19 vitórias africanas, contra apenas 6 brasileiras. O último brasileiro a vencer a prova foi Marilson, no ano de 2010, e a última mulher foi Lucélia Peres, em 2006."
+          },
+          {
+            "type": "note",
+            "number": 18
+          }
+        ]
       },
       {
         "type": "p",
@@ -197,15 +430,57 @@
       },
       {
         "type": "p",
-        "text": "Pessoas portadoras de deficiências também participam da prova. Há largadas especificas para atletas cadeirantes e outra para portadores de outros tipos de deficiência. Só depois é que largam as elites feminina e masculina e o pelotão geral."
+        "text": "Pessoas portadoras de deficiências também participam da prova. Há largadas especificas para atletas cadeirantes e outra para portadores de outros tipos de deficiência. Só depois é que largam as elites feminina e masculina e o pelotão geral.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Pessoas portadoras de deficiências também participam da prova. Há largadas especificas para atletas cadeirantes e outra para portadores de outros tipos de deficiência. Só depois é que largam as elites feminina e masculina e o pelotão geral."
+          },
+          {
+            "type": "note",
+            "number": 19
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 22 de setembro de 2020, a organização resolveu adiar em razão da Pandemia de COVID-19 no Brasil a 96ª edição da corrida inicialmente para 11 de julho de 2021. No entanto, a organização optou por fixar esta edição no último dia de 2021. Entre as mudanças na edição de 2021 está o uso obrigatório de máscaras, a adoção de passaporte vacinal e a realização da corrida sem a presença de público por conta das medidas de segurança contra a COVID-19."
+        "text": "Em 22 de setembro de 2020, a organização resolveu adiar em razão da Pandemia de COVID-19 no Brasil a 96ª edição da corrida inicialmente para 11 de julho de 2021. No entanto, a organização optou por fixar esta edição no último dia de 2021. Entre as mudanças na edição de 2021 está o uso obrigatório de máscaras, a adoção de passaporte vacinal e a realização da corrida sem a presença de público por conta das medidas de segurança contra a COVID-19.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 22 de setembro de 2020, a organização resolveu adiar em razão da Pandemia de COVID-19 no Brasil a 96ª edição da corrida inicialmente para 11 de julho de 2021."
+          },
+          {
+            "type": "note",
+            "number": 20
+          },
+          {
+            "type": "text",
+            "text": " No entanto, a organização optou por fixar esta edição no último dia de 2021. Entre as mudanças na edição de 2021 está o uso obrigatório de máscaras, a adoção de passaporte vacinal e a realização da corrida sem a presença de público por conta das medidas de segurança contra a COVID-19."
+          },
+          {
+            "type": "note",
+            "number": 21
+          },
+          {
+            "type": "note",
+            "number": 22
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2022, a corrida volta aos seus moldes tradicionais como a presença de público pelas calçadas do trajeto, mas mantendo apenas a regra do passaporte vacinal, adotada em 2021."
+        "text": "Em 2022, a corrida volta aos seus moldes tradicionais como a presença de público pelas calçadas do trajeto, mas mantendo apenas a regra do passaporte vacinal, adotada em 2021.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2022, a corrida volta aos seus moldes tradicionais como a presença de público pelas calçadas do trajeto, mas mantendo apenas a regra do passaporte vacinal, adotada em 2021."
+          },
+          {
+            "type": "note",
+            "number": 23
+          }
+        ]
       }
     ]
   },
@@ -220,11 +495,31 @@
       },
       {
         "type": "p",
-        "text": "A primeira vencedora foi Christa Vahlensieck, que deu o título para a Alemanha. A primeira vencedora brasileira foi Carmem de Oliveira, somente em 1995, vinte anos após a estreia feminina na maratona. Porém, o maior destaque vai para a portuguesa Rosa Mota, que é recordista de títulos com seis vitórias seguidas nos anos de 1981, 1982, 1983, 1984, 1985 e 1986."
+        "text": "A primeira vencedora foi Christa Vahlensieck, que deu o título para a Alemanha. A primeira vencedora brasileira foi Carmem de Oliveira, somente em 1995, vinte anos após a estreia feminina na maratona. Porém, o maior destaque vai para a portuguesa Rosa Mota, que é recordista de títulos com seis vitórias seguidas nos anos de 1981, 1982, 1983, 1984, 1985 e 1986.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A primeira vencedora foi Christa Vahlensieck, que deu o título para a Alemanha. A primeira vencedora brasileira foi Carmem de Oliveira, somente em 1995, vinte anos após a estreia feminina na maratona. Porém, o maior destaque vai para a portuguesa Rosa Mota, que é recordista de títulos com seis vitórias seguidas nos anos de 1981, 1982, 1983, 1984, 1985 e 1986."
+          },
+          {
+            "type": "note",
+            "number": 24
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A participação de mulheres na São Silvestre aumentou, tendo na 91.ª edição da corrida 28,55% finalistas femininas, ou seja, 6 645 dos 23 268, sendo esse número extremamente representativo, pois em 1999 o número era oito vezes menor, tendo apenas 795 mulheres e 10 758 homens."
+        "text": "A participação de mulheres na São Silvestre aumentou, tendo na 91.ª edição da corrida 28,55% finalistas femininas, ou seja, 6 645 dos 23 268, sendo esse número extremamente representativo, pois em 1999 o número era oito vezes menor, tendo apenas 795 mulheres e 10 758 homens.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A participação de mulheres na São Silvestre aumentou, tendo na 91.ª edição da corrida 28,55% finalistas femininas, ou seja, 6 645 dos 23 268, sendo esse número extremamente representativo, pois em 1999 o número era oito vezes menor, tendo apenas 795 mulheres e 10 758 homens."
+          },
+          {
+            "type": "note",
+            "number": 25
+          }
+        ]
       }
     ]
   },
@@ -491,15 +786,57 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Idealizada por Júlio Deodoro, superintendente da Gazeta Esportiva, em 1994 foi criada a primeira versão infantil da São Silvestre, para crianças de ambos os sexos entre 6 e 16 anos de idade, denominada “São Silvestrinha”, com distâncias diferentes. Reveladora de grandes talentos, foi a responsável pelo surgimento para o atletismo de nomes como o do fundista Franck Caldeira, vencedor da edição de 2006 e medalha de ouro na maratona dos Jogos Pan-americanos de 2007 no Rio de Janeiro. A edição de 2012 foi disputada na pista de atletismo do Estádio Ícaro de Castro Mello, com distâncias variáveis entre os 50 e os 600 metros e a participação de cerca de 2 mil crianças. Em sua 23° edição, a São Silvestrinha, teve como inclusão social, a abertura de espaço para crianças com necessidades especiais"
+        "text": "Idealizada por Júlio Deodoro, superintendente da Gazeta Esportiva, em 1994 foi criada a primeira versão infantil da São Silvestre, para crianças de ambos os sexos entre 6 e 16 anos de idade, denominada “São Silvestrinha”, com distâncias diferentes. Reveladora de grandes talentos, foi a responsável pelo surgimento para o atletismo de nomes como o do fundista Franck Caldeira, vencedor da edição de 2006 e medalha de ouro na maratona dos Jogos Pan-americanos de 2007 no Rio de Janeiro. A edição de 2012 foi disputada na pista de atletismo do Estádio Ícaro de Castro Mello, com distâncias variáveis entre os 50 e os 600 metros e a participação de cerca de 2 mil crianças. Em sua 23° edição, a São Silvestrinha, teve como inclusão social, a abertura de espaço para crianças com necessidades especiais",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Idealizada por Júlio Deodoro, superintendente da Gazeta Esportiva, em 1994 foi criada a primeira versão infantil da São Silvestre, para crianças de ambos os sexos entre 6 e 16 anos de idade, denominada “São Silvestrinha”, com distâncias diferentes. Reveladora de grandes talentos, foi a responsável pelo surgimento para o atletismo de nomes como o do fundista Franck Caldeira, vencedor da edição de 2006 e medalha de ouro na maratona dos Jogos Pan-americanos de 2007 no Rio de Janeiro."
+          },
+          {
+            "type": "note",
+            "number": 38
+          },
+          {
+            "type": "text",
+            "text": " A edição de 2012 foi disputada na pista de atletismo do Estádio Ícaro de Castro Mello, com distâncias variáveis entre os 50 e os 600 metros e a participação de cerca de 2 mil crianças."
+          },
+          {
+            "type": "note",
+            "number": 39
+          },
+          {
+            "type": "text",
+            "text": " Em sua 23° edição, a São Silvestrinha, teve como inclusão social, a abertura de espaço para crianças com necessidades especiais"
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Isaque da Silva Lima é apenas um jovem de 17 anos, mas fez história. Na 24.ª edição da São Silvestrinha, o atleta do São Paulo foi o grande campeão da prova correspondente à sua idade, disputada pela primeira vez neste ano. Esta foi a segunda vez que Isaque participou do evento, conquistou sua segunda medalha neste ano."
+        "text": "Isaque da Silva Lima é apenas um jovem de 17 anos, mas fez história. Na 24.ª edição da São Silvestrinha, o atleta do São Paulo foi o grande campeão da prova correspondente à sua idade, disputada pela primeira vez neste ano. Esta foi a segunda vez que Isaque participou do evento, conquistou sua segunda medalha neste ano.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Isaque da Silva Lima é apenas um jovem de 17 anos, mas fez história. Na 24.ª edição da São Silvestrinha, o atleta do São Paulo foi o grande campeão da prova correspondente à sua idade, disputada pela primeira vez neste ano. Esta foi a segunda vez que Isaque participou do evento, conquistou sua segunda medalha neste ano."
+          },
+          {
+            "type": "note",
+            "number": 40
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A 24ª edição da corrida infanto-juvenil, organizada pela Fundação Cásper Líbero, ocorreu no dia 16 de Dezembro de 2017. Naquele ano puderam participar atletas nascidos entre os anos de 2001 e 2011."
+        "text": "A 24ª edição da corrida infanto-juvenil, organizada pela Fundação Cásper Líbero, ocorreu no dia 16 de Dezembro de 2017. Naquele ano puderam participar atletas nascidos entre os anos de 2001 e 2011.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A 24ª edição da corrida infanto-juvenil, organizada pela Fundação Cásper Líbero, ocorreu no dia 16 de Dezembro de 2017. Naquele ano puderam participar atletas nascidos entre os anos de 2001 e 2011."
+          },
+          {
+            "type": "note",
+            "number": 41
+          }
+        ]
       }
     ]
   },
@@ -1625,22 +1962,100 @@
     "level": "h2",
     "blocks": [
       {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Rosa Mota, seis vezes campeã.",
-          "Paul Tergat, cinco vezes campeão.",
-          "Robert Cheruiyot, 2002–2004–2007.",
-          "Frank Shorter, 1970.",
-          "Marílson Gomes dos Santos, 2003–2005–2010.",
-          "Priscah Jeptoo, 2011.",
-          "Olivera Jevtić, 1998 – 2005.",
-          "James Kwambai, 2008 – 2009.",
-          "Carlos Lopes, 1982-1984, último homem branco, europeu, de nacionalidade etnia portuguesa a ganhar a prova da São Silvestre.",
-          "Margaret Okayo, 2003.",
-          "Lucélia Peres, 2006.",
-          "Stanley Biwott, 2015"
-        ]
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Osaka07_RosaMota.jpg/120px-Osaka07_RosaMota.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Rosa Mota, seis vezes campeã.",
+        "caption": "Rosa Mota, seis vezes campeã.",
+        "width": 94,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/World_Food_Program_2.jpg/120px-World_Food_Program_2.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Paul Tergat, cinco vezes campeão.",
+        "caption": "Paul Tergat, cinco vezes campeão.",
+        "width": 82,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Cheruiyot.jpg/120px-Cheruiyot.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Robert Cheruiyot, 2002–2004–2007.",
+        "caption": "Robert Cheruiyot, 2002–2004–2007.",
+        "width": 120,
+        "height": 119
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Frank_Shorter_at_Boston_2002.jpg/120px-Frank_Shorter_at_Boston_2002.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Frank Shorter, 1970.",
+        "caption": "Frank Shorter, 1970.",
+        "width": 100,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Marilson2006.jpg/120px-Marilson2006.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Marílson Gomes dos Santos, 2003–2005–2010.",
+        "caption": "Marílson Gomes dos Santos, 2003–2005–2010.",
+        "width": 119,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/SMdL_20110410_46775_Priscah_Jeptoo-2.jpg/120px-SMdL_20110410_46775_Priscah_Jeptoo-2.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Priscah Jeptoo, 2011.",
+        "caption": "Priscah Jeptoo, 2011.",
+        "width": 79,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Olivera_Jevti%C4%87.jpg/120px-Olivera_Jevti%C4%87.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Olivera Jevtić, 1998 – 2005.",
+        "caption": "Olivera Jevtić, 1998 – 2005.",
+        "width": 90,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/James_Kipsang_Kwambai_2008.jpg/120px-James_Kipsang_Kwambai_2008.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "James Kwambai, 2008 – 2009.",
+        "caption": "James Kwambai, 2008 – 2009.",
+        "width": 80,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Carlos_Lopes2.jpg/120px-Carlos_Lopes2.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Carlos Lopes, 1982-1984, último homem branco, europeu, de nacionalidade etnia portuguesa a ganhar a prova da São Silvestre.",
+        "caption": "Carlos Lopes, 1982-1984, último homem branco, europeu, de nacionalidade etnia portuguesa a ganhar a prova da São Silvestre.",
+        "width": 81,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Margaret_Okayo_London_2005.jpg/120px-Margaret_Okayo_London_2005.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Margaret Okayo, 2003.",
+        "caption": "Margaret Okayo, 2003.",
+        "width": 116,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Lucelia_peres.jpg/120px-Lucelia_peres.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Lucélia Peres, 2006.",
+        "caption": "Lucélia Peres, 2006.",
+        "width": 80,
+        "height": 120
+      },
+      {
+        "type": "image",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Stanley_Biwott_during_2013_London_Marathon_%282%29.JPG/120px-Stanley_Biwott_during_2013_London_Marathon_%282%29.JPG?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "alt": "Stanley Biwott, 2015",
+        "caption": "Stanley Biwott, 2015",
+        "width": 101,
+        "height": 120
       }
     ]
   },
@@ -1693,13 +2108,245 @@
     "id": "-1",
     "heading": "Notas",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "Heitor Blasi era um italiano que morava no Brasil. Recebeu permissão para participar da prova, na época ainda sem participação de estrangeiros, e venceu duas vezes."
+          },
+          {
+            "number": 2,
+            "text": "Dawit Admasu venceu pela primeira vez em 2014 pela Etiópia. Porém, algum tempo depois, naturalizou-se bareinita."
+          },
+          {
+            "number": 3,
+            "text": "Desde que a corrida se tornou internacional."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "-1",
     "heading": "Referências",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 4,
+            "text": "«São Silvestre: de Rosa Mota a Paul Tergat, os grandes campeões». abril.com. Consultado em 28 de abril de 2013. Arquivado do original em 8 de julho de 2015"
+          },
+          {
+            "number": 5,
+            "text": "«São Silvestre: de Rosa Mota a Paul Tergat, os grandes campeões». abril.com. Consultado em 28 de abril de 2013"
+          },
+          {
+            "number": 6,
+            "text": "«São Silvestre: de Rosa Mota a Paul Tergat, os grandes campeões». abril.com. Consultado em 28 de abril de 2013. Cópia arquivada em 22 de novembro de 2015"
+          },
+          {
+            "number": 7,
+            "text": "«Cásper Líbero». Fundação Cásper Líbero. 16 de outubro de 2013. Cópia arquivada em 15 de junho de 2026"
+          },
+          {
+            "number": 8,
+            "text": "«Curiosidades sobre a São Silvestre». Pulso - O Globo. Consultado em 28 de abril de 2013. Cópia arquivada em 1 de janeiro de 2013"
+          },
+          {
+            "number": 9,
+            "text": "«Curiosidades». 15 de agosto de 2014. Consultado em 13 de setembro de 2016. Cópia arquivada em 6 de julho de 2017"
+          },
+          {
+            "number": 10,
+            "text": "«A vida de Zé João». jjseventos.com.br. Consultado em 28 de abril de 2013. Arquivado do original em 21 de março de 2012"
+          },
+          {
+            "number": 11,
+            "text": "«Campeões 1970's». saosilvestre.com.br. Consultado em 28 de abril de 2013. Cópia arquivada em 1 de março de 2014"
+          },
+          {
+            "number": 12,
+            "text": "«Campeões 90's». saosilvestre.com.br. Consultado em 28 de abril de 2013. Cópia arquivada em 1 de março de 2014"
+          },
+          {
+            "number": 13,
+            "text": "«São Silvestre: de Rosa Mota a Paul Tergat, os grandes campeões». abril.com. Consultado em 28 de abril de 2013. Cópia arquivada em 5 de março de 2016"
+          },
+          {
+            "number": 14,
+            "text": "«resultados 2006». UOL Esportes. Consultado em 28 de abril de 2013. Cópia arquivada em 15 de abril de 2017"
+          },
+          {
+            "number": 15,
+            "text": "«Queniana vence a São Silvestre 2011 quebrando o recorde da prova». globoesporte.com. Consultado em 28 de abril de 2013. Cópia arquivada em 29 de julho de 2023"
+          },
+          {
+            "number": 16,
+            "text": "«A tragédia e a insensibilidade na São Silvestre». Espiírito Olímpico. Consultado em 28 de abril de 2013. Cópia arquivada em 9 de fevereiro de 2013"
+          },
+          {
+            "number": 17,
+            "text": "«Inscrições da São Silvestre terminam com recorde de participantes». saosilvestre.com.br. Consultado em 28 de abril de 2013"
+          },
+          {
+            "number": 18,
+            "text": "«Africanos dominam São Silvestre com recorde de Jemima e sprint de Aleme». globoesporte.com. Cópia arquivada em 29 de julho de 2023"
+          },
+          {
+            "number": 19,
+            "text": "«Pé no chão: quenianos vão investir prêmio da São Silvestre nos treinos». globoesporte.com. Consultado em 26 de março de 2014. Cópia arquivada em 29 de julho de 2023"
+          },
+          {
+            "number": 20,
+            "text": "«São Silvestre é adiada para 2021 em razão da covid-19». R7.com. 22 de setembro de 2020. Consultado em 22 de setembro de 2020. Cópia arquivada em 29 de julho de 2023"
+          },
+          {
+            "number": 21,
+            "text": "Corrida de São Silvestre vai exigir o uso de máscaras | Repórter Brasil | TV Brasil | Notícias, 10 de dezembro de 2021, consultado em 10 de dezembro de 2021"
+          },
+          {
+            "number": 22,
+            "text": "«Prefeitura confirma São Silvestre com protocolos sanitários e diz que é cedo para decidir sobre Carnaval». Câmara Municipal de São Paulo. Consultado em 10 de dezembro de 2021. Cópia arquivada em 3 de dezembro de 2024"
+          },
+          {
+            "number": 23,
+            "text": "«97ª Corrida de São Silvestre – 2022». Esportividade. Consultado em 17 de dezembro de 2022. Cópia arquivada em 20 de maio de 2025"
+          },
+          {
+            "number": 24,
+            "text": "«Prova Feminina». 91˚ Corrida de São Silvestre. 31 de dezembro de 2013. Cópia arquivada em 4 de julho de 2017"
+          },
+          {
+            "number": 25,
+            "text": "«Mulheres batem recorde e devem ser maioria na São Silvestre até 2024». Esportividade - Guia de esporte de São Paulo e região. Cópia arquivada em 16 de outubro de 2025"
+          },
+          {
+            "number": 26,
+            "text": "«percurso». saosilvestre.com.br. Consultado em 27 de abril de 2013. Cópia arquivada em 23 de agosto de 2017"
+          },
+          {
+            "number": 27,
+            "text": "www.saosilvestre.com.br. «Campeões 1925-1929». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 28,
+            "text": "www.saosilvestre.com.br. «Campeões 1930-1939». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 29,
+            "text": "www.saosilvestre.com.br. «Campeões 1940-1949». Consultado em 2 de novembro de 2016. Cópia arquivada em 5 de janeiro de 2016"
+          },
+          {
+            "number": 30,
+            "text": "www.saosilvestre.com.br. «Campeões 1950-1959». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 31,
+            "text": "www.saosilvestre.com.br. «Campeões 1960-1969». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 32,
+            "text": "www.saosilvestre.com.br. «Campeões 1970-1979». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 33,
+            "text": "www.saosilvestre.com.br. «Campeões 1980-1989». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 34,
+            "text": "www.saosilvestre.com.br. «Campeões 1990-1999». Consultado em 2 de novembro de 2016. Cópia arquivada em 24 de abril de 2015"
+          },
+          {
+            "number": 35,
+            "text": "www.saosilvestre.com.br. «Campeões 2000-2009». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 36,
+            "text": "www.saosilvestre.com.br. «Campeões 2010». Consultado em 2 de novembro de 2016. Cópia arquivada em 2 de novembro de 2016"
+          },
+          {
+            "number": 37,
+            "text": "www.saosilvestre.com.br (13 de dezembro de 2016). «São Silvestre faz ajustes no percurso para sua 92ª edição». Consultado em 21 de dezembro de 2016. Cópia arquivada em 24 de dezembro de 2016"
+          },
+          {
+            "number": 38,
+            "text": "«A Prova». gazeta esportiva. Consultado em 28 de abril de 2013. Cópia arquivada em 26 de abril de 2015"
+          },
+          {
+            "number": 39,
+            "text": "«São Silvestrinha reúne 2 mil crianças e já projeta festa de 20 anos». gazeta esportiva. Consultado em 28 de abril de 2013. Cópia arquivada em 30 de dezembro de 2014"
+          },
+          {
+            "number": 40,
+            "text": "«São Silvestrinha abre espaço para crianças com necessidades especiais - Gazeta Esportiva». www.gazetaesportiva.com. Consultado em 26 de abril de 2017. Cópia arquivada em 27 de junho de 2017"
+          },
+          {
+            "number": 41,
+            "text": "«São Silvestrinha 2017». Esportividade. Consultado em 26 de abril de 2017. Cópia arquivada em 4 de dezembro de 2024"
+          },
+          {
+            "number": 42,
+            "text": "/www.saosilvestre.com.br. «Classificação 2013». Consultado em 3 de novembro de 2016. Cópia arquivada em 3 de novembro de 2016"
+          },
+          {
+            "number": 43,
+            "text": "«Relatório Geral Masculino». Cópia arquivada em 3 de novembro de 2016"
+          },
+          {
+            "number": 44,
+            "text": "Gazeta Esportiva. «Campeã olímpica vence a São Silvestre com recorde». Consultado em 31 de dezembro de 2016"
+          },
+          {
+            "number": 45,
+            "text": "Dawit Admasu, do Bahrein é bi da São Silvestre"
+          },
+          {
+            "number": 46,
+            "text": "«Etiópia e Quênia dominam a 94ª Corrida de São Silvestre no geral masculino e feminino». Globoesporte. Consultado em 31 de dezembro de 2018. Cópia arquivada em 16 de outubro de 2022"
+          },
+          {
+            "number": 47,
+            "text": "«Queniano vence e bate recorde da São Silvestre». Gazeta Esportiva. 31 de dezembro de 2019. Cópia arquivada em 18 de maio de 2026"
+          },
+          {
+            "number": 48,
+            "text": "«São Silvestre de julho é cancelada e corrida é marcada para 31 de dezembro». UOL. 14 de maio de 2021. Cópia arquivada em 3 de dezembro de 2024"
+          },
+          {
+            "number": 49,
+            "text": "Nascimento, Pedro Henrique Ciorlia (31 de dezembro de 2021). «Sandrafelis Tuei conquista a São Silvestre pela 2ª vez, e Jenifer do Nascimento fica em 3º». Gazeta Esportiva. Consultado em 31 de dezembro de 2023. Cópia arquivada em 21 de julho de 2025"
+          },
+          {
+            "number": 50,
+            "text": "«Belay Bezabh repete 2018 é bicampeão vence a 96 são silvestre». GazetaEsportiva.com. 31 de dezembro de 2021. Consultado em 31 de dezembro de 2021. Cópia arquivada em 1 de janeiro de 2023"
+          },
+          {
+            "number": 51,
+            "text": "«Atletas de Uganda e Quênia vencem a São Silvestre 2022». ge. Consultado em 31 de dezembro de 2022. Cópia arquivada em 28 de maio de 2023"
+          },
+          {
+            "number": 52,
+            "text": "redacaoterra. «Quênia domina a São Silvestre e vence prova masculina e feminina; jejum do Brasil aumenta». Terra. Consultado em 31 de dezembro de 2023. Cópia arquivada em 12 de agosto de 2025"
+          },
+          {
+            "number": 53,
+            "text": "«Brasileiro vai ao pódio, e queniano Wilson Too vence a 99ª edição da São Silvestre». Gazeta Esportiva. Consultado em 31 de dezembro de 2024. Cópia arquivada em 28 de abril de 2025"
+          },
+          {
+            "number": 54,
+            "text": "«Com brasileira em 3° lugar, Agnes Keino vence São Silvestre e mantém hegemonia do Quênia». Gazeta Esportiva. Consultado em 31 de dezembro de 2024. Cópia arquivada em 21 de abril de 2026"
+          },
+          {
+            "number": 55,
+            "text": "«Brasileira repete pódio e Sisilia Panga, da Tanzânia, vence a 100ª São Silvestre». Gazeta Esportiva. Consultado em 31 de dezembro de 2025. Cópia arquivada em 22 de fevereiro de 2026"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "-1",

@@ -5,74 +5,119 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Malhação 2017",
+        "image": {
+          "src": "https://thumb.wikimedia.org/wikipedia/pt/thumb/0/03/Logotipo_de_Malha%C3%A7%C3%A3o-_Viva_a_Diferen%C3%A7a.png/250px-Logotipo_de_Malha%C3%A7%C3%A3o-_Viva_a_Diferen%C3%A7a.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "alt": "",
+          "caption": "",
+          "width": 230,
+          "height": 129
+        },
         "rows": [
-          [
-            "Malhação 2017"
-          ],
-          [
-            "25.ª temporada"
-          ],
-          [
-            ""
-          ],
-          [
-            "Informações"
-          ],
-          [
-            "Elenco",
-            "Lista Gabriela MedvedovskyMatheus AbreuDaphne BozaskiAna HikariHeslaine VieiraManoela AlipertiCarol MacedoBruno GadiolJuan PaivaGiovanna GrigioVinicius WesterGabriel CalamariTalita YounanIsabella SchererHall Mendes(ver mais)"
-          ],
-          [
-            "País de origem",
-            "Brasil"
-          ],
-          [
-            "N.º de episódios",
-            "213"
-          ],
-          [
-            "Transmissão"
-          ],
-          [
-            "Emissora original",
-            "TV Globo"
-          ],
-          [
-            "Exibição original",
-            "8 de maio de 2017 –5 de março de 2018"
-          ],
-          [
-            "Cronologia das temporadas"
-          ],
-          [
-            "← Anterior24.ª temporada Seguinte →26.ª temporada"
-          ],
-          [
-            "← Anterior24.ª temporada",
-            "Seguinte →26.ª temporada"
-          ]
+          {
+            "label": "Elenco",
+            "value": "Lista Gabriela Medvedovsky Matheus Abreu Daphne Bozaski Ana Hikari Heslaine Vieira Manoela Aliperti Carol Macedo Bruno Gadiol Juan Paiva Giovanna Grigio Vinicius Wester Gabriel Calamari Talita Younan Isabella Scherer Hall Mendes (ver mais)"
+          },
+          {
+            "label": "País de origem",
+            "value": "Brasil"
+          },
+          {
+            "label": "N.º de episódios",
+            "value": "213"
+          },
+          {
+            "label": "Emissora original",
+            "value": "TV Globo"
+          },
+          {
+            "label": "Exibição original",
+            "value": "8 de maio de 2017 – 5 de março de 2018"
+          }
         ]
       },
       {
         "type": "p",
-        "text": "A vigésima quinta temporada da série de televisão brasileira Malhação foi produzida e exibida pela TV Globo de 8 de maio de 2017 a 5 de março de 2018, em 213 capítulos."
+        "text": "A vigésima quinta temporada da série de televisão brasileira Malhação foi produzida e exibida pela TV Globo de 8 de maio de 2017 a 5 de março de 2018, em 213 capítulos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A vigésima quinta temporada da série de televisão brasileira Malhação"
+          },
+          {
+            "type": "note",
+            "number": 1
+          },
+          {
+            "type": "text",
+            "text": " foi produzida e exibida pela TV Globo de 8 de maio de 2017 a 5 de março de 2018, em 213 capítulos."
+          },
+          {
+            "type": "note",
+            "number": 2
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Escrita por Cao Hamburger com a colaboração de Bruno Lima Penido, Cadu Machado, Carolina Ziskind, Jaqueline Vargas, Luciana Pessanha, Mário Viana, Renata Martins e Vítor Brandt, teve a supervisão de texto de Charles Peixoto. A direção foi de Alexandre Macedo, Caetano Caruso, Carlo Milani e Rafa Miranda, com direção geral e artística de Paulo Silvestrini."
+        "text": "Escrita por Cao Hamburger com a colaboração de Bruno Lima Penido, Cadu Machado, Carolina Ziskind, Jaqueline Vargas, Luciana Pessanha, Mário Viana, Renata Martins e Vítor Brandt, teve a supervisão de texto de Charles Peixoto. A direção foi de Alexandre Macedo, Caetano Caruso, Carlo Milani e Rafa Miranda, com direção geral e artística de Paulo Silvestrini.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Escrita por Cao Hamburger com a colaboração de Bruno Lima Penido, Cadu Machado, Carolina Ziskind, Jaqueline Vargas, Luciana Pessanha, Mário Viana, Renata Martins e Vítor Brandt, teve a supervisão de texto de Charles Peixoto. A direção foi de Alexandre Macedo, Caetano Caruso, Carlo Milani e Rafa Miranda, com direção geral e artística de Paulo Silvestrini."
+          },
+          {
+            "type": "note",
+            "number": 3
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Pela primeira vez Malhação foi ambientada em São Paulo, uma exigência do próprio autor, uma vez que as temporadas anteriores foram ambientadas no Rio de Janeiro."
+        "text": "Pela primeira vez Malhação foi ambientada em São Paulo, uma exigência do próprio autor, uma vez que as temporadas anteriores foram ambientadas no Rio de Janeiro.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Pela primeira vez Malhação foi ambientada em São Paulo, uma exigência do próprio autor, uma vez que as temporadas anteriores foram ambientadas no Rio de Janeiro."
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "note",
+            "number": 5
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Contou com as atuações de Gabriela Medvedovsky, Matheus Abreu, Ana Hikari, Daphne Bozaski, Heslaine Vieira, Manoela Aliperti, Lúcio Mauro Filho, Aline Fanju e Carol Macedo."
+        "text": "Contou com as atuações de Gabriela Medvedovsky, Matheus Abreu, Ana Hikari, Daphne Bozaski, Heslaine Vieira, Manoela Aliperti, Lúcio Mauro Filho, Aline Fanju e Carol Macedo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Contou com as atuações de Gabriela Medvedovsky, Matheus Abreu, Ana Hikari, Daphne Bozaski, Heslaine Vieira, Manoela Aliperti, Lúcio Mauro Filho, Aline Fanju e Carol Macedo."
+          },
+          {
+            "type": "note",
+            "number": 2
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2018, foi vencedora do Prêmio Emmy Kids Internacional de melhor série."
+        "text": "Em 2018, foi vencedora do Prêmio Emmy Kids Internacional de melhor série.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2018, foi vencedora do Prêmio Emmy Kids Internacional de melhor série."
+          },
+          {
+            "type": "note",
+            "number": 6
+          }
+        ]
       }
     ]
   },
@@ -81,15 +126,6 @@
     "heading": "Enredo",
     "level": "h2",
     "blocks": [
-      {
-        "type": "table",
-        "rows": [
-          [
-            "",
-            "Esta seção não cita fontes confiáveis. Ajude a inserir referências. Conteúdo não verificável pode ser removido.—Encontre fontes: Google (N • L • A • I • WP refs) • ABW • CAPES (março de 2022)"
-          ]
-        ]
-      },
       {
         "type": "p",
         "text": "No universo de São Paulo, cinco adolescentes que não se conheciam — Benê, Ellen, Lica, Tina e Keyla — veem-se presas em um vagão de metrô durante uma pane em um dia chuvoso."
@@ -144,7 +180,17 @@
       },
       {
         "type": "p",
-        "text": "As histórias, personalidades e vidas diferentes das cinco jovens se misturam à amizade desenvolvida por elas, que se mostram dispostas a se apoiarem mutuamente em suas lutas individuais contra as opressões e dilemas da juventude."
+        "text": "As histórias, personalidades e vidas diferentes das cinco jovens se misturam à amizade desenvolvida por elas, que se mostram dispostas a se apoiarem mutuamente em suas lutas individuais contra as opressões e dilemas da juventude.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "As histórias, personalidades e vidas diferentes das cinco jovens se misturam à amizade desenvolvida por elas, que se mostram dispostas a se apoiarem mutuamente em suas lutas individuais contra as opressões e dilemas da juventude."
+          },
+          {
+            "type": "note",
+            "number": 7
+          }
+        ]
       }
     ]
   },
@@ -546,7 +592,29 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Estreou em 8 de maio de 2017, substituindo Malhação: Pro Dia Nascer Feliz. Inicialmente, a temporada iria durar até abril de 2018, mas foi encurtada em um mês para não coincidir com a programação especial da Copa do Mundo de 2018. Assim, a temporada terminou em 5 de março de 2018, com 213 capítulos. Foi substituída por Malhação: Vidas Brasileiras."
+        "text": "Estreou em 8 de maio de 2017, substituindo Malhação: Pro Dia Nascer Feliz. Inicialmente, a temporada iria durar até abril de 2018, mas foi encurtada em um mês para não coincidir com a programação especial da Copa do Mundo de 2018. Assim, a temporada terminou em 5 de março de 2018, com 213 capítulos. Foi substituída por Malhação: Vidas Brasileiras.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Estreou em 8 de maio de 2017, substituindo Malhação: Pro Dia Nascer Feliz. Inicialmente, a temporada iria durar até abril de 2018, mas foi encurtada em um mês para não coincidir com a programação especial da Copa do Mundo de 2018."
+          },
+          {
+            "type": "note",
+            "number": 50
+          },
+          {
+            "type": "text",
+            "text": " Assim, a temporada terminou em 5 de março de 2018, com 213 capítulos."
+          },
+          {
+            "type": "note",
+            "number": 51
+          },
+          {
+            "type": "text",
+            "text": " Foi substituída por Malhação: Vidas Brasileiras."
+          }
+        ]
       }
     ]
   },
@@ -557,7 +625,33 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Foi reprisada de 6 de abril de 2020 até 22 de janeiro de 2021, ocupando o lugar de Malhação: Toda Forma de Amar. Inicialmente ficaria até a estreia da temporada inédita Malhação: Transformação, que teve suas gravações suspensas durante a pandemia de COVID-19. Como a produção dessa temporada foi suspensa até a melhora do cenário da pandemia, e teve a sua estreia adiada para 2022 e em seguida cancelada, a trama foi substituída pela reprise de Malhação Sonhos. A novela não foi exibida no dia 24 de abril de 2020, devido à cobertura completa do pronunciamento oficial do presidente Jair Bolsonaro sobre a demissão do ministro da Justiça Sergio Moro. Sendo assim, a reprise que teria 210 capítulos, fechou com 209."
+        "text": "Foi reprisada de 6 de abril de 2020 até 22 de janeiro de 2021, ocupando o lugar de Malhação: Toda Forma de Amar. Inicialmente ficaria até a estreia da temporada inédita Malhação: Transformação, que teve suas gravações suspensas durante a pandemia de COVID-19. Como a produção dessa temporada foi suspensa até a melhora do cenário da pandemia, e teve a sua estreia adiada para 2022 e em seguida cancelada, a trama foi substituída pela reprise de Malhação Sonhos. A novela não foi exibida no dia 24 de abril de 2020, devido à cobertura completa do pronunciamento oficial do presidente Jair Bolsonaro sobre a demissão do ministro da Justiça Sergio Moro. Sendo assim, a reprise que teria 210 capítulos, fechou com 209.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Foi reprisada de 6 de abril de 2020 até 22 de janeiro de 2021, ocupando o lugar de Malhação: Toda Forma de Amar. Inicialmente ficaria até a estreia da temporada inédita Malhação: Transformação, que teve suas gravações suspensas durante a pandemia de COVID-19. Como a produção dessa temporada foi suspensa até a melhora do cenário da pandemia, e teve a sua estreia adiada para 2022 e em seguida cancelada, a trama foi substituída pela reprise de Malhação Sonhos."
+          },
+          {
+            "type": "note",
+            "number": 52
+          },
+          {
+            "type": "note",
+            "number": 53
+          },
+          {
+            "type": "note",
+            "number": 54
+          },
+          {
+            "type": "text",
+            "text": " A novela não foi exibida no dia 24 de abril de 2020, devido à cobertura completa do pronunciamento oficial do presidente Jair Bolsonaro sobre a demissão do ministro da Justiça Sergio Moro. Sendo assim, a reprise que teria 210 capítulos, fechou com 209."
+          },
+          {
+            "type": "note",
+            "number": 55
+          }
+        ]
       }
     ]
   },
@@ -567,46 +661,55 @@
     "level": "h2",
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Malhação - Viva a Diferença",
+        "image": {
+          "src": "https://thumb.wikimedia.org/wikipedia/pt/thumb/a/a3/Malha%C3%A7%C3%A3o_Viva_a_Diferen%C3%A7a_-_Trilha_sonora.jpg/250px-Malha%C3%A7%C3%A3o_Viva_a_Diferen%C3%A7a_-_Trilha_sonora.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "alt": "",
+          "caption": "",
+          "width": 250,
+          "height": 250
+        },
         "rows": [
-          [
-            "Malhação - Viva a Diferença"
-          ],
-          [
-            ""
-          ],
-          [
-            "Trilha sonora de Vários artistas"
-          ],
-          [
-            "Lançamento",
-            "2 de junho de 2017"
-          ],
-          [
-            "Gravação",
-            "2017"
-          ],
-          [
-            "Gêneros",
-            "Indie rock pop hip hop"
-          ],
-          [
-            "Duração",
-            "54:19"
-          ],
-          [
-            "Idiomas",
-            "Português inglês"
-          ],
-          [
-            "Gravadora",
-            "Som Livre"
-          ]
+          {
+            "label": "Lançamento",
+            "value": "2 de junho de 2017"
+          },
+          {
+            "label": "Gravação",
+            "value": "2017"
+          },
+          {
+            "label": "Gêneros",
+            "value": "Indie rock, pop, hip hop"
+          },
+          {
+            "label": "Duração",
+            "value": "54:19"
+          },
+          {
+            "label": "Idiomas",
+            "value": "Português, inglês"
+          },
+          {
+            "label": "Gravadora",
+            "value": "Som Livre"
+          }
         ]
       },
       {
         "type": "p",
-        "text": "A trilha sonora oficial foi lançada em 2 de junho de 2017 e traz na capa Heslaine Vieira, Daphne Bozaski, Ana Hikari, Gabriela Medvedovski e Manoela Aliperti como Ellen, Benê, Tina, Keyla e Lica."
+        "text": "A trilha sonora oficial foi lançada em 2 de junho de 2017 e traz na capa Heslaine Vieira, Daphne Bozaski, Ana Hikari, Gabriela Medvedovski e Manoela Aliperti como Ellen, Benê, Tina, Keyla e Lica.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A trilha sonora oficial foi lançada em 2 de junho de 2017 e traz na capa Heslaine Vieira, Daphne Bozaski, Ana Hikari, Gabriela Medvedovski e Manoela Aliperti como Ellen, Benê, Tina, Keyla e Lica."
+          },
+          {
+            "type": "note",
+            "number": 56
+          }
+        ]
       },
       {
         "type": "table",
@@ -783,26 +886,22 @@
     "level": "h3",
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Malhação - Viva a Diferença - Música Original de Lucas Marcier, Fabiano Krieger e João Paulo Mendonça",
+        "image": null,
         "rows": [
-          [
-            "Malhação - Viva a Diferença - Música Original de Lucas Marcier, Fabiano Krieger e João Paulo Mendonça"
-          ],
-          [
-            "Trilha sonora de Lucas Marcier, Fabiano Krieger e João Paulo Mendonça"
-          ],
-          [
-            "Lançamento",
-            "fevereiro de 2018 (2018-02)"
-          ],
-          [
-            "Gênero",
-            "Música instrumental"
-          ],
-          [
-            "Gravadora",
-            "Som Livre"
-          ]
+          {
+            "label": "Lançamento",
+            "value": "fevereiro de 2018 (2018-02)"
+          },
+          {
+            "label": "Gênero",
+            "value": "Música instrumental"
+          },
+          {
+            "label": "Gravadora",
+            "value": "Som Livre"
+          }
         ]
       },
       {
@@ -860,19 +959,175 @@
     "blocks": [
       {
         "type": "p",
-        "text": "A trama registrou em sua estreia 20,5 pontos de média na Grande São Paulo, superior ao primeiro capítulo da temporada anterior. A temporada bateu seu primeiro recorde no dia 16 de maio de 2017, registrando 22 pontos. Bateu novamente seu recorde no dia 20 de junho cravando 24 pontos na Grande São Paulo. Sua maior audiência foi 24,6 pontos em 18 de julho. No capítulo em questão, Lica (Manoela Aliperti) recebe o apoio das amigas depois de ter sido agredida pelo pai na escola. Em outubro, 23 semanas após a estreia, a temporada obteve uma média semanal de aproximadamente 22 pontos na Grande São Paulo, uma das maiores audiências da história da atração."
+        "text": "A trama registrou em sua estreia 20,5 pontos de média na Grande São Paulo, superior ao primeiro capítulo da temporada anterior. A temporada bateu seu primeiro recorde no dia 16 de maio de 2017, registrando 22 pontos. Bateu novamente seu recorde no dia 20 de junho cravando 24 pontos na Grande São Paulo. Sua maior audiência foi 24,6 pontos em 18 de julho. No capítulo em questão, Lica (Manoela Aliperti) recebe o apoio das amigas depois de ter sido agredida pelo pai na escola. Em outubro, 23 semanas após a estreia, a temporada obteve uma média semanal de aproximadamente 22 pontos na Grande São Paulo, uma das maiores audiências da história da atração.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A trama registrou em sua estreia 20,5 pontos de média na Grande São Paulo, superior ao primeiro capítulo da temporada anterior. A temporada bateu seu primeiro recorde no dia 16 de maio de 2017, registrando 22 pontos."
+          },
+          {
+            "type": "note",
+            "number": 58
+          },
+          {
+            "type": "text",
+            "text": " Bateu novamente seu recorde no dia 20 de junho cravando 24 pontos na Grande São Paulo."
+          },
+          {
+            "type": "note",
+            "number": 59
+          },
+          {
+            "type": "text",
+            "text": " Sua maior audiência foi 24,6 pontos em 18 de julho."
+          },
+          {
+            "type": "note",
+            "number": 60
+          },
+          {
+            "type": "text",
+            "text": " No capítulo em questão, Lica (Manoela Aliperti) recebe o apoio das amigas depois de ter sido agredida pelo pai na escola."
+          },
+          {
+            "type": "note",
+            "number": 61
+          },
+          {
+            "type": "text",
+            "text": " Em outubro, 23 semanas após a estreia, a temporada obteve uma média semanal de aproximadamente 22 pontos na Grande São Paulo, uma das maiores audiências da história da atração."
+          },
+          {
+            "type": "note",
+            "number": 62
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Seu menor índice foi de 15 pontos registrado em 1 de janeiro de 2018. O último capítulo exibido em 5 de março registrou 20 pontos de média na Grande São Paulo e 22 pontos na Região Metropolitana do Rio de Janeiro. A média geral foi de 20,4 pontos, a melhor média de audiência das últimas nove temporadas da série."
+        "text": "Seu menor índice foi de 15 pontos registrado em 1 de janeiro de 2018. O último capítulo exibido em 5 de março registrou 20 pontos de média na Grande São Paulo e 22 pontos na Região Metropolitana do Rio de Janeiro. A média geral foi de 20,4 pontos, a melhor média de audiência das últimas nove temporadas da série.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Seu menor índice foi de 15 pontos registrado em 1 de janeiro de 2018."
+          },
+          {
+            "type": "note",
+            "number": 63
+          },
+          {
+            "type": "text",
+            "text": " O último capítulo exibido em 5 de março registrou 20 pontos de média na Grande São Paulo e 22 pontos na Região Metropolitana do Rio de Janeiro."
+          },
+          {
+            "type": "note",
+            "number": 64
+          },
+          {
+            "type": "text",
+            "text": " A média geral foi de 20,4 pontos, a melhor média de audiência das últimas nove temporadas da série."
+          },
+          {
+            "type": "note",
+            "number": 65
+          },
+          {
+            "type": "note",
+            "number": 66
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A trama reestreou em abril de 2020 com 18,1 pontos. O segundo capítulo cravou 21,2 pontos. Em 28 de abril de 2020, cravou 21,5 pontos. Nos primeiros 29 capítulos, a trama teve uma média de 19,6 pontos, menos do que a exibição original, que registrou 20,4 pontos, no entanto superando todas as outras onze últimas temporadas. Em 25 de junho de 2020, registrou 21,6 pontos. Em 10 de setembro de 2020, registrou 22,1 pontos, sua audiência mais alta. No capítulo em questão, Ellen (Heslaine Vieira) recebe uma homenagem em sua despedida do colégio Cora. Sua mais baixa audiência foi no dia 30 de dezembro, quando obteve 14,3 pontos."
+        "text": "A trama reestreou em abril de 2020 com 18,1 pontos. O segundo capítulo cravou 21,2 pontos. Em 28 de abril de 2020, cravou 21,5 pontos. Nos primeiros 29 capítulos, a trama teve uma média de 19,6 pontos, menos do que a exibição original, que registrou 20,4 pontos, no entanto superando todas as outras onze últimas temporadas. Em 25 de junho de 2020, registrou 21,6 pontos. Em 10 de setembro de 2020, registrou 22,1 pontos, sua audiência mais alta. No capítulo em questão, Ellen (Heslaine Vieira) recebe uma homenagem em sua despedida do colégio Cora. Sua mais baixa audiência foi no dia 30 de dezembro, quando obteve 14,3 pontos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A trama reestreou em abril de 2020 com 18,1 pontos."
+          },
+          {
+            "type": "note",
+            "number": 67
+          },
+          {
+            "type": "text",
+            "text": " O segundo capítulo cravou 21,2 pontos."
+          },
+          {
+            "type": "note",
+            "number": 68
+          },
+          {
+            "type": "text",
+            "text": " Em 28 de abril de 2020, cravou 21,5 pontos."
+          },
+          {
+            "type": "note",
+            "number": 69
+          },
+          {
+            "type": "text",
+            "text": " Nos primeiros 29 capítulos, a trama teve uma média de 19,6 pontos, menos do que a exibição original, que registrou 20,4 pontos, no entanto superando todas as outras onze últimas temporadas."
+          },
+          {
+            "type": "note",
+            "number": 70
+          },
+          {
+            "type": "text",
+            "text": " Em 25 de junho de 2020, registrou 21,6 pontos."
+          },
+          {
+            "type": "note",
+            "number": 71
+          },
+          {
+            "type": "text",
+            "text": " Em 10 de setembro de 2020, registrou 22,1 pontos, sua audiência mais alta."
+          },
+          {
+            "type": "note",
+            "number": 72
+          },
+          {
+            "type": "text",
+            "text": " No capítulo em questão, Ellen (Heslaine Vieira) recebe uma homenagem em sua despedida do colégio Cora."
+          },
+          {
+            "type": "note",
+            "number": 73
+          },
+          {
+            "type": "text",
+            "text": " Sua mais baixa audiência foi no dia 30 de dezembro, quando obteve 14,3 pontos."
+          },
+          {
+            "type": "note",
+            "number": 74
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "O último capítulo, exibido em 22 de janeiro de 2021, registrou 19,5 pontos. Teve média geral de 18,8 pontos, ficando atrás apenas da sua exibição original."
+        "text": "O último capítulo, exibido em 22 de janeiro de 2021, registrou 19,5 pontos. Teve média geral de 18,8 pontos, ficando atrás apenas da sua exibição original.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O último capítulo, exibido em 22 de janeiro de 2021, registrou 19,5 pontos."
+          },
+          {
+            "type": "note",
+            "number": 75
+          },
+          {
+            "type": "text",
+            "text": " Teve média geral de 18,8 pontos, ficando atrás apenas da sua exibição original."
+          },
+          {
+            "type": "note",
+            "number": 76
+          }
+        ]
       }
     ]
   },
@@ -883,7 +1138,21 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Em novembro de 2018 foi anunciado um spin-off da temporada, escrito por Cao Hamburger. A série, com o título de As Five, com produção original Globoplay, se passa seis anos depois do encerramento da temporada regular, com uma trama focada na vida adulta das personagens e os desafios deste período."
+        "text": "Em novembro de 2018 foi anunciado um spin-off da temporada, escrito por Cao Hamburger. A série, com o título de As Five, com produção original Globoplay, se passa seis anos depois do encerramento da temporada regular, com uma trama focada na vida adulta das personagens e os desafios deste período.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em novembro de 2018 foi anunciado um spin-off da temporada, escrito por Cao Hamburger. A série, com o título de As Five, com produção original Globoplay, se passa seis anos depois do encerramento da temporada regular, com uma trama focada na vida adulta das personagens e os desafios deste período."
+          },
+          {
+            "type": "note",
+            "number": 77
+          },
+          {
+            "type": "note",
+            "number": 78
+          }
+        ]
       }
     ]
   },
@@ -1015,13 +1284,385 @@
     "id": "-1",
     "heading": "Notas",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "estilizada como Malhação: Viva a Di≠erença."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "-1",
     "heading": "Referências",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 2,
+            "text": "Malhação, Viva a Diferença (2017)"
+          },
+          {
+            "number": 3,
+            "text": "Flávio Ricco (19 de junho de 2016). «São Paulo será palco de Malhação 2017 escrita por Cao Hamburger». UOL. Consultado em 14 de novembro de 2016. Cópia arquivada em 12 de novembro de 2025"
+          },
+          {
+            "number": 4,
+            "text": "Flávio Ricco (15 de novembro de 2016). «\"Malhação\" de Cao Hamburger será ambientada nas zonas Leste e Sul de SP». UOL. Consultado em 15 de novembro de 2016"
+          },
+          {
+            "number": 5,
+            "text": "«Aos 22 anos, Malhação muda para SP, mistura tribos e empodera a mulher». Notícias da TV. Consultado em 7 de maio de 2017"
+          },
+          {
+            "number": 6,
+            "text": "«'Malhação - Viva a Diferença' ganha o Emmy Internacional Kids». Gshow. 9 de abril de 2024. Consultado em 17 de outubro de 2024. Cópia arquivada em 20 de fevereiro de 2026"
+          },
+          {
+            "number": 7,
+            "text": "XAVIER, Nilson. «Malhação - Viva a Diferença. Sinopse.». Teledramaturgia. Consultado em 17 de outubro de 2024. Cópia arquivada em 10 de fevereiro de 2026"
+          },
+          {
+            "number": 8,
+            "text": "EXTRA (13 de setembro de 2017). «Lica descobre que Clara se automutila». EXTRA. Consultado em 24 de janeiro de 2018. Cópia arquivada em 25 de fevereiro de 2025"
+          },
+          {
+            "number": 9,
+            "text": "IG (15 de dezembro de 2017). «Assédio, álcool e drogas são novos temas abordados em Malhação». IG. Consultado em 25 de janeiro de 2018"
+          },
+          {
+            "number": 10,
+            "text": "«MALHAÇÃO: TATO DESCOBRE QUE SEU PAI SE TORNOU MORADOR DE RUA». RD1. 31 de maio de 2020. Consultado em 26 de junho de 2020"
+          },
+          {
+            "number": 11,
+            "text": "«Heslaine Vieira interpreta Ellen, um gênio da tecnologia». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 24 de fevereiro de 2025"
+          },
+          {
+            "number": 12,
+            "text": "«Conheça a história da gaúcha Gabriela Medvedovski, protagonista da nova temporada de \"Malhação\"». Zero Hora. 13 de março de 2017. Cópia arquivada em 16 de setembro de 2017"
+          },
+          {
+            "number": 13,
+            "text": "Bittencourt, Carla (30 de março de 2017). «Bailarina e cantora, Gabriela Medvedovski ganha papel de protagonista de 'Malhação'». Extra Online. Cópia arquivada em 22 de maio de 2023"
+          },
+          {
+            "number": 14,
+            "text": "«Gabriela Medvedovski é Keyla, uma mãe adolescente descolada». GShow. 3 de abril de 2017. Cópia arquivada em 7 de fevereiro de 2026"
+          },
+          {
+            "number": 15,
+            "text": "«De descendência japonesa, Ana Hikari, de 'Malhação', teve dificuldade em mergulhar na cultura nipônica». Extra Globo. Consultado em 8 de maio de 2017"
+          },
+          {
+            "number": 16,
+            "text": "«Ana Hikari interpreta Tina, uma menina super apaixonada pela arte». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 29 de maio de 2025"
+          },
+          {
+            "number": 17,
+            "text": "«Daphne Bozaski será Benê, uma menina que sofre para expressar suas emoções». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 29 de outubro de 2025"
+          },
+          {
+            "number": 18,
+            "text": "«Daphne Bozaski, a Benedita de 'Malhação - Viva a Diferença' manda recado para paranaenses». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 3 de julho de 2022"
+          },
+          {
+            "number": 19,
+            "text": "«Manoela Aliperti será Lica, rica alternativa que adora misturar os estilos». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 26 de fevereiro de 2025"
+          },
+          {
+            "number": 20,
+            "text": "«'Sósia' de Cauã Reymond, Matheus Abreu será mocinho de 'Malhação'». Extra Globo. Consultado em 8 de maio de 2017"
+          },
+          {
+            "number": 21,
+            "text": "«Giovanna Grigio fará a nova temporada de 'MALHAÇÃO'». O Globo - Patrícia Kogut. Consultado em 24 de abril de 2017 [ligação inativa]"
+          },
+          {
+            "number": 22,
+            "text": "Gshow (2017). «Guto (Bruno Gadiol)». Gshow. Consultado em 7 de janeiro de 2018"
+          },
+          {
+            "number": 23,
+            "text": "«Carol Macedo e Talita Younan vivem dupla que promete agitar 'Malhação - Viva a Diferença'!». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 3 de dezembro de 2024"
+          },
+          {
+            "number": 24,
+            "text": "«Talita Younan, a vilã K1 de 'Malhação', promete: 'Vai colocar fogo no parquinho». Purepeople. Consultado em 15 de maio de 2017. Cópia arquivada em 15 de setembro de 2025"
+          },
+          {
+            "number": 25,
+            "text": "Gshow (2017). «Jota (Hall Mendes)». Gshow. Consultado em 7 de janeiro de 2018"
+          },
+          {
+            "number": 26,
+            "text": "«Lúcio Mauro Filho será um ex-cantor e pai adolescente em 'Malhação'». Extra.com. Consultado em 6 de Março de 2017"
+          },
+          {
+            "number": 27,
+            "text": "«Lúcio Mauro Filho interpretará pai adolescente e avô precoce em \"Malhação – Viva as Diferenças\"». RD1.com. Consultado em 6 de Março de 2017"
+          },
+          {
+            "number": 28,
+            "text": "«Lúcio Mauro Filho é o ex-cantor Roney em 'Malhação': 'Fábio Jr foi inspiração'». Purepeople. Consultado em 8 de maio de 2017. Arquivado do original em 19 de outubro de 2017"
+          },
+          {
+            "number": 29,
+            "text": "«Lúcio Mauro Filho retorna à 'Malhação' depois de participação há 20 anos». Gshow.com. Consultado em 8 de maio de 2017. Cópia arquivada em 9 de abril de 2025"
+          },
+          {
+            "number": 30,
+            "text": "«Aline Fanju é a independente Josefina de 'Malhação': 'Mulher empoderada'». Purepeople. Consultado em 8 de maio de 2017. Arquivado do original em 27 de agosto de 2017"
+          },
+          {
+            "number": 31,
+            "text": "«Marcello Antony e Malu Galli serão ex-casal em 'Malhação'». Extra Globo. Consultado em 8 de maio de 2017"
+          },
+          {
+            "number": 32,
+            "text": "«Daniela Galli comemora volta à Globo após 10 anos». UOL Na Telinha. Consultado em 8 de maio de 2017 [ligação inativa]"
+          },
+          {
+            "number": 33,
+            "text": "«Malu Galli e Ângelo Antônio serão um par na nova 'Malhação'». Extra Globo. Consultado em 8 de maio de 2017"
+          },
+          {
+            "number": 34,
+            "text": "«Protagonista de \"Pedro & Bianca\" fará garoto problema em \"Malhação\"». UOL. Consultado em 8 de dezembro 2017. Cópia arquivada em 10 de março de 2026"
+          },
+          {
+            "number": 35,
+            "text": "Gshow (2017). «Gabriel». Gshow. Consultado em 26 de dezembro de 2017"
+          },
+          {
+            "number": 36,
+            "text": "Camila Junqueira (2017). «Novo ator entra em Malhação». VIX. Consultado em 26 de dezembro de 2017"
+          },
+          {
+            "number": 37,
+            "text": "NTV (25 de abril de 2017). «Mikael Marmorato é Juca EM NOVA Malhação». NTV. Consultado em 7 de janeiro de 2018"
+          },
+          {
+            "number": 38,
+            "text": "Gshow (2017). «Juca (Mikael Marmorato». Gshow. Consultado em 7 de janeiro de 2018"
+          },
+          {
+            "number": 39,
+            "text": "«Bruno Kott fica em 'Malhação' até o fim da trama». Jornal Extra. Consultado em 8 de dezembro 2017"
+          },
+          {
+            "number": 40,
+            "text": "«Felipe Hintze volta ao ar em 'Malhação' e fala de dieta». O Globo - Patrícia Kogut. Consultado em 24 de abril de 2017. Cópia arquivada em 24 de fevereiro de 2025"
+          },
+          {
+            "number": 41,
+            "text": "«\"Malhação\": Tato e K2 tomam suspensão da escola após flagra íntimo». RD1. Consultado em 8 de dezembro 2017"
+          },
+          {
+            "number": 42,
+            "text": "RD1 (12 de janeiro de 2018). «Marcelo Arnal entrará em \"Malhação\" para viver novo vilão». RD1. Consultado em 26 de janeiro de 2018"
+          },
+          {
+            "number": 43,
+            "text": "extra (11 de janeiro de 2018). «Marcelo Arnal será o homofóbico Rafa em 'Malhação'». extra. Consultado em 26 de janeiro de 2018. Cópia arquivada em 1 de janeiro de 2026"
+          },
+          {
+            "number": 44,
+            "text": "uol (25 de janeiro de 2018). «Jogador da seleção celebra estreia da irmã em \"Malhação\"». uol. Consultado em 26 de janeiro de 2018. Cópia arquivada em 8 de dezembro de 2025"
+          },
+          {
+            "number": 45,
+            "text": "«Exclusivo: Brenda Sabryna reforça o elenco de \"Malhação\"». Notícias da TV. Consultado em 8 de dezembro 2017. Cópia arquivada em 23 de fevereiro de 2025"
+          },
+          {
+            "number": 46,
+            "text": "«Carolina Iecker celebra participação na nova Malhação: 'Trabalho especial'». O Fuxico. Consultado em 20 de maio de 2017"
+          },
+          {
+            "number": 47,
+            "text": "«Bruna Tatar em \"Malhação\"». Agência Sagarana. Consultado em 8 de dezembro 2017 [ligação inativa]"
+          },
+          {
+            "number": 48,
+            "text": "«'Malhação': K2 compra urina de grávida para dar golpe da barriga em Tato». Jornal Extra. Consultado em 8 de dezembro 2017"
+          },
+          {
+            "number": 49,
+            "text": "Vasconcelos, Monique (23 de abril de 2017). «MC Guimê grava participação em 'Viva a Diferença'». GShow. Consultado em 29 de abril de 2017. Cópia arquivada em 3 de julho de 2022"
+          },
+          {
+            "number": 50,
+            "text": "«Temporada de Malhação – Viva a Diferença é encurtada»"
+          },
+          {
+            "number": 51,
+            "text": "«Autor entrega últimos capítulos de Malhação – Viva a Diferença». Cópia arquivada em 17 de outubro de 2021"
+          },
+          {
+            "number": 52,
+            "text": "Ricco, Flávio (16 de março de 2020). «Globo vai exibir Fina Estampa, de Aguinaldo Silva, no lugar de Amor de Mãe». UOL. Consultado em 16 de março de 2020. Cópia arquivada em 12 de outubro de 2025"
+          },
+          {
+            "number": 53,
+            "text": "«Globo cancela 'Malhação Transformação' em 2021». Extra Online. Consultado em 8 de dezembro de 2020. Cópia arquivada em 8 de fevereiro de 2023"
+          },
+          {
+            "number": 54,
+            "text": "«Globo decide reprisar Malhação Sonhos no lugar de Viva a Diferença - Novelas». NaTelinha. Consultado em 8 de dezembro de 2020. Cópia arquivada em 23 de fevereiro de 2025"
+          },
+          {
+            "number": 55,
+            "text": "«Coletiva bombástica de Moro impulsiona audiência dos canais». Portal Terra. 24 de abril de 2020. Consultado em 5 de agosto de 2020. Cópia arquivada em 24 de fevereiro de 2025"
+          },
+          {
+            "number": 56,
+            "text": "«Trilha sonora de 'Viva a Diferença' tem Karol Conká, Ed Sheeran e The Cure». Gshow. Cópia arquivada em 7 de abril de 2024"
+          },
+          {
+            "number": 57,
+            "text": "«'Malhação' terá trilha de fábio jr.». 'Malhação' terá trilha de fábio jr. Cópia arquivada em 20 de julho de 2017"
+          },
+          {
+            "number": 58,
+            "text": "«\"Malhação - Viva a Diferença\" bate recorde de audiência nesta terça». NaTelinha"
+          },
+          {
+            "number": 59,
+            "text": "«'A força do querer' registra recorde em São Paulo, com 38 pontos - Patrícia Kogut, O Globo». Patrícia Kogut"
+          },
+          {
+            "number": 60,
+            "text": "«Com frente fria, Malhação e A Força do Querer batem recorde». Notícias da TV. Cópia arquivada em 8 de outubro de 2025"
+          },
+          {
+            "number": 61,
+            "text": "«Resumo de 'Malhação' de terça-feira, 18 de julho». Gshow. Cópia arquivada em 30 de junho de 2021"
+          },
+          {
+            "number": 62,
+            "text": "«\"Malhação\" acumula uma das maiores audiências de toda a história da atração». UOL. Cópia arquivada em 3 de dezembro de 2024"
+          },
+          {
+            "number": 63,
+            "text": "«Consolidados de segunda-feira, 01/01/2018 - Audiência e Média-dia». Sobre TV"
+          },
+          {
+            "number": 64,
+            "text": "«Globo tem dia de novos recordes com novelas; veja detalhes». UOL. Consultado em 8 de agosto de 2018"
+          },
+          {
+            "number": 65,
+            "text": "«Malhação: Viva a Diferença termina trajetória como a melhor Malhação de todos os tempos». Observatório da TV. Cópia arquivada em 30 de abril de 2023"
+          },
+          {
+            "number": 66,
+            "text": "«\"Malhação - Viva a Diferença\" bate recorde e tem uma das melhores audiências dos últimos anos!». Terra. Consultado em 8 de agosto de 2018. Cópia arquivada em 13 de dezembro de 2019"
+          },
+          {
+            "number": 67,
+            "text": "«De madrugada, Hora Um dá mais audiência que Fala Brasil». NaTelinha. Consultado em 7 de abril de 2020. Cópia arquivada em 5 de dezembro de 2025"
+          },
+          {
+            "number": 68,
+            "text": "«Avenida Brasil bate recorde histórico e é mais sintonizada do que novela das sete». Notícias da TV. Consultado em 8 de abril de 2020. Cópia arquivada em 6 de agosto de 2020"
+          },
+          {
+            "number": 69,
+            "text": "«Encontro tem melhor audiência do ano com entrevista de Thelma, vencedora do BBB20». Notícias da TV. Consultado em 30 de abril de 2020. Cópia arquivada em 24 de fevereiro de 2025"
+          },
+          {
+            "number": 70,
+            "text": "«Malhação: Reprise de Viva a Diferença só perde para original e supera 11 temporadas». Na Telinha. Consultado em 26 de junho de 2020. Cópia arquivada em 14 de julho de 2025"
+          },
+          {
+            "number": 71,
+            "text": "«The Good Doctor chega como antídoto para acabar com as quintas de terror da Globo». Notícias da TV - UOL. Consultado em 26 de junho de 2020. Cópia arquivada em 29 de junho de 2020"
+          },
+          {
+            "number": 72,
+            "text": "«Reprise de Malhação - Viva a Diferença bate recorde no Ibope». Na Telinha. Consultado em 22 de setembro de 2020. Cópia arquivada em 17 de fevereiro de 2026"
+          },
+          {
+            "number": 73,
+            "text": "«Malhação: Resumo do capítulo de hoje, quinta-feira, 10 de setembro». UOL. Cópia arquivada em 23 de fevereiro de 2025"
+          },
+          {
+            "number": 74,
+            "text": "Redação; TV, Memoria da (31 de dezembro de 2020). «Confira os dados de audiência consolidados das principais emissoras de TV desta quarta-feira, dia 30 de dezembro de 2020». Memoria da TV. Consultado em 31 de dezembro de 2020"
+          },
+          {
+            "number": 75,
+            "text": "«Novelas mexicanas do SBT ameaçam Cidade Alerta». TV Pop. 25 de janeiro de 2021. Consultado em 25 de janeiro de 2021. Cópia arquivada em 6 de dezembro de 2025"
+          },
+          {
+            "number": 76,
+            "text": "«Reprise de 'Malhação: Viva a diferença' chega ao fim com 19 pontos em SP e 22 no Rio - Patrícia Kogut, O Globo». Patrícia Kogut. Consultado em 25 de janeiro de 2021. Cópia arquivada em 24 de fevereiro de 2025"
+          },
+          {
+            "number": 77,
+            "text": "«Fenômeno de audiência, Malhação - Viva a Diferença vira série adulta na Globo». Notícias da TV. 26 de novembro de 2018. Cópia arquivada em 24 de março de 2026"
+          },
+          {
+            "number": 78,
+            "text": "‘As Five’: Nova série original Globoplay retrata a chamada Geração Z no universo do Brasil atual"
+          },
+          {
+            "number": 79,
+            "text": "Nilson Xavier (24 de novembro de 2017). «A Força do Querer e Sob Pressão lideram as indicações ao prêmio APCA de TV». UOL"
+          },
+          {
+            "number": 80,
+            "text": "«Vencedores do Prêmio Contigo! Online 2017». Contigo. Consultado em 5 de abril de 2019. Cópia arquivada em 29 de janeiro de 2018"
+          },
+          {
+            "number": 81,
+            "text": "«Público elege os \"Melhores do Ano NaTelinha 2017\"; conheça os vencedores». Na Telinha. Consultado em 6 de abril de 2019"
+          },
+          {
+            "number": 82,
+            "text": "«Conheça os indicados ao Prêmio Extra de Televisão 2017». Extra. Consultado em 5 de abril de 2019. Cópia arquivada em 8 de março de 2026"
+          },
+          {
+            "number": 83,
+            "text": "«CONFIRA OS GANHADORES DO PRÊMIO JOVEM BRASILEIRO, MAIOR PREMIAÇÃO JOVEM DO MUNDO!». Woods FM. Consultado em 5 de abril de 2019. Cópia arquivada em 18 de fevereiro de 2019"
+          },
+          {
+            "number": 84,
+            "text": "«Troféu Internet Ganhadores de 2017». SBT. 5 de março de 2018"
+          },
+          {
+            "number": 85,
+            "text": "«II PRÊMIO ABRA REVELA SEUS VENCEDORES». Abra.art. Consultado em 5 de abril de 2019"
+          },
+          {
+            "number": 86,
+            "text": "«Troféu UOL TV e Famosos: Críticos revelam os melhores da televisão em 2018». UOL. Consultado em 6 de abril de 2019. Cópia arquivada em 28 de fevereiro de 2026"
+          },
+          {
+            "number": 87,
+            "text": "«Qual foi a melhor novela brasileira de 2018». UOL. Consultado em 6 de abril de 2019. Cópia arquivada em 20 de maio de 2026"
+          },
+          {
+            "number": 88,
+            "text": "«Malhação, Viva a Diferença é finalista de premiação mundial na Alemanha». Observatório da Televisão. Consultado em 5 de abril de 2019"
+          },
+          {
+            "number": 89,
+            "text": "«Prize Winners» (PDF). Prix Jeunesse International. Consultado em 5 de abril de 2019. Cópia arquivada (PDF) em 6 de abril de 2019"
+          },
+          {
+            "number": 90,
+            "text": "«'Malhação: Viva a Diferença' vence prêmio no Emmy Internacional Kids». Rede Globo. 9 de abril de 2019. Cópia arquivada em 26 de abril de 2023"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "13",

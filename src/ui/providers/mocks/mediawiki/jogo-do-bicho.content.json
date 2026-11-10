@@ -7,25 +7,326 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Jogo_do_Bicho%2C_Feira_de_S%C3%A3o_Joaquim%2C_Salvador%2C_BA%2C_14-02-2023_%28cropped%29.jpg/250px-Jogo_do_Bicho%2C_Feira_de_S%C3%A3o_Joaquim%2C_Salvador%2C_BA%2C_14-02-2023_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1600,
-        "height": 2025,
-        "caption": "Cartaz contendo os animais do jogo do bicho em Salvador"
+        "alt": "",
+        "caption": "Cartaz contendo os animais do jogo do bicho em Salvador",
+        "width": 250,
+        "height": 316
       },
       {
         "type": "p",
-        "text": "O jogo do bicho é uma modalidade de loteria ilegal amplamente difundida no Brasil, organizada de maneira informal e não regulamentada no país. Baseado na associação de números a 25 animais, o jogo permite apostas em diferentes combinações numéricas ou em animais específicos. Cada um dos 25 animais tem quatro números correspondentes, e as opções de apostas e premiações variam conforme as combinações vencedoras. A loteria surgiu no Rio de Janeiro em 1892, criada por João Batista Viana Drummond, proprietário do Jardim Zoológico de Vila Isabel, com autorização do poder público. Inicialmente consistia em sorteios diários realizados dentro do zoológico, com os visitantes recebendo bilhetes contendo imagens de animais. Sua fama levou à expansão do jogo de azar para fora do parque, com bilhetes vendidos em diversos pontos da cidade. Embora não seja possível precisar quando ocorreu, a partir de algum momento, começou-se a estabelecer uma ligação entre os bichos e números, surgindo os 25 grupos compostos por quatro dezenas que se tornaram a norma do jogo."
+        "text": "O jogo do bicho é uma modalidade de loteria ilegal amplamente difundida no Brasil, organizada de maneira informal e não regulamentada no país. Baseado na associação de números a 25 animais, o jogo permite apostas em diferentes combinações numéricas ou em animais específicos. Cada um dos 25 animais tem quatro números correspondentes, e as opções de apostas e premiações variam conforme as combinações vencedoras. A loteria surgiu no Rio de Janeiro em 1892, criada por João Batista Viana Drummond, proprietário do Jardim Zoológico de Vila Isabel, com autorização do poder público. Inicialmente consistia em sorteios diários realizados dentro do zoológico, com os visitantes recebendo bilhetes contendo imagens de animais. Sua fama levou à expansão do jogo de azar para fora do parque, com bilhetes vendidos em diversos pontos da cidade. Embora não seja possível precisar quando ocorreu, a partir de algum momento, começou-se a estabelecer uma ligação entre os bichos e números, surgindo os 25 grupos compostos por quatro dezenas que se tornaram a norma do jogo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O jogo do bicho é uma modalidade de loteria ilegal amplamente difundida no Brasil, organizada de maneira informal e não regulamentada no país. Baseado na associação de números a 25 animais, o jogo permite apostas em diferentes combinações numéricas ou em animais específicos."
+          },
+          {
+            "type": "note",
+            "number": 2
+          },
+          {
+            "type": "text",
+            "text": " Cada um dos 25 animais tem quatro números correspondentes, e as opções de apostas e premiações variam conforme as combinações vencedoras."
+          },
+          {
+            "type": "note",
+            "number": 3
+          },
+          {
+            "type": "text",
+            "text": " A loteria surgiu no Rio de Janeiro em 1892, criada por João Batista Viana Drummond, proprietário do Jardim Zoológico de Vila Isabel, com autorização do poder público."
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "text",
+            "text": " Inicialmente consistia em sorteios diários realizados dentro do zoológico, com os visitantes recebendo bilhetes contendo imagens de animais."
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "text",
+            "text": " Sua fama levou à expansão do jogo de azar para fora do parque, com bilhetes vendidos em diversos pontos da cidade."
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "note",
+            "number": 9
+          },
+          {
+            "type": "text",
+            "text": " Embora não seja possível precisar quando ocorreu, a partir de algum momento, começou-se a estabelecer uma ligação entre os bichos e números, surgindo os 25 grupos compostos por quatro dezenas que se tornaram a norma do jogo."
+          },
+          {
+            "type": "note",
+            "number": 10
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Apesar de proibido em 1895 no Rio de Janeiro e criminalizado em todo o Brasil por decreto-lei desde 1946, o jogo do bicho nunca desapareceu. A partir de então, se estruturou enquanto negócio ilícito, organizando-se por redes informais dominadas por \"banqueiros do bicho\" e com emprego de vasta força de trabalho. Sua grande popularidade — fundamentada na imagem de confiança dos seus resultados, particularmente nos jargões \"vale o escrito\" e \"ganhou, leva\" — e sua ampla difusão tornaram a repressão total impraticável, resultando em uma coexistência ambígua com os meios legais e institucionais."
+        "text": "Apesar de proibido em 1895 no Rio de Janeiro e criminalizado em todo o Brasil por decreto-lei desde 1946, o jogo do bicho nunca desapareceu. A partir de então, se estruturou enquanto negócio ilícito, organizando-se por redes informais dominadas por \"banqueiros do bicho\" e com emprego de vasta força de trabalho. Sua grande popularidade — fundamentada na imagem de confiança dos seus resultados, particularmente nos jargões \"vale o escrito\" e \"ganhou, leva\" — e sua ampla difusão tornaram a repressão total impraticável, resultando em uma coexistência ambígua com os meios legais e institucionais.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Apesar de proibido em 1895 no Rio de Janeiro e criminalizado em todo o Brasil por decreto-lei desde 1946, o jogo do bicho nunca desapareceu."
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "note",
+            "number": 12
+          },
+          {
+            "type": "text",
+            "text": " A partir de então, se estruturou enquanto negócio ilícito, organizando-se por redes informais dominadas por \"banqueiros do bicho\" e com emprego de vasta força de trabalho."
+          },
+          {
+            "type": "note",
+            "number": 13
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "text",
+            "text": " Sua grande popularidade — fundamentada na imagem de confiança dos seus resultados, particularmente nos jargões \"vale o escrito\" e \"ganhou, leva\""
+          },
+          {
+            "type": "note",
+            "number": 15
+          },
+          {
+            "type": "text",
+            "text": " — e sua ampla difusão tornaram a repressão total impraticável, resultando em uma coexistência ambígua com os meios legais e institucionais."
+          },
+          {
+            "type": "note",
+            "number": 16
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "note",
+            "number": 18
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Ao longo do século XX, sua relação com o poder público foi marcada por uma dinâmica de tolerância, repressão seletiva e corrupção institucionalizada. Progressivamente a atividade foi organizando-se até sua consolidação como um empreendimento capitalista a partir da cartelização de apostas e prêmios, da unificação de critérios de sorteios, da aplicação de capitais em outras atividades e procedimentos sofisticados de lavagem de dinheiro, e do aprimoramento da interação, infiltração e cooptação do poder público típicas de máfias internacionais. Durante a ditadura militar, a contravenção não apenas manteve sua expansão econômica, mas se firmou como uma organização criminosa e estabeleceu uma colaboração tácita com o regime autocrático. No período democrático, apesar das investigações e operações federais, a loteria ilegal manteve sua força, alimentada por uma complexa rede de corrupção envolvendo políticos, juízes, policiais e empresários, além de manobras legais que garantiam a impunidade dos bicheiros. Banqueiros do bicho também estiveram associados a práticas de lavagem de dinheiro e financiamento de escolas de samba e, em menor intensidade, clubes de futebol. Ao final do século XX, o jogo havia se consolidado no estado do Rio de Janeiro e se espalhado por outras unidades federativas do país, com aplicação da lei variando entre repressão e tolerância. Desde 1967, a Paraíba é o único estado onde a atividade é regulamentada."
+        "text": "Ao longo do século XX, sua relação com o poder público foi marcada por uma dinâmica de tolerância, repressão seletiva e corrupção institucionalizada. Progressivamente a atividade foi organizando-se até sua consolidação como um empreendimento capitalista a partir da cartelização de apostas e prêmios, da unificação de critérios de sorteios, da aplicação de capitais em outras atividades e procedimentos sofisticados de lavagem de dinheiro, e do aprimoramento da interação, infiltração e cooptação do poder público típicas de máfias internacionais. Durante a ditadura militar, a contravenção não apenas manteve sua expansão econômica, mas se firmou como uma organização criminosa e estabeleceu uma colaboração tácita com o regime autocrático. No período democrático, apesar das investigações e operações federais, a loteria ilegal manteve sua força, alimentada por uma complexa rede de corrupção envolvendo políticos, juízes, policiais e empresários, além de manobras legais que garantiam a impunidade dos bicheiros. Banqueiros do bicho também estiveram associados a práticas de lavagem de dinheiro e financiamento de escolas de samba e, em menor intensidade, clubes de futebol. Ao final do século XX, o jogo havia se consolidado no estado do Rio de Janeiro e se espalhado por outras unidades federativas do país, com aplicação da lei variando entre repressão e tolerância. Desde 1967, a Paraíba é o único estado onde a atividade é regulamentada.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Ao longo do século XX, sua relação com o poder público foi marcada por uma dinâmica de tolerância, repressão seletiva e corrupção institucionalizada."
+          },
+          {
+            "type": "note",
+            "number": 19
+          },
+          {
+            "type": "note",
+            "number": 20
+          },
+          {
+            "type": "note",
+            "number": 21
+          },
+          {
+            "type": "note",
+            "number": 22
+          },
+          {
+            "type": "text",
+            "text": " Progressivamente a atividade foi organizando-se até sua consolidação como um empreendimento capitalista a partir da cartelização de apostas e prêmios, da unificação de critérios de sorteios, da aplicação de capitais em outras atividades e procedimentos sofisticados de lavagem de dinheiro, e do aprimoramento da interação, infiltração e cooptação do poder público típicas de máfias internacionais."
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "note",
+            "number": 22
+          },
+          {
+            "type": "note",
+            "number": 23
+          },
+          {
+            "type": "text",
+            "text": " Durante a ditadura militar, a contravenção não apenas manteve sua expansão econômica, mas se firmou como uma organização criminosa e estabeleceu uma colaboração tácita com o regime autocrático."
+          },
+          {
+            "type": "note",
+            "number": 24
+          },
+          {
+            "type": "note",
+            "number": 25
+          },
+          {
+            "type": "note",
+            "number": 26
+          },
+          {
+            "type": "note",
+            "number": 27
+          },
+          {
+            "type": "text",
+            "text": " No período democrático, apesar das investigações e operações federais, a loteria ilegal manteve sua força, alimentada por uma complexa rede de corrupção envolvendo políticos, juízes, policiais e empresários, além de manobras legais que garantiam a impunidade dos bicheiros."
+          },
+          {
+            "type": "note",
+            "number": 21
+          },
+          {
+            "type": "note",
+            "number": 28
+          },
+          {
+            "type": "text",
+            "text": " Banqueiros do bicho também estiveram associados a práticas de lavagem de dinheiro e financiamento de escolas de samba e, em menor intensidade, clubes de futebol."
+          },
+          {
+            "type": "note",
+            "number": 29
+          },
+          {
+            "type": "note",
+            "number": 30
+          },
+          {
+            "type": "text",
+            "text": " Ao final do século XX, o jogo havia se consolidado no estado do Rio de Janeiro e se espalhado por outras unidades federativas do país, com aplicação da lei variando entre repressão e tolerância. Desde 1967, a Paraíba é o único estado onde a atividade é regulamentada."
+          },
+          {
+            "type": "note",
+            "number": 31
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "De acordo com o Instituto Jogo Legal, o jogo do bicho movimentaria 12 bilhões de reais anualmente no país na década de 2010. Segundo um estudo da Fundação Getúlio Vargas, a atividade havia movimentado 419 milhões de reais no Rio de Janeiro em 2014, mais do que o dobro da arrecadação da Loterj. Até o crescimento do tráfico de drogas, o jogo do bicho foi o mercado ilícito mais importante e poderoso no estado fluminense. Embora ainda presente em várias partes do Brasil, o jogo do bicho está em declínio, principalmente devido à concorrência com outras modalidades de jogos de azar. Inicialmente, por conta dos jogos legais oferecidos pela Caixa Econômica Federal e pelas máquinas caça-níqueis, atividade ilegal da disputada por diversos atores do crime organizado desde a década de 1970, e em anos mais recentes pelo crescente mercado de casas de apostas online. Estima-se que o faturamento semanal com o jogo do bicho no Rio de Janeiro tenha caído de 1 milhão para 100 mil reais entre 2005 e 2025. Ainda assim, havia uma intensa disputa pelo controle econômico e territorial do jogo do bicho e de outras loterias ilícitas em diversas regiões do país, envolvendo bicheiros tradicionais, traficantes e milicianos no Rio de Janeiro, ou mesmo facções como o Primeiro Comando da Capital e o Comando Vermelho em mercados ilícitos em outras regiões do Brasil."
+        "text": "De acordo com o Instituto Jogo Legal, o jogo do bicho movimentaria 12 bilhões de reais anualmente no país na década de 2010. Segundo um estudo da Fundação Getúlio Vargas, a atividade havia movimentado 419 milhões de reais no Rio de Janeiro em 2014, mais do que o dobro da arrecadação da Loterj. Até o crescimento do tráfico de drogas, o jogo do bicho foi o mercado ilícito mais importante e poderoso no estado fluminense. Embora ainda presente em várias partes do Brasil, o jogo do bicho está em declínio, principalmente devido à concorrência com outras modalidades de jogos de azar. Inicialmente, por conta dos jogos legais oferecidos pela Caixa Econômica Federal e pelas máquinas caça-níqueis, atividade ilegal da disputada por diversos atores do crime organizado desde a década de 1970, e em anos mais recentes pelo crescente mercado de casas de apostas online. Estima-se que o faturamento semanal com o jogo do bicho no Rio de Janeiro tenha caído de 1 milhão para 100 mil reais entre 2005 e 2025. Ainda assim, havia uma intensa disputa pelo controle econômico e territorial do jogo do bicho e de outras loterias ilícitas em diversas regiões do país, envolvendo bicheiros tradicionais, traficantes e milicianos no Rio de Janeiro, ou mesmo facções como o Primeiro Comando da Capital e o Comando Vermelho em mercados ilícitos em outras regiões do Brasil.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "De acordo com o Instituto Jogo Legal, o jogo do bicho movimentaria 12 bilhões de reais anualmente no país na década de 2010."
+          },
+          {
+            "type": "note",
+            "number": 32
+          },
+          {
+            "type": "text",
+            "text": " Segundo um estudo da Fundação Getúlio Vargas, a atividade havia movimentado 419 milhões de reais no Rio de Janeiro em 2014, mais do que o dobro da arrecadação da Loterj."
+          },
+          {
+            "type": "note",
+            "number": 33
+          },
+          {
+            "type": "text",
+            "text": " Até o crescimento do tráfico de drogas, o jogo do bicho foi o mercado ilícito mais importante e poderoso no estado fluminense."
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "text",
+            "text": " Embora ainda presente em várias partes do Brasil, o jogo do bicho está em declínio, principalmente devido à concorrência com outras modalidades de jogos de azar."
+          },
+          {
+            "type": "note",
+            "number": 34
+          },
+          {
+            "type": "note",
+            "number": 35
+          },
+          {
+            "type": "text",
+            "text": " Inicialmente, por conta dos jogos legais oferecidos pela Caixa Econômica Federal"
+          },
+          {
+            "type": "note",
+            "number": 21
+          },
+          {
+            "type": "text",
+            "text": " e pelas máquinas caça-níqueis, atividade ilegal da disputada por diversos atores do crime organizado desde a década de 1970,"
+          },
+          {
+            "type": "note",
+            "number": 36
+          },
+          {
+            "type": "text",
+            "text": " e em anos mais recentes pelo crescente mercado de casas de apostas online."
+          },
+          {
+            "type": "note",
+            "number": 37
+          },
+          {
+            "type": "text",
+            "text": " Estima-se que o faturamento semanal com o jogo do bicho no Rio de Janeiro tenha caído de 1 milhão para 100 mil reais entre 2005 e 2025."
+          },
+          {
+            "type": "note",
+            "number": 34
+          },
+          {
+            "type": "text",
+            "text": " Ainda assim, havia uma intensa disputa pelo controle econômico e territorial do jogo do bicho e de outras loterias ilícitas em diversas regiões do país,"
+          },
+          {
+            "type": "note",
+            "number": 38
+          },
+          {
+            "type": "text",
+            "text": " envolvendo bicheiros tradicionais, traficantes e milicianos no Rio de Janeiro,"
+          },
+          {
+            "type": "note",
+            "number": 39
+          },
+          {
+            "type": "note",
+            "number": 40
+          },
+          {
+            "type": "text",
+            "text": " ou mesmo facções como o Primeiro Comando da Capital e o Comando Vermelho em mercados ilícitos em outras regiões do Brasil."
+          },
+          {
+            "type": "note",
+            "number": 37
+          }
+        ]
       }
     ]
   },
@@ -42,11 +343,195 @@
     "blocks": [
       {
         "type": "p",
-        "text": "As raízes do jogo do bicho contemporâneo situam-se no Rio de Janeiro entre o final do período monárquico brasileiro e o início da era republicana. Criado pelo empresário João Batista Viana Drummond, o jogo surgiu inicialmente dentro do Jardim Zoológico de Vila Isabel, fundado por ele em 1888. Para incrementar as receitas do zoológico, Drummond obteve permissão em 1890 para explorar \"jogos públicos lícitos\". O jogo dos bichos do zoológico da então capital federal seria estruturado com bilhetes sorteados, associados a imagens de animais, formando a base do jogo como o conhecemos hoje. A primeira extração do jogo aconteceu em 3 de julho de 1892, com o avestruz como animal sorteado."
+        "text": "As raízes do jogo do bicho contemporâneo situam-se no Rio de Janeiro entre o final do período monárquico brasileiro e o início da era republicana. Criado pelo empresário João Batista Viana Drummond, o jogo surgiu inicialmente dentro do Jardim Zoológico de Vila Isabel, fundado por ele em 1888. Para incrementar as receitas do zoológico, Drummond obteve permissão em 1890 para explorar \"jogos públicos lícitos\". O jogo dos bichos do zoológico da então capital federal seria estruturado com bilhetes sorteados, associados a imagens de animais, formando a base do jogo como o conhecemos hoje. A primeira extração do jogo aconteceu em 3 de julho de 1892, com o avestruz como animal sorteado.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "As raízes do jogo do bicho contemporâneo situam-se no Rio de Janeiro entre o final do período monárquico brasileiro e o início da era republicana."
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "note",
+            "number": 41
+          },
+          {
+            "type": "text",
+            "text": " Criado pelo empresário João Batista Viana Drummond, o jogo surgiu inicialmente dentro do Jardim Zoológico de Vila Isabel, fundado por ele em 1888."
+          },
+          {
+            "type": "note",
+            "number": 42
+          },
+          {
+            "type": "note",
+            "number": 43
+          },
+          {
+            "type": "note",
+            "number": 44
+          },
+          {
+            "type": "text",
+            "text": " Para incrementar as receitas do zoológico, Drummond obteve permissão em 1890 para explorar \"jogos públicos lícitos\"."
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "note",
+            "number": 45
+          },
+          {
+            "type": "note",
+            "number": 46
+          },
+          {
+            "type": "text",
+            "text": " O jogo dos bichos do zoológico da então capital federal seria estruturado com bilhetes sorteados, associados a imagens de animais, formando a base do jogo como o conhecemos hoje."
+          },
+          {
+            "type": "note",
+            "number": 47
+          },
+          {
+            "type": "text",
+            "text": " A primeira extração do jogo aconteceu em 3 de julho de 1892, com o avestruz como animal sorteado."
+          },
+          {
+            "type": "note",
+            "number": 41
+          },
+          {
+            "type": "note",
+            "number": 48
+          },
+          {
+            "type": "note",
+            "number": 49
+          },
+          {
+            "type": "note",
+            "number": 50
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "O sucesso da loteria foi imediato, gerando grande popularidade e atraindo tanto a elite quanto o público popular. O jogo se espalhou pela cidade com a ajuda de intermediários e comerciantes, criando uma rede de apostas além do zoológico. Entre 1892 e 1894, o jogo era legal e controlado por Drummond, mas logo fugiu ao controle, com comerciantes criando operações próprias de apostas. À medida que o jogo se expandia, as autoridades começaram a associá-lo ao \"vício\" e à \"desordem\", gerando críticas e reações negativas na opinião pública carioca. Em 1895, após a pressão popular e o aumento do jogo clandestino, o prefeito do Rio de Janeiro Furquim Werneck de Almeida rescindiu o contrato com o zoológico e proibiu o jogo. O zoológico da Vila Isabel entrou em declínio, e o jogo do bicho passou a ser realizado clandestinamente por redes de banqueiros que continuaram a desafiar a repressão das autoridades nas décadas seguintes."
+        "text": "O sucesso da loteria foi imediato, gerando grande popularidade e atraindo tanto a elite quanto o público popular. O jogo se espalhou pela cidade com a ajuda de intermediários e comerciantes, criando uma rede de apostas além do zoológico. Entre 1892 e 1894, o jogo era legal e controlado por Drummond, mas logo fugiu ao controle, com comerciantes criando operações próprias de apostas. À medida que o jogo se expandia, as autoridades começaram a associá-lo ao \"vício\" e à \"desordem\", gerando críticas e reações negativas na opinião pública carioca. Em 1895, após a pressão popular e o aumento do jogo clandestino, o prefeito do Rio de Janeiro Furquim Werneck de Almeida rescindiu o contrato com o zoológico e proibiu o jogo. O zoológico da Vila Isabel entrou em declínio, e o jogo do bicho passou a ser realizado clandestinamente por redes de banqueiros que continuaram a desafiar a repressão das autoridades nas décadas seguintes.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O sucesso da loteria foi imediato, gerando grande popularidade e atraindo tanto a elite quanto o público popular."
+          },
+          {
+            "type": "note",
+            "number": 51
+          },
+          {
+            "type": "note",
+            "number": 52
+          },
+          {
+            "type": "note",
+            "number": 53
+          },
+          {
+            "type": "text",
+            "text": " O jogo se espalhou pela cidade com a ajuda de intermediários e comerciantes, criando uma rede de apostas além do zoológico."
+          },
+          {
+            "type": "note",
+            "number": 54
+          },
+          {
+            "type": "note",
+            "number": 55
+          },
+          {
+            "type": "note",
+            "number": 56
+          },
+          {
+            "type": "text",
+            "text": " Entre 1892 e 1894, o jogo era legal e controlado por Drummond,"
+          },
+          {
+            "type": "note",
+            "number": 57
+          },
+          {
+            "type": "text",
+            "text": " mas logo fugiu ao controle, com comerciantes criando operações próprias de apostas."
+          },
+          {
+            "type": "note",
+            "number": 58
+          },
+          {
+            "type": "note",
+            "number": 59
+          },
+          {
+            "type": "text",
+            "text": " À medida que o jogo se expandia, as autoridades começaram a associá-lo ao \"vício\" e à \"desordem\", gerando críticas e reações negativas na opinião pública carioca."
+          },
+          {
+            "type": "note",
+            "number": 60
+          },
+          {
+            "type": "note",
+            "number": 61
+          },
+          {
+            "type": "note",
+            "number": 62
+          },
+          {
+            "type": "text",
+            "text": " Em 1895, após a pressão popular e o aumento do jogo clandestino, o prefeito do Rio de Janeiro Furquim Werneck de Almeida rescindiu o contrato com o zoológico e proibiu o jogo."
+          },
+          {
+            "type": "note",
+            "number": 61
+          },
+          {
+            "type": "note",
+            "number": 63
+          },
+          {
+            "type": "text",
+            "text": " O zoológico da Vila Isabel entrou em declínio,"
+          },
+          {
+            "type": "note",
+            "number": 64
+          },
+          {
+            "type": "text",
+            "text": " e o jogo do bicho passou a ser realizado clandestinamente por redes de banqueiros que continuaram a desafiar a repressão das autoridades nas décadas seguintes."
+          },
+          {
+            "type": "note",
+            "number": 61
+          },
+          {
+            "type": "note",
+            "number": 65
+          },
+          {
+            "type": "note",
+            "number": 66
+          }
+        ]
       }
     ]
   },
@@ -58,17 +543,134 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Posse_de_Eurico_Gaspar_Dutra_como_Presidente_da_Rep%C3%BAblica.tif/lossy-page1-250px-Posse_de_Eurico_Gaspar_Dutra_como_Presidente_da_Rep%C3%BAblica.tif.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2036,
-        "height": 1454,
-        "caption": "O presidente Dutra decretou o fim dos jogos de azar em 1946"
+        "alt": "",
+        "caption": "O presidente Dutra decretou o fim dos jogos de azar em 1946",
+        "width": 250,
+        "height": 179
       },
       {
         "type": "p",
-        "text": "O jogo do bicho enfrentou diversas mudanças legais ao longo dos anos. Em 1899, a Lei nº 628 introduziu penas de prisão para quem praticasse jogo de azar, e em 1910, a Lei nº 2.321 ampliou as punições, incluindo o jogo do bicho, com penas de até 6 meses de prisão. Em 1917, durante a Conferência Judiciária-Policial, foi reafirmada sua criminalização, mas a falta de provas e a possibilidade de fiança dificultaram a repressão. Na era Vargas, a repressão ao jogo do bicho se intensificou. Em 1932, o Decreto-Lei nº 21.143 tipificou o jogo como contravenção penal, aumentando as penas e tornando-o inafiançável. Contudo, durante o Estado Novo, os cassinos ainda eram permitidos e o jogo do bicho continuou a operar, embora sob forte pressão moralista."
+        "text": "O jogo do bicho enfrentou diversas mudanças legais ao longo dos anos. Em 1899, a Lei nº 628 introduziu penas de prisão para quem praticasse jogo de azar, e em 1910, a Lei nº 2.321 ampliou as punições, incluindo o jogo do bicho, com penas de até 6 meses de prisão. Em 1917, durante a Conferência Judiciária-Policial, foi reafirmada sua criminalização, mas a falta de provas e a possibilidade de fiança dificultaram a repressão. Na era Vargas, a repressão ao jogo do bicho se intensificou. Em 1932, o Decreto-Lei nº 21.143 tipificou o jogo como contravenção penal, aumentando as penas e tornando-o inafiançável. Contudo, durante o Estado Novo, os cassinos ainda eram permitidos e o jogo do bicho continuou a operar, embora sob forte pressão moralista.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O jogo do bicho enfrentou diversas mudanças legais ao longo dos anos. Em 1899, a Lei nº 628 introduziu penas de prisão para quem praticasse jogo de azar,"
+          },
+          {
+            "type": "note",
+            "number": 67
+          },
+          {
+            "type": "note",
+            "number": 68
+          },
+          {
+            "type": "text",
+            "text": " e em 1910, a Lei nº 2.321 ampliou as punições, incluindo o jogo do bicho, com penas de até 6 meses de prisão."
+          },
+          {
+            "type": "note",
+            "number": 69
+          },
+          {
+            "type": "note",
+            "number": 70
+          },
+          {
+            "type": "text",
+            "text": " Em 1917, durante a Conferência Judiciária-Policial, foi reafirmada sua criminalização, mas a falta de provas e a possibilidade de fiança dificultaram a repressão."
+          },
+          {
+            "type": "note",
+            "number": 71
+          },
+          {
+            "type": "note",
+            "number": 72
+          },
+          {
+            "type": "text",
+            "text": " Na era Vargas, a repressão ao jogo do bicho se intensificou. Em 1932, o Decreto-Lei nº 21.143 tipificou o jogo como contravenção penal, aumentando as penas e tornando-o inafiançável."
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "note",
+            "number": 73
+          },
+          {
+            "type": "text",
+            "text": " Contudo, durante o Estado Novo, os cassinos ainda eram permitidos e o jogo do bicho continuou a operar, embora sob forte pressão moralista."
+          },
+          {
+            "type": "note",
+            "number": 74
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 1941, o Código de Contravenções Penais incluiu explicitamente o jogo do bicho como infração, aumentando a repressão. Em 1946, o presidente Eurico Gaspar Dutra intensificou a repressão com a criação do Serviço de Repressão aos Jogos Proibidos e a promulgação do Decreto-Lei nº 9.215, que proibiu os jogos de azar no Brasil. Mesmo assim, o jogo do bicho não desapareceu e continuou a ser praticado de maneira informal, o que tornaram ineficazes as tentativas de erradicação. O jogo era acessível e confiável, com pagamentos garantidos para os vencedores, consolidando sua popularidade. Sua atividade, embora ilegal, muitas vezes tolerada pelas autoridades em troca de subornos. Desde sua criminalização, o jogo do bicho também ganhou uma estrutura mais organizada, com banqueiros controlando territórios, gerentes e apontadores."
+        "text": "Em 1941, o Código de Contravenções Penais incluiu explicitamente o jogo do bicho como infração, aumentando a repressão. Em 1946, o presidente Eurico Gaspar Dutra intensificou a repressão com a criação do Serviço de Repressão aos Jogos Proibidos e a promulgação do Decreto-Lei nº 9.215, que proibiu os jogos de azar no Brasil. Mesmo assim, o jogo do bicho não desapareceu e continuou a ser praticado de maneira informal, o que tornaram ineficazes as tentativas de erradicação. O jogo era acessível e confiável, com pagamentos garantidos para os vencedores, consolidando sua popularidade. Sua atividade, embora ilegal, muitas vezes tolerada pelas autoridades em troca de subornos. Desde sua criminalização, o jogo do bicho também ganhou uma estrutura mais organizada, com banqueiros controlando territórios, gerentes e apontadores.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 1941, o Código de Contravenções Penais incluiu explicitamente o jogo do bicho como infração, aumentando a repressão."
+          },
+          {
+            "type": "note",
+            "number": 74
+          },
+          {
+            "type": "note",
+            "number": 75
+          },
+          {
+            "type": "text",
+            "text": " Em 1946, o presidente Eurico Gaspar Dutra intensificou a repressão com a criação do Serviço de Repressão aos Jogos Proibidos e a promulgação do Decreto-Lei nº 9.215, que proibiu os jogos de azar no Brasil."
+          },
+          {
+            "type": "note",
+            "number": 76
+          },
+          {
+            "type": "text",
+            "text": " Mesmo assim, o jogo do bicho não desapareceu e continuou a ser praticado de maneira informal, o que tornaram ineficazes as tentativas de erradicação."
+          },
+          {
+            "type": "note",
+            "number": 77
+          },
+          {
+            "type": "text",
+            "text": " O jogo era acessível e confiável, com pagamentos garantidos para os vencedores, consolidando sua popularidade."
+          },
+          {
+            "type": "note",
+            "number": 78
+          },
+          {
+            "type": "text",
+            "text": " Sua atividade, embora ilegal, muitas vezes tolerada pelas autoridades em troca de subornos."
+          },
+          {
+            "type": "note",
+            "number": 79
+          },
+          {
+            "type": "text",
+            "text": " Desde sua criminalização, o jogo do bicho também ganhou uma estrutura mais organizada, com banqueiros controlando territórios, gerentes e apontadores."
+          },
+          {
+            "type": "note",
+            "number": 80
+          },
+          {
+            "type": "note",
+            "number": 81
+          }
+        ]
       }
     ]
   },
@@ -80,21 +682,216 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ensaio_da_Mocidade_%28Fot%C3%B3grafo_Henrique_Matos%29_01.jpg/250px-Ensaio_da_Mocidade_%28Fot%C3%B3grafo_Henrique_Matos%29_01.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 827,
-        "height": 591,
-        "caption": "Rogério de Andrade tornou-se um dos principais contraventores da nova geração no Rio"
+        "alt": "",
+        "caption": "Rogério de Andrade tornou-se um dos principais contraventores da nova geração no Rio",
+        "width": 250,
+        "height": 179
       },
       {
         "type": "p",
-        "text": "Berço do jogo do bicho, o Rio de Janeiro viu progressivamente a atividade se organizar e consolidar como um empreendimento capitalista por excelência, sobretudo na segunda metade do século XX. Dentre suas características, houve o estabelecimento de critérios unificados de sorteios, a divisão de territórios, a cartelização de apostas e prêmios, o emprego de capitais em variadas atividades com sofisticados métodos de lavagem de dinheiro, a constituição de cúpulas e o aperfeiçoamento das negociações com o poder público com forte cooptação de setores do aparelho estatal. Foi um período no qual a atividade evoluiu para uma estrutura mafiosa, com controle familiar, territórios definidos e forte influência no estado."
+        "text": "Berço do jogo do bicho, o Rio de Janeiro viu progressivamente a atividade se organizar e consolidar como um empreendimento capitalista por excelência, sobretudo na segunda metade do século XX. Dentre suas características, houve o estabelecimento de critérios unificados de sorteios, a divisão de territórios, a cartelização de apostas e prêmios, o emprego de capitais em variadas atividades com sofisticados métodos de lavagem de dinheiro, a constituição de cúpulas e o aperfeiçoamento das negociações com o poder público com forte cooptação de setores do aparelho estatal. Foi um período no qual a atividade evoluiu para uma estrutura mafiosa, com controle familiar, territórios definidos e forte influência no estado.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Berço do jogo do bicho, o Rio de Janeiro viu progressivamente a atividade se organizar e consolidar como um empreendimento capitalista por excelência, sobretudo na segunda metade do século XX."
+          },
+          {
+            "type": "note",
+            "number": 10
+          },
+          {
+            "type": "text",
+            "text": " Dentre suas características, houve o estabelecimento de critérios unificados de sorteios, a divisão de territórios, a cartelização de apostas e prêmios, o emprego de capitais em variadas atividades com sofisticados métodos de lavagem de dinheiro, a constituição de cúpulas e o aperfeiçoamento das negociações com o poder público com forte cooptação de setores do aparelho estatal."
+          },
+          {
+            "type": "note",
+            "number": 23
+          },
+          {
+            "type": "text",
+            "text": " Foi um período no qual a atividade evoluiu para uma estrutura mafiosa, com controle familiar, territórios definidos e forte influência no estado."
+          },
+          {
+            "type": "note",
+            "number": 82
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Especialmente a partir da década de 1970, com a formação de uma cúpula, o jogo se organizou como um cartel comandado por um grupo restrito de banqueiros. O grupo original era composto por nomes como Castor de Andrade, Ângelo Maria Longa (Tio Patinhas), Rafael Palermo, Haroldo Rodrigues Nunes (Haroldo Saens Peña), Anísio Abraão David, entre outros. Para reduzir conflitos territoriais e garantir a estabilidade financeira, essas lideranças reorganizaram as áreas de atuação, estabelecendo territórios bem definidos na capital e Baixada Fluminense, e implementaram um sistema de redistribuição de apostas conhecido como \"Paratodos\". Também criaram um tribunal para assegurar o cumprimento dos acordos e tomar decisões de interesse mútuo. Essa arranjo foi fundamental para transformar o jogo do bicho em um grande empreendimento econômico no estado fluminense. Com a fundação da Liga Independente das Escolas de Samba na década de 1980, os banqueiros consolidaram sua posição como figuras centrais na economia e na sociedade carioca, especialmente como patrocinadores das escolas de samba."
+        "text": "Especialmente a partir da década de 1970, com a formação de uma cúpula, o jogo se organizou como um cartel comandado por um grupo restrito de banqueiros. O grupo original era composto por nomes como Castor de Andrade, Ângelo Maria Longa (Tio Patinhas), Rafael Palermo, Haroldo Rodrigues Nunes (Haroldo Saens Peña), Anísio Abraão David, entre outros. Para reduzir conflitos territoriais e garantir a estabilidade financeira, essas lideranças reorganizaram as áreas de atuação, estabelecendo territórios bem definidos na capital e Baixada Fluminense, e implementaram um sistema de redistribuição de apostas conhecido como \"Paratodos\". Também criaram um tribunal para assegurar o cumprimento dos acordos e tomar decisões de interesse mútuo. Essa arranjo foi fundamental para transformar o jogo do bicho em um grande empreendimento econômico no estado fluminense. Com a fundação da Liga Independente das Escolas de Samba na década de 1980, os banqueiros consolidaram sua posição como figuras centrais na economia e na sociedade carioca, especialmente como patrocinadores das escolas de samba.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Especialmente a partir da década de 1970, com a formação de uma cúpula, o jogo se organizou como um cartel comandado por um grupo restrito de banqueiros."
+          },
+          {
+            "type": "note",
+            "number": 83
+          },
+          {
+            "type": "note",
+            "number": 84
+          },
+          {
+            "type": "note",
+            "number": 85
+          },
+          {
+            "type": "text",
+            "text": " O grupo original era composto por nomes como Castor de Andrade, Ângelo Maria Longa (Tio Patinhas), Rafael Palermo, Haroldo Rodrigues Nunes (Haroldo Saens Peña), Anísio Abraão David, entre outros."
+          },
+          {
+            "type": "note",
+            "number": 83
+          },
+          {
+            "type": "note",
+            "number": 86
+          },
+          {
+            "type": "text",
+            "text": " Para reduzir conflitos territoriais e garantir a estabilidade financeira, essas lideranças reorganizaram as áreas de atuação, estabelecendo territórios bem definidos na capital e Baixada Fluminense, e implementaram um sistema de redistribuição de apostas conhecido como \"Paratodos\"."
+          },
+          {
+            "type": "note",
+            "number": 80
+          },
+          {
+            "type": "note",
+            "number": 87
+          },
+          {
+            "type": "text",
+            "text": " Também criaram um tribunal para assegurar o cumprimento dos acordos e tomar decisões de interesse mútuo."
+          },
+          {
+            "type": "note",
+            "number": 86
+          },
+          {
+            "type": "note",
+            "number": 88
+          },
+          {
+            "type": "text",
+            "text": " Essa arranjo foi fundamental para transformar o jogo do bicho em um grande empreendimento econômico no estado fluminense."
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "note",
+            "number": 84
+          },
+          {
+            "type": "text",
+            "text": " Com a fundação da Liga Independente das Escolas de Samba na década de 1980, os banqueiros consolidaram sua posição como figuras centrais na economia e na sociedade carioca, especialmente como patrocinadores das escolas de samba."
+          },
+          {
+            "type": "note",
+            "number": 29
+          },
+          {
+            "type": "note",
+            "number": 89
+          },
+          {
+            "type": "note",
+            "number": 90
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "No entanto, nas décadas de 1990 e 2000, houve um aumento das investigações sobre crimes como corrupção, lavagem de dinheiro e extorsão cometidos por integrantes da cúpula, algumas das quais culminaram em prisões e até condenações na justiça de bicheiros de alto escalão. Apesar disso, a maioria deles conseguia a liberdade rapidamente devido a manobras jurídicas. A morte dos chefes dos clãs Andrade (1997) e Garcia (2004) desencadeou uma disputa familiar cruenta pelo controle desses impérios. Bicheiros da nova geração se envolveram em confrontos violentos por territórios exclusivos e pelo controle de novas atividades ilegais, como as máquinas caça-níqueis. Muitos desses conflitos envolveram traficantes e milicianos, embora tenha surgido alguns acertos com esses grupos ao longo do tempo."
+        "text": "No entanto, nas décadas de 1990 e 2000, houve um aumento das investigações sobre crimes como corrupção, lavagem de dinheiro e extorsão cometidos por integrantes da cúpula, algumas das quais culminaram em prisões e até condenações na justiça de bicheiros de alto escalão. Apesar disso, a maioria deles conseguia a liberdade rapidamente devido a manobras jurídicas. A morte dos chefes dos clãs Andrade (1997) e Garcia (2004) desencadeou uma disputa familiar cruenta pelo controle desses impérios. Bicheiros da nova geração se envolveram em confrontos violentos por territórios exclusivos e pelo controle de novas atividades ilegais, como as máquinas caça-níqueis. Muitos desses conflitos envolveram traficantes e milicianos, embora tenha surgido alguns acertos com esses grupos ao longo do tempo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "No entanto, nas décadas de 1990 e 2000, houve um aumento das investigações sobre crimes como corrupção, lavagem de dinheiro e extorsão cometidos por integrantes da cúpula, algumas das quais culminaram em prisões e até condenações na justiça de bicheiros de alto escalão."
+          },
+          {
+            "type": "note",
+            "number": 91
+          },
+          {
+            "type": "note",
+            "number": 92
+          },
+          {
+            "type": "note",
+            "number": 93
+          },
+          {
+            "type": "note",
+            "number": 94
+          },
+          {
+            "type": "text",
+            "text": " Apesar disso, a maioria deles conseguia a liberdade rapidamente devido a manobras jurídicas."
+          },
+          {
+            "type": "note",
+            "number": 28
+          },
+          {
+            "type": "text",
+            "text": " A morte dos chefes dos clãs Andrade (1997) e Garcia (2004) desencadeou uma disputa familiar cruenta pelo controle desses impérios."
+          },
+          {
+            "type": "note",
+            "number": 95
+          },
+          {
+            "type": "note",
+            "number": 96
+          },
+          {
+            "type": "note",
+            "number": 97
+          },
+          {
+            "type": "text",
+            "text": " Bicheiros da nova geração se envolveram em confrontos violentos por territórios exclusivos e pelo controle de novas atividades ilegais, como as máquinas caça-níqueis."
+          },
+          {
+            "type": "note",
+            "number": 36
+          },
+          {
+            "type": "note",
+            "number": 98
+          },
+          {
+            "type": "text",
+            "text": " Muitos desses conflitos envolveram traficantes e milicianos,"
+          },
+          {
+            "type": "note",
+            "number": 39
+          },
+          {
+            "type": "note",
+            "number": 40
+          },
+          {
+            "type": "text",
+            "text": " embora tenha surgido alguns acertos com esses grupos ao longo do tempo."
+          },
+          {
+            "type": "note",
+            "number": 99
+          },
+          {
+            "type": "note",
+            "number": 100
+          },
+          {
+            "type": "note",
+            "number": 101
+          }
+        ]
       }
     ]
   },
@@ -105,11 +902,111 @@
     "blocks": [
       {
         "type": "p",
-        "text": "A versão local do jogo do bicho em São Paulo estava estabelecida desde as primeiras décadas após sua criação no então Distrito Federal. Em meados do século XX, a atividade estava organizada de maneira centralizada e comandada pela chamada \"quadra\", composta pelos grandes banqueiros Luiz Noal, Bide, Toto e Alfredo Parisi, que resolviam eventuais conflitos entre si, garantindo a estabilidade e o controle do jogo na cidade. Após assumir os negócios da família, que haviam sido iniciados pelo avô, Ivo Noal entrou em disputa com os três rivais até conseguir se impor. Chamado de \"il capo di tutti capi\" (\"o chefão de todos os chefões\", em italiano), Ivo se tornou o mais poderoso banqueiro do jogo do bicho no estado de São Paulo. Além de seu império de apostas, Noal expandiu seus negócios para áreas legítimas, como restaurantes, postos de gasolina e imóveis. Também foi apontado como responsável pela invasão das máquinas caça-níqueis em São Paulo. Seu patrimônio era estimado em 561 milhões de reais no início dos anos 2000. Até sua morte em 2023, ele chegou a ser detido algumas vezes sob acusações de formação de quadrilha, corrupção ativa, coação de testemunha, ameaça, falsidade ideológica, exploração de cassinos clandestinos e crimes fiscais."
+        "text": "A versão local do jogo do bicho em São Paulo estava estabelecida desde as primeiras décadas após sua criação no então Distrito Federal. Em meados do século XX, a atividade estava organizada de maneira centralizada e comandada pela chamada \"quadra\", composta pelos grandes banqueiros Luiz Noal, Bide, Toto e Alfredo Parisi, que resolviam eventuais conflitos entre si, garantindo a estabilidade e o controle do jogo na cidade. Após assumir os negócios da família, que haviam sido iniciados pelo avô, Ivo Noal entrou em disputa com os três rivais até conseguir se impor. Chamado de \"il capo di tutti capi\" (\"o chefão de todos os chefões\", em italiano), Ivo se tornou o mais poderoso banqueiro do jogo do bicho no estado de São Paulo. Além de seu império de apostas, Noal expandiu seus negócios para áreas legítimas, como restaurantes, postos de gasolina e imóveis. Também foi apontado como responsável pela invasão das máquinas caça-níqueis em São Paulo. Seu patrimônio era estimado em 561 milhões de reais no início dos anos 2000. Até sua morte em 2023, ele chegou a ser detido algumas vezes sob acusações de formação de quadrilha, corrupção ativa, coação de testemunha, ameaça, falsidade ideológica, exploração de cassinos clandestinos e crimes fiscais.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A versão local do jogo do bicho em São Paulo estava estabelecida desde as primeiras décadas após sua criação no então Distrito Federal."
+          },
+          {
+            "type": "note",
+            "number": 102
+          },
+          {
+            "type": "text",
+            "text": " Em meados do século XX, a atividade estava organizada de maneira centralizada e comandada pela chamada \"quadra\", composta pelos grandes banqueiros Luiz Noal, Bide, Toto e Alfredo Parisi, que resolviam eventuais conflitos entre si, garantindo a estabilidade e o controle do jogo na cidade."
+          },
+          {
+            "type": "note",
+            "number": 103
+          },
+          {
+            "type": "text",
+            "text": " Após assumir os negócios da família, que haviam sido iniciados pelo avô, Ivo Noal entrou em disputa com os três rivais até conseguir se impor."
+          },
+          {
+            "type": "note",
+            "number": 104
+          },
+          {
+            "type": "text",
+            "text": " Chamado de \"il capo di tutti capi\" (\"o chefão de todos os chefões\", em italiano), Ivo se tornou o mais poderoso banqueiro do jogo do bicho no estado de São Paulo."
+          },
+          {
+            "type": "note",
+            "number": 104
+          },
+          {
+            "type": "text",
+            "text": " Além de seu império de apostas, Noal expandiu seus negócios para áreas legítimas, como restaurantes, postos de gasolina e imóveis."
+          },
+          {
+            "type": "note",
+            "number": 103
+          },
+          {
+            "type": "text",
+            "text": " Também foi apontado como responsável pela invasão das máquinas caça-níqueis em São Paulo."
+          },
+          {
+            "type": "note",
+            "number": 104
+          },
+          {
+            "type": "note",
+            "number": 105
+          },
+          {
+            "type": "text",
+            "text": " Seu patrimônio era estimado em 561 milhões de reais no início dos anos 2000."
+          },
+          {
+            "type": "note",
+            "number": 104
+          },
+          {
+            "type": "text",
+            "text": " Até sua morte em 2023, ele chegou a ser detido algumas vezes sob acusações de formação de quadrilha, corrupção ativa, coação de testemunha, ameaça, falsidade ideológica, exploração de cassinos clandestinos e crimes fiscais."
+          },
+          {
+            "type": "note",
+            "number": 106
+          },
+          {
+            "type": "note",
+            "number": 107
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Durante as décadas de 1970 e 1980, outro bicheiro poderoso em São Paulo foi Valter Spinelli de Oliveira, o \"Marechal\". Rival de Noal, Marechal controlava o jogo na zona sul e detinhas pontos também na região oeste da cidade, e acabou assassinado em 1989. Nos anos 1990, o clã Spinelli (com Valcir, Valtemir e Valmir) e Parisi (Alfredo Celso e João Alfredo) detinham posições importantes no jogo do bicho paulista e também foram alvo da justiça estadual."
+        "text": "Durante as décadas de 1970 e 1980, outro bicheiro poderoso em São Paulo foi Valter Spinelli de Oliveira, o \"Marechal\". Rival de Noal, Marechal controlava o jogo na zona sul e detinhas pontos também na região oeste da cidade, e acabou assassinado em 1989. Nos anos 1990, o clã Spinelli (com Valcir, Valtemir e Valmir) e Parisi (Alfredo Celso e João Alfredo) detinham posições importantes no jogo do bicho paulista e também foram alvo da justiça estadual.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Durante as décadas de 1970 e 1980, outro bicheiro poderoso em São Paulo foi Valter Spinelli de Oliveira, o \"Marechal\". Rival de Noal, Marechal controlava o jogo na zona sul e detinhas pontos também na região oeste da cidade, e acabou assassinado em 1989."
+          },
+          {
+            "type": "note",
+            "number": 108
+          },
+          {
+            "type": "text",
+            "text": " Nos anos 1990, o clã Spinelli (com Valcir, Valtemir e Valmir) e Parisi (Alfredo Celso e João Alfredo) detinham posições importantes no jogo do bicho paulista"
+          },
+          {
+            "type": "note",
+            "number": 109
+          },
+          {
+            "type": "text",
+            "text": " e também foram alvo da justiça estadual."
+          },
+          {
+            "type": "note",
+            "number": 110
+          }
+        ]
       }
     ]
   },
@@ -120,15 +1017,109 @@
     "blocks": [
       {
         "type": "p",
-        "text": "A Paraíba é o único estado brasileiro onde o jogo do bicho é legalizado e regulamentado desde 1967, quando o então governador João Agripino Maia tomou a decisão de regulamentar a atividade. Desde então, o jogo segue sendo autorizado pelo governo estadual da Paraíba, com licenças expedidas pela Lotep, a loteria estatal. Em contraste com a situação nos outros estados do Brasil, onde o jogo é tolerado de forma informal, na Paraíba os banqueiros do jogo do bicho operam de forma legal e credenciados como agentes lotéricos, e as bancas, organizadas de maneira familiar, pagam uma taxa mensal à Lotep, que varia conforme o potencial arrecadatório de cada município. As apostas são feitas com base nos sorteios realizados três vezes por dia nas dependências da Lotep, cujos resultados são divulgados pela rádio oficial do governo."
+        "text": "A Paraíba é o único estado brasileiro onde o jogo do bicho é legalizado e regulamentado desde 1967, quando o então governador João Agripino Maia tomou a decisão de regulamentar a atividade. Desde então, o jogo segue sendo autorizado pelo governo estadual da Paraíba, com licenças expedidas pela Lotep, a loteria estatal. Em contraste com a situação nos outros estados do Brasil, onde o jogo é tolerado de forma informal, na Paraíba os banqueiros do jogo do bicho operam de forma legal e credenciados como agentes lotéricos, e as bancas, organizadas de maneira familiar, pagam uma taxa mensal à Lotep, que varia conforme o potencial arrecadatório de cada município. As apostas são feitas com base nos sorteios realizados três vezes por dia nas dependências da Lotep, cujos resultados são divulgados pela rádio oficial do governo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A Paraíba é o único estado brasileiro onde o jogo do bicho é legalizado e regulamentado desde 1967, quando o então governador João Agripino Maia tomou a decisão de regulamentar a atividade. Desde então, o jogo segue sendo autorizado pelo governo estadual da Paraíba, com licenças expedidas pela Lotep, a loteria estatal."
+          },
+          {
+            "type": "note",
+            "number": 31
+          },
+          {
+            "type": "text",
+            "text": " Em contraste com a situação nos outros estados do Brasil, onde o jogo é tolerado de forma informal, na Paraíba os banqueiros do jogo do bicho operam de forma legal e credenciados como agentes lotéricos, e as bancas, organizadas de maneira familiar, pagam uma taxa mensal à Lotep, que varia conforme o potencial arrecadatório de cada município."
+          },
+          {
+            "type": "note",
+            "number": 31
+          },
+          {
+            "type": "text",
+            "text": " As apostas são feitas com base nos sorteios realizados três vezes por dia nas dependências da Lotep, cujos resultados são divulgados pela rádio oficial do governo."
+          },
+          {
+            "type": "note",
+            "number": 31
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Nas cidades paraibanas, o jogo do bicho é distribuído por meio de uma rede de bancas, que podem ser estabelecidas em lojas, quiosques e ruas. As bancas funcionam com licenças individuais em nome dos bicheiros, geralmente membros de famílias que herdaram as operações de seus pais. Quando um banqueiro morre, a direção do negócio é transmitida para os filhos ou viúvas, mas a licença permanece em nome do fundador. Na Paraíba, existe uma cooperativa informal criada para evitar disputas entre os bicheiros e regularizar a distribuição dos lucros. A cooperativa organiza o rateio da receita gerada pelas apostas entre seus membros. As bancas participantes da cooperativa pagam uma taxa mensal à Lotep, proporcional à arrecadação de cada município. O sistema de sorteios ocorre nos auditórios da Lotep, sendo acessível ao público e com transparência na divulgação dos resultados."
+        "text": "Nas cidades paraibanas, o jogo do bicho é distribuído por meio de uma rede de bancas, que podem ser estabelecidas em lojas, quiosques e ruas. As bancas funcionam com licenças individuais em nome dos bicheiros, geralmente membros de famílias que herdaram as operações de seus pais. Quando um banqueiro morre, a direção do negócio é transmitida para os filhos ou viúvas, mas a licença permanece em nome do fundador. Na Paraíba, existe uma cooperativa informal criada para evitar disputas entre os bicheiros e regularizar a distribuição dos lucros. A cooperativa organiza o rateio da receita gerada pelas apostas entre seus membros. As bancas participantes da cooperativa pagam uma taxa mensal à Lotep, proporcional à arrecadação de cada município. O sistema de sorteios ocorre nos auditórios da Lotep, sendo acessível ao público e com transparência na divulgação dos resultados.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Nas cidades paraibanas, o jogo do bicho é distribuído por meio de uma rede de bancas, que podem ser estabelecidas em lojas, quiosques e ruas. As bancas funcionam com licenças individuais em nome dos bicheiros, geralmente membros de famílias que herdaram as operações de seus pais. Quando um banqueiro morre, a direção do negócio é transmitida para os filhos ou viúvas, mas a licença permanece em nome do fundador."
+          },
+          {
+            "type": "note",
+            "number": 31
+          },
+          {
+            "type": "text",
+            "text": " Na Paraíba, existe uma cooperativa informal criada para evitar disputas entre os bicheiros e regularizar a distribuição dos lucros. A cooperativa organiza o rateio da receita gerada pelas apostas entre seus membros. As bancas participantes da cooperativa pagam uma taxa mensal à Lotep, proporcional à arrecadação de cada município. O sistema de sorteios ocorre nos auditórios da Lotep, sendo acessível ao público e com transparência na divulgação dos resultados."
+          },
+          {
+            "type": "note",
+            "number": 31
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em outros três importantes estados da região Nordeste, o jogo do bicho continuava sendo amplamente praticado no começo do século XXI, apesar de ser uma atividade informal e não regulamentada. Em Pernambuco, o setor tem sido caracterizado por casas de apostas com tecnologias modernas, como máquinas conectadas via Wi-Fi e transmissão ao vivo dos sorteios pelo rádio. Algumas das maiores casas também operam máquinas de vídeo-pôquer e caça-níqueis, funcionando amparadas por liminares judiciais. No Ceará e na Bahia, o jogo do bicho era controlado por consórcios de banqueiros, que organizam e gerenciam conjuntamente a atividade em várias cidades. Formado por 43 banqueiros em 1990, o consórcio contraventor baiano Paratodos Bahia afirmava ter mais de dezenas de milhares colaboradores e oferece benefícios como plano de saúde e convênios. Com o tempo, o consórcio contraventor cearense Paratodos, mais antigo e criador do modelo de gestão adotado na Bahia, passou a ver seus mercados ilícitos do jogo na região como um todo sendo disputados também por organizações criminosas de estados sudestinos, como o Primeiro Comando da Capital e o Comando Vermelho."
+        "text": "Em outros três importantes estados da região Nordeste, o jogo do bicho continuava sendo amplamente praticado no começo do século XXI, apesar de ser uma atividade informal e não regulamentada. Em Pernambuco, o setor tem sido caracterizado por casas de apostas com tecnologias modernas, como máquinas conectadas via Wi-Fi e transmissão ao vivo dos sorteios pelo rádio. Algumas das maiores casas também operam máquinas de vídeo-pôquer e caça-níqueis, funcionando amparadas por liminares judiciais. No Ceará e na Bahia, o jogo do bicho era controlado por consórcios de banqueiros, que organizam e gerenciam conjuntamente a atividade em várias cidades. Formado por 43 banqueiros em 1990, o consórcio contraventor baiano Paratodos Bahia afirmava ter mais de dezenas de milhares colaboradores e oferece benefícios como plano de saúde e convênios. Com o tempo, o consórcio contraventor cearense Paratodos, mais antigo e criador do modelo de gestão adotado na Bahia, passou a ver seus mercados ilícitos do jogo na região como um todo sendo disputados também por organizações criminosas de estados sudestinos, como o Primeiro Comando da Capital e o Comando Vermelho.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em outros três importantes estados da região Nordeste, o jogo do bicho continuava sendo amplamente praticado no começo do século XXI, apesar de ser uma atividade informal e não regulamentada. Em Pernambuco, o setor tem sido caracterizado por casas de apostas com tecnologias modernas, como máquinas conectadas via Wi-Fi e transmissão ao vivo dos sorteios pelo rádio."
+          },
+          {
+            "type": "note",
+            "number": 111
+          },
+          {
+            "type": "text",
+            "text": " Algumas das maiores casas também operam máquinas de vídeo-pôquer e caça-níqueis, funcionando amparadas por liminares judiciais."
+          },
+          {
+            "type": "note",
+            "number": 111
+          },
+          {
+            "type": "text",
+            "text": " No Ceará e na Bahia, o jogo do bicho era controlado por consórcios de banqueiros, que organizam e gerenciam conjuntamente a atividade em várias cidades."
+          },
+          {
+            "type": "note",
+            "number": 111
+          },
+          {
+            "type": "text",
+            "text": " Formado por 43 banqueiros em 1990, o consórcio contraventor baiano Paratodos Bahia afirmava ter mais de dezenas de milhares colaboradores e oferece benefícios como plano de saúde e convênios."
+          },
+          {
+            "type": "note",
+            "number": 111
+          },
+          {
+            "type": "text",
+            "text": " Com o tempo, o consórcio contraventor cearense Paratodos, mais antigo e criador do modelo de gestão adotado na Bahia,"
+          },
+          {
+            "type": "note",
+            "number": 112
+          },
+          {
+            "type": "text",
+            "text": " passou a ver seus mercados ilícitos do jogo na região como um todo sendo disputados também por organizações criminosas de estados sudestinos, como o Primeiro Comando da Capital e o Comando Vermelho."
+          },
+          {
+            "type": "note",
+            "number": 37
+          }
+        ]
       }
     ]
   },
@@ -139,7 +1130,37 @@
     "blocks": [
       {
         "type": "p",
-        "text": "O debate sobre a legalização do jogo do bicho em nível nacional é recorrente. Muitos defensores da regularização argumentam que, como o jogo já é amplamente praticado, legalizá-lo poderia trazer benefícios fiscais, como a geração de impostos e a redução da criminalidade associada ao mercado clandestino. No entanto, a maior parte do país ainda permanece com legislação restritiva, considerando o jogo como uma atividade criminosa. Desde 2014, tramitava no Senado Federal o projeto de lei N.186, que dispunha sobre a exploração de jogos de azar no país, incluindo o jogo do bicho, mas que acabou arquivado. Em 2016, a Câmara dos Deputados analisa o Projeto de Lei 1471/15, da deputada Renata Abreu (PTN-SP), que propõe a legalização da exploração de bingos e outros jogos de apostas. Segundo a autora, é hora de o Congresso superar a hipocrisia e regulamentar o jogo de forma adequada, com potencial de arrecadação para financiar ações sociais. O projeto também retira o jogo do bicho do rol das contravenções penais previstas na legislação atual, como estabelecido no Decreto-Lei 3.688/41 (Lei de Contravenções Penais) e no Decreto-Lei 6.259/44. Um novo projeto com conteúdo semelhante, o PL 2.234/2022, aprovado pela Câmara dos Deputados, está atualmente em análise no Senado. Ele retoma a proposta de regulamentar essas atividades com o objetivo de gerar arrecadação fiscal, combater o mercado clandestino e criar empregos, estando previsto para votação em plenário."
+        "text": "O debate sobre a legalização do jogo do bicho em nível nacional é recorrente. Muitos defensores da regularização argumentam que, como o jogo já é amplamente praticado, legalizá-lo poderia trazer benefícios fiscais, como a geração de impostos e a redução da criminalidade associada ao mercado clandestino. No entanto, a maior parte do país ainda permanece com legislação restritiva, considerando o jogo como uma atividade criminosa. Desde 2014, tramitava no Senado Federal o projeto de lei N.186, que dispunha sobre a exploração de jogos de azar no país, incluindo o jogo do bicho, mas que acabou arquivado. Em 2016, a Câmara dos Deputados analisa o Projeto de Lei 1471/15, da deputada Renata Abreu (PTN-SP), que propõe a legalização da exploração de bingos e outros jogos de apostas. Segundo a autora, é hora de o Congresso superar a hipocrisia e regulamentar o jogo de forma adequada, com potencial de arrecadação para financiar ações sociais. O projeto também retira o jogo do bicho do rol das contravenções penais previstas na legislação atual, como estabelecido no Decreto-Lei 3.688/41 (Lei de Contravenções Penais) e no Decreto-Lei 6.259/44. Um novo projeto com conteúdo semelhante, o PL 2.234/2022, aprovado pela Câmara dos Deputados, está atualmente em análise no Senado. Ele retoma a proposta de regulamentar essas atividades com o objetivo de gerar arrecadação fiscal, combater o mercado clandestino e criar empregos, estando previsto para votação em plenário.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O debate sobre a legalização do jogo do bicho em nível nacional é recorrente. Muitos defensores da regularização argumentam que, como o jogo já é amplamente praticado, legalizá-lo poderia trazer benefícios fiscais, como a geração de impostos e a redução da criminalidade associada ao mercado clandestino. No entanto, a maior parte do país ainda permanece com legislação restritiva, considerando o jogo como uma atividade criminosa. Desde 2014, tramitava no Senado Federal o projeto de lei N.186, que dispunha sobre a exploração de jogos de azar no país, incluindo o jogo do bicho, mas que acabou arquivado."
+          },
+          {
+            "type": "note",
+            "number": 113
+          },
+          {
+            "type": "text",
+            "text": " Em 2016, a Câmara dos Deputados analisa o Projeto de Lei 1471/15, da deputada Renata Abreu (PTN-SP), que propõe a legalização da exploração de bingos e outros jogos de apostas. Segundo a autora, é hora de o Congresso superar a hipocrisia e regulamentar o jogo de forma adequada, com potencial de arrecadação para financiar ações sociais. O projeto também retira o jogo do bicho do rol das contravenções penais previstas na legislação atual, como estabelecido no Decreto-Lei 3.688/41 (Lei de Contravenções Penais) e no Decreto-Lei 6.259/44."
+          },
+          {
+            "type": "note",
+            "number": 114
+          },
+          {
+            "type": "text",
+            "text": " Um novo projeto com conteúdo semelhante, o PL 2.234/2022, aprovado pela Câmara dos Deputados, está atualmente em análise no Senado. Ele retoma a proposta de regulamentar essas atividades com o objetivo de gerar arrecadação fiscal, combater o mercado clandestino e criar empregos, estando previsto para votação em plenário."
+          },
+          {
+            "type": "note",
+            "number": 115
+          },
+          {
+            "type": "note",
+            "number": 116
+          }
+        ]
       }
     ]
   },
@@ -150,7 +1171,17 @@
     "blocks": [
       {
         "type": "p",
-        "text": "O controle do jogo do bicho é exercido por uma hierarquia rígida. Sua organização é estruturada da seguinte forma:"
+        "text": "O controle do jogo do bicho é exercido por uma hierarquia rígida. Sua organização é estruturada da seguinte forma:",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O controle do jogo do bicho é exercido por uma hierarquia rígida. Sua organização é estruturada da seguinte forma:"
+          },
+          {
+            "type": "note",
+            "number": 117
+          }
+        ]
       },
       {
         "type": "list",
@@ -163,15 +1194,69 @@
       },
       {
         "type": "p",
-        "text": "A estrutura do jogo do bicho é descentralizada e formada por uma rede de pontos de venda, também conhecidos como \"bancas\", onde o apostador procura o apontador para fazer suas apostas. Esses pontos podem estar localizados em lojas, ruas ou, quando a repressão é maior, em locais semi-clandestinos."
+        "text": "A estrutura do jogo do bicho é descentralizada e formada por uma rede de pontos de venda, também conhecidos como \"bancas\", onde o apostador procura o apontador para fazer suas apostas. Esses pontos podem estar localizados em lojas, ruas ou, quando a repressão é maior, em locais semi-clandestinos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A estrutura do jogo do bicho é descentralizada e formada por uma rede de pontos de venda, também conhecidos como \"bancas\", onde o apostador procura o apontador para fazer suas apostas. Esses pontos podem estar localizados em lojas, ruas ou, quando a repressão é maior, em locais semi-clandestinos."
+          },
+          {
+            "type": "note",
+            "number": 14
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "O apontador recebe comissões sobre as apostas feitas e os prêmios sorteados, mas também pode ser assalariado. Os gerentes, por sua vez, controlam várias bancas e apontadores, podendo pagar salários e ficar com as comissões. Em alguns casos, eles também são assalariados de um banqueiro. Além disso, podem contar com contadores, advogados e até pistoleiros para proteger os pontos de tentativas de invasões de outros gerentes ou banqueiros."
+        "text": "O apontador recebe comissões sobre as apostas feitas e os prêmios sorteados, mas também pode ser assalariado. Os gerentes, por sua vez, controlam várias bancas e apontadores, podendo pagar salários e ficar com as comissões. Em alguns casos, eles também são assalariados de um banqueiro. Além disso, podem contar com contadores, advogados e até pistoleiros para proteger os pontos de tentativas de invasões de outros gerentes ou banqueiros.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O apontador recebe comissões sobre as apostas feitas e os prêmios sorteados, mas também pode ser assalariado."
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "text",
+            "text": " Os gerentes, por sua vez, controlam várias bancas e apontadores, podendo pagar salários e ficar com as comissões. Em alguns casos, eles também são assalariados de um banqueiro."
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "text",
+            "text": " Além disso, podem contar com contadores, advogados e até pistoleiros para proteger os pontos de tentativas de invasões de outros gerentes ou banqueiros."
+          },
+          {
+            "type": "note",
+            "number": 17
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "O banqueiro é quem controla o território, administra as apostas e os prêmios. Ele pode, se necessário, transferir parte das apostas para outros banqueiros do mesmo nível ou para um banqueiro mais poderoso, o \"dono\" de toda uma área ou município. Esse sistema, conhecido como \"Paratodos\" no Rio de Janeiro, se expandiu por todo o país, com cada banqueiro mantendo sua autonomia dentro da rede."
+        "text": "O banqueiro é quem controla o território, administra as apostas e os prêmios. Ele pode, se necessário, transferir parte das apostas para outros banqueiros do mesmo nível ou para um banqueiro mais poderoso, o \"dono\" de toda uma área ou município. Esse sistema, conhecido como \"Paratodos\" no Rio de Janeiro, se expandiu por todo o país, com cada banqueiro mantendo sua autonomia dentro da rede.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O banqueiro é quem controla o território, administra as apostas e os prêmios. Ele pode, se necessário, transferir parte das apostas para outros banqueiros do mesmo nível ou para um banqueiro mais poderoso, o \"dono\" de toda uma área ou município."
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "text",
+            "text": " Esse sistema, conhecido como \"Paratodos\" no Rio de Janeiro, se expandiu por todo o país, com cada banqueiro mantendo sua autonomia dentro da rede."
+          },
+          {
+            "type": "note",
+            "number": 17
+          }
+        ]
       }
     ]
   },
@@ -199,15 +1284,61 @@
       },
       {
         "type": "p",
-        "text": "O sorteio, realizado diariamente, escolhe o número vencedor, e quem apostou na sequência correta recebe o prêmio. O valor da aposta pode ser muito baixo, tornando o jogo acessível, mas com prêmios que variam conforme a quantidade apostada e o tipo de aposta feita. Desde que as operações do jogo do bicho foram transferidas para as \"fortalezas\" (os QGs dos \"banqueiros\"), os sorteios passaram a utilizar os mesmos números vencedores da loteria federal do Brasil."
+        "text": "O sorteio, realizado diariamente, escolhe o número vencedor, e quem apostou na sequência correta recebe o prêmio. O valor da aposta pode ser muito baixo, tornando o jogo acessível, mas com prêmios que variam conforme a quantidade apostada e o tipo de aposta feita. Desde que as operações do jogo do bicho foram transferidas para as \"fortalezas\" (os QGs dos \"banqueiros\"), os sorteios passaram a utilizar os mesmos números vencedores da loteria federal do Brasil.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O sorteio, realizado diariamente, escolhe o número vencedor, e quem apostou na sequência correta recebe o prêmio. O valor da aposta pode ser muito baixo, tornando o jogo acessível, mas com prêmios que variam conforme a quantidade apostada e o tipo de aposta feita."
+          },
+          {
+            "type": "note",
+            "number": 1
+          },
+          {
+            "type": "text",
+            "text": " Desde que as operações do jogo do bicho foram transferidas para as \"fortalezas\" (os QGs dos \"banqueiros\"), os sorteios passaram a utilizar os mesmos números vencedores da loteria federal do Brasil."
+          },
+          {
+            "type": "note",
+            "number": 117
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Para evitar o risco de \"quebra da banca\" — quando o negócio não consegue pagar os prêmios em caso, por exemplo, de uma aposta muito alta —, os bicheiros inventaram a chamada \"descarga\" para possíveis problemas de liquidez. Os bicheiros menores fazem um \"seguro\" ao pagar parte das apostas a um bicheiro maior, que garante apostas altas caso seja necessário, algo similar as realizado por bancos e empresas com contratos de risco compartilhados, operações de hedge e seguros."
+        "text": "Para evitar o risco de \"quebra da banca\" — quando o negócio não consegue pagar os prêmios em caso, por exemplo, de uma aposta muito alta —, os bicheiros inventaram a chamada \"descarga\" para possíveis problemas de liquidez. Os bicheiros menores fazem um \"seguro\" ao pagar parte das apostas a um bicheiro maior, que garante apostas altas caso seja necessário, algo similar as realizado por bancos e empresas com contratos de risco compartilhados, operações de hedge e seguros.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para evitar o risco de \"quebra da banca\" — quando o negócio não consegue pagar os prêmios em caso, por exemplo, de uma aposta muito alta —, os bicheiros inventaram a chamada \"descarga\" para possíveis problemas de liquidez. Os bicheiros menores fazem um \"seguro\" ao pagar parte das apostas a um bicheiro maior, que garante apostas altas caso seja necessário, algo similar as realizado por bancos e empresas com contratos de risco compartilhados, operações de hedge e seguros."
+          },
+          {
+            "type": "note",
+            "number": 117
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "O jogo do bicho tornou-se parte da cultura popular brasileira de tal forma que, por exemplo, o termo \"zebra\", que significa no esporte profissional um resultado improvável ou surpresa, tem sua origem no fato de que não existe zebra no jogo do bicho, tornando esse termo emblemático para resultados inesperados. Ou também da associação do número 24 com a comunidade LGBT, devido ao fato de o número ser associado ao veado (um termo pejorativo para homossexuais)."
+        "text": "O jogo do bicho tornou-se parte da cultura popular brasileira de tal forma que, por exemplo, o termo \"zebra\", que significa no esporte profissional um resultado improvável ou surpresa, tem sua origem no fato de que não existe zebra no jogo do bicho, tornando esse termo emblemático para resultados inesperados. Ou também da associação do número 24 com a comunidade LGBT, devido ao fato de o número ser associado ao veado (um termo pejorativo para homossexuais).",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O jogo do bicho tornou-se parte da cultura popular brasileira de tal forma que, por exemplo, o termo \"zebra\", que significa no esporte profissional um resultado improvável ou surpresa, tem sua origem no fato de que não existe zebra no jogo do bicho, tornando esse termo emblemático para resultados inesperados."
+          },
+          {
+            "type": "note",
+            "number": 118
+          },
+          {
+            "type": "text",
+            "text": " Ou também da associação do número 24 com a comunidade LGBT, devido ao fato de o número ser associado ao veado (um termo pejorativo para homossexuais)."
+          },
+          {
+            "type": "note",
+            "number": 119
+          }
+        ]
       }
     ]
   },
@@ -365,13 +1496,501 @@
     "id": "-1",
     "heading": "Notas",
     "level": "h2",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "O jogo do bicho é semelhante à loteria federal, mas com algumas diferenças: uma delas é que o jogador pode apostar qualquer valor, que muitas vezes é bem acima de suas possibilidades. Quanto maior o valor apostado em uma sequência numérica (milhar, centena, dezena, etc.), maior será o prêmio em caso de acerto. Com essa flexibilidade de apostas, o jogador é livre para escolher pelo menor valor possível o seu número da sorte nas 10.000 chances disponíveis em cada sorteio. Por exemplo, caso um apostador que tenha feito uma aposta de R$ 1,00 em uma milhar no primeiro prêmio (conhecido como \"cabeça\" por ser a primeira milhar no topo da lista de resultados) e acertado os quatro números, ele ganhará R$ 3.000,00. Se tivesse jogado R$ 0,50 na mesma aposta e acertado, receberia uma prêmio de R$ 1.500,00. Toda banca tem uma tabela de valores que são apresentados aos apostadores, tabela essa que tem muito pouca diferença de banca para banca."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "-1",
     "heading": "Referências",
     "level": "h2",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 2,
+            "text": "DaMatta & Soárez 1999, p. 59."
+          },
+          {
+            "number": 3,
+            "text": "DaMatta & Soárez 1999, p. 40."
+          },
+          {
+            "number": 4,
+            "text": "DaMatta & Soárez 1999, pp. 60-64."
+          },
+          {
+            "number": 5,
+            "text": "Magalhães 2005, pp. 17-21."
+          },
+          {
+            "number": 6,
+            "text": "Chazkel 2011, pp. 32-34."
+          },
+          {
+            "number": 7,
+            "text": "DaMatta & Soárez 1999, p. 65."
+          },
+          {
+            "number": 8,
+            "text": "DaMatta & Soárez 1999, pp. 70-71,74."
+          },
+          {
+            "number": 9,
+            "text": "Chazkel 2011, pp. 34-36."
+          },
+          {
+            "number": 10,
+            "text": "Simas 2024, p. 46."
+          },
+          {
+            "number": 11,
+            "text": "Chazkel 2011, pp. 256-257."
+          },
+          {
+            "number": 12,
+            "text": "DaMatta & Soárez 1999, pp. 80-84."
+          },
+          {
+            "number": 13,
+            "text": "Chazkel 2011, pp. 37-40,205-206."
+          },
+          {
+            "number": 14,
+            "text": "Misse 2007, p. 142."
+          },
+          {
+            "number": 15,
+            "text": "Simas 2024, p. 170."
+          },
+          {
+            "number": 16,
+            "text": "Chazkel 2011, pp. 206-210, 228-235, 240-241."
+          },
+          {
+            "number": 17,
+            "text": "Misse 2007, p. 143."
+          },
+          {
+            "number": 18,
+            "text": "Labronici 2020, p. 154."
+          },
+          {
+            "number": 19,
+            "text": "Chazkel 2011, pp. 7-8, 261-263."
+          },
+          {
+            "number": 20,
+            "text": "Misse 2007, pp. 142-144."
+          },
+          {
+            "number": 21,
+            "text": "Misse 2018, p. 138."
+          },
+          {
+            "number": 22,
+            "text": "Manso 2020, p. 97."
+          },
+          {
+            "number": 23,
+            "text": "Simas 2024, pp. 46-47, 170."
+          },
+          {
+            "number": 24,
+            "text": "Manso 2020, pp. 98-100."
+          },
+          {
+            "number": 25,
+            "text": "Bezerra & Campos 2024, pp. 544-545."
+          },
+          {
+            "number": 26,
+            "text": "Otavio & Jupiara 2013a."
+          },
+          {
+            "number": 27,
+            "text": "Otavio & Jupiara 2013b."
+          },
+          {
+            "number": 28,
+            "text": "O Globo 2013."
+          },
+          {
+            "number": 29,
+            "text": "Lopes & Simas 2015, pp. 166-167."
+          },
+          {
+            "number": 30,
+            "text": "Labronici 2020, pp. 154-157."
+          },
+          {
+            "number": 31,
+            "text": "Lobato 2007."
+          },
+          {
+            "number": 32,
+            "text": "Instituto Jogo Legal 2016."
+          },
+          {
+            "number": 33,
+            "text": "O Globo 2016."
+          },
+          {
+            "number": 34,
+            "text": "Soares, Souza & Araújo 2025."
+          },
+          {
+            "number": 35,
+            "text": "Misse 2018, p. 143."
+          },
+          {
+            "number": 36,
+            "text": "Labronici 2020, pp. 166-167."
+          },
+          {
+            "number": 37,
+            "text": "Mello & Soares 2024."
+          },
+          {
+            "number": 38,
+            "text": "Manso 2020, p. 158."
+          },
+          {
+            "number": 39,
+            "text": "Labronici 2020, pp. 154-156."
+          },
+          {
+            "number": 40,
+            "text": "Misse 2007, pp. 154-155."
+          },
+          {
+            "number": 41,
+            "text": "Magalhães 2005, p. 9."
+          },
+          {
+            "number": 42,
+            "text": "Magalhães 2005, pp. 9-17."
+          },
+          {
+            "number": 43,
+            "text": "Simas 2024, p. 16."
+          },
+          {
+            "number": 44,
+            "text": "Ratier, Rodrigo (18 de abril de 2011). «Qual é a origem do jogo do bicho?». Super Interessante. Consultado em 18 de agosto de 2026. Cópia arquivada em 27 de setembro de 2020"
+          },
+          {
+            "number": 45,
+            "text": "DaMatta & Soárez 1999, pp. 61-64."
+          },
+          {
+            "number": 46,
+            "text": "Simas 2024, pp. 22-23."
+          },
+          {
+            "number": 47,
+            "text": "DaMatta & Soárez 1999, pp. 65-67."
+          },
+          {
+            "number": 48,
+            "text": "Diário do Commercio 1892, p. 1."
+          },
+          {
+            "number": 49,
+            "text": "Jornal do Commercio 1892, p. 2."
+          },
+          {
+            "number": 50,
+            "text": "O Tempo 1892, p. 1."
+          },
+          {
+            "number": 51,
+            "text": "DaMatta & Soárez 1999, p. 70."
+          },
+          {
+            "number": 52,
+            "text": "Magalhães 2005, p. 21."
+          },
+          {
+            "number": 53,
+            "text": "Simas 2024, pp. 23-24."
+          },
+          {
+            "number": 54,
+            "text": "DaMatta & Soárez 1999, pp. 74-76."
+          },
+          {
+            "number": 55,
+            "text": "Magalhães 2005, p. 22."
+          },
+          {
+            "number": 56,
+            "text": "Simas 2024, pp. 27-28."
+          },
+          {
+            "number": 57,
+            "text": "DaMatta & Soárez 1999, p. 72."
+          },
+          {
+            "number": 58,
+            "text": "DaMatta & Soárez 1999, pp. 70-74."
+          },
+          {
+            "number": 59,
+            "text": "Chazkel 2011, pp. 34-37."
+          },
+          {
+            "number": 60,
+            "text": "Magalhães 2005, pp. 23-25,35-39."
+          },
+          {
+            "number": 61,
+            "text": "Chazkel 2011, pp. 37-40."
+          },
+          {
+            "number": 62,
+            "text": "Simas 2024, p. 33."
+          },
+          {
+            "number": 63,
+            "text": "Magalhães 2005, p. 172."
+          },
+          {
+            "number": 64,
+            "text": "Magalhães 2005, pp. 24-25."
+          },
+          {
+            "number": 65,
+            "text": "Magalhães 2005, p. 79."
+          },
+          {
+            "number": 66,
+            "text": "BN Digital 2024."
+          },
+          {
+            "number": 67,
+            "text": "Congresso Nacional 1899."
+          },
+          {
+            "number": 68,
+            "text": "Chazkel 2011, pp. 87,257."
+          },
+          {
+            "number": 69,
+            "text": "Congresso Nacional 1910."
+          },
+          {
+            "number": 70,
+            "text": "Chazkel 2011, pp. 214,257."
+          },
+          {
+            "number": 71,
+            "text": "Chazkel 2011, pp. 214-216, 236."
+          },
+          {
+            "number": 72,
+            "text": "Magalhães 2005, pp. 183-186."
+          },
+          {
+            "number": 73,
+            "text": "Presidência da República 1932."
+          },
+          {
+            "number": 74,
+            "text": "Chazkel 2011, p. 256."
+          },
+          {
+            "number": 75,
+            "text": "Presidência da República 1941."
+          },
+          {
+            "number": 76,
+            "text": "Presidência da República 1946."
+          },
+          {
+            "number": 77,
+            "text": "Chazkel 2011, pp. 255-261."
+          },
+          {
+            "number": 78,
+            "text": "Chazkel 2011, pp. 207,247."
+          },
+          {
+            "number": 79,
+            "text": "Chazkel 2011, pp. 157-159, 240-241, 254."
+          },
+          {
+            "number": 80,
+            "text": "Misse 2007, pp. 142-143."
+          },
+          {
+            "number": 81,
+            "text": "Chazkel 2011, pp. 226,254-260."
+          },
+          {
+            "number": 82,
+            "text": "Manso 2020, pp. 97-98."
+          },
+          {
+            "number": 83,
+            "text": "Jornal do Brasil 1981a, p. 15."
+          },
+          {
+            "number": 84,
+            "text": "Labronici 2020, pp. 157-160."
+          },
+          {
+            "number": 85,
+            "text": "Bezerra & Campos 2024, p. 545."
+          },
+          {
+            "number": 86,
+            "text": "Jornal do Brasil 1981b, p. 4."
+          },
+          {
+            "number": 87,
+            "text": "Simas 2024."
+          },
+          {
+            "number": 88,
+            "text": "Manso 2020, pp. 99-100."
+          },
+          {
+            "number": 89,
+            "text": "Ponso & Esperança 2017."
+          },
+          {
+            "number": 90,
+            "text": "O Globo 2024a."
+          },
+          {
+            "number": 91,
+            "text": "Folha de S.Paulo 1994."
+          },
+          {
+            "number": 92,
+            "text": "G1 2009."
+          },
+          {
+            "number": 93,
+            "text": "O Globo 2010."
+          },
+          {
+            "number": 94,
+            "text": "Araujo 2023."
+          },
+          {
+            "number": 95,
+            "text": "Pierre & Nascimento 2024."
+          },
+          {
+            "number": 96,
+            "text": "O Globo 2020."
+          },
+          {
+            "number": 97,
+            "text": "O Globo 2024b."
+          },
+          {
+            "number": 98,
+            "text": "Soares 2016."
+          },
+          {
+            "number": 99,
+            "text": "Monken 2005."
+          },
+          {
+            "number": 100,
+            "text": "Otavio & Jupiara 2020."
+          },
+          {
+            "number": 101,
+            "text": "Otavio 2021."
+          },
+          {
+            "number": 102,
+            "text": "Chazkel 2011, pp. 210-211."
+          },
+          {
+            "number": 103,
+            "text": "Fon 1979, p. 16."
+          },
+          {
+            "number": 104,
+            "text": "Farias 2023."
+          },
+          {
+            "number": 105,
+            "text": "Figueiredo 1999."
+          },
+          {
+            "number": 106,
+            "text": "Lozano & Godoy 1996."
+          },
+          {
+            "number": 107,
+            "text": "Folha de S.Paulo 2004."
+          },
+          {
+            "number": 108,
+            "text": "Godoy 1994."
+          },
+          {
+            "number": 109,
+            "text": "Folha de S.Paulo 1996."
+          },
+          {
+            "number": 110,
+            "text": "Godoy 1997."
+          },
+          {
+            "number": 111,
+            "text": "Guibu, Fernandes & Acayaba 2007."
+          },
+          {
+            "number": 112,
+            "text": "Santos, Jair Nascimento (1996). «Paratodos Bahia: uma organização no jogo do bicho». Organizações & Sociedade. 3: 71–96. ISSN 1413-585X. doi:10.1590/S1984-92301996000300004. Cópia arquivada em 17 de maio de 2025"
+          },
+          {
+            "number": 113,
+            "text": "Senado Federal 2014."
+          },
+          {
+            "number": 114,
+            "text": "«Proposta legaliza jogo do bicho e outros jogos de apostas». Portal da Câmara dos Deputados. 22 de julho de 2016. Consultado em 20 de setembro de 2026"
+          },
+          {
+            "number": 115,
+            "text": "João Carlos (2 de maio de 2025). «O 'PL DOS JOGOS DE AZAR' E A POLÊMICA SOBRE O USO DE ANIMAIS EM PRÁTICAS ESPORTIVAS». Antena 1. Consultado em 20 de setembro de 2026"
+          },
+          {
+            "number": 116,
+            "text": "«Entenda o que deve mudar com o projeto que libera bingos, cassinos e jogo do bicho». Folha de S.Paulo. 8 de julho de 2025. Consultado em 20 de setembro de 2026. Cópia arquivada em 30 de março de 2026"
+          },
+          {
+            "number": 117,
+            "text": "Guimarães 2017."
+          },
+          {
+            "number": 118,
+            "text": "Simas 2024, p. 107."
+          },
+          {
+            "number": 119,
+            "text": "Simas 2024, pp. 161-165."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "12",

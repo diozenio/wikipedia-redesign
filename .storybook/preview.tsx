@@ -3,8 +3,9 @@ import type { Preview } from "@storybook/nextjs-vite";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import { AppProvider } from "../src/ui/providers/app-provider";
-import { ArticleAudioProvider } from "../src/ui/providers/article-audio-provider";
+import { MockArticleAudioProvider } from "../src/ui/providers/mocks/mock-article-audio-provider";
 import { MockArticleProvider } from "../src/ui/providers/mocks/mock-article-provider";
+import { MockArticleSummaryProvider } from "../src/ui/providers/mocks/mock-article-summary-provider";
 import { MockFeaturedArticlesProvider } from "../src/ui/providers/mocks/mock-featured-articles-provider";
 import { MockSearchProvider } from "../src/ui/providers/mocks/mock-search-provider";
 import { MockSeeAlsoProvider } from "../src/ui/providers/mocks/mock-see-also-provider";
@@ -67,15 +68,17 @@ const preview: Preview = {
     (Story) => (
       <AppProvider>
         <MockArticleProvider>
-          <ArticleAudioProvider>
-            <MockSeeAlsoProvider>
-              <MockSearchProvider>
-                <MockFeaturedArticlesProvider>
-                  <Story />
-                </MockFeaturedArticlesProvider>
-              </MockSearchProvider>
-            </MockSeeAlsoProvider>
-          </ArticleAudioProvider>
+          <MockArticleAudioProvider>
+            <MockArticleSummaryProvider>
+              <MockSeeAlsoProvider>
+                <MockSearchProvider>
+                  <MockFeaturedArticlesProvider>
+                    <Story />
+                  </MockFeaturedArticlesProvider>
+                </MockSearchProvider>
+              </MockSeeAlsoProvider>
+            </MockArticleSummaryProvider>
+          </MockArticleAudioProvider>
         </MockArticleProvider>
       </AppProvider>
     ),

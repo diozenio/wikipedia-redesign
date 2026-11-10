@@ -13,7 +13,10 @@
     "check:lint": "biome check",
     "check:lint:write": "biome check --write",
     "ui:docs": "storybook dev -p 6006",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "test": "vitest --project=storybook --run",
+    "test:e2e": "playwright test",
+    "audit:lighthouse": "node scripts/lighthouse.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1157.0",
@@ -39,8 +42,10 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@biomejs/biome": "2.4.2",
     "@chromatic-com/storybook": "^5.3.1",
+    "@playwright/test": "^1.65.0",
     "@storybook/addon-a11y": "^10.6.1",
     "@storybook/addon-docs": "^10.6.1",
     "@storybook/addon-mcp": "^10.6.1",
@@ -53,7 +58,8 @@
     "@types/react-dom": "^19",
     "@vitest/browser-playwright": "^4",
     "@vitest/coverage-v8": "^4",
-    "playwright": "^1.63.0",
+    "lighthouse": "^13.6.0",
+    "playwright": "^1.65.0",
     "prisma": "7.10.1",
     "storybook": "^10.6.1",
     "tailwindcss": "^4",

@@ -17,7 +17,9 @@ export function PlayerTimeline({
 }: PlayerTimelineProps) {
   return (
     <div className="flex items-center gap-3 text-xs text-muted-foreground tabular-nums">
-      <span className="min-w-10 text-right">{formatTime(currentTime)}</span>
+      <span aria-hidden="true" className="min-w-10 text-right">
+        {formatTime(currentTime)}
+      </span>
       <Slider
         className="flex-1"
         value={[currentTime]}
@@ -25,10 +27,14 @@ export function PlayerTimeline({
         step={1}
         disabled={!duration}
         thumbLabel="Progresso do áudio"
-        getAriaValueText={(_formatted, value) => describeTime(value)}
+        getAriaValueText={(_formatted, value) =>
+          `${describeTime(value)} de ${describeTime(duration)}`
+        }
         onValueChange={(value) => onSeek(firstValue(value))}
       />
-      <span className="min-w-10">{formatTime(duration)}</span>
+      <span aria-hidden="true" className="min-w-10">
+        {formatTime(duration)}
+      </span>
     </div>
   );
 }

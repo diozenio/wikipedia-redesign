@@ -1,10 +1,10 @@
 "use client";
 
 import { Volume1, Volume2, VolumeX } from "lucide-react";
+import { PlayerButton } from "@/ui/components/audio-player/player-button";
 import { firstValue } from "@/ui/components/audio-player/slider-value";
 import { AnimatedIcon } from "@/ui/components/motion/animated-icon";
 import { cn } from "@/ui/lib/utils";
-import { Button } from "@/ui/primitives/button";
 import { Slider } from "@/ui/primitives/slider";
 
 type PlayerVolumeProps = {
@@ -32,17 +32,18 @@ export function PlayerVolume({
   const { key, Icon } = volumeIcon(level);
 
   return (
-    <div className={cn("flex w-36 items-center gap-2", className)}>
-      <Button
-        variant="ghost"
-        size="icon-sm"
-        aria-label={muted ? "Ativar som" : "Silenciar"}
+    <div className={cn("flex w-40 items-center gap-2", className)}>
+      <PlayerButton
+        aria-pressed={muted}
+        className="aria-pressed:bg-muted"
+        icon={
+          <AnimatedIcon iconKey={key}>
+            <Icon className="size-4" />
+          </AnimatedIcon>
+        }
+        label="Silenciar"
         onClick={onToggleMute}
-      >
-        <AnimatedIcon iconKey={key}>
-          <Icon className="size-4" />
-        </AnimatedIcon>
-      </Button>
+      />
       <Slider
         className="flex-1"
         value={[level]}

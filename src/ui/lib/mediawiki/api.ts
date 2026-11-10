@@ -38,10 +38,14 @@ async function queryPage(
     format: "json",
     formatversion: "2",
     origin: "*",
-    prop: "info|categories|extracts|langlinkscount",
+    prop: "info|categories|extracts|langlinkscount|langlinks|revisions",
     inprop: "url",
     explaintext: "1",
     cllimit: "max",
+    lllimit: "max",
+    llprop: "url|langname|autonym",
+    llinlanguagecode: "pt",
+    rvprop: "timestamp",
     ...selector,
   });
   const response = await request(`${WIKI_ORIGIN}/w/api.php?${params}`, options);

@@ -18,10 +18,9 @@ export function FeaturedArticleCard({
   const isLead = variant === "lead";
 
   return (
-    <Link
-      href={`/articles/${encodeURIComponent(article.slug)}`}
+    <article
       className={cn(
-        "group flex w-full overflow-hidden rounded-xl border border-border bg-card text-card-foreground shadow-xs transition-colors outline-none hover:border-foreground/20 focus-visible:ring-3 focus-visible:ring-ring/50",
+        "group relative flex w-full overflow-hidden rounded-xl border border-border bg-card text-card-foreground shadow-xs transition-colors hover:border-foreground/20 has-focus-visible:ring-2 has-focus-visible:ring-ring has-focus-visible:ring-offset-2 has-focus-visible:ring-offset-background",
         isLead
           ? "flex-col @min-[48rem]/page:flex-row-reverse"
           : "flex-col gap-3 p-5 @min-[48rem]/page:p-6",
@@ -53,7 +52,12 @@ export function FeaturedArticleCard({
                 : "text-xl leading-snug tracking-[-0.02em]",
             )}
           >
-            {article.title}
+            <Link
+              href={`/articles/${encodeURIComponent(article.slug)}`}
+              className="outline-none after:absolute after:inset-0"
+            >
+              {article.title}
+            </Link>
           </h3>
           {article.description && (
             <p className="text-[0.8125rem] text-muted-foreground">
@@ -80,12 +84,15 @@ export function FeaturedArticleCard({
           ) : (
             <span />
           )}
-          <span className="flex items-center gap-1.5 text-[0.8125rem] font-medium text-foreground">
+          <span
+            aria-hidden="true"
+            className="flex items-center gap-1.5 text-[0.8125rem] font-medium text-foreground"
+          >
             Ler artigo
             <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-0.5" />
           </span>
         </div>
       </div>
-    </Link>
+    </article>
   );
 }

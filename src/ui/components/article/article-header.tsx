@@ -36,11 +36,15 @@ export function ArticleHeader() {
       >
         <li className="flex items-center gap-1.5 text-[0.8125rem] text-muted-foreground">
           <Languages className="size-3.5" />
-          {meta.languages} idiomas
+          {meta.languages === 1 ? "1 idioma" : `${meta.languages} idiomas`}
         </li>
         <li className="flex items-center gap-1.5 text-[0.8125rem] text-muted-foreground">
           <Calendar className="size-3.5" />
-          {meta.lastEditedLabel}
+          {meta.lastEditedAt ? (
+            <time dateTime={meta.lastEditedAt}>{meta.lastEditedLabel}</time>
+          ) : (
+            meta.lastEditedLabel
+          )}
         </li>
         <li className="flex items-center gap-1.5 text-[0.8125rem] text-muted-foreground">
           <Eye className="size-3.5" />

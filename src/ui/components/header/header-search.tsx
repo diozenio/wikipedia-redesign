@@ -124,7 +124,7 @@ export function HeaderSearch({ autoFocus = false }: { autoFocus?: boolean }) {
       <div
         className={cn(
           "flex h-10 w-full items-center gap-2 rounded-md border bg-background px-3 shadow-xs transition-colors",
-          focused ? "border-ring ring-3 ring-ring/50" : "border-input",
+          focused ? "border-ring ring-2 ring-ring" : "border-input",
         )}
       >
         <Search className="size-4 shrink-0 text-muted-foreground" />

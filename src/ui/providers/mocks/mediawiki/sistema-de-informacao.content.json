@@ -5,24 +5,26 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
-        "rows": [
-          [
-            "",
-            "Esta página cita fontes, mas que não cobrem todo o conteúdo. Ajude a inserir referências (Encontre fontes: Google (N • L • A • I • WP refs) • ABW • CAPES). (março de 2019)"
-          ]
-        ]
-      },
-      {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/EAI.png/250px-EAI.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 417,
-        "height": 285,
-        "caption": "EAI: um exemplo de sistema de informação."
+        "alt": "",
+        "caption": "EAI: um exemplo de sistema de informação.",
+        "width": 250,
+        "height": 171
       },
       {
         "type": "p",
-        "text": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual."
+        "text": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual."
+          },
+          {
+            "type": "note",
+            "number": 1
+          }
+        ]
       },
       {
         "type": "p",
@@ -30,19 +32,99 @@
       },
       {
         "type": "p",
-        "text": "Todo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo."
+        "text": "Todo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Todo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo."
+          },
+          {
+            "type": "note",
+            "number": 2
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Segundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados."
+        "text": "Segundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Segundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados."
+          },
+          {
+            "type": "note",
+            "number": 3
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Para Laudon um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações. De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas."
+        "text": "Para Laudon um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações. De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para Laudon"
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "text",
+            "text": " um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações."
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "text",
+            "text": " De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Os sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\". Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\". As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo. Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\". Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde."
+        "text": "Os sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\". Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\". As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo. Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\". Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Os sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\"."
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "text",
+            "text": " Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\"."
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "text",
+            "text": " As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo."
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "text",
+            "text": " Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\"."
+          },
+          {
+            "type": "note",
+            "number": 9
+          },
+          {
+            "type": "text",
+            "text": " Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde."
+          }
+        ]
       },
       {
         "type": "p",
@@ -50,7 +132,21 @@
       },
       {
         "type": "p",
-        "text": "Entendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro, os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software."
+        "text": "Entendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro, os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Entendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro,"
+          },
+          {
+            "type": "note",
+            "number": 10
+          },
+          {
+            "type": "text",
+            "text": " os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software."
+          }
+        ]
       },
       {
         "type": "p",
@@ -85,9 +181,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Esquema_sistema_de_informacion.png/250px-Esquema_sistema_de_informacion.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 556,
-        "height": 258,
-        "caption": "Sistema de Informação"
+        "alt": "",
+        "caption": "Sistema de Informação",
+        "width": 250,
+        "height": 116
       },
       {
         "type": "p",
@@ -95,7 +192,17 @@
       },
       {
         "type": "p",
-        "text": "O tipo de trabalho previsto para um Bacharel em Sistemas de Informação abrange a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização. Suas responsabilidades em uma empresa podem abranger o planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações presentes nos sistemas computacionais. Este trabalho também abrange funções relacionadas a suporte aos usuários e infraestrutura tecnológica. É abrangente em áreas de Ciência da Computação-Software e Engenharia da Computação-Hardware."
+        "text": "O tipo de trabalho previsto para um Bacharel em Sistemas de Informação abrange a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização. Suas responsabilidades em uma empresa podem abranger o planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações presentes nos sistemas computacionais. Este trabalho também abrange funções relacionadas a suporte aos usuários e infraestrutura tecnológica. É abrangente em áreas de Ciência da Computação-Software e Engenharia da Computação-Hardware.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O tipo de trabalho previsto para um Bacharel em Sistemas de Informação abrange a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização. Suas responsabilidades em uma empresa podem abranger o planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações presentes nos sistemas computacionais. Este trabalho também abrange funções relacionadas a suporte aos usuários e infraestrutura tecnológica. É abrangente em áreas de Ciência da Computação-Software e Engenharia da Computação-Hardware."
+          },
+          {
+            "type": "note",
+            "number": 11
+          }
+        ]
       },
       {
         "type": "p",
@@ -302,7 +409,17 @@
     "blocks": [
       {
         "type": "p",
-        "text": "A administração de sistemas da informação, é a técnica de planejamento, estudo, a execução e o gerenciamento de atividades mais bem realizadas dos sistemas de informação, nas empresas e em locais de uso informativo. Desde o século XX, os homens viram a necessidade de criar sistemas aos quais pudessem promover mais agilidade aos processos de trabalho desenvolvidos na época. Como vemos na evolução dos sistemas de informação com o inicio de sua aparição na tecnologia, com as maquinas de cálculo, as gigantes maquinas a válvulas, transistores e no fim o usual sistemas de computadores, até hoje movidos a circuitos integrados. Assim a usabilidade dos sistemas de informação ficou mais viável a todos com o processamento de dados cada vez mais rápido, dando um avanço significativo na história da computação comercial. E a administração de sistemas da informação veio para auxiliar os homens a entenderem as consequências da integração da tecnologia da informação nas áreas de processos organizacionais e de gerência em geral, tendo sua principal viabilidade e usabilidade em organizações empresariais."
+        "text": "A administração de sistemas da informação, é a técnica de planejamento, estudo, a execução e o gerenciamento de atividades mais bem realizadas dos sistemas de informação, nas empresas e em locais de uso informativo. Desde o século XX, os homens viram a necessidade de criar sistemas aos quais pudessem promover mais agilidade aos processos de trabalho desenvolvidos na época. Como vemos na evolução dos sistemas de informação com o inicio de sua aparição na tecnologia, com as maquinas de cálculo, as gigantes maquinas a válvulas, transistores e no fim o usual sistemas de computadores, até hoje movidos a circuitos integrados. Assim a usabilidade dos sistemas de informação ficou mais viável a todos com o processamento de dados cada vez mais rápido, dando um avanço significativo na história da computação comercial. E a administração de sistemas da informação veio para auxiliar os homens a entenderem as consequências da integração da tecnologia da informação nas áreas de processos organizacionais e de gerência em geral, tendo sua principal viabilidade e usabilidade em organizações empresariais.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A administração de sistemas da informação, é a técnica de planejamento, estudo, a execução e o gerenciamento de atividades mais bem realizadas dos sistemas de informação, nas empresas e em locais de uso informativo. Desde o século XX, os homens viram a necessidade de criar sistemas aos quais pudessem promover mais agilidade aos processos de trabalho desenvolvidos na época. Como vemos na evolução dos sistemas de informação com o inicio de sua aparição na tecnologia, com as maquinas de cálculo, as gigantes maquinas a válvulas, transistores e no fim o usual sistemas de computadores, até hoje movidos a circuitos integrados. Assim a usabilidade dos sistemas de informação ficou mais viável a todos com o processamento de dados cada vez mais rápido, dando um avanço significativo na história da computação comercial. E a administração de sistemas da informação veio para auxiliar os homens a entenderem as consequências da integração da tecnologia da informação nas áreas de processos organizacionais e de gerência em geral, tendo sua principal viabilidade e usabilidade em organizações empresariais."
+          },
+          {
+            "type": "note",
+            "number": 12
+          }
+        ]
       }
     ]
   },
@@ -317,7 +434,17 @@
       },
       {
         "type": "p",
-        "text": "Os principais tipos sistemas de informação nas empresas são:"
+        "text": "Os principais tipos sistemas de informação nas empresas são:",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Os principais tipos sistemas de informação nas empresas são:"
+          },
+          {
+            "type": "note",
+            "number": 4
+          }
+        ]
       },
       {
         "type": "list",
@@ -358,7 +485,17 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Como qualquer outro sistema, o SI inclui a entrada (input) que envolve a captação ou coleta de fontes de dados brutos de dentro da empresa ou de um ambiente externo. O processamento envolve a conversão dessa entrada bruta em uma forma mais útil e apropriada. A saída (output) envolve a transferência de informação processada às pessoas ou atividades que a usarão (processa os inputs e produz outputs, que são enviados para o usuário ou para outro sistema).Podem conter também um mecanismo de feedback que controla a operação."
+        "text": "Como qualquer outro sistema, o SI inclui a entrada (input) que envolve a captação ou coleta de fontes de dados brutos de dentro da empresa ou de um ambiente externo. O processamento envolve a conversão dessa entrada bruta em uma forma mais útil e apropriada. A saída (output) envolve a transferência de informação processada às pessoas ou atividades que a usarão (processa os inputs e produz outputs, que são enviados para o usuário ou para outro sistema).Podem conter também um mecanismo de feedback que controla a operação.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Como qualquer outro sistema, o SI inclui a entrada (input) que envolve a captação ou coleta de fontes de dados brutos de dentro da empresa ou de um ambiente externo. O processamento envolve a conversão dessa entrada bruta em uma forma mais útil e apropriada. A saída (output) envolve a transferência de informação processada às pessoas ou atividades que a usarão (processa os inputs e produz outputs, que são enviados para o usuário ou para outro sistema).Podem conter também um mecanismo de feedback que controla a operação."
+          },
+          {
+            "type": "note",
+            "number": 13
+          }
+        ]
       },
       {
         "type": "p",
@@ -426,11 +563,39 @@
       },
       {
         "type": "p",
-        "text": "Segundo Turban, McLean e Wetherbe, um sistema de informação baseado em computador (genericamente chamado de sistema da informação) é um método que utiliza tecnologia de computação para executar algumas de todas as tarefas desejadas. Pode ser composto de apenas um computador pessoal e software, ou incluir milhares de computadores de diversos tamanhos com centenas de impressoras e outros equipamentos, bem como redes de comunicação e banco de dados."
+        "text": "Segundo Turban, McLean e Wetherbe, um sistema de informação baseado em computador (genericamente chamado de sistema da informação) é um método que utiliza tecnologia de computação para executar algumas de todas as tarefas desejadas. Pode ser composto de apenas um computador pessoal e software, ou incluir milhares de computadores de diversos tamanhos com centenas de impressoras e outros equipamentos, bem como redes de comunicação e banco de dados.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Segundo Turban, McLean e Wetherbe,"
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "text",
+            "text": " um sistema de informação baseado em computador (genericamente chamado de sistema da informação) é um método que utiliza tecnologia de computação para executar algumas de todas as tarefas desejadas. Pode ser composto de apenas um computador pessoal e software, ou incluir milhares de computadores de diversos tamanhos com centenas de impressoras e outros equipamentos, bem como redes de comunicação e banco de dados."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "De acordo com O'Brien os SI são relacionados da seguinte forma:"
+        "text": "De acordo com O'Brien os SI são relacionados da seguinte forma:",
+        "segments": [
+          {
+            "type": "text",
+            "text": "De acordo com O'Brien"
+          },
+          {
+            "type": "note",
+            "number": 15
+          },
+          {
+            "type": "text",
+            "text": " os SI são relacionados da seguinte forma:"
+          }
+        ]
       },
       {
         "type": "list",
@@ -457,15 +622,57 @@
       },
       {
         "type": "p",
-        "text": "Segundo Laudon, os sistemas de informação [SI] fazem parte das organizações. Mas, para entender como cada organização específica utilizam o mesmo, é necessário saber a sua estrutura, cultura e inclusive a sua história. Pode-se destacar também que cada organização possui uma estrutura composta por diferentes níveis e especializações, incluindo uma cultura peculiar. Além do mais, esses níveis e especialidades divergentes em uma empresa, criam pontos de vista e interesses diversos, que muitas das vezes geram conflitos, em que se tornam a base das políticas organizacionais. Mediante o exposto, são através dessas perspectivas, conflitos, acordos e afins que saem os sistemas de informações, no qual são inerentes a todas as organizações."
+        "text": "Segundo Laudon, os sistemas de informação [SI] fazem parte das organizações. Mas, para entender como cada organização específica utilizam o mesmo, é necessário saber a sua estrutura, cultura e inclusive a sua história. Pode-se destacar também que cada organização possui uma estrutura composta por diferentes níveis e especializações, incluindo uma cultura peculiar. Além do mais, esses níveis e especialidades divergentes em uma empresa, criam pontos de vista e interesses diversos, que muitas das vezes geram conflitos, em que se tornam a base das políticas organizacionais. Mediante o exposto, são através dessas perspectivas, conflitos, acordos e afins que saem os sistemas de informações, no qual são inerentes a todas as organizações.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Segundo Laudon,"
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " os sistemas de informação [SI] fazem parte das organizações. Mas, para entender como cada organização específica utilizam o mesmo, é necessário saber a sua estrutura, cultura e inclusive a sua história. Pode-se destacar também que cada organização possui uma estrutura composta por diferentes níveis e especializações, incluindo uma cultura peculiar. Além do mais, esses níveis e especialidades divergentes em uma empresa, criam pontos de vista e interesses diversos, que muitas das vezes geram conflitos, em que se tornam a base das políticas organizacionais. Mediante o exposto, são através dessas perspectivas, conflitos, acordos e afins que saem os sistemas de informações, no qual são inerentes a todas as organizações."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Laudon também destaca a dimensão humana, aonde cita que a empresa é relativamente boa quanto às pessoas que gerenciam e trabalham na mesma. Nesse caso, o autor faz uma relação comparando que o mesmo quesito se aplica aos sistemas de informação, pois ambos são inúteis sem o auxílio de pessoas qualificadas para desenvolvê-los e mantê-los, inclusive não saber aproveitar e utilizar as informações de forma sucinta e eficiente para os objetivos organizacionais, pois as pessoas são os únicos capazes de resolverem problemas organizacionais e promover soluções úteis dispostas a acabar com obstáculos. Outrossim, levando em consideração a importância para as organizações, a tecnologia da informação pode executar um papel importantíssimo no sentido de ajudar os gestores a prestarem soluções inovadoras para diversos problemas."
+        "text": "Laudon também destaca a dimensão humana, aonde cita que a empresa é relativamente boa quanto às pessoas que gerenciam e trabalham na mesma. Nesse caso, o autor faz uma relação comparando que o mesmo quesito se aplica aos sistemas de informação, pois ambos são inúteis sem o auxílio de pessoas qualificadas para desenvolvê-los e mantê-los, inclusive não saber aproveitar e utilizar as informações de forma sucinta e eficiente para os objetivos organizacionais, pois as pessoas são os únicos capazes de resolverem problemas organizacionais e promover soluções úteis dispostas a acabar com obstáculos. Outrossim, levando em consideração a importância para as organizações, a tecnologia da informação pode executar um papel importantíssimo no sentido de ajudar os gestores a prestarem soluções inovadoras para diversos problemas.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Laudon"
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " também destaca a dimensão humana, aonde cita que a empresa é relativamente boa quanto às pessoas que gerenciam e trabalham na mesma. Nesse caso, o autor faz uma relação comparando que o mesmo quesito se aplica aos sistemas de informação, pois ambos são inúteis sem o auxílio de pessoas qualificadas para desenvolvê-los e mantê-los, inclusive não saber aproveitar e utilizar as informações de forma sucinta e eficiente para os objetivos organizacionais, pois as pessoas são os únicos capazes de resolverem problemas organizacionais e promover soluções úteis dispostas a acabar com obstáculos. Outrossim, levando em consideração a importância para as organizações, a tecnologia da informação pode executar um papel importantíssimo no sentido de ajudar os gestores a prestarem soluções inovadoras para diversos problemas."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Por fim, na última dimensão que é a ligada à tecnologia, Laudon evidencia que a tecnologia da informação é uma das inúmeras ferramentas que os gestores utilizam para enfrentar as mudanças e complexidade. O Hardware que basicamente é o equipamento físico utilizado para atividades de entrada, processamento e saída de um SI. O Software que resumidamente permite que o hardware processe dados que controlam e coordenam o mesmo através de um sistema de informação. A tecnologia de armazenamento de dados e a tecnologia de comunicações e de redes. A maior rede do mundo e a que é mais amplamente usada, pode-se ressaltar a Internet, também possuem as Intranets que são redes corporativas internas baseadas na tecnologia da Internet e as Extranets, no qual são as intranets particulares que permitem o acesso de seus usuários autorizados fora da organização. Todas essas tecnologias citadas juntamente inclusas as pessoas que são necessárias para acioná-las, constituem a infraestrutura de tecnologia da informação, comumente conhecida pela sigla (TI) da empresa. Esta proporciona a fundação, ou plataforma, em que a empresa pode montar todos os seus sistemas de informações específicos."
+        "text": "Por fim, na última dimensão que é a ligada à tecnologia, Laudon evidencia que a tecnologia da informação é uma das inúmeras ferramentas que os gestores utilizam para enfrentar as mudanças e complexidade. O Hardware que basicamente é o equipamento físico utilizado para atividades de entrada, processamento e saída de um SI. O Software que resumidamente permite que o hardware processe dados que controlam e coordenam o mesmo através de um sistema de informação. A tecnologia de armazenamento de dados e a tecnologia de comunicações e de redes. A maior rede do mundo e a que é mais amplamente usada, pode-se ressaltar a Internet, também possuem as Intranets que são redes corporativas internas baseadas na tecnologia da Internet e as Extranets, no qual são as intranets particulares que permitem o acesso de seus usuários autorizados fora da organização. Todas essas tecnologias citadas juntamente inclusas as pessoas que são necessárias para acioná-las, constituem a infraestrutura de tecnologia da informação, comumente conhecida pela sigla (TI) da empresa. Esta proporciona a fundação, ou plataforma, em que a empresa pode montar todos os seus sistemas de informações específicos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Por fim, na última dimensão que é a ligada à tecnologia, Laudon"
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " evidencia que a tecnologia da informação é uma das inúmeras ferramentas que os gestores utilizam para enfrentar as mudanças e complexidade. O Hardware que basicamente é o equipamento físico utilizado para atividades de entrada, processamento e saída de um SI. O Software que resumidamente permite que o hardware processe dados que controlam e coordenam o mesmo através de um sistema de informação. A tecnologia de armazenamento de dados e a tecnologia de comunicações e de redes. A maior rede do mundo e a que é mais amplamente usada, pode-se ressaltar a Internet, também possuem as Intranets que são redes corporativas internas baseadas na tecnologia da Internet e as Extranets, no qual são as intranets particulares que permitem o acesso de seus usuários autorizados fora da organização. Todas essas tecnologias citadas juntamente inclusas as pessoas que são necessárias para acioná-las, constituem a infraestrutura de tecnologia da informação, comumente conhecida pela sigla (TI) da empresa. Esta proporciona a fundação, ou plataforma, em que a empresa pode montar todos os seus sistemas de informações específicos."
+          }
+        ]
       }
     ]
   },
@@ -647,7 +854,73 @@
     "id": "-1",
     "heading": "Referências",
     "level": "h2",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "RAINER, L. Kelly; CASEY, G. Cegielski. Introdução a Sistemas de Informação. São Paulo: LTC, 2015."
+          },
+          {
+            "number": 2,
+            "text": "Gonçalves, Leandro Salenave. «Sistema de Informação» (PDF). Consultado em 11 de fevereiro de 2012 [ligação inativa]"
+          },
+          {
+            "number": 3,
+            "text": "Turban, Efraim (2003). Administração de tecnologia da informação. [S.l.]: Elsevier"
+          },
+          {
+            "number": 4,
+            "text": "Laudon; Kenneth C.; Laudon; Jane Price (1999). Sistema da Informação com Internet. [S.l.: s.n.] 4 páginas"
+          },
+          {
+            "number": 5,
+            "text": "Turban, TURBAN,E.,MCLEAN,E.,WETHERBE,J. (2004). Tecnologia da informação para gestão. Transformado os negócios da economia digital. [S.l.: s.n.]"
+          },
+          {
+            "number": 6,
+            "text": "Varajão, João (2018). «The many facets of information systems (+projects) success.» (PDF). International Journal of Information Systems and Project Management, 6, 4, 5-13. Consultado em 19 de julho de 2020"
+          },
+          {
+            "number": 7,
+            "text": "Souza e Prado, Edmir e Cesar (2014). Fundamentos de sistemas de informação. [S.l.: s.n.] p. 5"
+          },
+          {
+            "number": 8,
+            "text": "Kroll e Dolan, Luisa e Kerry. «The Forbes 400: The Definitive Ranking Of The Wealthiest Americans». Consultado em 19 de julho de 2020"
+          },
+          {
+            "number": 9,
+            "text": "Mattos, Antonio Carlos Marques. (2010). Sistemas de informação : uma visão executiva. [S.l.]: Saraiva. p. 7. OCLC 817223631"
+          },
+          {
+            "number": 10,
+            "text": "MEC, Secretaria de Educação Superior. «DIRETRIZES CURRICULARES DE CURSOS DA ÁREA DE COMPUTAÇÃO E INFORMÁTICA» (PDF). Consultado em 11 de fevereiro de 2012"
+          },
+          {
+            "number": 11,
+            "text": "LAUDON, Kenneth C. Sistemas de Informação Gerenciais 11 Ed. Rio de Janeiro: Pearson, 2014."
+          },
+          {
+            "number": 12,
+            "text": "Côrtes, Pedro (2007). Administração de Sistemas de Informação. [S.l.]: Saraiva"
+          },
+          {
+            "number": 13,
+            "text": "Gonçalves, Leandro Salenave. «Sistema de Informação» (PDF). Consultado em 11 de fevereiro de 2012 [ligação inativa]"
+          },
+          {
+            "number": 14,
+            "text": "TURBAN; Efraim; McLEAN; Ephraim; WETHERBE; James (2004). Tecnologia da informação para gestão. [S.l.: s.n.] 39 páginas"
+          },
+          {
+            "number": 15,
+            "text": "O'Brien, James (2004). Sistema de Informação e as decisões gerenciais na era da internet. [S.l.: s.n.]"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "24",

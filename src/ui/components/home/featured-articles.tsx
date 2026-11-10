@@ -70,7 +70,7 @@ function FeaturedArticlesSkeleton() {
       aria-busy="true"
       className="flex flex-col gap-4 @min-[40rem]/page:gap-5"
     >
-      <span className="sr-only">Carregando destaques</span>
+      <output className="sr-only">Carregando destaques…</output>
       <Skeleton className="h-64 w-full rounded-xl" />
       <div className="grid grid-cols-1 gap-4 @min-[40rem]/page:grid-cols-2 @min-[40rem]/page:gap-5 @min-[64rem]/page:grid-cols-3">
         {["a", "b", "c"].map((key) => (

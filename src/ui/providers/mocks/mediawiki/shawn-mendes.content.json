@@ -5,79 +5,72 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Shawn Mendes",
+        "image": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/191125_Shawn_Mendes_at_the_2019_American_Music_Awards.png/250px-191125_Shawn_Mendes_at_the_2019_American_Music_Awards.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "alt": "",
+          "caption": "Mendes em 2019",
+          "width": 220,
+          "height": 336
+        },
         "rows": [
-          [
-            "Shawn Mendes"
-          ],
-          [
-            "Mendes em 2019"
-          ],
-          [
-            "Nome completo",
-            "Shawn Peter Raul Mendes"
-          ],
-          [
-            "Nascimento",
-            "8 de agosto de 1998 (28 anos)Pickering, Ontário, Canadá"
-          ],
-          [
-            "Nacionalidade",
-            "Português Canadence"
-          ],
-          [
-            "Fortuna",
-            "US$ 54,5 milhões"
-          ],
-          [
-            "Estatura",
-            "1,92 m"
-          ],
-          [
-            "Progenitores",
-            "Mãe: Karen RaymentPai: Manuel Mendes"
-          ],
-          [
-            "Ocupação",
-            "cantor compositor produtor"
-          ],
-          [
-            "Período de atividade",
-            "2013—presente"
-          ],
-          [
-            "Prêmios",
-            "Lista de prêmios"
-          ],
-          [
-            "Carreira musical"
-          ],
-          [
-            "Gênero(s)",
-            "Pop folk rock pop rock"
-          ],
-          [
-            "Extensão vocal",
-            "tenor"
-          ],
-          [
-            "Instrumento(s)",
-            "Vocal guitarra piano violão bateria"
-          ],
-          [
-            "Gravadora(s)",
-            "Island"
-          ],
-          [
-            "Website",
-            "shawnmendesofficial.com"
-          ],
-          [
-            "Assinatura"
-          ],
-          [
-            ""
-          ]
+          {
+            "label": "Nome completo",
+            "value": "Shawn Peter Raul Mendes"
+          },
+          {
+            "label": "Nascimento",
+            "value": "8 de agosto de 1998 (28 anos) Pickering, Ontário, Canadá"
+          },
+          {
+            "label": "Nacionalidade",
+            "value": "Português Canadence"
+          },
+          {
+            "label": "Fortuna",
+            "value": "US$ 54,5 milhões"
+          },
+          {
+            "label": "Estatura",
+            "value": "1,92 m"
+          },
+          {
+            "label": "Progenitores",
+            "value": "Mãe: Karen Rayment Pai: Manuel Mendes"
+          },
+          {
+            "label": "Ocupação",
+            "value": "cantor, compositor, produtor"
+          },
+          {
+            "label": "Período de atividade",
+            "value": "2013—presente"
+          },
+          {
+            "label": "Prêmios",
+            "value": "Lista de prêmios"
+          },
+          {
+            "label": "Gênero(s)",
+            "value": "Pop, folk rock, pop rock"
+          },
+          {
+            "label": "Extensão vocal",
+            "value": "tenor"
+          },
+          {
+            "label": "Instrumento(s)",
+            "value": "Vocal, guitarra, piano, violão, bateria"
+          },
+          {
+            "label": "Gravadora",
+            "value": "Island"
+          },
+          {
+            "label": "Website",
+            "value": "shawnmendesofficial.com"
+          }
         ]
       },
       {
@@ -86,7 +79,21 @@
       },
       {
         "type": "p",
-        "text": "O segundo álbum de Mendes, Illuminate (2016), também estreou em primeiro lugar nos Estados Unidos, com os singles \"Treat You Better\" e \"There's Nothing Holdin' Me Back\" alcançando o top dez em diversos países. Seu terceiro álbum, Shawn Mendes (2018), teve \"In My Blood\" como single principal. A estreia do álbum no topo da tabela estadunidense fez de Mendes o terceiro artista mais jovem a alcançar três álbuns número um no país. Em 2019, ele lançou os singles de sucesso \"If I Can't Have You\" e \"Señorita\", com este último alcançando o topo da Billboard Hot 100. Seu quarto álbum de estúdio, Wonder (2020), o tornou o artista masculino mais jovem a alcançar o topo da Billboard 200 com quatro álbuns de estúdio. Após um período sabático musical, seu quinto álbum de estúdio, Shawn, foi lançado em novembro de 2024 e recebeu críticas positivas. O álbum explorou o gênero folk e obteve menos sucesso comercial do que seus antecessores."
+        "text": "O segundo álbum de Mendes, Illuminate (2016), também estreou em primeiro lugar nos Estados Unidos, com os singles \"Treat You Better\" e \"There's Nothing Holdin' Me Back\" alcançando o top dez em diversos países. Seu terceiro álbum, Shawn Mendes (2018), teve \"In My Blood\" como single principal. A estreia do álbum no topo da tabela estadunidense fez de Mendes o terceiro artista mais jovem a alcançar três álbuns número um no país. Em 2019, ele lançou os singles de sucesso \"If I Can't Have You\" e \"Señorita\", com este último alcançando o topo da Billboard Hot 100. Seu quarto álbum de estúdio, Wonder (2020), o tornou o artista masculino mais jovem a alcançar o topo da Billboard 200 com quatro álbuns de estúdio. Após um período sabático musical, seu quinto álbum de estúdio, Shawn, foi lançado em novembro de 2024 e recebeu críticas positivas. O álbum explorou o gênero folk e obteve menos sucesso comercial do que seus antecessores.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O segundo álbum de Mendes, Illuminate (2016), também estreou em primeiro lugar nos Estados Unidos, com os singles \"Treat You Better\" e \"There's Nothing Holdin' Me Back\" alcançando o top dez em diversos países. Seu terceiro álbum, Shawn Mendes (2018), teve \"In My Blood\" como single principal. A estreia do álbum no topo da tabela estadunidense fez de Mendes o terceiro artista mais jovem a alcançar três álbuns número um no país. Em 2019, ele lançou os singles de sucesso \"If I Can't Have You\" e \"Señorita\", com este último alcançando o topo da Billboard Hot 100. Seu quarto álbum de estúdio, Wonder (2020), o tornou o artista masculino mais jovem a alcançar o topo da Billboard 200 com quatro álbuns de estúdio."
+          },
+          {
+            "type": "note",
+            "number": 3
+          },
+          {
+            "type": "text",
+            "text": " Após um período sabático musical, seu quinto álbum de estúdio, Shawn, foi lançado em novembro de 2024 e recebeu críticas positivas. O álbum explorou o gênero folk e obteve menos sucesso comercial do que seus antecessores."
+          }
+        ]
       },
       {
         "type": "p",
@@ -107,11 +114,55 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Shawn Mendes nasceu em Pickering, Ontário, filho de Karen Rayment, uma agente imobiliária, e Manuel Mendes, um empresário do ramo da restauração em Toronto. Seu pai é português (do Algarve), enquanto sua mãe é inglesa. Ele tem uma irmã mais nova chamada Aaliyah. O cantor foi criado em uma família religiosa."
+        "text": "Shawn Mendes nasceu em Pickering, Ontário, filho de Karen Rayment, uma agente imobiliária, e Manuel Mendes, um empresário do ramo da restauração em Toronto. Seu pai é português (do Algarve), enquanto sua mãe é inglesa. Ele tem uma irmã mais nova chamada Aaliyah. O cantor foi criado em uma família religiosa.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Shawn Mendes nasceu em Pickering, Ontário, filho de Karen Rayment, uma agente imobiliária, e Manuel Mendes, um empresário do ramo da restauração em Toronto. Seu pai é português (do Algarve),"
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "text",
+            "text": " enquanto sua mãe é inglesa. Ele tem uma irmã mais nova chamada Aaliyah."
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "text",
+            "text": " O cantor foi criado em uma família religiosa."
+          },
+          {
+            "type": "note",
+            "number": 6
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes cresceu em Pickering, Ontário e estudou na Escola Secundária Pine Ridge, onde jogou hóquei no gelo e futebol e fez teatro. Mendes se formou no ensino médio em junho de 2016."
+        "text": "Mendes cresceu em Pickering, Ontário e estudou na Escola Secundária Pine Ridge, onde jogou hóquei no gelo e futebol e fez teatro. Mendes se formou no ensino médio em junho de 2016.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes cresceu em Pickering, Ontário e estudou na Escola Secundária Pine Ridge,"
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "text",
+            "text": " onde jogou hóquei no gelo e futebol e fez teatro. Mendes se formou no ensino médio em junho de 2016."
+          },
+          {
+            "type": "note",
+            "number": 8
+          }
+        ]
       }
     ]
   },
@@ -126,26 +177,150 @@
       },
       {
         "type": "p",
-        "text": "“Falei com um terapeuta algumas vezes [...] A terapia é o que funciona para você - escalar uma montanha. Terapia é ouvir música e correr na esteira... a terapia é sair para jantar com seus amigos... é algo que te distrai, ajuda a curar e por isso depende apenas do que você acha que é a terapia. Eu fiz um esforço consciente para estar mais conectado com as pessoas da minha vida. Eu descobri que estava me isolando de todos, achando que isso me ajudaria a lutar, então percebendo que a única maneira de lutar seria me abrir completamente e deixar as pessoas entrarem.” — Shawn Mendes"
+        "text": "“Falei com um terapeuta algumas vezes [...] A terapia é o que funciona para você - escalar uma montanha. Terapia é ouvir música e correr na esteira... a terapia é sair para jantar com seus amigos... é algo que te distrai, ajuda a curar e por isso depende apenas do que você acha que é a terapia. Eu fiz um esforço consciente para estar mais conectado com as pessoas da minha vida. Eu descobri que estava me isolando de todos, achando que isso me ajudaria a lutar, então percebendo que a única maneira de lutar seria me abrir completamente e deixar as pessoas entrarem.” — Shawn Mendes",
+        "segments": [
+          {
+            "type": "text",
+            "text": "“Falei com um terapeuta algumas vezes [...] A terapia é o que funciona para você - escalar uma montanha. Terapia é ouvir música e correr na esteira... a terapia é sair para jantar com seus amigos... é algo que te distrai, ajuda a curar e por isso depende apenas do que você acha que é a terapia. Eu fiz um esforço consciente para estar mais conectado com as pessoas da minha vida. Eu descobri que estava me isolando de todos, achando que isso me ajudaria a lutar, então percebendo que a única maneira de lutar seria me abrir completamente e deixar as pessoas entrarem.” — Shawn Mendes"
+          },
+          {
+            "type": "note",
+            "number": 9
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "No que diz respeito à especulação sobre sua sexualidade, Mendes afirmou: “Primeiro de tudo, eu não sou gay. Em segundo lugar, não deveria fazer diferença se eu fosse ou não fosse. O foco deveria estar na música e não minha sexualidade.”"
+        "text": "No que diz respeito à especulação sobre sua sexualidade, Mendes afirmou: “Primeiro de tudo, eu não sou gay. Em segundo lugar, não deveria fazer diferença se eu fosse ou não fosse. O foco deveria estar na música e não minha sexualidade.”",
+        "segments": [
+          {
+            "type": "text",
+            "text": "No que diz respeito à especulação sobre sua sexualidade, Mendes afirmou: “Primeiro de tudo, eu não sou gay. Em segundo lugar, não deveria fazer diferença se eu fosse ou não fosse. O foco deveria estar na música e não minha sexualidade.”"
+          },
+          {
+            "type": "note",
+            "number": 10
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "note",
+            "number": 12
+          }
+        ]
       }
     ]
   },
   {
     "id": "4",
-    "heading": null,
-    "level": null,
+    "heading": "Relacionamentos",
+    "level": "h4",
     "blocks": [
       {
         "type": "p",
-        "text": "Em julho de 2019, assumiu seu relacionamento com a cantora cubano-americana Camila Cabello, com quem fez duas musicas. Em 17 de novembro de 2021 os dois cantores anunciaram a separação. Ainda, foram vistos novamente juntos em 2023 e 2024. De acordo com especulações, Shawn teria vivido um triângulo amoroso envolvendo Camila e Sabrina Carpenter, com quem teve um suposto envolvimento em 2023, e acredita-se ser citado em diversas faixas do álbum da artista, em particular o single \"Taste\". O cantor negou ter existido um namoro entre os dois."
+        "text": "Em julho de 2019, assumiu seu relacionamento com a cantora cubano-americana Camila Cabello, com quem fez duas musicas. Em 17 de novembro de 2021 os dois cantores anunciaram a separação. Ainda, foram vistos novamente juntos em 2023 e 2024. De acordo com especulações, Shawn teria vivido um triângulo amoroso envolvendo Camila e Sabrina Carpenter, com quem teve um suposto envolvimento em 2023, e acredita-se ser citado em diversas faixas do álbum da artista, em particular o single \"Taste\". O cantor negou ter existido um namoro entre os dois.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em julho de 2019, assumiu seu relacionamento com a cantora cubano-americana Camila Cabello, com quem fez duas musicas."
+          },
+          {
+            "type": "note",
+            "number": 13
+          },
+          {
+            "type": "note",
+            "number": 14
+          },
+          {
+            "type": "note",
+            "number": 15
+          },
+          {
+            "type": "text",
+            "text": " Em 17 de novembro de 2021 os dois cantores anunciaram a separação."
+          },
+          {
+            "type": "note",
+            "number": 16
+          },
+          {
+            "type": "text",
+            "text": " Ainda, foram vistos novamente juntos em 2023 e 2024."
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "note",
+            "number": 18
+          },
+          {
+            "type": "note",
+            "number": 19
+          },
+          {
+            "type": "text",
+            "text": " De acordo com especulações, Shawn teria vivido um triângulo amoroso envolvendo Camila e Sabrina Carpenter, com quem teve um suposto envolvimento em 2023, e acredita-se ser citado em diversas faixas do álbum da artista, em particular o single \"Taste\"."
+          },
+          {
+            "type": "note",
+            "number": 20
+          },
+          {
+            "type": "text",
+            "text": " O cantor negou ter existido um namoro entre os dois."
+          },
+          {
+            "type": "note",
+            "number": 21
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2025, surgiram rumores de um romance entre Shawn Mendes e a atriz brasileira Bruna Marquezine, após diversas vindas seguidas do cantor ao Brasil, com ambos sendo fotografados juntos. A confirmação de um envolvimento entre os dois ocorreu após registros do casal curtindo o carnaval em Salvador, no bloco da cantora Ivete Sangalo. Shawn e Bruna se conheceram em 2017, quando o cantor foi atração no Rock in Rio. À época, Shawn seguiu a atriz no Instagram, o que repercutiu na internet. Em 04 de agosto de 2026, o cantor fez sua primeira declaração pública à atriz Bruna Marquezine no dia do seu aniversário."
+        "text": "Em 2025, surgiram rumores de um romance entre Shawn Mendes e a atriz brasileira Bruna Marquezine, após diversas vindas seguidas do cantor ao Brasil, com ambos sendo fotografados juntos. A confirmação de um envolvimento entre os dois ocorreu após registros do casal curtindo o carnaval em Salvador, no bloco da cantora Ivete Sangalo. Shawn e Bruna se conheceram em 2017, quando o cantor foi atração no Rock in Rio. À época, Shawn seguiu a atriz no Instagram, o que repercutiu na internet. Em 04 de agosto de 2026, o cantor fez sua primeira declaração pública à atriz Bruna Marquezine no dia do seu aniversário.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2025, surgiram rumores de um romance entre Shawn Mendes e a atriz brasileira Bruna Marquezine, após diversas vindas seguidas do cantor ao Brasil, com ambos sendo fotografados juntos."
+          },
+          {
+            "type": "note",
+            "number": 22
+          },
+          {
+            "type": "note",
+            "number": 23
+          },
+          {
+            "type": "text",
+            "text": " A confirmação de um envolvimento entre os dois ocorreu após registros do casal curtindo o carnaval em Salvador, no bloco da cantora Ivete Sangalo."
+          },
+          {
+            "type": "note",
+            "number": 24
+          },
+          {
+            "type": "text",
+            "text": " Shawn e Bruna se conheceram em 2017, quando o cantor foi atração no Rock in Rio. À época, Shawn seguiu a atriz no Instagram, o que repercutiu na internet."
+          },
+          {
+            "type": "note",
+            "number": 25
+          },
+          {
+            "type": "text",
+            "text": " Em 04 de agosto de 2026, o cantor fez sua primeira declaração pública à atriz Bruna Marquezine no dia do seu aniversário."
+          },
+          {
+            "type": "note",
+            "number": 26
+          }
+        ]
       }
     ]
   },
@@ -163,25 +338,226 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Shawn_Mendes_02_%2817686893403%29.jpg/250px-Shawn_Mendes_02_%2817686893403%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2380,
-        "height": 3336,
-        "caption": "Mendes na abertura da turnê The 1989 World Tour (maio de 2015)"
+        "alt": "",
+        "caption": "Mendes na abertura da turnê The 1989 World Tour (maio de 2015)",
+        "width": 200,
+        "height": 280
       },
       {
         "type": "p",
-        "text": "Mendes aprendeu a tocar violão assistindo vídeos tutoriais no YouTube aos 14 em 2012. Menos de um ano depois, ele começou a postar versões cover no YouTube. Mendes começou a atrair espectadores depois que ele postou um cover de “As Long As You Love Me” de Justin Bieber no aplicativo de vídeo social Vine em 2013 e ganhou 10 000 curtidas e vários seguidores no dia seguinte. Depois disso, ele ganhou milhões de visualizações e seguidores em poucos meses, tornando-se conhecido por seus trechos de seis segundos de versões cover de muitas canções populares. Em agosto de 2014, ele era o terceiro músico mais seguido de Vine. O empresário artístico Andrew Gertler descobriu Mendes online em novembro de 2013, trazendo-o para a Island Records em janeiro de 2014. Em abril, ele ganhou o concurso “Best Cover Song” (Melhor Versão Cover) de Ryan Seacrest com “Say Something” de A Great Big World. Ele assinou oficialmente com a Island em maio de 2014."
+        "text": "Mendes aprendeu a tocar violão assistindo vídeos tutoriais no YouTube aos 14 em 2012. Menos de um ano depois, ele começou a postar versões cover no YouTube. Mendes começou a atrair espectadores depois que ele postou um cover de “As Long As You Love Me” de Justin Bieber no aplicativo de vídeo social Vine em 2013 e ganhou 10 000 curtidas e vários seguidores no dia seguinte. Depois disso, ele ganhou milhões de visualizações e seguidores em poucos meses, tornando-se conhecido por seus trechos de seis segundos de versões cover de muitas canções populares. Em agosto de 2014, ele era o terceiro músico mais seguido de Vine. O empresário artístico Andrew Gertler descobriu Mendes online em novembro de 2013, trazendo-o para a Island Records em janeiro de 2014. Em abril, ele ganhou o concurso “Best Cover Song” (Melhor Versão Cover) de Ryan Seacrest com “Say Something” de A Great Big World. Ele assinou oficialmente com a Island em maio de 2014.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes aprendeu a tocar violão assistindo vídeos tutoriais no YouTube aos 14 em 2012."
+          },
+          {
+            "type": "note",
+            "number": 27
+          },
+          {
+            "type": "text",
+            "text": " Menos de um ano depois, ele começou a postar versões cover no YouTube. Mendes começou a atrair espectadores depois que ele postou um cover de “As Long As You Love Me” de Justin Bieber no aplicativo de vídeo social Vine em 2013 e ganhou 10 000 curtidas e vários seguidores no dia seguinte. Depois disso, ele ganhou milhões de visualizações e seguidores em poucos meses, tornando-se conhecido por seus trechos de seis segundos de versões cover de muitas canções populares."
+          },
+          {
+            "type": "note",
+            "number": 28
+          },
+          {
+            "type": "note",
+            "number": 29
+          },
+          {
+            "type": "text",
+            "text": " Em agosto de 2014, ele era o terceiro músico mais seguido de Vine."
+          },
+          {
+            "type": "note",
+            "number": 30
+          },
+          {
+            "type": "text",
+            "text": " O empresário artístico Andrew Gertler descobriu Mendes online em novembro de 2013, trazendo-o para a Island Records em janeiro de 2014. Em abril, ele ganhou o concurso “Best Cover Song” (Melhor Versão Cover) de Ryan Seacrest com “Say Something” de A Great Big World. Ele assinou oficialmente com a Island em maio de 2014."
+          },
+          {
+            "type": "note",
+            "number": 31
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes lançou seu primeiro single “Life of the Party” em 26 de junho de 2014. Ele se tornou o artista mais jovem a estrear no Top 25 da Billboard Hot 100, chegando ao número 24 na semana que terminou em 12 de julho de 2014. Antes de assinar contrato, Mendes fez uma turnê como membro da Magcon Tour ao lado de outros jovens do Vine com um grande número de seguidores nas redes sociais. Ele também esteve em uma turnê nacional com Austin Mahone como um ato de abertura. Mendes lançou o The Shawn Mendes EP em julho de 2014, sendo esse seu trabalho de estreia por uma grande gravadora. O EP estreou e chegou ao número cinco na Billboard 200, vendendo 48 000 cópias em sua primeira semana. Ele ganhou um prêmio Teen Choice em 2014 na categoria Web Star in Music (pt: Estrela da Web na Música). Em 5 de setembro de 2014, “Oh Cecilia (Breaking My Heart)”, com participação de Mendes, foi lançado como o quinto single de Meet the Vamps, álbum de estréia da banda The Vamps. Em 6 de novembro de 2014, “Something Big” foi lançada como o segundo single de Shawn Mendes."
+        "text": "Mendes lançou seu primeiro single “Life of the Party” em 26 de junho de 2014. Ele se tornou o artista mais jovem a estrear no Top 25 da Billboard Hot 100, chegando ao número 24 na semana que terminou em 12 de julho de 2014. Antes de assinar contrato, Mendes fez uma turnê como membro da Magcon Tour ao lado de outros jovens do Vine com um grande número de seguidores nas redes sociais. Ele também esteve em uma turnê nacional com Austin Mahone como um ato de abertura. Mendes lançou o The Shawn Mendes EP em julho de 2014, sendo esse seu trabalho de estreia por uma grande gravadora. O EP estreou e chegou ao número cinco na Billboard 200, vendendo 48 000 cópias em sua primeira semana. Ele ganhou um prêmio Teen Choice em 2014 na categoria Web Star in Music (pt: Estrela da Web na Música). Em 5 de setembro de 2014, “Oh Cecilia (Breaking My Heart)”, com participação de Mendes, foi lançado como o quinto single de Meet the Vamps, álbum de estréia da banda The Vamps. Em 6 de novembro de 2014, “Something Big” foi lançada como o segundo single de Shawn Mendes.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes lançou seu primeiro single “Life of the Party” em 26 de junho de 2014."
+          },
+          {
+            "type": "note",
+            "number": 32
+          },
+          {
+            "type": "text",
+            "text": " Ele se tornou o artista mais jovem a estrear no Top 25 da Billboard Hot 100, chegando ao número 24 na semana que terminou em 12 de julho de 2014."
+          },
+          {
+            "type": "note",
+            "number": 33
+          },
+          {
+            "type": "text",
+            "text": " Antes de assinar contrato, Mendes fez uma turnê como membro da Magcon Tour"
+          },
+          {
+            "type": "note",
+            "number": 34
+          },
+          {
+            "type": "text",
+            "text": " ao lado de outros jovens do Vine com um grande número de seguidores nas redes sociais."
+          },
+          {
+            "type": "note",
+            "number": 35
+          },
+          {
+            "type": "text",
+            "text": " Ele também esteve em uma turnê nacional com Austin Mahone como um ato de abertura. Mendes lançou o The Shawn Mendes EP em julho de 2014, sendo esse seu trabalho de estreia por uma grande gravadora."
+          },
+          {
+            "type": "note",
+            "number": 36
+          },
+          {
+            "type": "text",
+            "text": " O EP estreou e chegou ao número cinco na Billboard 200, vendendo 48 000 cópias em sua primeira semana."
+          },
+          {
+            "type": "note",
+            "number": 37
+          },
+          {
+            "type": "text",
+            "text": " Ele ganhou um prêmio Teen Choice em 2014 na categoria Web Star in Music (pt: Estrela da Web na Música)."
+          },
+          {
+            "type": "note",
+            "number": 38
+          },
+          {
+            "type": "text",
+            "text": " Em 5 de setembro de 2014, “Oh Cecilia (Breaking My Heart)”, com participação de Mendes, foi lançado como o quinto single de Meet the Vamps, álbum de estréia da banda The Vamps."
+          },
+          {
+            "type": "note",
+            "number": 39
+          },
+          {
+            "type": "text",
+            "text": " Em 6 de novembro de 2014, “Something Big” foi lançada como o segundo single de Shawn Mendes."
+          },
+          {
+            "type": "note",
+            "number": 40
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 14 de abril de 2015, Mendes lançou seu primeiro álbum de estúdio, Handwritten, que estreou como número um na tabela Billboard 200 com 119,00 unidades equivalentes ao álbum, vendendo 106 000 cópias em sua primeira semana e foi certificado de platina. Ele então tornou-se o mais jovem artista a estrear em na posição número um desde o lançamento de My World 2.0, de Justin Bieber. “Stitches”, a terceira música de trabalho do álbum, alcançou o número 4 da Billboard Hot 100, tornando-se em seu primeiro single Top 10 nos Estados Unidos, e também seu primeiro número um no Adult Pop Songs. Mais tarde a canção chegou ao topo da parada musicial britânica. Também em 2015, Mendes foi ato de abertura da turnê The 1989 World Tour de Taylor Swift, na segunda etapa da América do Norte da turnê, e gravou “Believe” para a trilha sonora de do filme Descendants. No final de 2015, Mendes e Camila Cabello, que na época era membro do grupo Fifth Harmony, lançaram em parceria o single “I Know What You Did Last Summer”. A canção foi incluída na reedição do álbum de entraria de Mendes, intitulada Handwritten Revisited."
+        "text": "Em 14 de abril de 2015, Mendes lançou seu primeiro álbum de estúdio, Handwritten, que estreou como número um na tabela Billboard 200 com 119,00 unidades equivalentes ao álbum, vendendo 106 000 cópias em sua primeira semana e foi certificado de platina. Ele então tornou-se o mais jovem artista a estrear em na posição número um desde o lançamento de My World 2.0, de Justin Bieber. “Stitches”, a terceira música de trabalho do álbum, alcançou o número 4 da Billboard Hot 100, tornando-se em seu primeiro single Top 10 nos Estados Unidos, e também seu primeiro número um no Adult Pop Songs. Mais tarde a canção chegou ao topo da parada musicial britânica. Também em 2015, Mendes foi ato de abertura da turnê The 1989 World Tour de Taylor Swift, na segunda etapa da América do Norte da turnê, e gravou “Believe” para a trilha sonora de do filme Descendants. No final de 2015, Mendes e Camila Cabello, que na época era membro do grupo Fifth Harmony, lançaram em parceria o single “I Know What You Did Last Summer”. A canção foi incluída na reedição do álbum de entraria de Mendes, intitulada Handwritten Revisited.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 14 de abril de 2015, Mendes lançou seu primeiro álbum de estúdio, Handwritten, que estreou como número um na tabela Billboard 200 com 119,00 unidades equivalentes ao álbum, vendendo 106 000 cópias em sua primeira semana e foi certificado de platina."
+          },
+          {
+            "type": "note",
+            "number": 41
+          },
+          {
+            "type": "note",
+            "number": 42
+          },
+          {
+            "type": "text",
+            "text": " Ele então tornou-se o mais jovem artista a estrear em na posição número um desde o lançamento de My World 2.0, de Justin Bieber."
+          },
+          {
+            "type": "note",
+            "number": 43
+          },
+          {
+            "type": "text",
+            "text": " “Stitches”, a terceira música de trabalho do álbum, alcançou o número 4 da Billboard Hot 100, tornando-se em seu primeiro single Top 10 nos Estados Unidos,"
+          },
+          {
+            "type": "note",
+            "number": 44
+          },
+          {
+            "type": "text",
+            "text": " e também seu primeiro número um no Adult Pop Songs."
+          },
+          {
+            "type": "note",
+            "number": 45
+          },
+          {
+            "type": "note",
+            "number": 46
+          },
+          {
+            "type": "text",
+            "text": " Mais tarde a canção chegou ao topo da parada musicial britânica."
+          },
+          {
+            "type": "note",
+            "number": 47
+          },
+          {
+            "type": "text",
+            "text": " Também em 2015, Mendes foi ato de abertura da turnê The 1989 World Tour de Taylor Swift, na segunda etapa da América do Norte da turnê, e gravou “Believe” para a trilha sonora de do filme Descendants."
+          },
+          {
+            "type": "note",
+            "number": 48
+          },
+          {
+            "type": "note",
+            "number": 49
+          },
+          {
+            "type": "text",
+            "text": " No final de 2015, Mendes e Camila Cabello, que na época era membro do grupo Fifth Harmony, lançaram em parceria o single “I Know What You Did Last Summer”. A canção foi incluída na reedição do álbum de entraria de Mendes, intitulada Handwritten Revisited."
+          },
+          {
+            "type": "note",
+            "number": 50
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes foi listado pela revista Time entre os \"25 Adolescentes Mais Influentes de 2014\", depois de ser o artista mais jovem a estrear no top 25 da Billboard Hot 100. Ele foi listado nos \"Os 30 Adolescentes Mais Influentes de 2015\" da revista Time, após seu álbum de estreia ser número 1 na Billboard 200 e seu single “Stitches” alcançado o top 10 nos EUA e em outros países."
+        "text": "Mendes foi listado pela revista Time entre os \"25 Adolescentes Mais Influentes de 2014\", depois de ser o artista mais jovem a estrear no top 25 da Billboard Hot 100. Ele foi listado nos \"Os 30 Adolescentes Mais Influentes de 2015\" da revista Time, após seu álbum de estreia ser número 1 na Billboard 200 e seu single “Stitches” alcançado o top 10 nos EUA e em outros países.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes foi listado pela revista Time entre os \"25 Adolescentes Mais Influentes de 2014\", depois de ser o artista mais jovem a estrear no top 25 da Billboard Hot 100."
+          },
+          {
+            "type": "note",
+            "number": 51
+          },
+          {
+            "type": "text",
+            "text": " Ele foi listado nos \"Os 30 Adolescentes Mais Influentes de 2015\" da revista Time, após seu álbum de estreia ser número 1 na Billboard 200 e seu single “Stitches” alcançado o top 10 nos EUA e em outros países."
+          },
+          {
+            "type": "note",
+            "number": 52
+          }
+        ]
       }
     ]
   },
@@ -193,25 +569,238 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Shawn_Mendes_Live_in_Concert_%28cropped%29.jpg/250px-Shawn_Mendes_Live_in_Concert_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 603,
-        "height": 784,
-        "caption": "Mendes em 2017"
+        "alt": "",
+        "caption": "Mendes em 2017",
+        "width": 200,
+        "height": 260
       },
       {
         "type": "p",
-        "text": "Em 21 de janeiro de 2016, Mendes fez sua estreia como ator em na 3.ª temporada da série The 100 da rede de televisão The CW. Mais tarde, ele anunciou sua segunda turnê mundial como artista principal, a Shawn Mendes World Tour, que começou em março de 2016. e esgotou 38 shows na América do Norte e Europa em poucos minutos."
+        "text": "Em 21 de janeiro de 2016, Mendes fez sua estreia como ator em na 3.ª temporada da série The 100 da rede de televisão The CW. Mais tarde, ele anunciou sua segunda turnê mundial como artista principal, a Shawn Mendes World Tour, que começou em março de 2016. e esgotou 38 shows na América do Norte e Europa em poucos minutos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 21 de janeiro de 2016, Mendes fez sua estreia como ator em na 3.ª temporada da série The 100 da rede de televisão The CW."
+          },
+          {
+            "type": "note",
+            "number": 53
+          },
+          {
+            "type": "text",
+            "text": " Mais tarde, ele anunciou sua segunda turnê mundial como artista principal, a Shawn Mendes World Tour, que começou em março de 2016."
+          },
+          {
+            "type": "note",
+            "number": 54
+          },
+          {
+            "type": "text",
+            "text": " e esgotou 38 shows na América do Norte e Europa em poucos minutos."
+          },
+          {
+            "type": "note",
+            "number": 55
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes lançou “Treat You Better”, o primeiro single do seu segundo álbum de estúdio, em junho de 2016. Nos EUA, o single alcançou o top 10 na Billboard Hot 100, tornou-se seu segundo single a atingir o topo das paradas Adult Contemporary e Adult Pop Songs e foi certificado platina tripla. Também foi o top 10 no Reino Unido. O álbum Illuminate foi lançado em 23 de setembro de 2016 e estreou no número um da parada americana Billboard 200 com 145 000 unidades equivalentes ao álbum, incluindo 121 000 em vendas de álbuns e foi certificado disco de platina. Ele estreou no topo das paradas no Canadá, tornando-se seu segundo álbum número um em seu país de origem. “Mercy” foi lançada como segundo single do álbum em 18 de agosto de 2016, que entrou no top 20 em os EUA e no Reino Unido e foi certificada dupla platina. Mendes lançou o álbum ao vivo Live at Madison Square Garden em dezembro de 2016. Ele apareceu como convidado musical no Saturday Night Live em 3 de dezembro de 2016."
+        "text": "Mendes lançou “Treat You Better”, o primeiro single do seu segundo álbum de estúdio, em junho de 2016. Nos EUA, o single alcançou o top 10 na Billboard Hot 100, tornou-se seu segundo single a atingir o topo das paradas Adult Contemporary e Adult Pop Songs e foi certificado platina tripla. Também foi o top 10 no Reino Unido. O álbum Illuminate foi lançado em 23 de setembro de 2016 e estreou no número um da parada americana Billboard 200 com 145 000 unidades equivalentes ao álbum, incluindo 121 000 em vendas de álbuns e foi certificado disco de platina. Ele estreou no topo das paradas no Canadá, tornando-se seu segundo álbum número um em seu país de origem. “Mercy” foi lançada como segundo single do álbum em 18 de agosto de 2016, que entrou no top 20 em os EUA e no Reino Unido e foi certificada dupla platina. Mendes lançou o álbum ao vivo Live at Madison Square Garden em dezembro de 2016. Ele apareceu como convidado musical no Saturday Night Live em 3 de dezembro de 2016.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes lançou “Treat You Better”, o primeiro single do seu segundo álbum de estúdio, em junho de 2016."
+          },
+          {
+            "type": "note",
+            "number": 56
+          },
+          {
+            "type": "text",
+            "text": " Nos EUA, o single alcançou o top 10 na Billboard Hot 100, tornou-se seu segundo single a atingir o topo das paradas Adult Contemporary"
+          },
+          {
+            "type": "note",
+            "number": 46
+          },
+          {
+            "type": "text",
+            "text": " e Adult Pop Songs"
+          },
+          {
+            "type": "note",
+            "number": 45
+          },
+          {
+            "type": "text",
+            "text": " e foi certificado platina tripla."
+          },
+          {
+            "type": "note",
+            "number": 42
+          },
+          {
+            "type": "text",
+            "text": " Também foi o top 10 no Reino Unido. O álbum Illuminate foi lançado em 23 de setembro de 2016 e estreou no número um da parada americana Billboard 200 com 145 000 unidades equivalentes ao álbum, incluindo 121 000 em vendas de álbuns e foi certificado disco de platina."
+          },
+          {
+            "type": "note",
+            "number": 42
+          },
+          {
+            "type": "note",
+            "number": 57
+          },
+          {
+            "type": "text",
+            "text": " Ele estreou no topo das paradas no Canadá, tornando-se seu segundo álbum número um em seu país de origem. “Mercy” foi lançada como segundo single do álbum em 18 de agosto de 2016,"
+          },
+          {
+            "type": "note",
+            "number": 58
+          },
+          {
+            "type": "text",
+            "text": " que entrou no top 20 em os EUA e no Reino Unido e foi certificada dupla platina."
+          },
+          {
+            "type": "note",
+            "number": 42
+          },
+          {
+            "type": "text",
+            "text": " Mendes lançou o álbum ao vivo Live at Madison Square Garden em dezembro de 2016."
+          },
+          {
+            "type": "note",
+            "number": 59
+          },
+          {
+            "type": "text",
+            "text": " Ele apareceu como convidado musical no Saturday Night Live em 3 de dezembro de 2016."
+          },
+          {
+            "type": "note",
+            "number": 60
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em abril de 2017, Mendes embarcou na Illuminate World Tour que esgotou ingressos em arenas ao redor do como o Staples Center em Los Angeles e a The O2 Arena em Londres. Ele lançou o single “There's Nothing Holdin' Me Back” em 20 de abril de 2017, incluído na edição de luxo do álbum Illuminate. A música foi o terceiro single dele a chegar ao top 10 nos Estados Unidos e o terceiro a alcançar o número um em ambas paradas Adult Contemporary e Adult Pop Songs. Em agosto de 2017, ele se tornou o primeiro artista com menos de 20 anos de idade a ter três músicas número um na tabela Billboard Adult Pop Songs. Em novembro de 2017, Mendes tornou-se o primeiro artista a ter três músicas número um na tabela Billboard Adult Contemporary antes de completar 20 anos de idade, um feito sem precedentes desde a fundação do gráfico há mais de 50 anos."
+        "text": "Em abril de 2017, Mendes embarcou na Illuminate World Tour que esgotou ingressos em arenas ao redor do como o Staples Center em Los Angeles e a The O2 Arena em Londres. Ele lançou o single “There's Nothing Holdin' Me Back” em 20 de abril de 2017, incluído na edição de luxo do álbum Illuminate. A música foi o terceiro single dele a chegar ao top 10 nos Estados Unidos e o terceiro a alcançar o número um em ambas paradas Adult Contemporary e Adult Pop Songs. Em agosto de 2017, ele se tornou o primeiro artista com menos de 20 anos de idade a ter três músicas número um na tabela Billboard Adult Pop Songs. Em novembro de 2017, Mendes tornou-se o primeiro artista a ter três músicas número um na tabela Billboard Adult Contemporary antes de completar 20 anos de idade, um feito sem precedentes desde a fundação do gráfico há mais de 50 anos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em abril de 2017, Mendes embarcou na Illuminate World Tour que esgotou ingressos em arenas ao redor do como o Staples Center em Los Angeles e a The O2 Arena em Londres."
+          },
+          {
+            "type": "note",
+            "number": 61
+          },
+          {
+            "type": "note",
+            "number": 62
+          },
+          {
+            "type": "note",
+            "number": 63
+          },
+          {
+            "type": "text",
+            "text": " Ele lançou o single “There's Nothing Holdin' Me Back”"
+          },
+          {
+            "type": "note",
+            "number": 64
+          },
+          {
+            "type": "text",
+            "text": " em 20 de abril de 2017, incluído na edição de luxo do álbum Illuminate."
+          },
+          {
+            "type": "note",
+            "number": 65
+          },
+          {
+            "type": "text",
+            "text": " A música foi o terceiro single dele a chegar ao top 10 nos Estados Unidos"
+          },
+          {
+            "type": "note",
+            "number": 66
+          },
+          {
+            "type": "text",
+            "text": " e o terceiro a alcançar o número um em ambas paradas Adult Contemporary"
+          },
+          {
+            "type": "note",
+            "number": 46
+          },
+          {
+            "type": "text",
+            "text": " e Adult Pop Songs."
+          },
+          {
+            "type": "note",
+            "number": 45
+          },
+          {
+            "type": "note",
+            "number": 67
+          },
+          {
+            "type": "text",
+            "text": " Em agosto de 2017, ele se tornou o primeiro artista com menos de 20 anos de idade a ter três músicas número um na tabela Billboard Adult Pop Songs."
+          },
+          {
+            "type": "note",
+            "number": 68
+          },
+          {
+            "type": "text",
+            "text": " Em novembro de 2017, Mendes tornou-se o primeiro artista a ter três músicas número um na tabela Billboard Adult Contemporary antes de completar 20 anos de idade,"
+          },
+          {
+            "type": "note",
+            "number": 69
+          },
+          {
+            "type": "text",
+            "text": " um feito sem precedentes desde a fundação do gráfico há mais de 50 anos."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes foi listado entre Os 30 Adolescentes Mais Influentes do Ano de 2016 pela revista Time e fez sua primeira aparição em Forbes 30 Abaixo dos 30 Anos de 2016 — Música. Ele liderou a lista dos 21 Abaixo dos 21 Anos da Billboard em 2017, após seus dois álbuns terem liderado a tabela Billboard 200 e seu single “There's Nothing Holding Me Back” tornar-se seu quinto top 20 da Billboard Hot 100."
+        "text": "Mendes foi listado entre Os 30 Adolescentes Mais Influentes do Ano de 2016 pela revista Time e fez sua primeira aparição em Forbes 30 Abaixo dos 30 Anos de 2016 — Música. Ele liderou a lista dos 21 Abaixo dos 21 Anos da Billboard em 2017, após seus dois álbuns terem liderado a tabela Billboard 200 e seu single “There's Nothing Holding Me Back” tornar-se seu quinto top 20 da Billboard Hot 100.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes foi listado entre Os 30 Adolescentes Mais Influentes do Ano de 2016 pela revista Time"
+          },
+          {
+            "type": "note",
+            "number": 70
+          },
+          {
+            "type": "text",
+            "text": " e fez sua primeira aparição em Forbes 30 Abaixo dos 30 Anos de 2016 — Música."
+          },
+          {
+            "type": "note",
+            "number": 71
+          },
+          {
+            "type": "text",
+            "text": " Ele liderou a lista dos 21 Abaixo dos 21 Anos da Billboard em 2017, após seus dois álbuns terem liderado a tabela Billboard 200 e seu single “There's Nothing Holding Me Back” tornar-se seu quinto top 20 da Billboard Hot 100."
+          },
+          {
+            "type": "note",
+            "number": 72
+          }
+        ]
       }
     ]
   },
@@ -222,49 +811,375 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Em 22 de março de 2018, Mendes lançou o single “In My Blood”, primeira música de trabalho se seu futuro terceiro álbum de estúdio, seguido pelo segundo single “Lost in Japan” em 23 de março. “In My Blood” ficou no topo da parada Adult Pop Songs da Billboard, fazendo de Mendes o primeiro e único artista a ter quatro singles no primeiro lugar antes de completar 20 anos. “Youth” foi lançada em 3 de maio com participação do cantor norte-americano Khalid."
+        "text": "Em 22 de março de 2018, Mendes lançou o single “In My Blood”, primeira música de trabalho se seu futuro terceiro álbum de estúdio, seguido pelo segundo single “Lost in Japan” em 23 de março. “In My Blood” ficou no topo da parada Adult Pop Songs da Billboard, fazendo de Mendes o primeiro e único artista a ter quatro singles no primeiro lugar antes de completar 20 anos. “Youth” foi lançada em 3 de maio com participação do cantor norte-americano Khalid.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 22 de março de 2018, Mendes lançou o single “In My Blood”, primeira música de trabalho se seu futuro terceiro álbum de estúdio,"
+          },
+          {
+            "type": "note",
+            "number": 73
+          },
+          {
+            "type": "text",
+            "text": " seguido pelo segundo single “Lost in Japan” em 23 de março."
+          },
+          {
+            "type": "note",
+            "number": 74
+          },
+          {
+            "type": "note",
+            "number": 75
+          },
+          {
+            "type": "text",
+            "text": " “In My Blood” ficou no topo da parada Adult Pop Songs da Billboard, fazendo de Mendes o primeiro e único artista a ter quatro singles no primeiro lugar antes de completar 20 anos."
+          },
+          {
+            "type": "note",
+            "number": 45
+          },
+          {
+            "type": "text",
+            "text": " “Youth” foi lançada em 3 de maio com participação do cantor norte-americano Khalid."
+          },
+          {
+            "type": "note",
+            "number": 76
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Seu álbum autointitulado foi lançado em 25 de maio de 2018 recebendo críticas positivas, com particular elogio para suas composições e crescimento artístico. O disco estreou em número um no Canadá, tornando-se seu terceiro álbum número um em seu país de origem. Ele estreou em número um no Billboard 200 dos EUA, tornando Mendes o terceiro artista mais jovem a acumular três álbuns número um."
+        "text": "Seu álbum autointitulado foi lançado em 25 de maio de 2018 recebendo críticas positivas, com particular elogio para suas composições e crescimento artístico. O disco estreou em número um no Canadá, tornando-se seu terceiro álbum número um em seu país de origem. Ele estreou em número um no Billboard 200 dos EUA, tornando Mendes o terceiro artista mais jovem a acumular três álbuns número um.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Seu álbum autointitulado foi lançado em 25 de maio de 2018 recebendo críticas positivas, com particular elogio para suas composições e crescimento artístico."
+          },
+          {
+            "type": "note",
+            "number": 77
+          },
+          {
+            "type": "text",
+            "text": " O disco estreou em número um no Canadá, tornando-se seu terceiro álbum número um em seu país de origem. Ele estreou em número um no Billboard 200 dos EUA, tornando Mendes o terceiro artista mais jovem a acumular três álbuns número um."
+          },
+          {
+            "type": "note",
+            "number": 78
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/QueenbdayRAH210418-28_%2826886325387%29_%28cropped%29.jpg/250px-QueenbdayRAH210418-28_%2826886325387%29_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2087,
-        "height": 3081,
-        "caption": "Mendes no concerto em homenagem ao 92º aniversário da rainha Elizabeth II (abril de 2018)"
+        "alt": "",
+        "caption": "Mendes no concerto em homenagem ao 92º aniversário da rainha Elizabeth II (abril de 2018)",
+        "width": 200,
+        "height": 295
       },
       {
         "type": "p",
-        "text": "Para promover o álbum, Mendes embarcou em sua turnê mundial autointitulada em 2019. Além da turnê, ele se apresentou em festivais de música na Europa, América do Norte e América do Sul. Apresentou-se em um concerto televisionado em homenagem ao 92º aniversário da rainha Elizabeth II em 21 de abril de 2018. Fez aparições no programa de TV “The Late Late Show” em junho, onde cantou um de seus últimos singles a cada noite por uma semana. As faixas que ele tocou ao vivo foram “Nervous”, “Lost in Japan”, “Perfectly Wrong”, e o dueto com Julia Michaels “Like to be You”. Mendes fez uma aparição no talk show noturno The Tonight Show Starring Jimmy Fallon em outubro e se apresentou com a canção “Lost in Japan”. Ele, junto com Fallon e a banda oficial da casa, The Roots, tocaram uma versão especial de “Treat You Better” para o quadro Classroom Instruments (em português: Instrumentos de sala de aula). O cantor também apresentou seus últimos singles no iHeartRadio MuchMusic Video Awards no Canadá em 27 de agosto, onde recebeu oito indicações e ganhou quatro prêmios."
+        "text": "Para promover o álbum, Mendes embarcou em sua turnê mundial autointitulada em 2019. Além da turnê, ele se apresentou em festivais de música na Europa, América do Norte e América do Sul. Apresentou-se em um concerto televisionado em homenagem ao 92º aniversário da rainha Elizabeth II em 21 de abril de 2018. Fez aparições no programa de TV “The Late Late Show” em junho, onde cantou um de seus últimos singles a cada noite por uma semana. As faixas que ele tocou ao vivo foram “Nervous”, “Lost in Japan”, “Perfectly Wrong”, e o dueto com Julia Michaels “Like to be You”. Mendes fez uma aparição no talk show noturno The Tonight Show Starring Jimmy Fallon em outubro e se apresentou com a canção “Lost in Japan”. Ele, junto com Fallon e a banda oficial da casa, The Roots, tocaram uma versão especial de “Treat You Better” para o quadro Classroom Instruments (em português: Instrumentos de sala de aula). O cantor também apresentou seus últimos singles no iHeartRadio MuchMusic Video Awards no Canadá em 27 de agosto, onde recebeu oito indicações e ganhou quatro prêmios.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para promover o álbum, Mendes embarcou em sua turnê mundial autointitulada em 2019."
+          },
+          {
+            "type": "note",
+            "number": 79
+          },
+          {
+            "type": "text",
+            "text": " Além da turnê, ele se apresentou em festivais de música na Europa, América do Norte e América do Sul. Apresentou-se em um concerto televisionado em homenagem ao 92º aniversário da rainha Elizabeth II em 21 de abril de 2018."
+          },
+          {
+            "type": "note",
+            "number": 80
+          },
+          {
+            "type": "text",
+            "text": " Fez aparições no programa de TV “The Late Late Show” em junho, onde cantou um de seus últimos singles a cada noite por uma semana."
+          },
+          {
+            "type": "note",
+            "number": 81
+          },
+          {
+            "type": "text",
+            "text": " As faixas que ele tocou ao vivo foram “Nervous”,"
+          },
+          {
+            "type": "note",
+            "number": 82
+          },
+          {
+            "type": "text",
+            "text": " “Lost in Japan”,"
+          },
+          {
+            "type": "note",
+            "number": 83
+          },
+          {
+            "type": "text",
+            "text": " “Perfectly Wrong”,"
+          },
+          {
+            "type": "note",
+            "number": 84
+          },
+          {
+            "type": "text",
+            "text": " e o dueto com Julia Michaels “Like to be You”."
+          },
+          {
+            "type": "note",
+            "number": 85
+          },
+          {
+            "type": "text",
+            "text": " Mendes fez uma aparição no talk show noturno The Tonight Show Starring Jimmy Fallon em outubro e se apresentou com a canção “Lost in Japan”."
+          },
+          {
+            "type": "note",
+            "number": 86
+          },
+          {
+            "type": "text",
+            "text": " Ele, junto com Fallon e a banda oficial da casa, The Roots, tocaram uma versão especial de “Treat You Better” para o quadro Classroom Instruments (em português: Instrumentos de sala de aula)."
+          },
+          {
+            "type": "note",
+            "number": 87
+          },
+          {
+            "type": "text",
+            "text": " O cantor também apresentou seus últimos singles no iHeartRadio MuchMusic Video Awards no Canadá em 27 de agosto, onde recebeu oito indicações e ganhou quatro prêmios."
+          },
+          {
+            "type": "note",
+            "number": 88
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes estrelou um documentário dirigido pelo astro do YouTube Casey Neistat. O curta-metragem faz parte da série Artist Spotlight Story do YouTube, com uma entrevista com Mendes e cenas dos bastidores durante uma das turnês do cantor. O trailer foi lançado no YouTube em 22 de setembro para anunciar oficialmente o documentário que estava por vir. O documentário Shawn Mendes - Artist Spotlight Stories foi publicado em 28 de setembro. Antes do dia oficial do lançamento, Mendes e Neistat realizaram um preview do filme, onde fãs selecionados de Mendes foram convidados para o evento."
+        "text": "Mendes estrelou um documentário dirigido pelo astro do YouTube Casey Neistat. O curta-metragem faz parte da série Artist Spotlight Story do YouTube, com uma entrevista com Mendes e cenas dos bastidores durante uma das turnês do cantor. O trailer foi lançado no YouTube em 22 de setembro para anunciar oficialmente o documentário que estava por vir. O documentário Shawn Mendes - Artist Spotlight Stories foi publicado em 28 de setembro. Antes do dia oficial do lançamento, Mendes e Neistat realizaram um preview do filme, onde fãs selecionados de Mendes foram convidados para o evento.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes estrelou um documentário dirigido pelo astro do YouTube Casey Neistat. O curta-metragem faz parte da série Artist Spotlight Story do YouTube, com uma entrevista com Mendes e cenas dos bastidores durante uma das turnês do cantor."
+          },
+          {
+            "type": "note",
+            "number": 89
+          },
+          {
+            "type": "text",
+            "text": " O trailer foi lançado no YouTube em 22 de setembro para anunciar oficialmente o documentário que estava por vir."
+          },
+          {
+            "type": "note",
+            "number": 90
+          },
+          {
+            "type": "text",
+            "text": " O documentário Shawn Mendes - Artist Spotlight Stories foi publicado em 28 de setembro."
+          },
+          {
+            "type": "note",
+            "number": 91
+          },
+          {
+            "type": "text",
+            "text": " Antes do dia oficial do lançamento, Mendes e Neistat realizaram um preview do filme, onde fãs selecionados de Mendes foram convidados para o evento."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A versão remixada de “Lost in Japan”, do DJ alemão Zedd, foi lançada em 27 de setembro. Mendes apresentou a versão remix do single ao vivo durante o American Music Awards de 2018, realizado em Los Angeles em 9 de outubro. Ele foi acompanhado no palco por Zedd. O canadense voltou a aparecer na lista “21 Abaixo dos 21 Anos” da Billboard em 2018, no topo da lista pelo segundo ano consecutivo por conta de seu desempenho nas paradas musicais, tendo três álbuns consecutivos número um."
+        "text": "A versão remixada de “Lost in Japan”, do DJ alemão Zedd, foi lançada em 27 de setembro. Mendes apresentou a versão remix do single ao vivo durante o American Music Awards de 2018, realizado em Los Angeles em 9 de outubro. Ele foi acompanhado no palco por Zedd. O canadense voltou a aparecer na lista “21 Abaixo dos 21 Anos” da Billboard em 2018, no topo da lista pelo segundo ano consecutivo por conta de seu desempenho nas paradas musicais, tendo três álbuns consecutivos número um.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A versão remixada de “Lost in Japan”, do DJ alemão Zedd, foi lançada em 27 de setembro."
+          },
+          {
+            "type": "note",
+            "number": 92
+          },
+          {
+            "type": "text",
+            "text": " Mendes apresentou a versão remix do single ao vivo durante o American Music Awards de 2018, realizado em Los Angeles em 9 de outubro."
+          },
+          {
+            "type": "note",
+            "number": 93
+          },
+          {
+            "type": "text",
+            "text": " Ele foi acompanhado no palco por Zedd."
+          },
+          {
+            "type": "note",
+            "number": 94
+          },
+          {
+            "type": "text",
+            "text": " O canadense voltou a aparecer na lista “21 Abaixo dos 21 Anos” da Billboard em 2018, no topo da lista pelo segundo ano consecutivo por conta de seu desempenho nas paradas musicais, tendo três álbuns consecutivos número um."
+          },
+          {
+            "type": "note",
+            "number": 95
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Shawn_Mendes_Performs_%22In_My_Blood%22_MTV_VMAs_in_2018_Part_4.jpg/250px-Shawn_Mendes_Performs_%22In_My_Blood%22_MTV_VMAs_in_2018_Part_4.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1020,
-        "height": 558,
-        "caption": "Mendes tocando “In My Blood” no MTV Video Music Awards (agosto de 2018)"
+        "alt": "",
+        "caption": "Mendes tocando “In My Blood” no MTV Video Music Awards (agosto de 2018)",
+        "width": 240,
+        "height": 131
       },
       {
         "type": "p",
-        "text": "Mendes e Zac Brown Band apareceram em um episódio do programa de TV americano CMT Crossroads, uma atração que traz um músico country acompanhado um músico de outro gênero. O episódio foi ao ar em 24 de outubro e foi gravado um mês antes da data de exibição agendada. Mendes e Zac Brown Band tocaram nove músicas, onde cantaram trechos das músicas um do outro e fizeram uma versão cover \"Man in the Mirror\", de Michael Jackson. Partes do diálogo entre Mendes e Zac Brown Band, falando sobre música e experiências ao longo da carreira, foram mostradas entre as performances da música."
+        "text": "Mendes e Zac Brown Band apareceram em um episódio do programa de TV americano CMT Crossroads, uma atração que traz um músico country acompanhado um músico de outro gênero. O episódio foi ao ar em 24 de outubro e foi gravado um mês antes da data de exibição agendada. Mendes e Zac Brown Band tocaram nove músicas, onde cantaram trechos das músicas um do outro e fizeram uma versão cover \"Man in the Mirror\", de Michael Jackson. Partes do diálogo entre Mendes e Zac Brown Band, falando sobre música e experiências ao longo da carreira, foram mostradas entre as performances da música.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes e Zac Brown Band apareceram em um episódio do programa de TV americano CMT Crossroads, uma atração que traz um músico country acompanhado um músico de outro gênero. O episódio foi ao ar em 24 de outubro e foi gravado um mês antes da data de exibição agendada. Mendes e Zac Brown Band tocaram nove músicas, onde cantaram trechos das músicas um do outro e fizeram uma versão cover \"Man in the Mirror\", de Michael Jackson. Partes do diálogo entre Mendes e Zac Brown Band, falando sobre música e experiências ao longo da carreira, foram mostradas entre as performances da música."
+          },
+          {
+            "type": "note",
+            "number": 96
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 1 de novembro, Mendes foi anunciado como uma das atrações musicais para o desfile da Victoria's Secret de 2018, que foi gravado na cidade de Nova York em novembro, e foi ao ar em dezembro. Ele lançou um EP com três músicas remixadas em 21 de dezembro intitulado The Album (Remixes). A gravação inclui canções de seu álbum autointitulado remixadas, bem como “Where Were You in the Morning?” com Kaytranada, “Why” com Leon Bridges e “Youth” com Jessie Reyez."
+        "text": "Em 1 de novembro, Mendes foi anunciado como uma das atrações musicais para o desfile da Victoria's Secret de 2018, que foi gravado na cidade de Nova York em novembro, e foi ao ar em dezembro. Ele lançou um EP com três músicas remixadas em 21 de dezembro intitulado The Album (Remixes). A gravação inclui canções de seu álbum autointitulado remixadas, bem como “Where Were You in the Morning?” com Kaytranada, “Why” com Leon Bridges e “Youth” com Jessie Reyez.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 1 de novembro, Mendes foi anunciado como uma das atrações musicais para o desfile da Victoria's Secret"
+          },
+          {
+            "type": "note",
+            "number": 97
+          },
+          {
+            "type": "text",
+            "text": " de 2018, que foi gravado na cidade de Nova York em novembro, e foi ao ar em dezembro."
+          },
+          {
+            "type": "note",
+            "number": 98
+          },
+          {
+            "type": "text",
+            "text": " Ele lançou um EP com três músicas remixadas em 21 de dezembro intitulado The Album (Remixes). A gravação inclui canções de seu álbum autointitulado remixadas, bem como “Where Were You in the Morning?” com Kaytranada, “Why” com Leon Bridges e “Youth” com Jessie Reyez."
+          },
+          {
+            "type": "note",
+            "number": 99
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em maio 2019, Mendes lançou o single “If I Can't Have You” junto com o vídeo musical. que estreou no número dois na Billboard Hot 100. A canção estreou no top 10 na Austrália e no Reino Unido, tornando-se seu quinto top 10 em ambos os países. Em 21 de junho de 2019, Mendes lançou o single “Señorita”, em parceira com a cantora cubano-americana Camila Cabello, junto com o vídeo musical. A música estreou no número 2 da parada americana Billboard Hot 100 e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\" lançado em 2015. Em 26 de agosto de 2019, “Señorita” subiu para a posição número um, tornando-se o primeiro single de Mendes a alcançar tal feito no Hot 100. A edição deluxe do álbum Shawn Mendes foi lançada em 27 de julho de 2019 e inclui as canções \"If I Can't Have You\" e \"Señorita\" com Cuban-American cantor e compositor Camila Cabello, junto com o videoclipe. A canção estreou no número 2 na parada Billboard Hot 100 dos EUA e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\", lançado em 2015. Em 26 de agosto de 2019, \"Señorita\" ascendeu ao número um posição, tornando-se o primeiro lugar de Mendes no topo das paradas no Hot 100. A edição deluxe de Shawn Mendes foi lançada em 27 de julho de 2019, e inclui as canções \"If I Can't Have You\" e \"Señorita\"."
+        "text": "Em maio 2019, Mendes lançou o single “If I Can't Have You” junto com o vídeo musical. que estreou no número dois na Billboard Hot 100. A canção estreou no top 10 na Austrália e no Reino Unido, tornando-se seu quinto top 10 em ambos os países. Em 21 de junho de 2019, Mendes lançou o single “Señorita”, em parceira com a cantora cubano-americana Camila Cabello, junto com o vídeo musical. A música estreou no número 2 da parada americana Billboard Hot 100 e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\" lançado em 2015. Em 26 de agosto de 2019, “Señorita” subiu para a posição número um, tornando-se o primeiro single de Mendes a alcançar tal feito no Hot 100. A edição deluxe do álbum Shawn Mendes foi lançada em 27 de julho de 2019 e inclui as canções \"If I Can't Have You\" e \"Señorita\" com Cuban-American cantor e compositor Camila Cabello, junto com o videoclipe. A canção estreou no número 2 na parada Billboard Hot 100 dos EUA e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\", lançado em 2015. Em 26 de agosto de 2019, \"Señorita\" ascendeu ao número um posição, tornando-se o primeiro lugar de Mendes no topo das paradas no Hot 100. A edição deluxe de Shawn Mendes foi lançada em 27 de julho de 2019, e inclui as canções \"If I Can't Have You\" e \"Señorita\".",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em maio 2019, Mendes lançou o single “If I Can't Have You” junto com o vídeo musical."
+          },
+          {
+            "type": "note",
+            "number": 100
+          },
+          {
+            "type": "note",
+            "number": 101
+          },
+          {
+            "type": "text",
+            "text": " que estreou no número dois na Billboard Hot 100."
+          },
+          {
+            "type": "note",
+            "number": 102
+          },
+          {
+            "type": "note",
+            "number": 103
+          },
+          {
+            "type": "text",
+            "text": " A canção estreou no top 10 na Austrália e no Reino Unido, tornando-se seu quinto top 10 em ambos os países."
+          },
+          {
+            "type": "note",
+            "number": 104
+          },
+          {
+            "type": "note",
+            "number": 105
+          },
+          {
+            "type": "text",
+            "text": " Em 21 de junho de 2019, Mendes lançou o single “Señorita”,"
+          },
+          {
+            "type": "note",
+            "number": 106
+          },
+          {
+            "type": "text",
+            "text": " em parceira com a cantora cubano-americana Camila Cabello, junto com o vídeo musical."
+          },
+          {
+            "type": "note",
+            "number": 107
+          },
+          {
+            "type": "text",
+            "text": " A música estreou no número 2 da parada americana Billboard Hot 100 e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\" lançado em 2015."
+          },
+          {
+            "type": "note",
+            "number": 108
+          },
+          {
+            "type": "note",
+            "number": 109
+          },
+          {
+            "type": "text",
+            "text": " Em 26 de agosto de 2019, “Señorita” subiu para a posição número um, tornando-se o primeiro single de Mendes a alcançar tal feito no Hot 100."
+          },
+          {
+            "type": "note",
+            "number": 110
+          },
+          {
+            "type": "text",
+            "text": " A edição deluxe do álbum Shawn Mendes foi lançada em 27 de julho de 2019 e inclui as canções \"If I Can't Have You\" e \"Señorita\""
+          },
+          {
+            "type": "note",
+            "number": 111
+          },
+          {
+            "type": "text",
+            "text": " com Cuban-American cantor e compositor Camila Cabello, junto com o videoclipe. A canção estreou no número 2 na parada Billboard Hot 100 dos EUA e marca a segunda colaboração de Mendes e Cabello, após \"I Know What You Did Last Summer\", lançado em 2015. Em 26 de agosto de 2019, \"Señorita\" ascendeu ao número um posição, tornando-se o primeiro lugar de Mendes no topo das paradas no Hot 100. A edição deluxe de Shawn Mendes foi lançada em 27 de julho de 2019, e inclui as canções \"If I Can't Have You\" e \"Señorita\"."
+          }
+        ]
       }
     ]
   },
@@ -275,19 +1190,79 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Em agosto de 2020, o Mendes tatuou a palavra \"wonder\" em seu braço direito, que mais tarde viria a ser o título do próximo álbum de estúdio e sua primeira música de trabalho. Em 30 de setembro de 2020, o cantor foi até as suas redes sociais para despertar curiosidade com a legenda “WHAT IS #WONDER” (em português: O QUE É #WONDER). Poucas horas depois, ele anunciou o título e as datas de lançamento do single principal e do álbum."
+        "text": "Em agosto de 2020, o Mendes tatuou a palavra \"wonder\" em seu braço direito, que mais tarde viria a ser o título do próximo álbum de estúdio e sua primeira música de trabalho. Em 30 de setembro de 2020, o cantor foi até as suas redes sociais para despertar curiosidade com a legenda “WHAT IS #WONDER” (em português: O QUE É #WONDER). Poucas horas depois, ele anunciou o título e as datas de lançamento do single principal e do álbum.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em agosto de 2020, o Mendes tatuou a palavra \"wonder\" em seu braço direito, que mais tarde viria a ser o título do próximo álbum de estúdio e sua primeira música de trabalho."
+          },
+          {
+            "type": "note",
+            "number": 112
+          },
+          {
+            "type": "text",
+            "text": " Em 30 de setembro de 2020, o cantor foi até as suas redes sociais para despertar curiosidade com a legenda “WHAT IS #WONDER” (em português: O QUE É #WONDER)."
+          },
+          {
+            "type": "note",
+            "number": 113
+          },
+          {
+            "type": "text",
+            "text": " Poucas horas depois, ele anunciou o título e as datas de lançamento do single principal e do álbum."
+          },
+          {
+            "type": "note",
+            "number": 114
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Para promover o projeto, Mendes lançou o documentário Shawn Mendes: In Wonder na Netflix, oferecendo aos fãs um olhar íntimo sobre sua vida e o processo criativo por trás do álbum. Apesar de receber críticas mistas, Wonder estreou no topo das paradas nos Estados Unidos e no Canadá, consolidando o cantor como um dos principais nomes do pop contemporâneo."
+        "text": "Para promover o projeto, Mendes lançou o documentário Shawn Mendes: In Wonder na Netflix, oferecendo aos fãs um olhar íntimo sobre sua vida e o processo criativo por trás do álbum. Apesar de receber críticas mistas, Wonder estreou no topo das paradas nos Estados Unidos e no Canadá, consolidando o cantor como um dos principais nomes do pop contemporâneo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para promover o projeto, Mendes lançou o documentário Shawn Mendes: In Wonder na Netflix, oferecendo aos fãs um olhar íntimo sobre sua vida e o processo criativo por trás do álbum. Apesar de receber críticas mistas, Wonder estreou no topo das paradas nos Estados Unidos e no Canadá, consolidando o cantor como um dos principais nomes do pop contemporâneo."
+          },
+          {
+            "type": "note",
+            "number": 115
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Além da sonoridade expansiva e das letras confessionais, Wonder destacou-se por sua abordagem visual e narrativa coesa. A estética do álbum, marcada por cenários naturais, céu aberto, tons azulados e a água, foi refletida tanto nos videoclipes quanto nas apresentações ao vivo, criando uma atmosfera de sonho e contemplação."
+        "text": "Além da sonoridade expansiva e das letras confessionais, Wonder destacou-se por sua abordagem visual e narrativa coesa. A estética do álbum, marcada por cenários naturais, céu aberto, tons azulados e a água, foi refletida tanto nos videoclipes quanto nas apresentações ao vivo, criando uma atmosfera de sonho e contemplação.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Além da sonoridade expansiva e das letras confessionais, Wonder destacou-se por sua abordagem visual e narrativa coesa. A estética do álbum, marcada por cenários naturais, céu aberto, tons azulados e a água, foi refletida tanto nos videoclipes quanto nas apresentações ao vivo, criando uma atmosfera de sonho e contemplação."
+          },
+          {
+            "type": "note",
+            "number": 116
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "A faixa “Intro”, que abre o álbum com uma breve vinheta orquestral, funciona como um portal para esse universo sensível e cinematográfico que o cantor construiu ao longo do projeto. O álbum também contou com a parceria do cantor com Justin Bieber na canção \"Monster\"."
+        "text": "A faixa “Intro”, que abre o álbum com uma breve vinheta orquestral, funciona como um portal para esse universo sensível e cinematográfico que o cantor construiu ao longo do projeto. O álbum também contou com a parceria do cantor com Justin Bieber na canção \"Monster\".",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A faixa “Intro”, que abre o álbum com uma breve vinheta orquestral, funciona como um portal para esse universo sensível e cinematográfico que o cantor construiu ao longo do projeto. O álbum também contou com a parceria do cantor com Justin Bieber na canção \"Monster\"."
+          },
+          {
+            "type": "note",
+            "number": 117
+          },
+          {
+            "type": "note",
+            "number": 118
+          }
+        ]
       }
     ]
   },
@@ -298,15 +1273,65 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Em março de 2024, Mendes anunciou sua primeira apresentação solo ao vivo desde o cancelamento da turnê Wonder: The World Tour. Após participações surpresas ao lado de Ed Sheeran, Noah Kahan e Niall Horan durante seu hiato, ele anunciou que se apresentaria como atração principal no festival Rock in Rio, em 22 de setembro. Na mesma publicação, também revelou que estava trabalhando em seu quinto álbum de estúdio. No dia 31 de julho, divulgou o título do álbum, Shawn, e sua data de lançamento: 18 de outubro de 2024 (posteriormente adiada para 15 de novembro). Dois singles do álbum, \"Why Why Why\" e \"Isn't That Enough\", foram lançados em 8 de agosto. O terceiro single, \"Nobody Knows\", foi lançado em 12 de setembro. O quarto single, \"Heart of Gold\", chegou em 1º de novembro."
+        "text": "Em março de 2024, Mendes anunciou sua primeira apresentação solo ao vivo desde o cancelamento da turnê Wonder: The World Tour. Após participações surpresas ao lado de Ed Sheeran, Noah Kahan e Niall Horan durante seu hiato, ele anunciou que se apresentaria como atração principal no festival Rock in Rio, em 22 de setembro. Na mesma publicação, também revelou que estava trabalhando em seu quinto álbum de estúdio. No dia 31 de julho, divulgou o título do álbum, Shawn, e sua data de lançamento: 18 de outubro de 2024 (posteriormente adiada para 15 de novembro). Dois singles do álbum, \"Why Why Why\" e \"Isn't That Enough\", foram lançados em 8 de agosto. O terceiro single, \"Nobody Knows\", foi lançado em 12 de setembro. O quarto single, \"Heart of Gold\", chegou em 1º de novembro.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em março de 2024, Mendes anunciou sua primeira apresentação solo ao vivo desde o cancelamento da turnê Wonder: The World Tour. Após participações surpresas ao lado de Ed Sheeran, Noah Kahan e Niall Horan durante seu hiato, ele anunciou que se apresentaria como atração principal no festival Rock in Rio, em 22 de setembro. Na mesma publicação, também revelou que estava trabalhando em seu quinto álbum de estúdio. No dia 31 de julho, divulgou o título do álbum, Shawn, e sua data de lançamento: 18 de outubro de 2024 (posteriormente adiada para 15 de novembro). Dois singles do álbum, \"Why Why Why\" e \"Isn't That Enough\", foram lançados em 8 de agosto. O terceiro single, \"Nobody Knows\", foi lançado em 12 de setembro. O quarto single, \"Heart of Gold\", chegou em 1º de novembro."
+          },
+          {
+            "type": "note",
+            "number": 119
+          },
+          {
+            "type": "note",
+            "number": 120
+          },
+          {
+            "type": "note",
+            "number": 121
+          },
+          {
+            "type": "note",
+            "number": 122
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Para promover Shawn, no mesmo ano, o artista embarcou em uma turnê intimista por teatros nas cidades onde gravou o álbum. Os locais selecionados têm capacidade entre 2.000 e 3.000 pessoas."
+        "text": "Para promover Shawn, no mesmo ano, o artista embarcou em uma turnê intimista por teatros nas cidades onde gravou o álbum. Os locais selecionados têm capacidade entre 2.000 e 3.000 pessoas.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para promover Shawn, no mesmo ano, o artista embarcou em uma turnê intimista por teatros nas cidades onde gravou o álbum. Os locais selecionados têm capacidade entre 2.000 e 3.000 pessoas."
+          },
+          {
+            "type": "note",
+            "number": 123
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Já em 2025, Shawn Mendes anunciou à turnê mundial On The Road Again, celebrando os dez anos do lançamento de seu álbum de estreia, Handwritten e seu mais novo projeto. A turnê começará com apresentações em importantes festivais europeus, e seguirá com shows em arenas por cidades como Londres, Lisboa, Zurique, Toronto e Nova Iorque. Com participações especiais exclusivas em diferentes datas, o cantor compartilhou que essa turnê simboliza uma redescoberta de si mesmo e da alegria de se apresentar, unindo seu crescimento pessoal à conexão profunda com seus fãs ao redor do mundo."
+        "text": "Já em 2025, Shawn Mendes anunciou à turnê mundial On The Road Again, celebrando os dez anos do lançamento de seu álbum de estreia, Handwritten e seu mais novo projeto. A turnê começará com apresentações em importantes festivais europeus, e seguirá com shows em arenas por cidades como Londres, Lisboa, Zurique, Toronto e Nova Iorque. Com participações especiais exclusivas em diferentes datas, o cantor compartilhou que essa turnê simboliza uma redescoberta de si mesmo e da alegria de se apresentar, unindo seu crescimento pessoal à conexão profunda com seus fãs ao redor do mundo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Já em 2025, Shawn Mendes anunciou à turnê mundial On The Road Again, celebrando os dez anos do lançamento de seu álbum de estreia, Handwritten e seu mais novo projeto. A turnê começará com apresentações em importantes festivais europeus, e seguirá com shows em arenas por cidades como Londres, Lisboa, Zurique, Toronto e Nova Iorque. Com participações especiais exclusivas em diferentes datas, o cantor compartilhou que essa turnê simboliza uma redescoberta de si mesmo e da alegria de se apresentar, unindo seu crescimento pessoal à conexão profunda com seus fãs ao redor do mundo."
+          },
+          {
+            "type": "note",
+            "number": 124
+          },
+          {
+            "type": "note",
+            "number": 125
+          },
+          {
+            "type": "note",
+            "number": 126
+          }
+        ]
       }
     ]
   },
@@ -317,15 +1342,53 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Mendes citou John Mayer, Ed Sheeran, Justin Timberlake e Bruno Mars como suas influências musicais."
+        "text": "Mendes citou John Mayer, Ed Sheeran, Justin Timberlake e Bruno Mars como suas influências musicais.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes citou John Mayer, Ed Sheeran, Justin Timberlake e Bruno Mars como suas influências musicais."
+          },
+          {
+            "type": "note",
+            "number": 127
+          },
+          {
+            "type": "note",
+            "number": 128
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Para Brittany Spanos, da Rolling Stone, Mendes incorpora, \"melodias acústicas folk-pop cativantes\" em seu catálogo. Para Joe Coscarelli, do The New York Times, \"seu pop-rock suave, às vezes soulful toca principalmente para pré-adolescentes e adolescentes, mas também tem encontrado atração em estações de rádio contemporâneas adultas\". Para Coscarelli, Illuminate representa a cuidadosa evolução de sua digestão sonora e de sua temática, com grande parte da instrumentação orgânica e gentileza do bom rapaz do Handwritten intactos."
+        "text": "Para Brittany Spanos, da Rolling Stone, Mendes incorpora, \"melodias acústicas folk-pop cativantes\" em seu catálogo. Para Joe Coscarelli, do The New York Times, \"seu pop-rock suave, às vezes soulful toca principalmente para pré-adolescentes e adolescentes, mas também tem encontrado atração em estações de rádio contemporâneas adultas\". Para Coscarelli, Illuminate representa a cuidadosa evolução de sua digestão sonora e de sua temática, com grande parte da instrumentação orgânica e gentileza do bom rapaz do Handwritten intactos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Para Brittany Spanos, da Rolling Stone, Mendes incorpora, \"melodias acústicas folk-pop cativantes\" em seu catálogo. Para Joe Coscarelli, do The New York Times, \"seu pop-rock suave, às vezes soulful toca principalmente para pré-adolescentes e adolescentes, mas também tem encontrado atração em estações de rádio contemporâneas adultas\"."
+          },
+          {
+            "type": "note",
+            "number": 129
+          },
+          {
+            "type": "text",
+            "text": " Para Coscarelli, Illuminate representa a cuidadosa evolução de sua digestão sonora e de sua temática, com grande parte da instrumentação orgânica e gentileza do bom rapaz do Handwritten intactos."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Após lançar canções com temas mais adultos, como \"Bad Reputation\" e \"Lights On\", Mendes afirmou que estava lançando uma canção sobre sexo aos dezoito anos, o que considerava apropriado (assim como só lançaria uma canção sobre beber aos vinte e um), e que não a teria lançando mais jovem."
+        "text": "Após lançar canções com temas mais adultos, como \"Bad Reputation\" e \"Lights On\", Mendes afirmou que estava lançando uma canção sobre sexo aos dezoito anos, o que considerava apropriado (assim como só lançaria uma canção sobre beber aos vinte e um), e que não a teria lançando mais jovem.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Após lançar canções com temas mais adultos, como \"Bad Reputation\" e \"Lights On\", Mendes afirmou que estava lançando uma canção sobre sexo aos dezoito anos, o que considerava apropriado (assim como só lançaria uma canção sobre beber aos vinte e um), e que não a teria lançando mais jovem."
+          },
+          {
+            "type": "note",
+            "number": 129
+          }
+        ]
       }
     ]
   },
@@ -336,30 +1399,125 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Mendes assinou com a Wilhelmina Models em 2016."
+        "text": "Mendes assinou com a Wilhelmina Models em 2016.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes assinou com a Wilhelmina Models em 2016."
+          },
+          {
+            "type": "note",
+            "number": 130
+          },
+          {
+            "type": "note",
+            "number": 131
+          },
+          {
+            "type": "note",
+            "number": 132
+          },
+          {
+            "type": "note",
+            "number": 133
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em junho de 2017, Mendes andou na pista durante o show \"Emporio Armani Spring 2018\", realizado em Milão, Itália. Mendes estava usando o novo smartwatch da marca italiana, EA Connected, durante o show. Antes de sua caminhada na pista, foi exibido o vídeo promocional de Mendes."
+        "text": "Em junho de 2017, Mendes andou na pista durante o show \"Emporio Armani Spring 2018\", realizado em Milão, Itália. Mendes estava usando o novo smartwatch da marca italiana, EA Connected, durante o show. Antes de sua caminhada na pista, foi exibido o vídeo promocional de Mendes.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em junho de 2017, Mendes andou na pista durante o show \"Emporio Armani Spring 2018\", realizado em Milão, Itália."
+          },
+          {
+            "type": "note",
+            "number": 134
+          },
+          {
+            "type": "text",
+            "text": " Mendes estava usando o novo smartwatch da marca italiana, EA Connected, durante o show. Antes de sua caminhada na pista, foi exibido o vídeo promocional de Mendes."
+          },
+          {
+            "type": "note",
+            "number": 135
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 6 de junho de 2018, Mendes foi anunciado como embaixador de toda a coleção de relógios \"Outono Inverno 2018-2019\" de Emporio Armani. Em julho de 2018, fotos de Mendes usando os novos smartwatches EA Connected foram publicadas nas mídias sociais."
+        "text": "Em 6 de junho de 2018, Mendes foi anunciado como embaixador de toda a coleção de relógios \"Outono Inverno 2018-2019\" de Emporio Armani. Em julho de 2018, fotos de Mendes usando os novos smartwatches EA Connected foram publicadas nas mídias sociais.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 6 de junho de 2018, Mendes foi anunciado como embaixador de toda a coleção de relógios \"Outono Inverno 2018-2019\" de Emporio Armani. Em julho de 2018, fotos de Mendes usando os novos smartwatches EA Connected foram publicadas nas mídias sociais."
+          },
+          {
+            "type": "note",
+            "number": 136
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 16 de fevereiro de 2019, Mendes anunciou que era o mais novo embaixador da marca na campanha #MyCalvins de Calvin Klein. Durante o 61º Grammy Awards, o SmileDirectClub divulgou um anúncio que mostrava uma campanha entre a empresa e Mendes, com parte do dinheiro destinado a \"organizações que buscam melhorar a saúde das crianças, bem como o bem-estar mental e emocional\". No final daquele mês, Emporio Armani lançou um novo anúncio em preto e branco para seus relógios inteligentes com tela sensível ao toque, com uma versão instrumental de \"In My Blood\" com Mendes boxeando."
+        "text": "Em 16 de fevereiro de 2019, Mendes anunciou que era o mais novo embaixador da marca na campanha #MyCalvins de Calvin Klein. Durante o 61º Grammy Awards, o SmileDirectClub divulgou um anúncio que mostrava uma campanha entre a empresa e Mendes, com parte do dinheiro destinado a \"organizações que buscam melhorar a saúde das crianças, bem como o bem-estar mental e emocional\". No final daquele mês, Emporio Armani lançou um novo anúncio em preto e branco para seus relógios inteligentes com tela sensível ao toque, com uma versão instrumental de \"In My Blood\" com Mendes boxeando.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 16 de fevereiro de 2019, Mendes anunciou que era o mais novo embaixador da marca na campanha #MyCalvins de Calvin Klein."
+          },
+          {
+            "type": "note",
+            "number": 137
+          },
+          {
+            "type": "text",
+            "text": " Durante o 61º Grammy Awards, o SmileDirectClub divulgou um anúncio que mostrava uma campanha entre a empresa e Mendes, com parte do dinheiro destinado a \"organizações que buscam melhorar a saúde das crianças, bem como o bem-estar mental e emocional\"."
+          },
+          {
+            "type": "note",
+            "number": 138
+          },
+          {
+            "type": "text",
+            "text": " No final daquele mês, Emporio Armani lançou um novo anúncio em preto e branco para seus relógios inteligentes com tela sensível ao toque, com uma versão instrumental de \"In My Blood\" com Mendes boxeando."
+          },
+          {
+            "type": "note",
+            "number": 139
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em agosto de 2019, Mendes anunciou uma parceria com a cadeia alimentar canadense Tim Hortons, na qual ele aparece em copos comerciais e de bebidas, seguido de uma parceria com a Roots Canada em setembro."
+        "text": "Em agosto de 2019, Mendes anunciou uma parceria com a cadeia alimentar canadense Tim Hortons, na qual ele aparece em copos comerciais e de bebidas, seguido de uma parceria com a Roots Canada em setembro.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em agosto de 2019, Mendes anunciou uma parceria com a cadeia alimentar canadense Tim Hortons, na qual ele aparece em copos comerciais e de bebidas,"
+          },
+          {
+            "type": "note",
+            "number": 140
+          },
+          {
+            "type": "text",
+            "text": " seguido de uma parceria com a Roots Canada em setembro."
+          },
+          {
+            "type": "note",
+            "number": 141
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Mendes_em_Show_no_Brasil_-_%22Climate_Action_Now%22.jpg/250px-Mendes_em_Show_no_Brasil_-_%22Climate_Action_Now%22.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 576,
-        "height": 1024,
-        "caption": "\"Climate Action Now\" - Em meio as queimadas da Floresta Amazônica, Shawn demandou ação climática em seu show no Brasil. Além de, em cooperação com outros artistas, ter enviado aviões para extinguir os focos de incêndio na floresta."
+        "alt": "",
+        "caption": "\"Climate Action Now\" - Em meio as queimadas da Floresta Amazônica, Shawn demandou ação climática em seu show no Brasil. Além de, em cooperação com outros artistas, ter enviado aviões para extinguir os focos de incêndio na floresta.",
+        "width": 187,
+        "height": 332
       }
     ]
   },
@@ -370,11 +1528,47 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Em 2014, Mendes e a DoSomething.org, lançaram uma campanha chamada \"Notes From Shawn\" (Notas do Shawn em português). A campanha foi inspirada na letra do primeiro Single do cantor, Life Of The Party, e abordou a baixa autoestima, depressão e consciência de auto-agressão. Eles relançaram a campanha pelo segundo ano consecutivo em 2015. Também trabalhou com a Pencils of Promise, arrecadando US$ 25 000 para construir uma escola em Gana."
+        "text": "Em 2014, Mendes e a DoSomething.org, lançaram uma campanha chamada \"Notes From Shawn\" (Notas do Shawn em português). A campanha foi inspirada na letra do primeiro Single do cantor, Life Of The Party, e abordou a baixa autoestima, depressão e consciência de auto-agressão. Eles relançaram a campanha pelo segundo ano consecutivo em 2015. Também trabalhou com a Pencils of Promise, arrecadando US$ 25 000 para construir uma escola em Gana.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2014, Mendes e a DoSomething.org, lançaram uma campanha chamada \"Notes From Shawn\" (Notas do Shawn em português). A campanha foi inspirada na letra do primeiro Single do cantor, Life Of The Party, e abordou a baixa autoestima, depressão e consciência de auto-agressão."
+          },
+          {
+            "type": "note",
+            "number": 142
+          },
+          {
+            "type": "text",
+            "text": " Eles relançaram a campanha pelo segundo ano consecutivo em 2015."
+          },
+          {
+            "type": "note",
+            "number": 143
+          },
+          {
+            "type": "text",
+            "text": " Também trabalhou com a Pencils of Promise, arrecadando US$ 25 000 para construir uma escola em Gana."
+          },
+          {
+            "type": "note",
+            "number": 144
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Mendes também criou sua própria fundação, a Shawn Mendes Foundation, que é voltada para causas sociais, ambientais e incentivo à educação e cultura. Tendo, em 2021, garantido bolsas de patrocínio a jovens que inspiram a transformação da sociedade e a impactam positivamente."
+        "text": "Mendes também criou sua própria fundação, a Shawn Mendes Foundation, que é voltada para causas sociais, ambientais e incentivo à educação e cultura. Tendo, em 2021, garantido bolsas de patrocínio a jovens que inspiram a transformação da sociedade e a impactam positivamente.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Mendes também criou sua própria fundação, a Shawn Mendes Foundation, que é voltada para causas sociais, ambientais e incentivo à educação e cultura. Tendo, em 2021, garantido bolsas de patrocínio a jovens que inspiram a transformação da sociedade e a impactam positivamente."
+          },
+          {
+            "type": "note",
+            "number": 145
+          }
+        ]
       }
     ]
   },
@@ -508,7 +1702,593 @@
     "id": "-1",
     "heading": "Referências",
     "level": "h2",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "«Shawn Mendes» (em inglês). Forbes. Consultado em 16 de agosto de 2023. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 2,
+            "text": "https://www.j-14.com/posts/shawn-mendes-height-144366/ [ligação inativa]"
+          },
+          {
+            "number": 3,
+            "text": "Caulfield, Keith (14 de dezembro de 2020). «Shawn Mendes Achieves Fourth No. 1 Album on Billboard 200 Chart With 'Wonder'». Billboard (em inglês). Consultado em 15 de março de 2026. Cópia arquivada em 15 de setembro de 2025"
+          },
+          {
+            "number": 4,
+            "text": "J. Rodrigues, Ricardo (23 de outubro de 2015). «Shawn Mendes: o rapaz do momento». noticiasmagazine.pt. Consultado em 2 de fevereiro de 2016. Arquivado do original em 4 de dezembro de 2015"
+          },
+          {
+            "number": 5,
+            "text": "«HAPPY BIRTHDAY TO MY BEAUTIFUL SISTER !». Shawn Mendes Official Twitter. 15 de setembro de 2015. Consultado em 28 de dezembro de 2015. Cópia arquivada em 17 de julho de 2022"
+          },
+          {
+            "number": 6,
+            "text": "Marine, Brooke (8 de maio de 2018). «Shawn Mendes Opens Up Before His First Met Gala About His Friend Hailey Baldwin, Being a Romantic at Heart, and His New Music». W Magazine. Consultado em 6 de novembro de 2018. Cópia arquivada em 10 de março de 2026. \"Forever, religion is going to have a massive impact on people's fashion. It always has been and always will be,\" Mendes—who later revealed he did come from a religious upbringing—told W when asked how he planned to incorporate the theme into his look for the evening."
+          },
+          {
+            "number": 7,
+            "text": "«Shawn Mendes: How a six-second video launched the next Justin Bieber». Telegraph.co.uk. 16 de Janeiro de 2015. Consultado em 27 de janeiro de 2015. Cópia arquivada em 13 de setembro de 2025"
+          },
+          {
+            "number": 8,
+            "text": "«Shawn Mendes Finally Graduated High School Yesterday». Teen Vogue. 29 de junho de 2016. Consultado em 18 de outubro de 2018. Cópia arquivada em 6 de setembro de 2025"
+          },
+          {
+            "number": 9,
+            "text": "«Shawn Mendes undergoes therapy to cure anxiety» (html) (em inglês). Business Standard. 21 de abril de 2018. Consultado em 10 de junho de 2019. Cópia arquivada em 20 de julho de 2025"
+          },
+          {
+            "number": 10,
+            "text": "Evan Real (24 de junho de 2016). «Shawn Mendes Responds to Rumors About His Sexuality» (em inglês). Us Weekly. Consultado em 10 de junho de 2019. Cópia arquivada em 14 de setembro de 2025"
+          },
+          {
+            "number": 11,
+            "text": "John Paul Brammer (9 de maio de 2018). «Let Shawn Mendes Be Heterosexual in Peace» (em inglês). them. Consultado em 10 de junho de 2019. Cópia arquivada em 15 de setembro de 2025"
+          },
+          {
+            "number": 12,
+            "text": "Patrick Doyle (26 de novembro de 2018). «Shawn Mendes: Confessions of a Neurotic Teen Idol» (Rolling Stone) (em inglês). Consultado em 1 de junho de 2019. Cópia arquivada em 26 de junho de 2026"
+          },
+          {
+            "number": 13,
+            "text": "«Inside Shawn Mendes and Camila Cabello's relationship» (em inglês). Capital FM. 12 de setembro de 2019. Consultado em 17 de setembro de 2019"
+          },
+          {
+            "number": 14,
+            "text": "Leonie Cooper (13 de setembro de 2019). «Bad fauxmance: when celebrity couples become PR stunts» (em inglês). The Guardian. Consultado em 18 de setembro de 2019"
+          },
+          {
+            "number": 15,
+            "text": "Mehera Bonner (30 de julho de 2019). «Shawn Mendes and Camila Cabello's Relationship Timeline» (em inglês). Cosmopolitan.com. Consultado em 17 de setembro de 2019"
+          },
+          {
+            "number": 16,
+            "text": "«Termina o namoro de Camila Cabello e Shawn Mendes». O Fuxico. 18 de novembro de 2021. Consultado em 18 de novembro de 2021. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 17,
+            "text": "«Camila Cabello e Shawn Mendes são vistos trocando beijos no Coachella». Capricho. Consultado em 17 de setembro de 2024. Cópia arquivada em 9 de julho de 2025"
+          },
+          {
+            "number": 18,
+            "text": "«Ex-namorados, Shawn Mendes e Camila Cabello vão a jogo juntos, e agitam fãs». Quem. 15 de julho de 2024. Consultado em 17 de setembro de 2024. Cópia arquivada em 23 de junho de 2025"
+          },
+          {
+            "number": 19,
+            "text": "themusicjournalbrazil. «Camila Cabello e Shawn Mendes: Romance Iô-Iô na Copa América». Terra. Consultado em 17 de setembro de 2024. Cópia arquivada em 23 de junho de 2025"
+          },
+          {
+            "number": 20,
+            "text": "«Sabrina Carpenter, Shawn Mendes e Camila Cabello: entenda clipe de 'Taste' e teoria dos fãs sobre triângulo amoroso». Marie Claire. 23 de agosto de 2024. Consultado em 17 de setembro de 2024"
+          },
+          {
+            "number": 21,
+            "text": "«Shawn Mendes rebate rumores sobre romance com Sabrina Carpenter: 'Não estamos namorando'». O Globo. 20 de março de 2023. Consultado em 17 de setembro de 2024. Cópia arquivada em 12 de agosto de 2024"
+          },
+          {
+            "number": 22,
+            "text": "Staff, T. M. Z. (2 de janeiro de 2026). «Shawn Mendes Packs on PDA with Actress Bruna Marquezine in Ocean». TMZ (em inglês). Consultado em 6 de janeiro de 2026. Cópia arquivada em 15 de julho de 2026"
+          },
+          {
+            "number": 23,
+            "text": "«Imprensa internacional chama Bruna de 'namorada brasileira de Shawn Mendes'». UOL. 16 de dezembro de 2025. Consultado em 6 de janeiro de 2026. Cópia arquivada em 16 de dezembro de 2025"
+          },
+          {
+            "number": 24,
+            "text": "«Bruna Marquezine e Shawn Mendes curtem desfile de Ivete aos beijos». G1. 14 de fevereiro de 2026. Consultado em 15 de abril de 2026. Cópia arquivada em 16 de julho de 2026"
+          },
+          {
+            "number": 25,
+            "text": "«Shawn Mendes começa a seguir Bruna Marquezine no Instagram». Capricho. Consultado em 15 de abril de 2026. Cópia arquivada em 21 de abril de 2026"
+          },
+          {
+            "number": 26,
+            "text": "«Veja a declaração de amor de Shawn Mendes para Bruna Marquezine no dia do seu aniversário». Terra. 5 de agosto de 2026. Consultado em 5 de agosto de 2026"
+          },
+          {
+            "number": 27,
+            "text": "«Shawn Mendes: 5 things you didn't know» (em inglês). AXS. 23 de abril de 2015. Consultado em 12 de fevereiro de 2017. Cópia arquivada em 4 de maio de 2019"
+          },
+          {
+            "number": 28,
+            "text": "Brian Anthony Hernandez (23 de abril de 2015). «Shawn Mendes started his career on Vine. Now his album is No. 1» (em inglês). Mashable. Consultado em 11 de junho de 2019. Cópia arquivada em 11 de abril de 2021"
+          },
+          {
+            "number": 29,
+            "text": "Miles Raymer (11 de julho de 2014). «Shawn Mendes talks about turning Internet fame into an IRL hit» (em inglês). EW.com. Consultado em 11 de junho de 2019. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 30,
+            "text": "«Shawn Mendes: 5 Things You Need To Know About The Vine Star Turned Chart-Topping Singer (PHOTOS)» (em inglês). Headlines & Global News. 21 de outubro de 2015. Consultado em 11 de junho de 2019. Cópia arquivada em 13 de março de 2026"
+          },
+          {
+            "number": 31,
+            "text": "Harley Brown (6 de abril de 2014). «Shawn Mendes, Vine Superstar, Signs with Island Records: Exclusive» (em inglês). Billboard. Consultado em 11 de junho de 2019. Cópia arquivada em 11 de maio de 2021"
+          },
+          {
+            "number": 32,
+            "text": "Jem Aswad (18 de julho de 2014). «How Shawn Mendes Is Turning Vine Fame Into a Music Career» (em inglês). Billboard. Consultado em 11 de junho de 2019. Cópia arquivada em 22 de setembro de 2021"
+          },
+          {
+            "number": 33,
+            "text": "Bradley Stern (2 de julho de 2014). «Shawn Mendes, 15-Year-Old Vine Celebrity, Makes Record-Breaking Debut On Billboard Hot 100» (em inglês). Idolator. Consultado em 11 de junho de 2019 [ligação inativa]"
+          },
+          {
+            "number": 34,
+            "text": "«Girls go gaga for Vine video boys at Itasca meet and greet» (em inglês). Daily Herald. 3 de março de 2014. Consultado em 11 de junho de 2019. Cópia arquivada em 2 de junho de 2023"
+          },
+          {
+            "number": 35,
+            "text": "Ted Gregory (21 de fevereiro de 2014). «Viners' meet and greet fosters teen idol frenzy» (html) (em inglês). Chicago Tribune. Cópia arquivada em 7 de abril de 2023"
+          },
+          {
+            "number": 36,
+            "text": "«'Secret' is out: Austin Mahone announces album, tour». USA Today. 4 de abril de 2014. Cópia arquivada em 26 de maio de 2023"
+          },
+          {
+            "number": 37,
+            "text": "Caulfield, Keith (15 de abril de 2015). «Shawn Mendes Album on Course for No. 1 Debut on Billboard 200 Chart». Billboard. Consultado em 2 de outubro de 2015. Cópia arquivada em 22 de setembro de 2021"
+          },
+          {
+            "number": 38,
+            "text": "Brown, Harley (4 de junho de 2014). «Vine Superstar Shawn Mendes Signed to Island Records (Exclusive)». Billboard. Cópia arquivada em 26 de junho de 2019"
+          },
+          {
+            "number": 39,
+            "text": "«The Vamps Release Remix of 'Oh Cecilia (Breaking My Heart)' Feat. Shawn Mendes [LISTEN]». popcrush.com. Cópia arquivada em 8 de setembro de 2025"
+          },
+          {
+            "number": 40,
+            "text": "«Shawn Mendes' New Single 'Something Big' Is Actually Something Huge». MTV.com. Cópia arquivada em 17 de julho de 2022"
+          },
+          {
+            "number": 41,
+            "text": "Caulfield, Keith (22 de abril de 2015). «Shawn Mendes' 'Handwritten' Debuts at No. 1 on Billboard 200 Chart». Billboard. Consultado em 31 de agosto de 2015. Cópia arquivada em 22 de setembro de 2021"
+          },
+          {
+            "number": 42,
+            "text": "«You searched for shawn mendes — RIAA». RIAA. Consultado em 22 de agosto de 2017. Cópia arquivada em 7 de setembro de 2025"
+          },
+          {
+            "number": 43,
+            "text": "Daw, Robbie (22 de abril de 2015). «Shawn Mendes Becomes Youngest Artist To Top Album Chart In Half A Decade — idolator». idolator. Consultado em 22 de agosto de 2017 [ligação inativa]"
+          },
+          {
+            "number": 44,
+            "text": "Trust, Gary (26 de outubro de 2015). «The Weeknd Tops Hot 100; Adele No. 1 Next Week?». Billboard. Consultado em 26 de outubro de 2015. Cópia arquivada em 20 de abril de 2021"
+          },
+          {
+            "number": 45,
+            "text": "Trust, Gary (15 de novembro de 2015). «Shawn Mendes Is the First Artist to Land Four No. 1s on the Adult Pop Songs Chart Before Age 20». Billboard. Consultado em 23 de setembro de 2018. Cópia arquivada em 25 de julho de 2021"
+          },
+          {
+            "number": 46,
+            "text": "Trust, Gary. «Shawn Mendes Is First Artist in AC Chart's History to Notch Three No. 1s Before Age 20». Billboard. Consultado em 23 de setembro de 2018. Cópia arquivada em 2 de março de 2021"
+          },
+          {
+            "number": 47,
+            "text": "Copsey, Rob (22 de janeiro de 2016). «It's not a stitch-up! Shawn Mendes knocks Bieber off Number 1». Official Charts Company. Consultado em 24 de janeiro de 2016. Cópia arquivada em 14 de junho de 2025"
+          },
+          {
+            "number": 48,
+            "text": "Glatter, Hayley (12 de junho de 2015). «Shawn Mendes Wrote a New Song for Disney's \"Descendants\" Soundtrack!». Seventeen. Consultado em 5 de novembro de 2018. Cópia arquivada em 19 de setembro de 2025"
+          },
+          {
+            "number": 49,
+            "text": "«Vance Joy, Shawn Mendes tapped to support Taylor Swift on her \"1989\" tour». Headline Planet. 3 de novembro de 2014. Cópia arquivada em 7 de setembro de 2025"
+          },
+          {
+            "number": 50,
+            "text": "«Shawn Mendes & Camila Cabello Announce 'I Know What You Did Last Summer' Duet: Hear a Preview». Billboard. Consultado em 14 de novembro de 2015. Cópia arquivada em 22 de setembro de 2021"
+          },
+          {
+            "number": 51,
+            "text": "«The 25 Most Influential Teens of 2014». TIME Staff. Time. 13 de outubro de 2014. Consultado em 16 de novembro de 2015. Cópia arquivada em 4 de agosto de 2026"
+          },
+          {
+            "number": 52,
+            "text": "«The 30 Most Influential Teens of 2015». TIME Staff. Time. 27 de outubro de 2015. Consultado em 16 de novembro de 2015. Cópia arquivada em 25 de julho de 2026"
+          },
+          {
+            "number": 53,
+            "text": "«Watch Shawn Mendes Bring Sweet, Beautiful Music To 'The 100'». MTV news. Consultado em 18 de janeiro de 2016. Cópia arquivada em 17 de julho de 2022"
+          },
+          {
+            "number": 54,
+            "text": "Spanos, Brittany (28 de janeiro de 2016). «Shawn Mendes Announces Second Headlining World Tour». Rolling Stone. Consultado em 31 de janeiro de 2016"
+          },
+          {
+            "number": 55,
+            "text": "Guardia, Niko; Berkofsky, Blossom. «Shawn Mendes' World Tour Sells Out in Minutes — Music News — ABC News Radio». ABC News Radio. Consultado em 22 de agosto de 2017. Cópia arquivada em 22 de novembro de 2022"
+          },
+          {
+            "number": 56,
+            "text": "«Shawn Mendes Tries to End an Abusive Relationship in 'Treat You Better' Video». Billboard. 12 de julho de 2016. Consultado em 13 de julho de 2016. Cópia arquivada em 17 de maio de 2021"
+          },
+          {
+            "number": 57,
+            "text": "Caulfield, Keith (2 de outubro de 2016). «Shawn Mendes Earns Second No. 1 Album on Billboard 200 With 'Illuminate'». Billboard. Consultado em 3 de outubro de 2016. Cópia arquivada em 22 de agosto de 2021"
+          },
+          {
+            "number": 58,
+            "text": "Ceron, Ella (18 de agosto de 2016). «Shawn Mendes's New Song \"Mercy\" Will Break Your Heart». Teen Vogue. Consultado em 24 de dezembro de 2016. Cópia arquivada em 10 de setembro de 2025"
+          },
+          {
+            "number": 59,
+            "text": "«Shawn Mendes Gifts Fans Early: 'Live at Madison Square Garden' Coming Friday». Billboard. 19 de dezembro de 2016. Cópia arquivada em 13 de maio de 2021"
+          },
+          {
+            "number": 60,
+            "text": "Atkinson, Katie. «Shawn Mendes Performs 'Mercy' & 'Treat You Better' on 'Saturday Night Live'». Billboard. Consultado em 22 de agosto de 2017. Cópia arquivada em 8 de maio de 2021"
+          },
+          {
+            "number": 61,
+            "text": "Middleton, Ryan (8 de setembro de 2016). «Shawn Mendes Announces 2017 Illuminate World Tour Dates». musictimes.com. Consultado em 28 de dezembro de 2016. Cópia arquivada em 11 de setembro de 2025"
+          },
+          {
+            "number": 62,
+            "text": "Wilker, Deborah. «Shawn Mendes Rocks His Dream Stage at Sold-Out L.A. Staples Center Concert». Billboard. Consultado em 24 de agosto de 2017. Cópia arquivada em 25 de outubro de 2021"
+          },
+          {
+            "number": 63,
+            "text": "McClean, Craig. «Shawn Mendes: I was the most upset I've ever been after Manchester». Evening Standard. Consultado em 24 de agosto de 2017. Cópia arquivada em 24 de agosto de 2017"
+          },
+          {
+            "number": 64,
+            "text": "Neves, Gustavo (21 de junho de 2017). «Shawn Mendes lança o clipe de 'There's Nothing Holdin' Me Back'». Pop Cyber. Consultado em 14 de outubro de 2019. Cópia arquivada em 25 de dezembro de 2023"
+          },
+          {
+            "number": 65,
+            "text": "Weatherby, Taylor (20 de abril de 2017). «Shawn Mendes Drops Feisty New Single 'There's Nothing Holdin' Me Back'». Billboard. Consultado em 24 de maio de 2017. Cópia arquivada em 25 de outubro de 2021"
+          },
+          {
+            "number": 66,
+            "text": "McIntyre, Hugh (17 de julho de 2017). «Shawn Mendes Grabs Another Top 10 Hit, While 'Despacito' Leads For Week 10». Forbes. Consultado em 24 de agosto de 2017. Cópia arquivada em 6 de setembro de 2025"
+          },
+          {
+            "number": 67,
+            "text": "«Shawn Mendes' \"There's Nothing Holdin' Me Back\" tops \"Billboard's\" Pop Songs chart — Music News — ABC News Radio». ABC News Radio. 15 de agosto de 2017. Consultado em 24 de agosto de 2017. Cópia arquivada em 22 de novembro de 2022"
+          },
+          {
+            "number": 68,
+            "text": "Trust, Gary. «Shawn Mendes First Artist Under 20 to Land Three No. 1s on Adult Pop Songs Chart». Billboard. Consultado em 29 de agosto de 2017. Cópia arquivada em 22 de junho de 2021"
+          },
+          {
+            "number": 69,
+            "text": "Trust, Gary. «Shawn Mendes Is First Artist in AC Chart's History to Notch Three No. 1s Before Age 20». Billbaord. Consultado em 23 de setembro de 2018. Cópia arquivada em 2 de março de 2021"
+          },
+          {
+            "number": 70,
+            "text": "«The 30 Most Influential Teens of 2016». TIME Staff. Time. 19 de outubro de 2016. Consultado em 27 de agosto de 2018. Cópia arquivada em 2 de agosto de 2026"
+          },
+          {
+            "number": 71,
+            "text": "«Forbes 30 Under 30: Music». Forbes. 3 de janeiro de 2016. Consultado em 4 de janeiro de 2016. Cópia arquivada em 1 de agosto de 2026"
+          },
+          {
+            "number": 72,
+            "text": "«21 Under 21 2017: Music's Next Generation». Billboard. Consultado em 13 de outubro de 2018. Cópia arquivada em 15 de novembro de 2021"
+          },
+          {
+            "number": 73,
+            "text": "«Hear Shawn Mendes' Raw New Song 'In My Blood'» (em inglês). Rolling Stone. Cópia arquivada em 13 de junho de 2018"
+          },
+          {
+            "number": 74,
+            "text": "«Shawn Mendes lança clipe para \"Lost in Japan\". Assista!». Pop Cyber. 26 de outubro de 2018. Consultado em 14 de outubro de 2019. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 75,
+            "text": "«Shawn Mendes on Twitter». Twitter. Cópia arquivada em 20 de abril de 2024"
+          },
+          {
+            "number": 76,
+            "text": "Tucker, Eric (7 de maio de 2018). «Shawn Mendes and Khalid release 'Youth'». Mix 106. Consultado em 22 de janeiro de 2018. Cópia arquivada em 17 de outubro de 2019"
+          },
+          {
+            "number": 77,
+            "text": "Brandle, Lars (26 de abril de 2018). «Shawn Mendes Shares Artwork, Track List and Release Date for New Album». Billboard. Consultado em 26 de abril de 2018. Cópia arquivada em 11 de julho de 2021"
+          },
+          {
+            "number": 78,
+            "text": "Caulfield, Keith (3 de junho de 2018). «Shawn Mendes Scores No. 1 Album on Billboard 200 Chart». Billboard. Consultado em 4 de junho de 2018. Cópia arquivada em 11 de novembro de 2021"
+          },
+          {
+            "number": 79,
+            "text": "Jones, Abby (8 de maio de 2018). «Shawn Mendes Announces Self-Titled International Arena Tour». Billboard. Consultado em 8 de maio de 2018"
+          },
+          {
+            "number": 80,
+            "text": "«Stars like Tom Jones and Kylie Minogue shine for Queen's 92nd birthday party». Cópia arquivada em 9 de setembro de 2025"
+          },
+          {
+            "number": 81,
+            "text": "«Shawn Mendes Is Crashing With James Corden At The Late Late Show For A Week». Consultado em 23 de setembro de 2018. Cópia arquivada em 28 de maio de 2023"
+          },
+          {
+            "number": 82,
+            "text": "«Shawn Mendes:Nervous #LateLateShawn». Consultado em 9 de outubro de 2018"
+          },
+          {
+            "number": 83,
+            "text": "«Shawn Mendes:Lost In Japan #LateLateShawn». Consultado em 9 de outubro de 2018. Cópia arquivada em 6 de setembro de 2025"
+          },
+          {
+            "number": 84,
+            "text": "«Shawn Mendes:Perfectly Wrong #LateLateShawn». Consultado em 9 de outubro de 2018. Cópia arquivada em 11 de setembro de 2025"
+          },
+          {
+            "number": 85,
+            "text": "«Shawn Mendes:Like to be You #LateLateShawn». Consultado em 9 de outubro de 2018. Cópia arquivada em 19 de setembro de 2025"
+          },
+          {
+            "number": 86,
+            "text": "«Shawn Mendes- Lost in Japan». Consultado em 13 de outubro de 2018. Cópia arquivada em 7 de setembro de 2025"
+          },
+          {
+            "number": 87,
+            "text": "Longmire, Becca. «Shawn Mendes Joins Jimmy Fallon To Perform 'Treat You Better' Using Classroom Instruments — Watch!». ET Canada. Consultado em 9 de outubro de 2018. Cópia arquivada em 29 de setembro de 2023"
+          },
+          {
+            "number": 88,
+            "text": "«Shawn Mendes Dominates iHeartRadio MMVAs 2018». Billboard. Consultado em 27 de agosto de 2018. Cópia arquivada em 9 de maio de 2021"
+          },
+          {
+            "number": 89,
+            "text": "«Shawn Mendes' New Documentary Is Confirmed: Here's Where To Watch It». CapitalFM. Consultado em 23 de setembro de 2018"
+          },
+          {
+            "number": 90,
+            "text": "«SHAWN MENDES – Artist Spotlight Story (Official Trailer)». Consultado em 23 de setembro de 2018"
+          },
+          {
+            "number": 91,
+            "text": "«SHAWN MENDES – Artist Spotlight Stories». Consultado em 9 de outubro de 2018"
+          },
+          {
+            "number": 92,
+            "text": "Bein, Kat. «Zedd Turns Shawn Mendes' 'Lost In Japan' Into a Neon Fantasy: Watch». Billboard. Consultado em 9 de outubro de 2018"
+          },
+          {
+            "number": 93,
+            "text": "Weatherby, Taylor. «Shawn Mendes, Zedd & Camila Cabello To Perform at 2018 American Music Awards». Billboard. Consultado em 9 de outubro de 2018. Cópia arquivada em 25 de outubro de 2021"
+          },
+          {
+            "number": 94,
+            "text": "«Shawn Mendes, Zedd – Lost in Japan (Live from the AMAs / 2018)». Consultado em 13 de outubro de 2018. Cópia arquivada em 16 de setembro de 2025"
+          },
+          {
+            "number": 95,
+            "text": "«21 Under 21 2018: Shawn Mendes, Juice WRLD, Noah Cyrus & More». Billboard. Consultado em 13 de outubro de 2018. Cópia arquivada em 20 de outubro de 2021"
+          },
+          {
+            "number": 96,
+            "text": "Kelly, Hunter. «Shawn Mendes on Working With Zac Brown Band, Country-Pop Fusion». Rolling Stone. Consultado em 25 de outubro de 2018. Cópia arquivada em 11 de setembro de 2025"
+          },
+          {
+            "number": 97,
+            "text": "«Veja os shows no Victoria's Secret Show 2018 com Shawn Mendes, Halsey, Bebe Rexha e Rita Ora!». Pop Cyber. 3 de dezembro de 2018. Consultado em 14 de outubro de 2019. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 98,
+            "text": "Bajgrowicz, Brooke. «Victoria's Secret Fashion Show Performers Announced: Shawn Mendes, Halsey, The Chainsmokers & More». Billboard. Consultado em 3 de novembro de 2018. Cópia arquivada em 15 de maio de 2021"
+          },
+          {
+            "number": 99,
+            "text": "Bajgrowicz, Brooke. «Shawn Mendes Drops Remix EP Featuring Leon Bridges, Jessie Reyez & Kaytranada». Billboard. Consultado em 21 de dezembro de 2018. Cópia arquivada em 23 de outubro de 2021"
+          },
+          {
+            "number": 100,
+            "text": "«Shawn Mendes lança o novo single \"If I Can't Have You\"». Pop Cyber. 3 de maio de 2019. Consultado em 14 de outubro de 2019. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 101,
+            "text": "Spanos, Brittany. «Song You Need to Know: Shawn Mendes, 'If I Can't Have You'». RollingStone. Consultado em 14 de maio de 2019. Cópia arquivada em 18 de abril de 2026"
+          },
+          {
+            "number": 102,
+            "text": "Neves, Gustavo (27 de julho de 2019). «\"Señorita\" de Shawn Mendes e Camila Cabello conquista os maiores números nas primeiras cinco semanas na história do Spotify». Pop Cyber. Consultado em 14 de outubro de 2019"
+          },
+          {
+            "number": 103,
+            "text": "Trust, Gary. «Lil Nas X's 'Old Town Road' Rules Billboard Hot 100 for Sixth Week; Shawn Mendes, Logic & Eminem Debut in Top Fivepublisher=Billboard». Consultado em 14 de maio de 2019. Cópia arquivada em 3 de agosto de 2021"
+          },
+          {
+            "number": 104,
+            "text": "«Official Charts: Shawn Mendes». Official Charts. Consultado em 14 de maio de 2019. Cópia arquivada em 24 de fevereiro de 2026"
+          },
+          {
+            "number": 105,
+            "text": "«FOURTH WEEK AT #1 FOR LIL NAS X'S OLD TOWN ROAD, Debuts for Shawn Mendes, Logic and more!». ARIA Charts. Consultado em 14 de maio de 2019. Cópia arquivada em 31 de agosto de 2020"
+          },
+          {
+            "number": 106,
+            "text": "«\"Señorita\": Shawn Mendes lança single e clipe em parceria com Camila Cabello». Pop Cyber. 21 de junho de 2019. Consultado em 14 de outubro de 2019. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 107,
+            "text": "«Shawn Mendes, Camila Cabello release new song, video for 'Señorita' - National | Globalnews.ca». globalnews.ca (em inglês). 21 de junho de 2019. Consultado em 21 de junho de 2019"
+          },
+          {
+            "number": 108,
+            "text": "«Shawn Mendes Chart History (Billboard Hot 100)» (em inglês). Billboard. Consultado em 18 de Agosto de 2019"
+          },
+          {
+            "number": 109,
+            "text": "«Five Burning Questions: Billboard Staffers Discuss Shawn Mendes and Camila Cabello's 'Senorita' No. 2 Hot 100 Debut» (em inglês). Billboard. Consultado em 18 de Agosto de 2019"
+          },
+          {
+            "number": 110,
+            "text": "«Shawn Mendes & Camila Cabello's 'Señorita' Hits No. 1 on Billboard Hot 100» (em inglês). Billboard. Consultado em 26 de Agosto de 2019"
+          },
+          {
+            "number": 111,
+            "text": "«Shawn Mendes (Deluxe) by Shawn Mendes on Apple Music» (em inglês). iTunes. 27 de julho de 2019. Consultado em 29 de julho de 2019"
+          },
+          {
+            "number": 112,
+            "text": "Tamara Fuentes (29 de setembro de 2020). «Shawn Mendes's New Album, Wonder, Details Might Have Been Leaked» [O novo álbum de Shawn Mendes, Wonder, detalhes podem ter vazado] (em inglês). Seventeen. Consultado em 1 de Outubro de 2020. Cópia arquivada em 1 de Outubro de 2020"
+          },
+          {
+            "number": 113,
+            "text": "«Shawn Mendes dá pista sobre nova música: 'O que é Wonder?'». UOL. 30 de Setembro de 2020. Consultado em 1 de Outubro de 2020. Cópia arquivada em 30 de março de 2025"
+          },
+          {
+            "number": 114,
+            "text": "Jackson Langford (1 de Outubro de 2020). «Shawn Mendes announces new album 'Wonder'» [Shawn Mendes anuncia novo álbum 'Wonder'] (em inglês). NME. Consultado em 1 de Outubro de 2020. Cópia arquivada em 1 de Outubro de 2020"
+          },
+          {
+            "number": 115,
+            "text": "«Cinco motivos para assistir a Shawn Mendes – In Wonder na Netflix | Metrópoles». www.metropoles.com. 24 de novembro de 2020. Consultado em 9 de julho de 2025. Cópia arquivada em 6 de janeiro de 2026"
+          },
+          {
+            "number": 116,
+            "text": "estadaoconteudo. «Shawn Mendes lança 'Wonder', 4º álbum da carreira, e documentário na Netflix». Terra. Consultado em 9 de julho de 2025. Cópia arquivada em 6 de janeiro de 2026"
+          },
+          {
+            "number": 117,
+            "text": "Entretenimento, Portal Uai (18 de novembro de 2020). «Shawn Mendes anuncia parceria com Justin Bieber para esta sexta, 20». Portal Uai Entretenimento. Consultado em 9 de julho de 2025. Cópia arquivada em 22 de abril de 2026"
+          },
+          {
+            "number": 118,
+            "text": "themusicjournalbrazil. «Shawn Mendes e Justin Bieber apresentam o single e clipe de \"Monster\"». Terra. Consultado em 9 de julho de 2025. Cópia arquivada em 6 de janeiro de 2026"
+          },
+          {
+            "number": 119,
+            "text": "«Shawn Mendes anuncia lançamento de novo álbum após hiatos». Quem. 1 de agosto de 2024. Consultado em 9 de julho de 2025. Cópia arquivada em 12 de agosto de 2024"
+          },
+          {
+            "number": 120,
+            "text": "Brasil, Billboard (31 de julho de 2024). «Shawn Mendes anuncia lançamento de novo álbum após dois anos». billboard.com.br. Consultado em 9 de julho de 2025. Cópia arquivada em 19 de junho de 2025"
+          },
+          {
+            "number": 121,
+            "text": "SAPO. «Shawn Mendes anuncia novo álbum: \"Há dois anos sentia que não fazia absolutamente nenhuma ideia de quem era\"». SAPO Mag. Consultado em 9 de julho de 2025. Cópia arquivada em 14 de agosto de 2024"
+          },
+          {
+            "number": 122,
+            "text": "«Shawn Mendes lança \"Shawn\", seu 5º álbum de estúdio; ouça». CNN Brasil. 15 de novembro de 2024. Consultado em 9 de julho de 2025. Cópia arquivada em 14 de abril de 2026"
+          },
+          {
+            "number": 123,
+            "text": "Rigotti, Alex (2 de agosto de 2024). «Shawn Mendes announces \"special\" intimate theatre shows for new album 'Shawn'». NME (em inglês). Consultado em 9 de julho de 2025"
+          },
+          {
+            "number": 124,
+            "text": "«Veja as primeiras datas da nova turnê de Shawn Mendes | Alpha FM - 101.7». 4 de julho de 2025. Consultado em 9 de julho de 2025. Cópia arquivada em 6 de janeiro de 2026"
+          },
+          {
+            "number": 125,
+            "text": "Torres, Leonardo (29 de maio de 2025). «Shawn Mendes anuncia nova turnê com vários shows em festivais | #Internacional». POPline. Consultado em 9 de julho de 2025. Cópia arquivada em 15 de junho de 2025"
+          },
+          {
+            "number": 126,
+            "text": "«Instagram». www.instagram.com. Consultado em 9 de julho de 2025. Cópia arquivada em 30 de maio de 2025"
+          },
+          {
+            "number": 127,
+            "text": "Pankey, William (27 de maio de 2015). «Q&A: Shawn Mendes talks touring, musical influences and having a No. 1 album». AXS. Consultado em 3 de março de 2017. Cópia arquivada em 26 de junho de 2019"
+          },
+          {
+            "number": 128,
+            "text": "Lynn, Jennifer (2 de setembro de 2014). «MTV Meets: Shawn Mendes». MTV. Consultado em 3 de maio de 2017. Cópia arquivada em 24 de maio de 2022"
+          },
+          {
+            "number": 129,
+            "text": "«Shawn Mendes, Pop Idol, Is Not Banking on a Gimmick». The New York Times. 20 de setembro de 2016. Consultado em 3 de março de 2017. Cópia arquivada em 24 de outubro de 2025"
+          },
+          {
+            "number": 130,
+            "text": "«Shawn Mendes - Entertainer». MODELS.com. Consultado em 31 de agosto de 2020"
+          },
+          {
+            "number": 131,
+            "text": "McCall, Tyler. «Shawn Mendes Just Got One Step Closer to Becoming Derek Zoolander». Teen Vogue (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 16 de setembro de 2025"
+          },
+          {
+            "number": 132,
+            "text": "Roth, Madeline. «Shawn Mendes Is A Model Now — And These Pics Prove He's A Natural». MTV News (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 16 de julho de 2022"
+          },
+          {
+            "number": 133,
+            "text": "«Los Angeles - Talent - Influencers | Wilhelmina». www.wilhelmina.com (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 30 de outubro de 2022"
+          },
+          {
+            "number": 134,
+            "text": "Carrera, Martino; Carrera, Martino (6 de junho de 2018). «Emporio Armani Extends Partnership With Shawn Mendes». WWD (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 8 de setembro de 2025"
+          },
+          {
+            "number": 135,
+            "text": "«Shawn Mendes Takes Turn on Emporio Armani Runway at Milan Fashion Week». Billboard. 17 de junho de 2017. Consultado em 31 de agosto de 2020. Cópia arquivada em 23 de outubro de 2021"
+          },
+          {
+            "number": 136,
+            "text": "«Shawn Mendes Models New Emporio Armani Watches For EA Connected Campaign». Billboard. 17 de julho de 2018. Consultado em 31 de agosto de 2020. Cópia arquivada em 12 de maio de 2021"
+          },
+          {
+            "number": 137,
+            "text": "«Shawn Mendes Strips Down to His Underwear for Calvin Klein Campaign». Billboard. 16 de fevereiro de 2019. Consultado em 31 de agosto de 2020. Cópia arquivada em 22 de abril de 2021"
+          },
+          {
+            "number": 138,
+            "text": "Staff, Variety; Staff, Variety (6 de fevereiro de 2019). «Shawn Mendes to Launch SmileDirectClub Partnership With TV Spot During Grammys». Variety (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 10 de janeiro de 2026"
+          },
+          {
+            "number": 139,
+            "text": "«Shawn Mendes Shares Steamy Ad for Armani Watches: Watch». Billboard. 28 de fevereiro de 2019. Consultado em 20 de junho de 2020. Cópia arquivada em 15 de novembro de 2021"
+          },
+          {
+            "number": 140,
+            "text": "Davidson, Sean (29 de agosto de 2019). «Why Shawn Mendes is taking over Tim Hortons coffee cups». Toronto (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 20 de abril de 2024"
+          },
+          {
+            "number": 141,
+            "text": "Chan, Tim; Chan, Tim (5 de setembro de 2019). «Shawn Mendes' Latest Collaborations Are the Most Canadian Thing Ever». Rolling Stone (em inglês). Consultado em 31 de agosto de 2020. Cópia arquivada em 27 de março de 2023"
+          },
+          {
+            "number": 142,
+            "text": "Abel, Alex (28 de agosto de 2014). «Join Shawn Mendes to Combat Low Self-Esteem & Spread LOVE!». seventeenmag. Consultado em 3 de março de 2017. Cópia arquivada em 19 de setembro de 2025"
+          },
+          {
+            "number": 143,
+            "text": "Kassoy, Ben (13 de agosto de 2015). «How Shawn Mendes is Spreading Happiness with Little Notes». Teen Vogue. Consultado em 3 de março de 2017. Cópia arquivada em 8 de setembro de 2025"
+          },
+          {
+            "number": 144,
+            "text": "Bliss, Karen (11 de novembro de 2015). «Shawn Mendes Wants To Continue Making a Difference, Perhaps Go to Africa». SamaritanMag. Consultado em 3 de março de 2017. Cópia arquivada em 8 de setembro de 2025"
+          },
+          {
+            "number": 145,
+            "text": "«Shawn Mendes Launches His Own Charitable Foundation». Time (em inglês). Consultado em 7 de dezembro de 2021. Cópia arquivada em 22 de julho de 2025"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "20",

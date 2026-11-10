@@ -1,9 +1,19 @@
 import { EmptyState } from "@/ui/components/empty-state";
+import { SkipLink } from "@/ui/components/skip-link";
+
+const MAIN_CONTENT_ID = "conteudo";
 
 export function EmptyLayout() {
   return (
-    <main className="flex min-h-screen items-center justify-center p-6">
-      <EmptyState />
-    </main>
+    <>
+      <SkipLink targetId={MAIN_CONTENT_ID} />
+      <main
+        id={MAIN_CONTENT_ID}
+        tabIndex={-1}
+        className="flex min-h-screen items-center justify-center p-6 outline-none"
+      >
+        <EmptyState />
+      </main>
+    </>
   );
 }

@@ -1,14 +1,12 @@
-import { BookOpen, Menu } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import Link from "next/link";
+import { HeaderMenu } from "@/ui/components/header/header-menu";
 import { cn, focusRing } from "@/ui/lib/utils";
-import { Button } from "@/ui/primitives/button";
 
 export function HeaderBrand() {
   return (
     <div className="flex shrink-0 items-center gap-2 @min-[48rem]:gap-3">
-      <Button variant="ghost" size="icon" aria-label="Abrir menu">
-        <Menu />
-      </Button>
+      <HeaderMenu />
       <Link
         href="/"
         aria-label="Wikipédia, a enciclopédia livre — Página principal"
@@ -23,7 +21,7 @@ export function HeaderBrand() {
         <span className="hidden flex-col leading-tight @min-[40rem]:flex">
           <span className="text-base font-semibold tracking-[-0.02em] text-foreground">
             Wikipédia
-          </span>
+          </span>{" "}
           <span className="text-xs text-muted-foreground">
             A enciclopédia livre
           </span>
