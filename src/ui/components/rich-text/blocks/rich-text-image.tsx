@@ -49,12 +49,12 @@ export function RichTextImage({
           </span>
         </Dialog.Trigger>
         <Dialog.Portal>
-          <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/85 duration-150 data-open:animate-in data-open:fade-in-0 data-closed:animate-out data-closed:fade-out-0" />
+          <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/85 transition-opacity duration-200 ease-out data-starting-style:opacity-0 data-ending-style:opacity-0 motion-reduce:transition-none" />
           <Dialog.Popup
             onClick={(event) => {
               if (event.target === event.currentTarget) setOpen(false);
             }}
-            className="fixed inset-0 z-50 flex cursor-zoom-out flex-col items-center justify-center gap-3 p-4 outline-none duration-200 data-open:animate-in data-open:zoom-in-95 data-closed:animate-out data-closed:zoom-out-95"
+            className="fixed inset-0 z-50 flex cursor-zoom-out flex-col items-center justify-center gap-3 p-4 outline-none transition-[opacity,scale] duration-200 ease-out data-starting-style:scale-95 data-starting-style:opacity-0 data-ending-style:scale-95 data-ending-style:opacity-0 motion-reduce:transition-none"
           >
             <Dialog.Title className="sr-only">{caption || alt}</Dialog.Title>
             <Dialog.Close
