@@ -1,52 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wikipédia acessível
 
-## Getting Started
+Redesenho da página de artigo da Wikipédia em português, com foco em acessibilidade (WCAG 2.1 nível AA). Os artigos vêm direto da API do MediaWiki (pt.wikipedia.org).
 
-First, run the development server:
+**Para testar tudo, siga o [COMO-TESTAR.md](COMO-TESTAR.md).**
+
+## O que tem
+
+- **Estrutura:** HTML semântico (`header`, `nav`, `main`, `article`, `aside`, `footer`), ARIA, link "Pular para o conteúdo" e sumário navegável.
+- **Teclado:** navegação completa, com foco sempre visível.
+- **Painel de aparência:**
+  - tema claro, escuro ou alto contraste;
+  - tamanho do texto de 87,5% a 200%;
+  - espaçamento;
+  - fonte OpenDyslexic;
+  - leitura facilitada;
+  - opção de mostrar ou esconder os números das notas de rodapé.
+
+  As preferências ficam salvas entre sessões e são aplicadas antes da página aparecer.
+- **Leitura facilitada:** parágrafos divididos em blocos curtos e um resumo introdutório gerado por IA (OpenRouter).
+- **Imagens:** texto alternativo, legenda, ampliação ao clicar e um aviso próprio quando a imagem não carrega.
+- **Conteúdo do artigo:** infobox com descrição, notas de rodapé ligadas às referências, e idiomas e data de edição reais.
+- **Leitura em voz alta:** gerada no servidor (Kokoro), com player de rótulos visíveis.
+- **Layout:** responsivo para desktop, tablet e celular, e sem quebrar com zoom de até 400%.
+
+## Rodando
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+cp .env.example .env   # preencha OPENROUTER_API_KEY para o resumo por IA (opcional)
+pnpm dev               # http://localhost:3000
+pnpm ui:docs           # Storybook em http://localhost:6006
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Comando | O que faz |
+|---|---|
+| `pnpm dev` | sobe o site em modo de desenvolvimento |
+| `pnpm build` / `pnpm start` | gera e roda a versão de produção |
+| `pnpm ui:docs` | abre o Storybook com todos os componentes documentados |
+| `pnpm test` | roda os testes de interação do Storybook e o axe em cada história |
+| `pnpm test:e2e` | roda os testes de ponta a ponta com Playwright e axe (desktop, tablet e celular) |
+| `pnpm audit:lighthouse` | gera o relatório do Lighthouse em `reports/lighthouse/` (precisa do site rodando) |
+| `pnpm check:types` / `pnpm check:lint` | checam os tipos e o padrão de código |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Com `NEXT_PUBLIC_USE_MOCKS=true`, o site usa os artigos de exemplo de `src/ui/providers/mocks/` em vez da API real. É o modo usado pelos testes e2e.
+
+## Arquitetura
+
+- **Interface (`src/ui`):** os componentes não sabem de onde vêm os dados; eles leem tudo de *contexts* (`src/ui/contexts`).
+  - Os *providers* preenchem esses contexts: os reais em `src/ui/providers/mediawiki-*`, `api-*` e `article-audio-provider`, e os de exemplo em `src/ui/providers/mocks`.
+  - O Storybook usa os providers de exemplo, então nenhuma história acessa a rede.
+  - Mais detalhes em [`docs/testes-de-interface.md`](docs/testes-de-interface.md).
+- **Servidor (`src/server`):** contém o resumo por IA e a narração em áudio.
 
 ## Leitura em voz alta
 
-O botão **Ouvir** narra o artigo. O áudio é gerado uma vez por versão do conteúdo + voz e fica salvo no backend.
+O botão **Ler** narra o artigo. O áudio é gerado uma vez para cada versão do conteúdo e voz, e fica salvo no backend.
 
-Fluxo: `POST /api/articles/:id/audio` → registro `PENDING` no Postgres (Prisma) + evento `article-audio.requested` na fila (Redis/BullMQ) → o worker sintetiza a voz (Kokoro), salva o arquivo no Silo (S3) e marca `READY` → o player toca `GET /api/articles/:id/audio/file`.
+O fluxo é este:
+1. `POST /api/articles/:id/audio` cria um registro `PENDING` no Postgres (Prisma) e publica o evento `article-audio.requested` na fila (Redis/BullMQ).
+2. O worker sintetiza a voz (Kokoro), salva o arquivo no Silo (S3) e marca o registro como `READY`.
+3. O player toca o áudio por `GET /api/articles/:id/audio/file`.
 
-A lógica fica em `src/server/article-audio` e depende só das interfaces em `ports.ts`. As implementações concretas ficam em `src/server/adapters` e são escolhidas em `src/server/container.ts`. Para trocar o modelo de voz, o storage, a fila ou a fonte dos artigos, basta criar um adapter novo e registrá-lo ali. Qualquer servidor compatível com `POST /v1/audio/speech` da OpenAI funciona só mudando as variáveis `TTS_*`.
+A lógica fica em `src/server/article-audio` e depende só das interfaces em `ports.ts`. As implementações concretas ficam em `src/server/adapters` e são escolhidas em `src/server/container.ts`.
 
 ```bash
-cp .env.example .env
 docker compose up -d --build   # postgres, redis, silo (:9000/:9001), kokoro (:8880) e worker
-pnpm dev                       # app
+pnpm dev
 ```
 
-O container `worker` aplica as migrações (`prisma migrate deploy`) antes de começar a consumir a fila. Para rodar o worker fora do Docker, use `docker compose stop worker` e `pnpm worker`.
+O container `worker` aplica as migrações (`prisma migrate deploy`) antes de começar a consumir a fila. Para rodar o worker fora do Docker, use `docker compose stop worker` e depois `pnpm worker`.
 
-## Learn More
+## Resumo por IA
 
-To learn more about Next.js, take a look at the following resources:
+`POST /api/articles/:id/summary` envia a introdução do artigo ao OpenRouter e devolve até 3 frases em linguagem simples. O resultado fica em cache na memória.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A rota usa estas variáveis:
+- `OPENROUTER_API_KEY`: a chave da API.
+- `OPENROUTER_MODEL`: o modelo; o padrão é `google/gemini-2.5-flash-lite`, que é barato e rápido.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Sem a chave, a interface mostra as primeiras frases da introdução.
