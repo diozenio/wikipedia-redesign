@@ -26,8 +26,12 @@ const titleClassName = "text-base font-semibold text-foreground";
 const descriptionClassName = "text-[0.8125rem] text-muted-foreground";
 
 const triggerButton = (
-  <Button variant="ghost" size="icon" aria-label={TITLE}>
-    <ALargeSmall />
+  <Button
+    variant="ghost"
+    aria-label={TITLE}
+    className="h-auto px-2.5 py-2 @min-[40rem]:py-2.5"
+  >
+    <ALargeSmall className="size-4" />
   </Button>
 );
 

@@ -26,7 +26,7 @@ export function HeaderLanguageSwitcher() {
           <Button
             variant="outline"
             aria-label={`Idioma da interface: ${current?.label}`}
-            className="h-auto gap-2 px-2.5 py-2 @min-[64rem]:px-3.5"
+            className="h-auto gap-2 px-2.5 py-2 @min-[40rem]:py-2.5 @min-[64rem]:px-3.5 @min-[64rem]:py-2"
           >
             <Languages className="size-4" />
             <span className="hidden text-sm font-medium @min-[64rem]:inline">
