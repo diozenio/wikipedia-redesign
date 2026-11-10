@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect } from "storybook/test";
 import { Skeleton } from "@/ui/primitives/skeleton";
 
 const meta = {
@@ -10,9 +11,26 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/** Bloco de carregamento (skeleton), puramente visual. */
+export const Default: Story = {
+  play: async ({ canvasElement, step }) => {
+    await step("Então o bloco de carregamento aparece", async () => {
+      await expect(
+        canvasElement.querySelector('[data-slot="skeleton"]'),
+      ).toBeVisible();
+    });
+  },
+};
 
+/** Formatos combinados (avatar e linhas de texto). */
 export const Shapes: Story = {
+  play: async ({ canvasElement, step }) => {
+    await step("Então aparecem três blocos", async () => {
+      await expect(
+        canvasElement.querySelectorAll('[data-slot="skeleton"]'),
+      ).toHaveLength(3);
+    });
+  },
   render: () => (
     <div className="flex items-center gap-3">
       <Skeleton className="size-10 rounded-full" />
