@@ -144,7 +144,14 @@ export function AppearancePanel({
 }) {
   const id = useId();
   const { appearance, updateAppearance, resetAppearance } = useAppearance();
-  const { theme, fontScale, spacing, dyslexicFont, easyReading } = appearance;
+  const {
+    theme,
+    fontScale,
+    spacing,
+    dyslexicFont,
+    easyReading,
+    footnoteMarkers,
+  } = appearance;
   const scaleIndex = FONT_SCALES.indexOf(fontScale);
 
   function stepFontScale(direction: -1 | 1) {
@@ -285,6 +292,16 @@ export function AppearancePanel({
         checked={easyReading}
         onCheckedChange={(checked) =>
           updateAppearance({ easyReading: checked })
+        }
+      />
+
+      <PreferenceSwitch
+        id={`${id}-footnotes`}
+        label="Números de notas de rodapé"
+        description="Mostra os números das notas no meio do texto. As notas continuam disponíveis no fim do artigo."
+        checked={footnoteMarkers}
+        onCheckedChange={(checked) =>
+          updateAppearance({ footnoteMarkers: checked })
         }
       />
 

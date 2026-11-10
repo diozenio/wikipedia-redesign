@@ -8,20 +8,32 @@ import { useAppearance } from "@/ui/contexts/appearance-context";
 
 const PARAGRAPH_CLASS = "reading-text text-base text-foreground";
 
-function Inline({ segments }: { segments: RichTextInline[] }) {
-  return segments.map((segment, index) =>
-    segment.type === "note" ? (
-      <RichTextNote
-        key={segment.id}
-        id={segment.id}
-        number={segment.number}
-        targetId={segment.targetId}
-      />
-    ) : (
+function Inline({
+  segments,
+  showNotes,
+}: {
+  segments: RichTextInline[];
+  showNotes: boolean;
+}) {
+  return segments.map((segment, index) => {
+    if (segment.type === "note") {
+      // Markers hidden by the reader's preference are not rendered at all,
+      // so screen readers skip them too. The notes stay in the references list.
+      if (!showNotes) return null;
+      return (
+        <RichTextNote
+          key={segment.id}
+          id={segment.id}
+          number={segment.number}
+          targetId={segment.targetId}
+        />
+      );
+    }
+    return (
       // biome-ignore lint/suspicious/noArrayIndexKey: segments are static and never reordered
       <Fragment key={`text-${index}`}>{segment.text}</Fragment>
-    ),
-  );
+    );
+  });
 }
 
 export function RichTextParagraph({
@@ -37,7 +49,7 @@ export function RichTextParagraph({
   if (!appearance.easyReading) {
     return (
       <p className={PARAGRAPH_CLASS}>
-        <Inline segments={inline} />
+        <Inline segments={inline} showNotes={appearance.footnoteMarkers} />
       </p>
     );
   }
@@ -49,7 +61,7 @@ export function RichTextParagraph({
       {chunks.map((chunk, index) => (
         // biome-ignore lint/suspicious/noArrayIndexKey: chunks derive from static text and are never reordered
         <p key={index} className={PARAGRAPH_CLASS}>
-          <Inline segments={chunk} />
+          <Inline segments={chunk} showNotes={appearance.footnoteMarkers} />
         </p>
       ))}
     </div>

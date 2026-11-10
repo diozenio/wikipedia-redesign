@@ -13,6 +13,7 @@ export type Appearance = {
   spacing: Spacing;
   dyslexicFont: boolean;
   easyReading: boolean;
+  footnoteMarkers: boolean;
 };
 
 export const APPEARANCE_STORAGE_KEY = "wikipedia-redesign:appearance";
@@ -23,6 +24,7 @@ export const DEFAULT_APPEARANCE: Appearance = {
   spacing: "default",
   dyslexicFont: false,
   easyReading: false,
+  footnoteMarkers: true,
 };
 
 function includes<T>(list: readonly T[], value: unknown): value is T {
@@ -57,6 +59,7 @@ export function parseAppearance(value: unknown): Appearance | null {
       : DEFAULT_APPEARANCE.spacing,
     dyslexicFont: record.dyslexicFont === true,
     easyReading: record.easyReading === true,
+    footnoteMarkers: record.footnoteMarkers !== false,
   };
 }
 
@@ -106,6 +109,7 @@ export function applyAppearance(
     delete root.dataset.dyslexic;
   }
   root.dataset.easyReading = String(appearance.easyReading);
+  root.dataset.footnotes = String(appearance.footnoteMarkers);
 }
 
-export const APPEARANCE_SCRIPT = `(function(){var d=document.documentElement,a={};try{a=JSON.parse(localStorage.getItem(${JSON.stringify(APPEARANCE_STORAGE_KEY)}))||{}}catch(e){}function m(q){return !!window.matchMedia&&matchMedia(q).matches}d.dataset.theme=${JSON.stringify(THEMES)}.indexOf(a.theme)>-1?a.theme:m("(prefers-contrast: more)")?"high-contrast":m("(prefers-color-scheme: dark)")?"dark":"light";d.dataset.fontScale=String(${JSON.stringify(FONT_SCALES)}.indexOf(a.fontScale)>-1?a.fontScale:${DEFAULT_APPEARANCE.fontScale});d.dataset.spacing=${JSON.stringify(SPACINGS)}.indexOf(a.spacing)>-1?a.spacing:${JSON.stringify(DEFAULT_APPEARANCE.spacing)};if(a.dyslexicFont===true)d.dataset.dyslexic="true";d.dataset.easyReading=a.easyReading===true?"true":"false"})()`;
+export const APPEARANCE_SCRIPT = `(function(){var d=document.documentElement,a={};try{a=JSON.parse(localStorage.getItem(${JSON.stringify(APPEARANCE_STORAGE_KEY)}))||{}}catch(e){}function m(q){return !!window.matchMedia&&matchMedia(q).matches}d.dataset.theme=${JSON.stringify(THEMES)}.indexOf(a.theme)>-1?a.theme:m("(prefers-contrast: more)")?"high-contrast":m("(prefers-color-scheme: dark)")?"dark":"light";d.dataset.fontScale=String(${JSON.stringify(FONT_SCALES)}.indexOf(a.fontScale)>-1?a.fontScale:${DEFAULT_APPEARANCE.fontScale});d.dataset.spacing=${JSON.stringify(SPACINGS)}.indexOf(a.spacing)>-1?a.spacing:${JSON.stringify(DEFAULT_APPEARANCE.spacing)};if(a.dyslexicFont===true)d.dataset.dyslexic="true";d.dataset.easyReading=a.easyReading===true?"true":"false";d.dataset.footnotes=a.footnoteMarkers===false?"false":"true"})()`;
