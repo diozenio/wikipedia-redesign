@@ -11,6 +11,10 @@
       "**",
       "!node_modules",
       "!.next",
+      "!.next-e2e",
+      "!test-results",
+      "!playwright-report",
+      "!reports",
       "!dist",
       "!build",
       "!src/ui/providers/mocks/mediawiki"
