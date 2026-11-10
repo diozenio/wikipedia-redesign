@@ -1,18 +1,18 @@
+import { toInfobox } from "@/ui/lib/mediawiki/parsoid-infobox";
+import {
+  childElements,
+  hasAnyClass,
+  type NoteNumbers,
+  noteNumbersOf,
+  segmentsOf,
+  textOf,
+  toImage,
+} from "@/ui/lib/mediawiki/parsoid-text";
 import type {
   MediaWikiBlock,
   MediaWikiSection,
 } from "@/ui/lib/mediawiki/types";
 
-const TEXT_NODE = 3;
-const ELEMENT_NODE = 1;
-
-const IGNORED_TEXT_TAGS = new Set(["STYLE", "SCRIPT", "LINK", "META"]);
-const IGNORED_TEXT_CLASSES = [
-  "reference",
-  "mw-ref",
-  "mw-editsection",
-  "noprint",
-];
 const IGNORED_BLOCK_TAGS = new Set([
   "SECTION",
   "H2",
@@ -29,76 +29,56 @@ const IGNORED_BLOCK_CLASSES = [
   "mw-references",
   "navbox",
   "navbox-inner",
+  "ambox",
+  "metadata",
 ];
+const HEADING_TAGS = ["H2", "H3", "H4"];
 
-function hasAnyClass(element: Element, classes: string[]) {
-  return classes.some((name) => element.classList.contains(name));
-}
-
-function isIgnoredForText(element: Element) {
-  if (IGNORED_TEXT_TAGS.has(element.tagName)) return true;
-  if (
-    element.tagName === "SUP" &&
-    (element.classList.contains("reference") ||
-      element.getAttribute("typeof") === "mw:Extension/ref")
-  ) {
-    return true;
-  }
+function isReferenceList(element: Element) {
   return (
-    element.tagName !== "TABLE" && hasAnyClass(element, IGNORED_TEXT_CLASSES)
+    element.tagName === "OL" &&
+    hasAnyClass(element, ["references", "mw-references"])
   );
 }
 
-function textOf(node: Node): string {
-  const parts: string[] = [];
-
-  const walk = (current: Node) => {
-    if (current.nodeType === TEXT_NODE) {
-      parts.push(current.textContent ?? "");
-      return;
-    }
-    if (current.nodeType !== ELEMENT_NODE) return;
-    if (isIgnoredForText(current as Element)) return;
-    for (const child of current.childNodes) walk(child);
-  };
-
-  walk(node);
-  return parts.join("").replace(/\s+/g, " ").trim();
-}
-
-function childElements(element: Element, tagNames: string[]) {
-  return Array.from(element.children).filter((child) =>
-    tagNames.includes(child.tagName),
+function isInfobox(element: Element) {
+  return (
+    element.tagName === "TABLE" &&
+    element.classList.contains("infobox") &&
+    !element.classList.contains("noprint")
   );
 }
 
-function toImageBlock(figure: Element): MediaWikiBlock | null {
-  const image = figure.querySelector("img");
-  if (!image) return null;
-
-  const caption = figure.querySelector("figcaption");
-  const src = image.getAttribute("src") ?? "";
-
-  return {
-    type: "image",
-    src: src.startsWith("//") ? `https:${src}` : src,
-    width: Number(
-      image.getAttribute("data-file-width") ?? image.getAttribute("width") ?? 0,
-    ),
-    height: Number(
-      image.getAttribute("data-file-height") ??
-        image.getAttribute("height") ??
-        0,
-    ),
-    caption: caption ? textOf(caption) : "",
-  };
+function referencesOf(list: Element, notes: NoteNumbers): MediaWikiBlock {
+  const items = childElements(list, ["LI"]).flatMap((item) => {
+    const number = notes.get(item.id);
+    const body = item.querySelector(".mw-reference-text") ?? item;
+    const text = textOf(body);
+    return number && text ? [{ number, text }] : [];
+  });
+  return { type: "references", items };
 }
 
-function blocksOf(section: Element): MediaWikiBlock[] {
+function galleryOf(list: Element): MediaWikiBlock[] {
+  return Array.from(list.querySelectorAll("li")).flatMap((item) => {
+    const image = toImage(item, item.querySelector(".gallerytext"));
+    return image ? [{ type: "image" as const, ...image }] : [];
+  });
+}
+
+function blocksOf(section: Element, notes: NoteNumbers): MediaWikiBlock[] {
   const blocks: MediaWikiBlock[] = [];
 
   const visit = (element: Element) => {
     if (IGNORED_BLOCK_TAGS.has(element.tagName)) return;
+    if (isReferenceList(element)) {
+      blocks.push(referencesOf(element, notes));
+      return;
+    }
+    if (isInfobox(element)) {
+      blocks.push({ type: "infobox", ...toInfobox(element) });
+      return;
+    }
     if (
       hasAnyClass(element, IGNORED_BLOCK_CLASSES) ||
       element.getAttribute("role") === "navigation"
@@ -108,14 +88,23 @@ function blocksOf(section: Element): MediaWikiBlock[] {
 
     switch (element.tagName) {
       case "P": {
-        const text = textOf(element);
-        if (text) blocks.push({ type: "p", text });
+        const { text, segments } = segmentsOf(element, notes);
+        if (!text) return;
+        blocks.push(
+          segments.some((segment) => segment.type === "note")
+            ? { type: "p", text, segments }
+            : { type: "p", text },
+        );
         return;
       }
       case "UL":
       case "OL": {
+        if (element.classList.contains("gallery")) {
+          blocks.push(...galleryOf(element));
+          return;
+        }
         const items = childElements(element, ["LI"])
-          .map(textOf)
+          .map((item) => textOf(item))
           .filter(Boolean);
         if (items.length > 0) {
           blocks.push({
@@ -128,14 +117,16 @@ function blocksOf(section: Element): MediaWikiBlock[] {
       }
       case "TABLE": {
         const rows = Array.from(element.querySelectorAll("tr"))
-          .map((row) => childElements(row, ["TD", "TH"]).map(textOf))
+          .map((row) =>
+            childElements(row, ["TD", "TH"]).map((cell) => textOf(cell)),
+          )
           .filter((cells) => cells.length > 0);
         if (rows.length > 0) blocks.push({ type: "table", rows });
         return;
       }
       case "FIGURE": {
-        const block = toImageBlock(element);
-        if (block) blocks.push(block);
+        const image = toImage(element, element.querySelector("figcaption"));
+        if (image) blocks.push({ type: "image", ...image });
         return;
       }
       default:
@@ -147,22 +138,27 @@ function blocksOf(section: Element): MediaWikiBlock[] {
   return blocks;
 }
 
+function headingFrom(element: Element) {
+  return {
+    heading: textOf(element),
+    level: element.tagName.toLowerCase() as MediaWikiSection["level"],
+  };
+}
+
 function headingOf(section: Element) {
   for (const child of section.children) {
-    if (child.tagName === "H2" || child.tagName === "H3") {
-      return { heading: textOf(child), level: child.tagName.toLowerCase() };
-    }
+    if (HEADING_TAGS.includes(child.tagName)) return headingFrom(child);
     if (child.tagName === "DIV" && child.classList.contains("mw-heading")) {
-      const [heading] = childElements(child, ["H2", "H3"]);
-      return heading
-        ? { heading: textOf(heading), level: heading.tagName.toLowerCase() }
-        : { heading: null, level: null };
+      const [heading] = childElements(child, HEADING_TAGS);
+      return heading ? headingFrom(heading) : { heading: null, level: null };
     }
   }
   return { heading: null, level: null };
 }
 
 export function parseParsoidSections(document: Document): MediaWikiSection[] {
+  const notes = noteNumbersOf(document);
+
   return Array.from(
     document.querySelectorAll("section[data-mw-section-id]"),
   ).map((section) => {
@@ -170,8 +166,8 @@ export function parseParsoidSections(document: Document): MediaWikiSection[] {
     return {
       id: section.getAttribute("data-mw-section-id") ?? "",
       heading,
-      level: level as MediaWikiSection["level"],
-      blocks: blocksOf(section),
+      level,
+      blocks: blocksOf(section, notes),
     };
   });
 }

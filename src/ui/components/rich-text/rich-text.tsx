@@ -1,6 +1,8 @@
 import { RichTextHeading } from "@/ui/components/rich-text/blocks/rich-text-heading";
+import { RichTextImage } from "@/ui/components/rich-text/blocks/rich-text-image";
 import { RichTextList } from "@/ui/components/rich-text/blocks/rich-text-list";
 import { RichTextParagraph } from "@/ui/components/rich-text/blocks/rich-text-paragraph";
+import { RichTextReferences } from "@/ui/components/rich-text/blocks/rich-text-references";
 import { RichTextTable } from "@/ui/components/rich-text/blocks/rich-text-table";
 import type { RichTextBlock } from "@/ui/components/rich-text/types";
 
@@ -9,10 +11,24 @@ const RICH_TEXT_RENDERERS: {
     block: Extract<RichTextBlock, { type: K }>,
   ) => React.ReactNode;
 } = {
-  paragraph: (block) => <RichTextParagraph text={block.text} />,
-  heading: (block) => <RichTextHeading id={block.id} text={block.text} />,
+  paragraph: (block) => (
+    <RichTextParagraph text={block.text} segments={block.segments} />
+  ),
+  heading: (block) => (
+    <RichTextHeading id={block.id} text={block.text} level={block.level} />
+  ),
   list: (block) => <RichTextList ordered={block.ordered} items={block.items} />,
   table: (block) => <RichTextTable rows={block.rows} />,
+  image: (block) => (
+    <RichTextImage
+      src={block.src}
+      alt={block.alt}
+      caption={block.caption}
+      width={block.width}
+      height={block.height}
+    />
+  ),
+  references: (block) => <RichTextReferences items={block.items} />,
 };
 
 export function RichText({ blocks }: { blocks: RichTextBlock[] }) {

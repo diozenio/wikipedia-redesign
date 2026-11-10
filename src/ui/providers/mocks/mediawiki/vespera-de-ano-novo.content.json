@@ -5,47 +5,79 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Véspera de Ano-novo",
+        "image": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Rio_New_Year_Fireworks.jpg/250px-Rio_New_Year_Fireworks.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "alt": "",
+          "caption": "Fogos de artifício durante as comemorações de ano-novo na praia de Copacabana, no Rio de Janeiro, no Brasil, em 2004.",
+          "width": 250,
+          "height": 246
+        },
         "rows": [
-          [
-            "Véspera de Ano-novo"
-          ],
-          [
-            "Fogos de artifício durante as comemorações de ano-novo na praia de Copacabana, no Rio de Janeiro, no Brasil, em 2004."
-          ],
-          [
-            "Outro(s) nome(s)",
-            "Réveillonvirada de ano passagem de ano"
-          ],
-          [
-            "Celebrado por",
-            "Pessoas de todo o mundo"
-          ],
-          [
-            "Data",
-            "31 de dezembro"
-          ],
-          [
-            "Significado",
-            "O último dia do ano no Calendário gregoriano."
-          ],
-          [
-            "Tradições",
-            "Queima de fogos, festas, contagem regressiva."
-          ],
-          [
-            "Frequência",
-            "Anual"
-          ],
-          [
-            "Relacionado(s)",
-            "Ano-Novo"
-          ]
+          {
+            "label": "Outro(s) nome(s)",
+            "value": "Réveillon virada de ano passagem de ano"
+          },
+          {
+            "label": "Celebrado por",
+            "value": "Pessoas de todo o mundo"
+          },
+          {
+            "label": "Data",
+            "value": "31 de dezembro"
+          },
+          {
+            "label": "Significado",
+            "value": "O último dia do ano no Calendário gregoriano."
+          },
+          {
+            "label": "Tradições",
+            "value": "Queima de fogos, festas, contagem regressiva."
+          },
+          {
+            "label": "Frequência",
+            "value": "Anual"
+          },
+          {
+            "label": "Relacionado(s)",
+            "value": "Ano-Novo"
+          }
         ]
       },
       {
         "type": "p",
-        "text": "Véspera de ano-novo, também chamada de réveillon (em francês pronuncia-se [ʁevɛjɔ̃]), termo da língua francesa que significa \"reanimar\", \"despertar\", virada de ano, ou passagem de ano refere-se ao dia 31 de dezembro, precedente ao Dia de Ano Novo nos países que seguem o calendário gregoriano."
+        "text": "Véspera de ano-novo, também chamada de réveillon (em francês pronuncia-se [ʁevɛjɔ̃]), termo da língua francesa que significa \"reanimar\", \"despertar\", virada de ano, ou passagem de ano refere-se ao dia 31 de dezembro, precedente ao Dia de Ano Novo nos países que seguem o calendário gregoriano.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Véspera de ano-novo, também chamada de réveillon (em francês pronuncia-se [ʁevɛjɔ̃]), termo da língua francesa que significa \"reanimar\", \"despertar\","
+          },
+          {
+            "type": "note",
+            "number": 2
+          },
+          {
+            "type": "text",
+            "text": " virada de ano,"
+          },
+          {
+            "type": "note",
+            "number": 3
+          },
+          {
+            "type": "text",
+            "text": " ou passagem de ano"
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "text",
+            "text": " refere-se ao dia 31 de dezembro, precedente ao Dia de Ano Novo nos países que seguem o calendário gregoriano."
+          }
+        ]
       },
       {
         "type": "p",
@@ -57,7 +89,21 @@
       },
       {
         "type": "p",
-        "text": "Kiritimati (ou ilha Christmas), pertencente a Kiribati, é o primeiro a comemorar a chegada do ano-novo devido ao fuso horário de 14 horas à frente da hora universal, enquanto Niue e Samoa Americana são considerados os últimos locais habitados a despedirem-se do ano anterior, pois encontram-se onze horas atrasados em relação à hora universal (UTC) ."
+        "text": "Kiritimati (ou ilha Christmas), pertencente a Kiribati, é o primeiro a comemorar a chegada do ano-novo devido ao fuso horário de 14 horas à frente da hora universal, enquanto Niue e Samoa Americana são considerados os últimos locais habitados a despedirem-se do ano anterior, pois encontram-se onze horas atrasados em relação à hora universal (UTC) .",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Kiritimati (ou ilha Christmas), pertencente a Kiribati, é o primeiro a comemorar a chegada do ano-novo devido ao fuso horário de 14 horas à frente da hora universal, enquanto Niue e Samoa Americana são considerados os últimos locais habitados a despedirem-se do ano anterior, pois encontram-se onze horas atrasados em relação à hora universal (UTC) ."
+          },
+          {
+            "type": "note",
+            "number": 1
+          },
+          {
+            "type": "note",
+            "number": 5
+          }
+        ]
       }
     ]
   },
@@ -68,7 +114,29 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Na França do século XVII, o termo réveillon designava festas da nobreza que duravam a noite toda. Essa palavra tem origem no termo réveiller, ou seja, \"acordar\", \"deixar de dormir\", que por sua vez vem do verbo latino velare, \"fazer vigília\", de vigilare, \"velar, cuidar, não dormir\". Na cultura francesa atual, réveillon é o nome da festa noturna no dia antes do Natal e no dia antes do ano-novo. Nesse país, o termo é usado mais comumente no Natal, mas também é usado no ano-novo como Réveillon de la Saint-Sylvestre, pois o dia 31 de dezembro é o dia de São Silvestre. No Brasil e em Portugal, o termo se popularizou para se referir à festa de ano-novo, variando de país para país."
+        "text": "Na França do século XVII, o termo réveillon designava festas da nobreza que duravam a noite toda. Essa palavra tem origem no termo réveiller, ou seja, \"acordar\", \"deixar de dormir\", que por sua vez vem do verbo latino velare, \"fazer vigília\", de vigilare, \"velar, cuidar, não dormir\". Na cultura francesa atual, réveillon é o nome da festa noturna no dia antes do Natal e no dia antes do ano-novo. Nesse país, o termo é usado mais comumente no Natal, mas também é usado no ano-novo como Réveillon de la Saint-Sylvestre, pois o dia 31 de dezembro é o dia de São Silvestre. No Brasil e em Portugal, o termo se popularizou para se referir à festa de ano-novo, variando de país para país.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Na França do século XVII, o termo réveillon designava festas da nobreza que duravam a noite toda."
+          },
+          {
+            "type": "note",
+            "number": 6
+          },
+          {
+            "type": "text",
+            "text": " Essa palavra tem origem no termo réveiller, ou seja, \"acordar\", \"deixar de dormir\", que por sua vez vem do verbo latino velare, \"fazer vigília\", de vigilare, \"velar, cuidar, não dormir\"."
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "text",
+            "text": " Na cultura francesa atual, réveillon é o nome da festa noturna no dia antes do Natal e no dia antes do ano-novo. Nesse país, o termo é usado mais comumente no Natal, mas também é usado no ano-novo como Réveillon de la Saint-Sylvestre, pois o dia 31 de dezembro é o dia de São Silvestre. No Brasil e em Portugal, o termo se popularizou para se referir à festa de ano-novo, variando de país para país."
+          }
+        ]
       }
     ]
   },
@@ -79,7 +147,45 @@
     "blocks": [
       {
         "type": "p",
-        "text": "A passagem do ano-novo é, hoje, celebrada por todo o mundo. Normalmente, ela envolve queima de fogos de artifício em festas públicas, reuniões familiares ou com amigos, jantares ou ceias festivas e diferentes tipos de promessas, simpatias e costumes, como: comer grãos, sementes de romã, verdura, carne de porco, peixe, macarrão ou uva; usar lingerie de uma determinada cor; beber vinho espumante ou sidra, etc."
+        "text": "A passagem do ano-novo é, hoje, celebrada por todo o mundo. Normalmente, ela envolve queima de fogos de artifício em festas públicas, reuniões familiares ou com amigos, jantares ou ceias festivas e diferentes tipos de promessas, simpatias e costumes, como: comer grãos, sementes de romã, verdura, carne de porco, peixe, macarrão ou uva; usar lingerie de uma determinada cor; beber vinho espumante ou sidra, etc.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "A passagem do ano-novo é, hoje, celebrada por todo o mundo. Normalmente, ela envolve queima de fogos de artifício em festas públicas, reuniões familiares ou com amigos, jantares ou ceias festivas e diferentes tipos de promessas, simpatias e costumes, como: comer grãos, sementes de romã, verdura, carne de porco, peixe, macarrão ou uva;"
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "text",
+            "text": " usar lingerie de uma determinada cor;"
+          },
+          {
+            "type": "note",
+            "number": 9
+          },
+          {
+            "type": "text",
+            "text": " beber vinho espumante"
+          },
+          {
+            "type": "note",
+            "number": 10
+          },
+          {
+            "type": "text",
+            "text": " ou sidra,"
+          },
+          {
+            "type": "note",
+            "number": 11
+          },
+          {
+            "type": "text",
+            "text": " etc."
+          }
+        ]
       }
     ]
   },
@@ -91,20 +197,32 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Anderpsbeiramar_008.JPG/250px-Anderpsbeiramar_008.JPG?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2744,
-        "height": 1822,
-        "caption": "Comemorações na Praia de Iracema, em Fortaleza."
+        "alt": "",
+        "caption": "Comemorações na Praia de Iracema, em Fortaleza.",
+        "width": 250,
+        "height": 166
       },
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/New_Year%E2%80%99s_Eve_2020_in_Manaus%2C_Brazil.jpg/250px-New_Year%E2%80%99s_Eve_2020_in_Manaus%2C_Brazil.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1600,
-        "height": 1071,
-        "caption": "Fogos de artifício na Praia da Ponta Negra, em Manaus."
+        "alt": "",
+        "caption": "Fogos de artifício na Praia da Ponta Negra, em Manaus.",
+        "width": 250,
+        "height": 167
       },
       {
         "type": "p",
-        "text": "Nas praias do Brasil, pessoas costumam celebrar a chegada do ano-novo trajadas de branco e fazendo oferendas a Iemanjá."
+        "text": "Nas praias do Brasil, pessoas costumam celebrar a chegada do ano-novo trajadas de branco e fazendo oferendas a Iemanjá.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Nas praias do Brasil, pessoas costumam celebrar a chegada do ano-novo trajadas de branco e fazendo oferendas a Iemanjá."
+          },
+          {
+            "type": "note",
+            "number": 6
+          }
+        ]
       },
       {
         "type": "list",
@@ -130,9 +248,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Funchal_Fireworks.jpg/250px-Funchal_Fireworks.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 3008,
-        "height": 2000,
-        "caption": "Fogos de artifício em Funchal, na Região Autónoma da Madeira, em Portugal."
+        "alt": "",
+        "caption": "Fogos de artifício em Funchal, na Região Autónoma da Madeira, em Portugal.",
+        "width": 250,
+        "height": 166
       },
       {
         "type": "list",
@@ -156,9 +275,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Countdown_to_2013_Times_Square.jpg/250px-Countdown_to_2013_Times_Square.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1600,
-        "height": 900,
-        "caption": "A queda da Bola da Times Square em Nova York, nos Estados Unidos."
+        "alt": "",
+        "caption": "A queda da Bola da Times Square em Nova York, nos Estados Unidos.",
+        "width": 250,
+        "height": 141
       },
       {
         "type": "list",
@@ -204,13 +324,137 @@
     "id": "-1",
     "heading": "Notas",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "\"Considerados\" pois as ilhas Baker e Howland são, tecnicamente, os últimos locais a presenciarem a chegada de um novo ano, pois estão doze horas atrasados em relação à hora universal, mas como as ilhas são desabitadas, não são vistas como, propriamente dito, \"os últimos\"."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "-1",
     "heading": "Referências",
     "level": "h3",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 2,
+            "text": "Dicionário escolar da língua portuguesa/Academia Brasileira de Letras. 2ª edição. São Paulo. Companhia Editora Nacional. 2008. p. 1 127."
+          },
+          {
+            "number": 3,
+            "text": "«A virada de ano pelo mundo». O Globo. 31 de dezembro de 2011. Consultado em 1 de janeiro de 2021"
+          },
+          {
+            "number": 4,
+            "text": "«Passagem de Ano 2024». Passagem de Ano 2024. Consultado em 31 de dezembro de 2023 [ligação inativa]"
+          },
+          {
+            "number": 5,
+            "text": "Emily Allen (31 de dezembro de 2016). «New Year's Eve: When is it 2017 around the world?» [Véspera de ano-novo: quando é 2017 ao redor do mundo?] (em inglês). The Telegraph. Consultado em 31 de dezembro de 2016"
+          },
+          {
+            "number": 6,
+            "text": "Lais Modelli (31 de dezembro de 2018). «Qual é a origem dos rituais de ano-novo no Brasil?». Consultado em 14 de agosto de 2018"
+          },
+          {
+            "number": 7,
+            "text": "«Etimologia da palavra réveillon». Origem da Palavra. Consultado em 31 de dezembro de 2016"
+          },
+          {
+            "number": 8,
+            "text": "«Conheça as superstições de Ano-Novo com alimentos». Terra. Consultado em 14 de agosto de 2019"
+          },
+          {
+            "number": 9,
+            "text": "«Astróloga explica o significado de cada cor da lingerie de Ano-Novo; veja opção de modelos». 30 de dezembro de 2018. Consultado em 14 de agosto de 2019"
+          },
+          {
+            "number": 10,
+            "text": "Tatiana Fraga (24 de dezembro de 2018). «Champanhe: não pode faltar no Réveillon!». Consultado em 14 de agosto de 2019"
+          },
+          {
+            "number": 11,
+            "text": "Luísa Melo (20 de dezembro de 2016). «Os bastidores da produção da sidra Cereser». Exame. Consultado em 14 de agosto de 2019. Arquivado do original em 21 de dezembro de 2016"
+          },
+          {
+            "number": 12,
+            "text": "«Sob chuva e clima de paz Rio promove maior Réveillon do mundo». Folha do Turismo - Mercado e Eventos. Consultado em 2 de janeiro de 2012. Arquivado do original em 3 de janeiro de 2012"
+          },
+          {
+            "number": 13,
+            "text": "«The most spectacular New Year parties in Brazil, says World Travel Guide» (em inglês). MercoPress. Consultado em 2 de janeiro de 2012"
+          },
+          {
+            "number": 14,
+            "text": "«Festa de Ano-Novo reúne milhões de pessoas na Paulista». Portal G1. 1 de janeiro de 2009. Consultado em 2 de janeiro de 2009"
+          },
+          {
+            "number": 15,
+            "text": "«12ª edição do Réveillon na Paulista mostra múltiplas etnias e culturas de São Paulo». Sampa Online. 30 de dezembro de 2008. Consultado em 2 de janeiro de 2009"
+          },
+          {
+            "number": 16,
+            "text": "«São Paulo recebe mais de 100 mil turistas para eventos de ano-novo». Jornal da Mídia. 31 de dezembro de 2008. Consultado em 2 de janeiro de 2009. Arquivado do original em 27 de setembro de 2009"
+          },
+          {
+            "number": 17,
+            "text": "«Réveillon de Fortaleza registra o maior público desde sua primeira edição». Prefeitura Municipal de Fortaleza. Consultado em 2 de janeiro de 2012. Cópia arquivada em 1 de agosto de 2012"
+          },
+          {
+            "number": 18,
+            "text": "Melo, Martha. «Réveillon de Fortaleza tem maior queima de fogos do Brasil». Prefeitura de Fortaleza. Consultado em 31 de dezembro de 2023"
+          },
+          {
+            "number": 19,
+            "text": "Diniz, Carolina (1 de janeiro de 2020). «Manaus recebe 2020 com queima de fogos e milhares de pessoas na Ponta Negra». G1. Consultado em 2 de janeiro de 2020"
+          },
+          {
+            "number": 20,
+            "text": "Dantas, Marcos (1 de janeiro de 2013). «Réveillon reúne cerca de 300 mil pessoas na Ponta Negra, diz PM-AM». G1. Consultado em 11 de novembro de 2019"
+          },
+          {
+            "number": 21,
+            "text": "«O maior Réveillon da Amazônia». Veja. Abril. 17 de dezembro de 2018. Consultado em 11 de novembro de 2019"
+          },
+          {
+            "number": 22,
+            "text": "«Tudo pronto para o maior Réveillon da história do Recife». Prefeitura do Recife. Consultado em 31 de dezembro de 2022"
+          },
+          {
+            "number": 23,
+            "text": "Parreiras, Mateus (1 de janeiro de 2020). «Show de fogos da Alterosa ilumina o céu da Pampulha». Estado de Minas. Consultado em 31 de dezembro de 2022"
+          },
+          {
+            "number": 24,
+            "text": "«Passagem de Ano em Lisboa comemora-se no Terreiro do Paço». LOCAL.PT. 20 de dezembro de 2012. Consultado em 27 de dezembro de 2012. Arquivado do original em 4 de maio de 2023"
+          },
+          {
+            "number": 25,
+            "text": "«Almada celebra Passagem de Ano junto ao Tejo». LOCAL.PT. 23 de dezembro de 2012. Consultado em 27 de dezembro de 2012. Arquivado do original em 4 de maio de 2013"
+          },
+          {
+            "number": 26,
+            "text": "«Setúbal comemora passagem de ano com vista para o rio Sado». LOCAL.PT. 26 de dezembro de 2012. Consultado em 27 de dezembro de 2012. Arquivado do original em 4 de maio de 2013"
+          },
+          {
+            "number": 27,
+            "text": "«Un Año Más - Mecano (ES)». Letras.mus.br. 27 de setembro de 2016. Consultado em 31 de dezembro de 2023"
+          },
+          {
+            "number": 28,
+            "text": "Adriana Setti (31 de dezembro de 2014). «A dor e a delícia de ver a queima de fogos do ano-novo de Sydney». Viagem e Turismo. Consultado em 14 de agosto de 2019"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "7",
@@ -220,9 +464,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 1024,
-        "height": 1376,
-        "caption": ""
+        "alt": "",
+        "caption": "",
+        "width": 30,
+        "height": 40
       },
       {
         "type": "list",

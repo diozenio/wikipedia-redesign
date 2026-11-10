@@ -1,10 +1,26 @@
-export function RichTextHeading({ id, text }: { id: string; text: string }) {
+import { cn, focusRing } from "@/ui/lib/utils";
+
+export function RichTextHeading({
+  id,
+  text,
+  level = 3,
+}: {
+  id: string;
+  text: string;
+  level?: 3 | 4;
+}) {
+  const Heading = level === 4 ? "h4" : "h3";
+
   return (
-    <h3
+    <Heading
       id={id}
-      className="scroll-mt-8 text-lg font-semibold tracking-[-0.011em] text-foreground outline-none"
+      className={cn(
+        "scroll-mt-8 rounded-sm font-semibold tracking-[-0.011em] text-foreground",
+        level === 4 ? "text-base" : "text-lg",
+        focusRing,
+      )}
     >
       {text}
-    </h3>
+    </Heading>
   );
 }

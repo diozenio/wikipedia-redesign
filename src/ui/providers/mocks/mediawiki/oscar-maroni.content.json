@@ -5,65 +5,67 @@
     "level": null,
     "blocks": [
       {
-        "type": "table",
+        "type": "infobox",
+        "caption": "Oscar Maroni",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Oscar_Maroni_em_2018.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "alt": "",
+          "caption": "Maroni em 2018",
+          "width": 161,
+          "height": 161
+        },
         "rows": [
-          [
-            "",
-            "Este artigo ou secção contém uma lista de referências no fim do texto, mas as suas fontes não são claras porque não são citadas no corpo do artigo, o que compromete a confiabilidade das informações. Ajude a melhorar este artigo inserindo citações no corpo do artigo. (abril de 2013)"
-          ]
-        ]
-      },
-      {
-        "type": "table",
-        "rows": [
-          [
-            "",
-            "A neutralidade deste artigo foi questionada."
-          ]
-        ]
-      },
-      {
-        "type": "table",
-        "rows": [
-          [
-            "Oscar Maroni"
-          ],
-          [
-            "Maroni em 2018"
-          ],
-          [
-            "Nome completo",
-            "Oscar Maroni Filho"
-          ],
-          [
-            "Conhecido(a) por",
-            "Proprietário do 'Bahamas Hotel Club'."
-          ],
-          [
-            "Nascimento",
-            "27 de janeiro de 1951Jundiaí, SP"
-          ],
-          [
-            "Morte",
-            "31 de dezembro de 2025 (74 anos)São Paulo, SP"
-          ],
-          [
-            "Nacionalidade",
-            "brasileiro"
-          ],
-          [
-            "Filho(a)(s)",
-            "4, incluindo Aritana Maroni"
-          ],
-          [
-            "Ocupação",
-            "Empresário, psicólogo, editor e promoter"
-          ]
+          {
+            "label": "Nome completo",
+            "value": "Oscar Maroni Filho"
+          },
+          {
+            "label": "Conhecido(a) por",
+            "value": "Proprietário do 'Bahamas Hotel Club'."
+          },
+          {
+            "label": "Nascimento",
+            "value": "27 de janeiro de 1951 Jundiaí, SP"
+          },
+          {
+            "label": "Morte",
+            "value": "31 de dezembro de 2025 (74 anos) São Paulo, SP"
+          },
+          {
+            "label": "Nacionalidade",
+            "value": "brasileiro"
+          },
+          {
+            "label": "Filhos",
+            "value": "4, incluindo Aritana Maroni"
+          },
+          {
+            "label": "Ocupação",
+            "value": "Empresário, psicólogo, editor e promoter"
+          }
         ]
       },
       {
         "type": "p",
-        "text": "Oscar Maroni Filho (Jundiaí, 27 de janeiro de 1951 — São Paulo, 31 de dezembro de 2025) foi um empresário e psicólogo brasileiro. Foi mais conhecido por ter sido proprietário do \"Bahamas Night Club\" (São Paulo), bem como por suas recorrentes polêmicas."
+        "text": "Oscar Maroni Filho (Jundiaí, 27 de janeiro de 1951 — São Paulo, 31 de dezembro de 2025) foi um empresário e psicólogo brasileiro. Foi mais conhecido por ter sido proprietário do \"Bahamas Night Club\" (São Paulo), bem como por suas recorrentes polêmicas.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Oscar Maroni Filho (Jundiaí, 27 de janeiro de 1951 — São Paulo, 31 de dezembro de 2025) foi um empresário e psicólogo brasileiro."
+          },
+          {
+            "type": "note",
+            "number": 3
+          },
+          {
+            "type": "text",
+            "text": " Foi mais conhecido por ter sido proprietário do \"Bahamas Night Club\" (São Paulo), bem como por suas recorrentes polêmicas."
+          },
+          {
+            "type": "note",
+            "number": 4
+          }
+        ]
       },
       {
         "type": "p",
@@ -86,34 +88,151 @@
       },
       {
         "type": "p",
-        "text": "Começou sua vida profissional em um trailer de lanches. Estudava à tarde e revezava com a sua namorada Marisa Vaccari, a qual conheceu na faculdade e se tornaria sua futura esposa. Vieram a ser separar; tiveram quatro filhos."
+        "text": "Começou sua vida profissional em um trailer de lanches. Estudava à tarde e revezava com a sua namorada Marisa Vaccari, a qual conheceu na faculdade e se tornaria sua futura esposa. Vieram a ser separar; tiveram quatro filhos.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Começou sua vida profissional em um trailer de lanches."
+          },
+          {
+            "type": "note",
+            "number": 2
+          },
+          {
+            "type": "text",
+            "text": " Estudava à tarde e revezava com a sua namorada Marisa Vaccari, a qual conheceu na faculdade e se tornaria sua futura esposa. Vieram a ser separar; tiveram quatro filhos."
+          },
+          {
+            "type": "note",
+            "number": 5
+          },
+          {
+            "type": "note",
+            "number": 6
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Era conhecido pelo seu jeito extrovertido e falastrão. Maroni frequentemente aparecia em público com um animal de estimação nos braços: um cachorro da raça maltês chamado de Docinho."
+        "text": "Era conhecido pelo seu jeito extrovertido e falastrão. Maroni frequentemente aparecia em público com um animal de estimação nos braços: um cachorro da raça maltês chamado de Docinho.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Era conhecido pelo seu jeito extrovertido e falastrão."
+          },
+          {
+            "type": "note",
+            "number": 4
+          },
+          {
+            "type": "text",
+            "text": " Maroni frequentemente aparecia em público com um animal de estimação nos braços: um cachorro da raça maltês chamado de Docinho."
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "note",
+            "number": 8
+          }
+        ]
       },
       {
         "type": "image",
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Oscar_Maroni_em_2008.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+        "alt": "",
+        "caption": "Foto de urna fornecida para o TSE para as eleições de 2008",
         "width": 161,
-        "height": 225,
-        "caption": "Foto de urna fornecida para o TSE para as eleições de 2008"
+        "height": 225
       },
       {
         "type": "p",
-        "text": "Em 2008, foi candidato a vereador pelo município de São Paulo pelo Partido Trabalhista do Brasil, em uma campanha polêmica para provocar o então prefeito Gilberto Kassab. Recebeu 5 804 votos, não sendo eleito."
+        "text": "Em 2008, foi candidato a vereador pelo município de São Paulo pelo Partido Trabalhista do Brasil, em uma campanha polêmica para provocar o então prefeito Gilberto Kassab. Recebeu 5 804 votos, não sendo eleito.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2008, foi candidato a vereador pelo município de São Paulo pelo Partido Trabalhista do Brasil, em uma campanha polêmica para provocar o então prefeito Gilberto Kassab."
+          },
+          {
+            "type": "note",
+            "number": 9
+          },
+          {
+            "type": "text",
+            "text": " Recebeu 5 804 votos,"
+          },
+          {
+            "type": "note",
+            "number": 10
+          },
+          {
+            "type": "text",
+            "text": " não sendo eleito."
+          },
+          {
+            "type": "note",
+            "number": 11
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2009, o jornalista paulistano Daniel Barbosa, escreveu o livro-reportagem: Oscar: uma crônica maroniana, que aborda fatos da biografia do empresário."
+        "text": "Em 2009, o jornalista paulistano Daniel Barbosa, escreveu o livro-reportagem: Oscar: uma crônica maroniana, que aborda fatos da biografia do empresário.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2009, o jornalista paulistano Daniel Barbosa, escreveu o livro-reportagem: Oscar: uma crônica maroniana, que aborda fatos da biografia do empresário."
+          },
+          {
+            "type": "note",
+            "number": 12
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "No dia 14 de setembro de 2014, entrou para a sétima temporada do reality show A Fazenda, da Rede Record. Em 02 de outubro de 2014, foi o primeiro eliminado do programa."
+        "text": "No dia 14 de setembro de 2014, entrou para a sétima temporada do reality show A Fazenda, da Rede Record. Em 02 de outubro de 2014, foi o primeiro eliminado do programa.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "No dia 14 de setembro de 2014, entrou para a sétima temporada do reality show A Fazenda, da Rede Record."
+          },
+          {
+            "type": "note",
+            "number": 13
+          },
+          {
+            "type": "text",
+            "text": " Em 02 de outubro de 2014, foi o primeiro eliminado do programa."
+          },
+          {
+            "type": "note",
+            "number": 14
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2018, se candidatou a deputado federal no estado de São Paulo pelo Partido Republicano da Ordem Social. Recebeu 6 361 votos (0,03%), não se elegendo."
+        "text": "Em 2018, se candidatou a deputado federal no estado de São Paulo pelo Partido Republicano da Ordem Social. Recebeu 6 361 votos (0,03%), não se elegendo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2018, se candidatou a deputado federal no estado de São Paulo pelo Partido Republicano da Ordem Social."
+          },
+          {
+            "type": "note",
+            "number": 15
+          },
+          {
+            "type": "text",
+            "text": " Recebeu 6 361 votos (0,03%), não se elegendo."
+          },
+          {
+            "type": "note",
+            "number": 16
+          }
+        ]
       }
     ]
   },
@@ -134,23 +253,101 @@
       },
       {
         "type": "p",
-        "text": "O Bahamas foi interditado pela Prefeitura em 2007, sob a afirmação de que o estabelecimento não estava licenciado e que não tinha Certificado de Acessibilidade e Certificado de Manutenção do Sistema de Segurança. Acusado pelo Ministério Público de favorecimento e exploração da prostituição, formação de quadrilha e tráfico de pessoas, Maroni ficou detido preventivamente entre 14 de agosto e 2 de outubro de 2007, mas saiu do Distrito Policial da Casa Verde graças a um habeas corpus. Foi julgado em 2011 em primeira instância, e condenado a pena de 11 anos e 8 meses de prisão."
+        "text": "O Bahamas foi interditado pela Prefeitura em 2007, sob a afirmação de que o estabelecimento não estava licenciado e que não tinha Certificado de Acessibilidade e Certificado de Manutenção do Sistema de Segurança. Acusado pelo Ministério Público de favorecimento e exploração da prostituição, formação de quadrilha e tráfico de pessoas, Maroni ficou detido preventivamente entre 14 de agosto e 2 de outubro de 2007, mas saiu do Distrito Policial da Casa Verde graças a um habeas corpus. Foi julgado em 2011 em primeira instância, e condenado a pena de 11 anos e 8 meses de prisão.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "O Bahamas foi interditado pela Prefeitura em 2007, sob a afirmação de que o estabelecimento não estava licenciado e que não tinha Certificado de Acessibilidade e Certificado de Manutenção do Sistema de Segurança."
+          },
+          {
+            "type": "note",
+            "number": 17
+          },
+          {
+            "type": "text",
+            "text": " Acusado pelo Ministério Público de favorecimento e exploração da prostituição, formação de quadrilha e tráfico de pessoas, Maroni ficou detido preventivamente entre 14 de agosto e 2 de outubro de 2007, mas saiu do Distrito Policial da Casa Verde graças a um habeas corpus."
+          },
+          {
+            "type": "note",
+            "number": 18
+          },
+          {
+            "type": "text",
+            "text": " Foi julgado em 2011 em primeira instância, e condenado a pena de 11 anos e 8 meses de prisão."
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em junho de 2012, a Justiça de São Paulo negou liminar que permitiria a reabertura da boate. Mas no ano seguinte, a Justiça inocentou Maroni dos crimes ligados à prostituição. Os desembargadores do Tribunal de Justiça entenderam que, embora prostitutas frequentassem o Bahamas, ele não se caracterizava como casa de prostituição. O Bahamas foi reaberto em 16 de setembro de 2013, com licença para \"hotel\" e \"serviços pessoais e estéticos\"."
+        "text": "Em junho de 2012, a Justiça de São Paulo negou liminar que permitiria a reabertura da boate. Mas no ano seguinte, a Justiça inocentou Maroni dos crimes ligados à prostituição. Os desembargadores do Tribunal de Justiça entenderam que, embora prostitutas frequentassem o Bahamas, ele não se caracterizava como casa de prostituição. O Bahamas foi reaberto em 16 de setembro de 2013, com licença para \"hotel\" e \"serviços pessoais e estéticos\".",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em junho de 2012, a Justiça de São Paulo negou liminar que permitiria a reabertura da boate. Mas no ano seguinte, a Justiça inocentou Maroni dos crimes ligados à prostituição. Os desembargadores do Tribunal de Justiça entenderam que, embora prostitutas frequentassem o Bahamas, ele não se caracterizava como casa de prostituição."
+          },
+          {
+            "type": "note",
+            "number": 19
+          },
+          {
+            "type": "text",
+            "text": " O Bahamas foi reaberto em 16 de setembro de 2013, com licença para \"hotel\" e \"serviços pessoais e estéticos\"."
+          },
+          {
+            "type": "note",
+            "number": 20
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 2017, foi absolvido pelo STJ, que manteve decisão firmada em 2013 pela 4.ª Câmara Criminal do TJ/SP."
+        "text": "Em 2017, foi absolvido pelo STJ, que manteve decisão firmada em 2013 pela 4.ª Câmara Criminal do TJ/SP.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 2017, foi absolvido pelo STJ,"
+          },
+          {
+            "type": "note",
+            "number": 21
+          },
+          {
+            "type": "text",
+            "text": " que manteve decisão firmada em 2013 pela 4.ª Câmara Criminal do TJ/SP."
+          },
+          {
+            "type": "note",
+            "number": 22
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 13 de julho de 2026, o Bahamas encerrou definitivamente suas atividades em São Paulo sete meses após a morte de Oscar Maroni."
+        "text": "Em 13 de julho de 2026, o Bahamas encerrou definitivamente suas atividades em São Paulo sete meses após a morte de Oscar Maroni.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 13 de julho de 2026, o Bahamas encerrou definitivamente suas atividades em São Paulo sete meses após a morte de Oscar Maroni."
+          },
+          {
+            "type": "note",
+            "number": 23
+          }
+        ]
       },
       {
         "type": "p",
-        "text": "Em 15 de julho de 2026, a Justiça de São Paulo determinou a demolição parcial de um prédio de 13 andares anexo ao Bahamas, construído pelo empresário Oscar Maroni, em Moema, na Zona Sul de São Paulo."
+        "text": "Em 15 de julho de 2026, a Justiça de São Paulo determinou a demolição parcial de um prédio de 13 andares anexo ao Bahamas, construído pelo empresário Oscar Maroni, em Moema, na Zona Sul de São Paulo.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Em 15 de julho de 2026, a Justiça de São Paulo determinou a demolição parcial de um prédio de 13 andares anexo ao Bahamas, construído pelo empresário Oscar Maroni, em Moema, na Zona Sul de São Paulo."
+          },
+          {
+            "type": "note",
+            "number": 24
+          }
+        ]
       }
     ]
   },
@@ -162,9 +359,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Pr%C3%A9dio_interfere_congonhas_1.jpg/330px-Pr%C3%A9dio_interfere_congonhas_1.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2048,
-        "height": 1536,
-        "caption": "Imagem que mostra a proximidade da edificação junto aos sinalizadores do Aeroporto de Congonhas. O que ocorre é uma ilusão de ótica. O COMAR (Comando da Aeronáutica) ao analisar a localização do hotel e a proximidade do Aeroporto de Congonhas constata que não apresenta risco nem para o prédio, nem para os frequentadores ou ao aeroporto, e que a obra foi executada segundo o gabarito de altura da Aeronáutica."
+        "alt": "",
+        "caption": "Imagem que mostra a proximidade da edificação junto aos sinalizadores do Aeroporto de Congonhas. O que ocorre é uma ilusão de ótica. O COMAR (Comando da Aeronáutica) ao analisar a localização do hotel e a proximidade do Aeroporto de Congonhas constata que não apresenta risco nem para o prédio, nem para os frequentadores ou ao aeroporto, e que a obra foi executada segundo o gabarito de altura da Aeronáutica.",
+        "width": 300,
+        "height": 225
       },
       {
         "type": "p",
@@ -172,7 +370,37 @@
       },
       {
         "type": "p",
-        "text": "Após o acidente com o Voo TAM 3054, o até então prefeito da cidade de São Paulo Gilberto Kassab cassou o alvará de aprovação e construção do hotel, alegando que o hotel colocava em risco as aeronaves e reduzia o tamanho da pista. Maroni protestou durante a interdição do hotel, dizendo ser usado como \"bode expiatório\" e chamando a medida de Kassab de \"eleitoreira\"."
+        "text": "Após o acidente com o Voo TAM 3054, o até então prefeito da cidade de São Paulo Gilberto Kassab cassou o alvará de aprovação e construção do hotel, alegando que o hotel colocava em risco as aeronaves e reduzia o tamanho da pista. Maroni protestou durante a interdição do hotel, dizendo ser usado como \"bode expiatório\" e chamando a medida de Kassab de \"eleitoreira\".",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Após o acidente com o Voo TAM 3054, o até então prefeito da cidade de São Paulo Gilberto Kassab cassou o alvará de aprovação e construção do hotel, alegando que o hotel colocava em risco as aeronaves e reduzia o tamanho da pista."
+          },
+          {
+            "type": "note",
+            "number": 8
+          },
+          {
+            "type": "note",
+            "number": 7
+          },
+          {
+            "type": "note",
+            "number": 25
+          },
+          {
+            "type": "note",
+            "number": 26
+          },
+          {
+            "type": "text",
+            "text": " Maroni protestou durante a interdição do hotel, dizendo ser usado como \"bode expiatório\" e chamando a medida de Kassab de \"eleitoreira\"."
+          },
+          {
+            "type": "note",
+            "number": 27
+          }
+        ]
       },
       {
         "type": "p",
@@ -188,9 +416,10 @@
       {
         "type": "image",
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Pr%C3%A9dio_interfere_congonhas_2.jpg/250px-Pr%C3%A9dio_interfere_congonhas_2.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-        "width": 2048,
-        "height": 1536,
-        "caption": "À frente, o Bahamas Hotel Club, centro de entretenimento para adultos. Logo atrás, o Oscar's Hotel, para executivos. Empresas distintas."
+        "alt": "",
+        "caption": "À frente, o Bahamas Hotel Club, centro de entretenimento para adultos. Logo atrás, o Oscar's Hotel, para executivos. Empresas distintas.",
+        "width": 200,
+        "height": 150
       },
       {
         "type": "p",
@@ -209,7 +438,17 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Era pai de uma filha e três filhos: Aritana, Aruã, Aratã e Acauã. Os nomes foram inspirados na telenovela Aritana, exibida pela Rede Tupi em 1978. \"Aritana na novela era uma personagem masculina. Mas, na língua indígena, o nome significava ser guerreiro, ter poder. Eu usei para batizar minha primeira filha\", contou Oscar Maroni."
+        "text": "Era pai de uma filha e três filhos: Aritana, Aruã, Aratã e Acauã. Os nomes foram inspirados na telenovela Aritana, exibida pela Rede Tupi em 1978. \"Aritana na novela era uma personagem masculina. Mas, na língua indígena, o nome significava ser guerreiro, ter poder. Eu usei para batizar minha primeira filha\", contou Oscar Maroni.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Era pai de uma filha e três filhos: Aritana, Aruã, Aratã e Acauã. Os nomes foram inspirados na telenovela Aritana, exibida pela Rede Tupi em 1978. \"Aritana na novela era uma personagem masculina. Mas, na língua indígena, o nome significava ser guerreiro, ter poder. Eu usei para batizar minha primeira filha\", contou Oscar Maroni."
+          },
+          {
+            "type": "note",
+            "number": 28
+          }
+        ]
       }
     ]
   },
@@ -220,7 +459,25 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Oscar morreu aos 74 anos no dia 31 de dezembro de 2025. Sua morte se deu em decorrência de uma metástase formada a partir de um câncer de próstata. Além disso, sofria de demência frontotemporal."
+        "text": "Oscar morreu aos 74 anos no dia 31 de dezembro de 2025. Sua morte se deu em decorrência de uma metástase formada a partir de um câncer de próstata. Além disso, sofria de demência frontotemporal.",
+        "segments": [
+          {
+            "type": "text",
+            "text": "Oscar morreu aos 74 anos no dia 31 de dezembro de 2025. Sua morte se deu em decorrência de uma metástase formada a partir de um câncer de próstata. Além disso, sofria de demência frontotemporal."
+          },
+          {
+            "type": "note",
+            "number": 29
+          },
+          {
+            "type": "note",
+            "number": 30
+          },
+          {
+            "type": "note",
+            "number": 31
+          }
+        ]
       }
     ]
   },
@@ -228,7 +485,137 @@
     "id": "-1",
     "heading": "Referências",
     "level": "h2",
-    "blocks": []
+    "blocks": [
+      {
+        "type": "references",
+        "items": [
+          {
+            "number": 1,
+            "text": "«Oscar Maroni sai da prisão e admite processar ex-namorada». São Paulo: G1. 20 de julho de 2009"
+          },
+          {
+            "number": 2,
+            "text": "Fábio Brisola; Edison Veiga (18 de setembro de 2009). «Oscar Maroni é acusado de formação de quadrilha e tráfico de mulheres». Veja São Paulo"
+          },
+          {
+            "number": 3,
+            "text": "«Divulgação de Candidaturas e Contas Eleitorais - Perfil». Tribunal Superior Eleitoral"
+          },
+          {
+            "number": 4,
+            "text": "Fábio Bittencourt (13 de setembro de 1999). «Empresário do prazer». São Paulo: IstoÉ Gente"
+          },
+          {
+            "number": 5,
+            "text": "«Tesão Humanitário». www.vice.com. Consultado em 2 de agosto de 2022"
+          },
+          {
+            "number": 6,
+            "text": "«LíderCast 072 Oscar Maroni». Café Brasil. 14 de julho de 2017. Consultado em 2 de agosto de 2022"
+          },
+          {
+            "number": 7,
+            "text": "Roney Domingos (31 de julho de 2007). «Dono do Bahamas é intimado a pedir demolição de hotel». São Paulo: G1"
+          },
+          {
+            "number": 8,
+            "text": "«Desafeto de Kassab, Maroni pode integrar coligação». Portal Terra. 8 de junho de 2008"
+          },
+          {
+            "number": 9,
+            "text": "Walter Nunes (26 de setembro de 2008). «Eu quero incomodar\"». Revista Época"
+          },
+          {
+            "number": 10,
+            "text": "Bartholomeu, Ana Luisa; Daoun, Michel (6 de outubro de 2008). «Gretchen, Rita Cadillac e ex-BBBs fracassam nas urnas; cantores se destacam». Consultado em 29 de abril de 2026"
+          },
+          {
+            "number": 11,
+            "text": "«Divulgação de Candidaturas e Contas Eleitorais - Resultados». Tribunal Superior Eleitoral"
+          },
+          {
+            "number": 12,
+            "text": "Blog Opiofagia (20 de junho de 2010). Fragmentos de uma crônica - trechos do 4º capítulo do livro \"Oscar: uma crônica maroniana\". Página visitada em 21 de julho de 2010."
+          },
+          {
+            "number": 13,
+            "text": "«Oscar Maroni, o \"empresário do sexo\", estará em \"A Fazenda 7″». IG. 25 de agosto de 2014. Cópia arquivada em 17 de outubro de 2014"
+          },
+          {
+            "number": 14,
+            "text": "«Com 59% dos votos, empresário deixou a sede de \"A Fazenda 7″». IG. 3 de outubro de 2014. Cópia arquivada em 12 de dezembro de 2017"
+          },
+          {
+            "number": 15,
+            "text": "«Empresário da prostituição será candidato a deputado». Crusoé. 9 de agosto de 2018. Consultado em 30 de abril de 2026"
+          },
+          {
+            "number": 16,
+            "text": "«Resultado das Eleições 2018: São Paulo». Gazeta do Povo. Consultado em 30 de abril de 2026"
+          },
+          {
+            "number": 17,
+            "text": "Roney Domingos (3 de agosto de 2007). «Bahamas é interditado com distribuição de pizzas». São Paulo: G1"
+          },
+          {
+            "number": 18,
+            "text": "«Boate Bahamas reabre com licença para 'hotel e serviços pessoais'». São Paulo. 20 de setembro de 2013. Cópia arquivada em 1 de janeiro de 2026"
+          },
+          {
+            "number": 19,
+            "text": "«Justiça inocenta Oscar Maroni de crimes ligados à prostituição». São Paulo. 9 de abril de 2013. Cópia arquivada em 10 de dezembro de 2024"
+          },
+          {
+            "number": 20,
+            "text": "Marcelo Mora; Roney Domingos (20 de setembro de 2013). «Boate Bahamas reabre com licença para 'hotel e serviços pessoais'». São Paulo. G1. Consultado em 28 de fevereiro de 2022. Cópia arquivada em 1 de janeiro de 2026"
+          },
+          {
+            "number": 21,
+            "text": "«STJ confirma absolvição do empresário Oscar Maroni FIlho - Migalhas». www.migalhas.com.br. 9 de outubro de 2017. Consultado em 28 de fevereiro de 2022. Cópia arquivada em 10 de dezembro de 2024"
+          },
+          {
+            "number": 22,
+            "text": "«Dono da boate Bahamas é absolvido dos crimes relacionados à prostituição». www.migalhas.com.br. 10 de abril de 2013. Consultado em 28 de fevereiro de 2022"
+          },
+          {
+            "number": 23,
+            "text": "«Sete meses após morte de Oscar Maroni, Bahamas encerra atividades em SP e fecha capítulo da noite paulistana». G1. 13 de julho de 2026. Consultado em 16 de julho de 2026"
+          },
+          {
+            "number": 24,
+            "text": "«Justiça manda demolir parte de prédio anexo ao Clube Bahamas, em SP». G1. 15 de julho de 2026. Consultado em 16 de julho de 2026"
+          },
+          {
+            "number": 25,
+            "text": "«Dono da boate Bahamas, Oscar Maroni volta a ser preso em São Paulo». Folha de S.Paulo. 15 de julho de 2009"
+          },
+          {
+            "number": 26,
+            "text": "Izquierdo, Tatiana. «\"Quero ser presidente\", diz dono do Bahamas Club». VEJA SÃO PAULO. Consultado em 3 de março de 2022. Cópia arquivada em 10 de julho de 2026"
+          },
+          {
+            "number": 27,
+            "text": "«G1 > Edição São Paulo - NOTÍCIAS - Dono do Bahamas provoca Kassab durante interdição de hotel». g1.globo.com. Consultado em 26 de abril de 2018. Cópia arquivada em 27 de novembro de 2021"
+          },
+          {
+            "number": 28,
+            "text": "Tatiana Izquierdo (6 de agosto de 2015). «Aritana: \"Meu pai sempre cobrou muito e isso me fez mais forte\"». Veja SP. Cópia arquivada em 10 de julho de 2026"
+          },
+          {
+            "number": 29,
+            "text": "«Morre o empresário Oscar Maroni, aos 74 anos». F5. 31 de dezembro de 2025. Consultado em 31 de dezembro de 2025. Cópia arquivada em 21 de fevereiro de 2026"
+          },
+          {
+            "number": 30,
+            "text": "Candido, Marcos (12 de julho de 2026). «Bahamas, polêmica casa noturna de SP, fecha as portas após morte de empresário Oscar Maroni e ser assumida por herdeiros». GQ Brasil. Consultado em 12 de julho de 2026"
+          },
+          {
+            "number": 31,
+            "text": "«Morre o empresário Oscar Maroni, dono do clube Bahamas». G1. 31 de dezembro de 2025. Consultado em 16 de julho de 2026"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "8",

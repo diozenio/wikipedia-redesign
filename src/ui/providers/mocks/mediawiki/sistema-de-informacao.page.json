@@ -1,13 +1,6 @@
 {
   "batchcomplete": true,
   "query": {
-    "normalized": [
-      {
-        "fromencoded": false,
-        "from": "Sistema_de_informação",
-        "to": "Sistema de informação"
-      }
-    ],
     "pages": [
       {
         "pageid": 7327,
@@ -17,7 +10,7 @@
         "pagelanguage": "pt",
         "pagelanguagehtmlcode": "pt",
         "pagelanguagedir": "ltr",
-        "touched": "2026-10-12T12:46:32Z",
+        "touched": "2026-10-25T00:38:21Z",
         "lastrevid": 73189975,
         "length": 43244,
         "fullurl": "https://pt.wikipedia.org/wiki/Sistema_de_informa%C3%A7%C3%A3o",
@@ -57,8 +50,477 @@
             "title": "Categoria:Sistemas de informação"
           }
         ],
-        "extract": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual.\nInformações são dados oferecidos de uma forma significativa e útil para os indivíduos. Dados são correntes de fatos brutos que importam eventos ocorrendo nas organizações ou no ambiente físico, antes de terem sido organizados e arranjados de uma forma que as pessoas possam entendê-los e usá-los.\nTodo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo.\nSegundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados.\nPara Laudon um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações. De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente  a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas.\nOs sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\". Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\". As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo. Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\". Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde.  \nOs sistemas de informações podem ser classificados a princípio como formais ou informais. Os sistemas de informação formais incluem processo pré-definidos, entrada e saídas padronizadas e definições fixas. Quantos aos informais, estes assumem diversas formas, que vão desde uma rede de comunicação informal em uma empresa,  um grupo de amigos que troca correspondência eletronicamente.\nEntendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro, os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software. \nO mercado de trabalho para o analista de sistemas é bastante promissor, assim como para qualquer outro bacharel que trabalhe com Tecnologia da Informação (TI). Destaca-se, inclusive, o excedente de vagas não preenchidas pela falta de profissionais qualificados e, além disso, fala-se hoje que programação é o novo Inglês \nTipos de sistemas de informação: \nÉ impossível imaginar as empresas do século XXI, ou até do século XX, sem os processos informatizados que coordenam suas atividades. São várias aplicações de sistemas de informação, seja para trabalhar nos registros, análises, planejamento e tomada de decisões em todos os níveis da organização. Trabalhar com egressos de sistema de informação é fundamental para sua estratégia de negócios.\n\nCiência da Computação - modelos teóricos matemáticos que fundamentam a Computação;\nLicenciatura em Computação - foco no ensino-aprendizagem de computação, informática e tecnologia da informação e sistemas de informação;\nAnálise e Desenvolvimento de Sistemas - análise de requisitos, modelagem, projetos de dados e/ou interface(análise) e implementação(desenvolvimento) de diferentes sistemas;\nSistemas de Informação - aplicação da Computação nas organizações;\nEngenharia da Computação - foco no estudo da física e eletricidade no desenvolvimento de componentes de hardware e eletrônica digital.",
-        "langlinkscount": 65
+        "extract": "Sistema de informação (SI) é um sistema formal, sociotécnico e organizacional usado para coletar, processar, armazenar e disseminar dados informacionais, podendo ser tanto um sistema informacional computadorizado quanto um sistema manual.\nInformações são dados oferecidos de uma forma significativa e útil para os indivíduos. Dados são correntes de fatos brutos que importam eventos ocorrendo nas organizações ou no ambiente físico, antes de terem sido organizados e arranjados de uma forma que as pessoas possam entendê-los e usá-los.\nTodo sistema de informação que manipula dados e gera informação, usando ou não recursos de tecnologia em computadores, pode ser considerado um sistema de informação. Por exemplo, o sistema de informação organizacional pode ser conceituado como a organização e os seus vários subsistemas internos, contemplando ainda o meio ambiente externo.\nSegundo Efraim Turban, uma infra-estrutura de informação consiste em instalações físicas, serviços e gerenciamento que suportam todos os recursos computacionais existentes em uma organização. Existem cinco componentes principais na infra-estrutura: hardware do computador, software de propósito geral, redes e instalações de comunicação (incluindo internet), banco de dados e o pessoal do gerenciamento da informação. A infra-estrutura abrange esses recursos e a sua integração, operação, documentação, manutenção e gerenciamento. A infra-estrutura também nos informa como recursos computacionais específicos são organizados, operacionalizado e administrados.\nPara Laudon um sistema de informação pode ser definido como um conjunto de componentes inter-relacionados trabalhando juntos para coletar, recuperar, processar, armazenar e distribuir informações, com a finalidade de facilitar o planejamento, o controle, a coordenação, a análise e o processo decisório em organizações. De acordo com Turban; Maclean; Wetheber, o sistema de informação coleta, processa, armazena, analisa e dissemina informações com um determinado objetivo dentro de um contexto e como qualquer outro sistema inclui inputs (dados, instruções) e outputs (relatórios, cálculos). O sistema opera dentro de um ambiente, não necessariamente computadorizado, mesmo que atualmente  a maioria seja, processa os inputs, que são enviados para os usuários e outros sistemas.\nOs sistemas de informação são \"críticos para o desenvolvimento de praticamente qualquer organização humana\". Em um comportamento organizacional a informação é canalizada para melhor interpretação, dividida. \"Um SI (Sistemas de Informação) pode ser entendido como um conjunto in-ter-relacionado de partes ou elementos que coleta, processa, armazena e distribui informações, de forma organizada e coordenada, para apoiar a tomada de decisões\". As decisões são assim alvo de ponderação através de informação valiosa pois ajudam a dar rumo ao nosso dia a dia. Empresas tais como o Airbnb, Google e Facebook de tecnologia de informação criam homens abastados no mundo. Ainda que a definição de sistema de informação seja mais abrangente como António Carlos Marques Mattos refere \"Um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos)\". Assim analisamos informação e o seu fluxo a vários níveis como genómico ou no espaço sabendo que a matéria é nos real transversal mente através de cognição informativa perceptiva da consciência humana. Trazendo benefícios a nível organizacional na obtenção de conhecimento desenvolvendo culturas de interação. Possibilitando novas formas de estar ao mesmo tempo que potencia a produtividade, segurança e saúde.  \nOs sistemas de informações podem ser classificados a princípio como formais ou informais. Os sistemas de informação formais incluem processo pré-definidos, entrada e saídas padronizadas e definições fixas. Quantos aos informais, estes assumem diversas formas, que vão desde uma rede de comunicação informal em uma empresa,  um grupo de amigos que troca correspondência eletronicamente.\nEntendendo os fundamentos de Sistemas de Informação Segundo definição adotada pelo Ministério da Educação Brasileiro, os cursos que estudam a Computação são Ciência da Computação, Licenciatura em Computação, Sistemas de Informação, Análise e Desenvolvimento de Sistemas (diferente de Sistemas de Informação), Engenharia da Computação e Engenharia de Software. \nO mercado de trabalho para o analista de sistemas é bastante promissor, assim como para qualquer outro bacharel que trabalhe com Tecnologia da Informação (TI). Destaca-se, inclusive, o excedente de vagas não preenchidas pela falta de profissionais qualificados e, além disso, fala-se hoje que programação é o novo Inglês \nTipos de sistemas de informação: \nÉ impossível imaginar as empresas do século XXI, ou até do século XX, sem os processos informatizados que coordenam suas atividades. São várias aplicações de sistemas de informação, seja para trabalhar nos registros, análises, planejamento e tomada de decisões em todos os níveis da organização. Trabalhar com egressos de sistema de informação é fundamental para sua estratégia de negócios.\n\nCiência da Computação - modelos teóricos matemáticos que fundamentam a Computação;\nLicenciatura em Computação - foco no ensino-aprendizagem de computação, informática e tecnologia da informação e sistemas de informação;\nAnálise e Desenvolvimento de Sistemas - análise de requisitos, modelagem, projetos de dados e/ou interface(análise) e implementação(desenvolvimento) de diferentes sistemas;\nSistemas de Informação - aplicação da Computação nas organizações;\nEngenharia da Computação - foco no estudo da física e eletricidade no desenvolvimento de componentes de hardware e eletrônica digital.\n\n\n== Atividades envolvidas ==\n\n\"Combinação de recursos humanos e computacionais que inter-relacionam a coleta, o armazenamento, a recuperação, a distribuição e o uso de dados com o objetivo de eficiência gerencial (planejamento, controle, comunicação e tomada de decisão) nas organizações. Podem também ajudar os gerentes e os usuários a analisar problemas, criar novos produtos e serviços e visualizar questões complexas\" (MEC-98/SBC)\nO tipo de trabalho previsto para um Bacharel em Sistemas de Informação abrange a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização. Suas responsabilidades em uma empresa podem abranger o planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações presentes nos sistemas computacionais. Este trabalho também abrange funções relacionadas a suporte aos usuários e infraestrutura tecnológica. É abrangente em áreas de Ciência da Computação-Software e Engenharia da Computação-Hardware.\nNo âmbito do desenvolvimento de sistemas (software), o trabalho do Bacharel em Sistemas de Informação inclui gestão de projetos, levantamento de requisitos, análise, especificação, projeto/desenho (no sentido de design) do sistema, programação, testes, homologação, implantação e acompanhamento dos sistemas solicitados pelos seus usuários/clientes.\n\n\n== Evolução histórica ==\nO Século XX é considerado aquele do advento da Era da Informação. A partir de então, a informação começou a fluir com velocidade maior que a dos corpos físicos. Desde a invenção do telégrafo elétrico em 1837, passando pelos meios de comunicação de massa, e até mais recentemente, o surgimento da grande rede de comunicação de dados que é a Internet, o ser humano tem de conviver e lidar com um crescimento exponencial do volume de dados disponíveis.\nO domínio da informação disponível é uma fonte de poder, uma vez que permite analisar fatores do passado, compreender o presente, e principalmente, antever o futuro. Os sistemas de informação surgiram antes mesmo da informática.\n\n\n=== Antes de 1940 ===\nAntes da popularização dos computadores, os sistemas de informação nas organizações baseavam-se em técnicas de arquivamento e recuperação de informações de grandes arquivos. Geralmente existia a figura do bibliotecário, que é a pessoa responsável em organizar os dados, registrá-los, catalogá-los e recuperá-los quando necessário.\nEsse método, apesar de simples, exigia um grande esforço para manter os dados atualizados bem como para recuperá-los. As informações em papéis também não possibilitavam a facilidade de cruzamento e análise dos dados. Por exemplo, o inventário de estoque de uma empresa não era uma tarefa trivial nessa época, pois a atualização dos dados não era uma tarefa prática e quase sempre envolvia muitas pessoas, aumentando a probabilidade de ocorrerem erros.\n\n\n=== 1940 - 1952 ===\nNessa época os computadores eram constituídos de válvulas eletrônicas, componentes grandes, caros e de vida curta. Nessa época os computadores só tinham utilidade cientifica, para poder fazer cálculos mais rápidos (algumas vezes a mais que nossa capacidade de calcular). A mão de obra utilizada era muito grande para manter o computador funcionando, para fazer a manutenção de válvulas e fios (quilômetros), que eram trocados e ligados todos manualmente. Essas máquinas ocupavam grandes áreas, como salas ou galpões. A programação era feita diretamente, na linguagem de máquina. A forma de colocar novos dados era por papel perfurado.\n\n\n=== 1952 - 1964 ===\nPeríodo destacado pela origem dos transistores e grande diminuição de cabos e fios, diminuição de tamanho das máquinas e aumento da capacidade de execução de cálculos em relação à geração anterior. O começo da comercialização dos computadores foi marcado, eram vendidos para as grandes empresas.\nFoi utilizada a técnica de integração em que em uma pequena cápsula continha vários transistores, chegando a milhares em um espaço menor que uma unha. É o começo do microprocessador, a linguagem de programação sendo feita por mnemônicos (comandos abreviados). A linguagem dominante era a de montagem (assembly language) e os cálculos estavam na casa dos milionésimos de segundo. Surgiram formas de armazenamento de volumes grandes de dados com capacidades progressivamente maiores, como as fitas e tambores magnéticos.\n\n\n=== 1964 - 1971 ===\nFoi criada a tecnologia de integração de circuitos SLT (Solid Logic Technology), precursora da tecnologia de microcircuitos. A partir destes avanços foi possível passar a executar processos simultâneos, dando um grande salto de processamento, ainda tendo novas evoluções para técnica de integração SSI (integração em pequena escala) e MSI (integração em média escala). As técnicas de integração evoluíram de SSI (integração em pequena escala) para LSI (integração em grande escala) e depois para VLSI (integração em muito grande escala). As linguagens utilizadas na época eram linguagens orientadas (linguagem universal, assemelhando-se cada vez mais com a linguagem humana). Esses processos chegaram a bilionésimos de segundos.\n\n\n=== 1971 - 1981 ===\nNessa geração surgiram os microprocessadores, e com isso a redução dos computadores (microcomputadores). Também o surgimento de linguagens novas de alto nível, bem como a transmissão de dados entre computadores através de rede.\n\n\n=== 1981 - atual ===\nCom a nova geração em que estamos vivendo, surgiu com VLSI, a Inteligência artificial, com altíssima velocidade (com um ou mais núcleos por processadores, grande frequência e transferência de dados entre os componentes do computador), programas com alto grau de interatividade com o usuário e a grande rede mundial (Internet). Tudo isso impulsionou mais ainda a informática.\n\n\n== Vantagens ==\nEm um Sistema, várias partes trabalham juntas visando um objetivo em comum. Em um Sistema de Informação não é diferente, porém o objetivo é um fluxo mais confiável e menos burocrático das informações. Em um Sistema de Informação bem construído, suas principais vantagens são:\n\nRedução de custos operacionais e administrativos e ganho de produtividade;\nMais integridade e confiabilidade da informação;\nMais estabilidade;\nMais segurança de acesso à informação;\nOtimização do fluxo de informação permitindo mais agilidade e organização;\nInformações de melhor qualidade, essenciais para uma boa tomada de decisão.\nObservações: Um Sistema de Informação não precisa ter essencialmente computadores envolvidos, basta ter várias partes trabalhando entre si para gerar informações.\nEle pode ser tanto manual quanto baseado em TI, ou uma mescla dos dois. Acontece que um Sistema de Informação grande, dificilmente sobrevive atualmente sem estar informatizado, o que por si só, não elimina o fator humano no processo. É a interação dos componentes da TI com o componente humano que faz com que um Sistema de Informação tenha funcionalidade e utilidade para a organização.\n\n\n== Uso nas empresas ==\nÀ escala das organizações, a informação é um fator decisivo na gestão por ser um recurso importante e indispensável tanto no contexto interno como no relacionamento com o exterior. Quanto mais viável, oportuna e exaustiva for essa informação, mais coesa será a empresa e maior será o seu potencial de resposta às solicitações da concorrência. Alcançar este objetivo depende, em grande parte, do reconhecimento da importância da informação e do aproveitamento das oportunidades oferecidas pela tecnologia para orientarem os problemas enraizados da informação.\nA revolução da Informação exige, assim, mudanças profundas no modo como vemos a sociedade na organização e sua estrutura, o que se traduz num grande desafio: aproveitar as oportunidades, dominando os riscos inerentes ou submeter-se aos riscos com todas as incertezas que acarretam.\nNa chamada Sociedade de Informação, esta possui um efeito multiplicador que dinamizará todos os setores da economia, constituindo, por sua vez, a força motora do desenvolvimento político, econômico, social, cultural e tecnológico.\nPelos conceitos de Alter (1996, apud Filipe, 1997, p.2) \"Sistema de informação é um sistema que usa as tecnologias de informação para captar, transmitir, arquivar, recuperar, manipular e mostrar informação que é usada em um ou mais processos de negócio\". Portanto, não é de responsabilidade dos sistemas de informação aferir qualidade e coerência das estratégias definidas por uma empresa. Porém o reconhecimento dos elementos estratégicos de uma organização se fazem substanciais para garantir aos sistemas de informação foco e alinhamento aos objetivos empresariais (Filipe, 1997). Seguindo o raciocínio deste autor, para implantação de um SI, é estritamente importante avaliar de forma descritiva e jamais por meio de análise crítica, as seguinte questões: \n-Posicionamento estratégico: reconhecer os clientes, a sua competitividade no mercado, as tendências do nicho de mercado em que a empresa esta situada, os avanços físicos e tecnológicos que se desenvolveram nos últimos anos internamente e também as previsões de avanços para os anos conseguintes.\n\nObjetivos globais: reconhecer os objetivos globais da empresa, assim como, analisar quais os impactos da implantação ou atualização com um sistema de informação.\nProblemas Organizacionais: reconhecer quais as dificuldades que a empresa encontra, considerando a satisfação dos clientes e usuários, os resultados financeiros e suas contribuições para a competitividade da organização. De tal modo, que estes sejam quantificados.\nSob o mesmo ponto de vista Wang [1997, apud Filipe,1997] traz algumas questões básicas a serem respondidas e analisadas ao enquadrar ou atualizar o sistema de informação da empresa:\n\nQual problemática do empreendimento o sistema de informação irá resolver?\nPor que tal sistema é melhor do que o atual modelo?\nQuais seriam os custos de implementação deste sistema? E se atentar, se este valor já inclui despesas como treinamento dos futuros utilizadores ou se é somente um orçamento mascarado que acarretara em custos orçamentários a outros departamentos.\nQual seria a integridade e fiabilidade? O que haveria caso ocorresse do sistema falhar?\nO sistema projetado é tecnologicamente compatível com a empresa ou a seu sistema atual?\nQuais as vantagens de se manter o sistema antigo e quais as vantagens de adaptar um novo?\nResumidamente, Wang propõe uma análise de como o sistema de informação tornará mais viável e rentável os processos empresariais.\nPara o desenvolvimento prático, os gestores funcionais não demandam necessariamente as técnicas de análise e implantação de um sistema de informação. Porém requerem, no entanto, uma estabilização clara e visão consciente do que fazer e intervir para procedimentos, como por exemplo:\n\nCaptar informações úteis para tomada de decisão;\nCaptar indicadores de administração do empreendimento, dos processos e dos colaboradores;\nDispor de condições de operação que resultem em processos realizados com eficácia e eficiência, a tal modo que, também se adaptem simplesmente as mudanças circundantes.\nPortanto, diante destas informações é possível distinguir duas profissões dentro de uma organização, as quais são: os profissionais da gestão, que não necessariamente dominam todas as técnicas da informática, mas dela necessitam intensamente para as tomadas de decisão. Diferentemente do profissional da informática que dominam e aplicam todos seus conhecimentos técnicos da informática, em prol de trazer informações relevantes a empresa, os quais possam ser utilizados em tomadas de decisão dos gestores.\n\n\n== Na Administração ==\nA administração de sistemas da informação, é a técnica de planejamento, estudo, a execução e o gerenciamento de atividades mais bem realizadas dos sistemas de informação, nas empresas e em locais de uso informativo. Desde o século XX, os homens viram a necessidade de criar sistemas aos quais pudessem promover mais agilidade aos processos de trabalho desenvolvidos na época. Como vemos na evolução dos sistemas de informação com o inicio de sua aparição na tecnologia, com as maquinas de cálculo, as gigantes maquinas a válvulas, transistores e no fim o usual sistemas de computadores, até hoje movidos  a circuitos integrados. Assim a  usabilidade dos sistemas de informação ficou mais viável a todos com o processamento de dados cada vez mais rápido, dando um avanço significativo na história da computação comercial. E  a administração de sistemas da informação veio para auxiliar os homens a entenderem as consequências da integração da tecnologia da informação nas áreas de processos organizacionais e de gerência em geral, tendo sua principal viabilidade e usabilidade em organizações empresariais.\n\n\n== Tipos usados nas empresas ==\nNuma organização existe um componente que suporta o fluxo de informação tanto internamente como com o exterior. O sistema de informação existe numa organização não como um subsistema isolado, mas como uma rede dispersa pelos diversos componentes do sistema. Pela sua importância, os sistemas de informação são tomados como um subsistema estratégico.\nOs principais tipos sistemas de informação nas empresas são:\n\nSistema de processamento de transações (SPT): Sistemas de informação que supervisionam as atividades elementares e as transações da organização. Têm a função de realizar e registrar as transações e informações necessárias para funcionamento da organização. As transações são necessárias para a condução do negócio, constituindo a base operacional da organização.\nSistemas de informações gerenciais (SIG): desenvolve relatórios sobre o desempenho atual da organização, permitindo monitorar e controlar a empresa e até mesmo prever o seu desempenho futuro. Sistemas de informação que suportam o trabalho que lida com dados e com conhecimento: integração de novo conhecimento no negócio; controlo do fluxo de trabalho. Auxiliam especialistas e profissionais qualificados na criação e integração de novos conhecimentos na organização.\nKWS - knowledge work systems - Aplicações de engenharia, aplicações gráficas, de gestão… que servem para a conceção e projeto de novos produtos.\nOAS - Office automation systems - Sistemas destinados ao aumento da produtividade do trabalhador de dados (pessoal administrativo) que tende a processar informação em vez de a criar. Aplicações de correio eletrônico, processador de texto…\nSistema de apoio à decisão (SAD): sistema que foca em problemas únicos alterando-se com rapidez e que não possui procedimentos de resoluções pré-definidos. Esse sistema utiliza informações obtidas pelo SPT e SIG e também informações externas que auxiliaram na análise e na resolução do problema. São sistemas de informação que suportam as atividades dos gestores: supervisão, controlo, tomada de decisão…\nMIS - Management Information Systems - Sistemas de informação ao nível da gestão na organização. Suporta funções de planeamento, controlo e tomada de decisão, proporcionando informações de síntese da atividade diária e relatórios de exceção. Orientado para a informação do ambiente interior à organização. Ex: gestão de vendas, orçamento anual, análise de investimento, análise de recolocação de recursos humanos.\nDSS - decision support systems - Sistema de informação ao nível da gestão da organização que combina dados e modelos analíticos sofisticados para o suporte da tomada de decisão semiestruturada ou não estruturada. Ex: análise geográfica das vendas, análise de custo, análise de custos de carreiras/contrato.\nSistema de apoio ao executivo (SAE):  auxilia a gerência com a apresentação de gráficos e dados de diversas fontes através de uma interface de fácil manuseio. Estes sistemas são projetados para incorporar dados sobre eventos externos, como novas leis ou novos concorrentes, utilizando também informações do SIG e do SAD internos. Filtram, condensam dados críticos, mostrando apenas os mais importantes para gerência. Sistemas de informação que suportam as atividades de planeamento de longo prazo concebidos para auxiliar na tomada de decisão não estruturada através do uso avançado de gráficos e comunicações.\nESS - executive support systems ou EIS - executive information systems. Ex: análise de tendências, planeamento de operações de longo prazo, planeamento de curvas de lucro e investimento, planeamento de recursos humanos…\n\n\n== Classificações ==\nSistemas de informações podem ser classificados como:\n\nSistemas de informação gerencial (SIG): agrupam e sintetizam os dados das operações da organização para facilitar a tomada de decisão pelos gestores da organização.\nSistemas de informação estratégicos: integram e sintetizam dados de fontes internas e externas à organização, utilizando ferramentas de análise e comparação complexas, simulação e outras facilidades para a tomada de decisão da cúpula estratégica da organização.\nSistemas de informação comerciais ou negociais: referem-se ao processo de coleta, análise, compartilhamento e monitoramento de informações que oferecem suporte à gestão de negócios de uma organização, tanto em relação ao comércio e colaboração com outras empresas quanto à gestão de relacionamento com o cliente.\n\n\n== Funcionamento ==\nComo qualquer outro sistema, o SI inclui a entrada (input) que envolve a captação ou coleta de fontes de dados brutos de dentro da empresa ou de um ambiente externo. O processamento envolve a conversão dessa entrada bruta em uma forma mais útil e apropriada. A saída (output) envolve a transferência de informação processada às pessoas ou atividades que a usarão (processa os inputs e produz outputs, que são enviados para o usuário ou para outro sistema).Podem conter também um mecanismo de feedback que controla a operação.\nUm SI pode ser dividido em 3 partes:\n     Entrada  que recebe todos os problemas e dados da empresa, como dados, informações, regra de negócios, todos eles podem ser interno ou externo (jornais, revistas, pesquisa) (este se enquadra como um SI de Business Intelligence — BI)\n     Processamento / Controle  que faz todo o processamento para transformar esses dados, informações e regra de negócios em informação.\nSaída que gera os resultados para que possa dar um suporte na tomada de decisões gerenciais da empresa.\n\n\n=== Entrada ===\nDados;\nInformação;\nRegras de negócio.\n\n\n=== Processamento/Controle ===\nTomadores de decisão;\nAuto Controle.\n\n\n=== Saída ===\nRelatórios;\nGráficos;\nCálculos;\nTáticas.\nSegundo Turban, McLean e Wetherbe, um sistema de informação baseado em computador (genericamente chamado de sistema da informação) é um método que utiliza tecnologia de computação para executar algumas de todas as tarefas desejadas. Pode ser composto de apenas um computador pessoal e software, ou incluir milhares de computadores de diversos tamanhos com centenas de impressoras e outros equipamentos, bem como redes de comunicação e banco de dados.\nDe acordo com O'Brien os SI são relacionados da seguinte forma:\n\nHardware: computadores e periféricos como: impressora, processadores, monitores, teclados, dispositivos de leitura externo, etc. Juntos, eles aceitam dados e informação, processam-nos e permitem sua visualização.\nSoftware: é um conjunto de programas que permite que o hardware processe dados. Exemplos: software utilitário (sistema operacional); Software aplicativo (conjunto de programas que realizam as funções necessárias para dar suporte às atividades empresariais, como gerar folha de pagamento, emitir nota fiscal, etc.).\nPessoas: são aqueles indivíduos que trabalham com o sistema ou utilizam sua saída . São usuários e operadores de hardware e software.\nBanco de dados: é uma coleção de arquivos, tabelas e outros dados inter-relacionados que armazenam dados e suas respectivas associações.\nRede: é um sistema de ligação que permite o compartilhamento de recursos entre diversos computadores.\nProcedimentos: são um conjunto de instruções sobre como combinar os elementos mencionados de forma a processar as informações e gerar saídas desejadas. Também podemos dizer que são as funções que o sistema deve executar.\n\n\n== Dimensões do Sistema de Informação ==\nEm face do cenário atual, muitas empresas passam por inúmeros desafios e problemas diariamente que, no entanto, poderiam ser resolvidos por computadores e sistemas de informação [SI]. Ademais, vale ressaltar a importância da utilização dos sistemas de informação com eficiência, mas antes é necessário entender as dimensões organizacional, humana e tecnológica que fazem partem de todo o processo. Um sistema de informação eficiente é capaz de oferecer soluções para importantes problemas ou desafios organizacionais enfrentados dentro da organização.\nSegundo Laudon, os sistemas de informação [SI] fazem parte das organizações. Mas, para entender como cada organização específica utilizam o mesmo, é necessário saber a sua estrutura, cultura e inclusive a sua história. Pode-se destacar também que cada organização possui uma estrutura composta por diferentes níveis e especializações, incluindo uma cultura peculiar. Além do mais, esses níveis e especialidades divergentes em uma empresa, criam pontos de vista e interesses diversos, que muitas das vezes geram conflitos, em que se tornam a base das políticas organizacionais. Mediante o exposto, são através dessas perspectivas, conflitos, acordos e afins que saem os sistemas de informações, no qual são inerentes a todas as organizações.\nLaudon também destaca a dimensão humana, aonde cita que a empresa é relativamente boa quanto às pessoas que gerenciam e trabalham na mesma. Nesse caso, o autor faz uma relação comparando que o mesmo quesito se aplica aos sistemas de informação, pois ambos são inúteis sem o auxílio de pessoas qualificadas para desenvolvê-los e mantê-los, inclusive não saber aproveitar e utilizar as informações de forma sucinta e eficiente para os objetivos organizacionais, pois as pessoas são os únicos capazes de resolverem problemas organizacionais e promover soluções úteis dispostas a acabar com obstáculos. Outrossim, levando em consideração a importância para as organizações, a tecnologia da informação pode executar um papel importantíssimo no sentido de ajudar os gestores a prestarem soluções inovadoras para diversos problemas.\nPor fim, na última dimensão que é a ligada à tecnologia, Laudon evidencia que a tecnologia da informação é uma das inúmeras ferramentas que os gestores utilizam para enfrentar as mudanças e complexidade. O Hardware que basicamente é o equipamento físico utilizado para atividades de entrada, processamento e saída de um SI. O Software que resumidamente permite que o hardware processe dados que controlam e coordenam o mesmo através de um sistema de informação. A tecnologia de armazenamento de dados e a tecnologia de comunicações e de redes. A maior rede do mundo e a que é mais amplamente usada, pode-se ressaltar a Internet, também possuem as Intranets que são redes corporativas internas baseadas na tecnologia da Internet e as Extranets, no qual são as intranets particulares que permitem o acesso de seus usuários autorizados fora da organização. Todas essas tecnologias citadas juntamente inclusas as pessoas que são necessárias para acioná-las, constituem a infraestrutura de tecnologia da informação, comumente conhecida pela sigla (TI) da empresa. Esta proporciona a fundação, ou plataforma, em que a empresa pode montar todos os seus sistemas de informações específicos.\n\n\n== Profissional ==\nOutras definições além disso, o termo também é utilizado para descrever a área de conhecimento encarregada do estudo de Informática, tecnologia em computadores e suas relações com as organizações. Neste contexto, esta disciplina é comumente classificada como uma ciência exata e da terra.\nUm terceiro uso para a expressão Sistemas de Informação refere-se a um curso de graduação cujo foco é o desenvolvimento e aplicação de sistemas de informação computadorizados nas organizações. O conteúdo deste curso abrange aspectos técnicos, gerenciais e sociológicos, abrangendo, em linhas gerais, os conteúdos relevantes estudados na área de conhecimento Sistemas de Informação.\nUm sistema de informação pode ser então definido como todo sistema usado para prover informação (incluindo o seu processamento), qualquer que seja o uso feito dessa informação, inclusive arquivamento.\nUm sistema de informação possui vários elementos inter-relacionados que coletam (entrada), manipulam e armazenam (processo), disseminam (saída) os dados e informações e fornecem um mecanismo de retorno de informação.\nUm Sistema de Informação de Marketing pode ser definido como um conjunto de procedimentos e métodos para o planejamento, coleta, análise e apresentação regulares de informação para o uso no processo de tomada de decisão de marketing.\nO Profissional de Sistemas de Informação deve analisar, planejar e organizar o processamento, armazenamento e recuperação da informação e disponibilizá-la ao usuário. Sua principal função é analisar e entender os problemas de uma organização, buscando soluções com uso da tecnologia computacional, através de ferramentas disponíveis no mercado ou produzindo seus próprios sistemas.\n\n\n== Tipos de redes de telecomunicações ==\nPara que exista sistema de informação, e que seja tomada  diversas decisões gerenciais  na era da internet , vem ser necessário a existência  das redes de computadores.\nExistem diferentes tipos  de redes de telecomunicação ,mas no ponto de vista do usuário final, existem apenas alguns tipos básicos ,redes remotas ,redes locais  redes privadas e redes cliente servidor.\n\nRedes remotas: são redes que cobrem uma ampla área geográfica  (WANs). As redes que cobrem grandes cidades e grandes  metrópoles também podem ser incluídas nessa categoria .Essas grandes redes são de grande importância para realizar atividades cotidianas  de muitas empresas e organizações governamentais\nRedes locais: são redes que conectam computadores e periféricos em uma área  física limitada (LANs), como sala de aula, escolas, fábricas, prédios e repartições.\nRede privadas virtuais: são redes que oferecem privacidade e segurança aos seus utilizadores(VPNs) ,esse modelo de rede faz uso de dispositivos de proteção como (firewalls) e possui como sua estrutura a internet (backbone),oferecendo uma navegação com segurança aos seus utilizadores, modelo muito utilizado  por companhias e organizações que requer  alta segurança  no tráfego de seus  dados na rede.\nRede cliente-servidor: trata-se  de uma rede interorganizacional  que atualmente predomina nas empresas, numa rede cliente/servidor as estações de trabalhos são os clientes, elas são interconectadas por uma rede local  e compartilham o mesmo processamento de aplicação com o servidor local ,que gerencia a rede local, que está também conectada com a internet (rede mundial de computadores), e interconectadas com outras LANs.\n\n\n== Questões éticas e sociais relacionadas aos sistemas ==\nOs Sistemas de Informação ao longo dos anos evoluíram para acompanhar a sofisticação da gerência de negócios, sendo utilizados focando na qualidade ao atender os clientes. Segundo Laudon (2014), os sistemas de informação trazem novas questões éticas para toda sociedade, porque criam oportunidades de mudança social. e, assim, ameaçam os padrões existentes de distribuição de poder, dinheiro, direitos e obrigações. A tecnologia pode ser utilizada tanto para elevação social como também para crimes, dentre outros, isso devido à facilidade de compartilhar informações aumentou a preocupação com dados de clientes e a proteção da privacidade pessoal e intelectual.\nÉtica se refere ao que é certo ou errado e ao que as pessoas usam para fazer escolhas que orientam seu comportamento como pessoas livres e o que usam para fazer escolhas que orientam seu comportamento. Os sistemas de informação trazem novas questões éticas para os indivíduos e a sociedade, porque criam oportunidades para mudanças sociais drásticas, ameaçando, assim, os modelos existentes de distribuição de poder, dinheiro, direitos e obrigações. Segundo Da Silva (2013), quando se implementa um sistema de informação em uma organização ou se troca tecnologia, é necessário trabalhar ao máximo a gestão do conhecimento interno. Dessa forma, não é só mudar o sistema antigo, é preciso preparar também os indivíduos que operam os sistemas a fim de obtermos os melhores resultados das novas tecnologias no mundo dos negócios.\nSegundo Laudon (2014), Considerando as mais importantes questões éticas, sociais e políticas sugeridas pelos sistemas são divididas em cinco dimensões morais, sendo elas: \nDireitos e deveres sobre a informação: Que direito sobre a informação relativa a si, os indivíduos e as organizações possuem\nDireitos e deveres sobre a propriedade; Como os tradicionais direitos de propriedade intelectual serão protegidos em uma sociedade digital na qual identificar e prestar contas da propriedade é difícil, mas ignorar os direitos sobre ela é tão fácil?\nPrestação de contas e controle; Quem deverá prestar contas e ser responsabilizado por danos causados aos direitos individuais e coletivos sobre a informação e a propriedade:\nQualidade do sistema; Que padrões de qualidade de dados e sistemas devem ser exigidos para proteger os direitos individuais e a segurança da sociedade?\nQualidade de vida; Que valores devem ser preservados em uma sociedade baseada na informação e no conhecimento? Quais instituições devem ser protegidas contra a violação? Que valores e práticas culturais são apoiados pela nova tecnologia de informação?\n\n\n== Tendências tecnológicas que causam questões éticas ==\nSegundo Laudon (2014), as questões éticas precedem de longe a tecnologia da informação. No entanto, a tecnologia da informação aprofundou as preocupações éticas, criou tensões nos arranjos sociais existentes e tornou algumas leis obsoletas ou inválidas. Existem cinco tendências tecnológicas principais que causam essas tensões éticas, sendo elas: \n\nCapacidade de computação dobra a cada 18 meses, que causa o impacto de que mais organizações dependem de sistemas de computadores para operações críticas.\nCustos de armazenamento de dados estão reduzindo rapidamente, impactando as organizações poderem facilmente manter bancos de dados detalhados sobre os indivíduos.\nAnálise de dados está progredindo, impactando a facilidade de copiar dados de um local para outro e acessar dados pessoais a partir de localidades remotas.\nAvanços das rede, impactando que celulares individuais podem ser monitorados sem o consentimento ou o conhecimento do usuário.\n\n\n== Ver também ==\nCiência da informação\nCiência da computação\nSistema de informação de gestão (Sistemas de Informações Gerenciais)\nSistema de Informação Contábil\nSistema Cooperativo\nSistemas de Informação em Saúde\nSistemas de Apoio à Decisão\nAnálise de sistemas\nSistema de computação\n\n\n== Referências ==\n\n\n== Ligações externas ==\n«Os Sistemas de Gestão da Informação nos Hospitais Públicos Portugueses» \n«OSociedade Brasileira de Computação - SBC» \n«OAssociação Portuguesa de Sistemas de Informação - APSI» \n«OPeriódico Científico Ciência da Informação» \n«Association for Information Systems - AIS» (em inglês) \n«Association for Computing Machinery - ACM» (em inglês) \n«European Research Center for Information Systems - ERCIS» (em inglês)",
+        "langlinkscount": 66,
+        "langlinks": [
+          {
+            "lang": "ar",
+            "url": "https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D9%85_%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA",
+            "langname": "árabe",
+            "autonym": "العربية",
+            "title": "نظم معلومات"
+          },
+          {
+            "lang": "az",
+            "url": "https://az.wikipedia.org/wiki/%C4%B0nformasiya_sistemi",
+            "langname": "azerbaijano",
+            "autonym": "azərbaycanca",
+            "title": "İnformasiya sistemi"
+          },
+          {
+            "lang": "ba",
+            "url": "https://ba.wikipedia.org/wiki/%D0%9C%D3%99%D2%93%D0%BB%D2%AF%D0%BC%D3%99%D1%82_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D2%BB%D1%8B",
+            "langname": "bashkir",
+            "autonym": "башҡортса",
+            "title": "Мәғлүмәт системаһы"
+          },
+          {
+            "lang": "be",
+            "url": "https://be.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%B0%D1%80%D0%BC%D0%B0%D1%86%D1%8B%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%96%D1%81%D1%82%D1%8D%D0%BC%D0%B0",
+            "langname": "bielorrusso",
+            "autonym": "беларуская",
+            "title": "Інфармацыйная сістэма"
+          },
+          {
+            "lang": "be-tarask",
+            "url": "https://be-tarask.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%B0%D1%80%D0%BC%D0%B0%D1%86%D1%8B%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%8B%D1%81%D1%82%D1%8D%D0%BC%D0%B0",
+            "langname": "Belarusian (Taraškievica orthography)",
+            "autonym": "беларуская (тарашкевіца)",
+            "title": "Інфармацыйная сыстэма"
+          },
+          {
+            "lang": "bg",
+            "url": "https://bg.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0",
+            "langname": "búlgaro",
+            "autonym": "български",
+            "title": "Информационна система"
+          },
+          {
+            "lang": "bh",
+            "url": "https://bh.wikipedia.org/wiki/%E0%A4%87%E0%A4%A8%E0%A5%8D%E0%A4%AB%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%B6%E0%A4%A8_%E0%A4%B8%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE",
+            "langname": "Bhojpuri",
+            "autonym": "भोजपुरी",
+            "title": "इन्फॉर्मेशन सिस्टम"
+          },
+          {
+            "lang": "bs",
+            "url": "https://bs.wikipedia.org/wiki/Informacijski_sistem",
+            "langname": "bósnio",
+            "autonym": "bosanski",
+            "title": "Informacijski sistem"
+          },
+          {
+            "lang": "ca",
+            "url": "https://ca.wikipedia.org/wiki/Sistema_d%27informaci%C3%B3",
+            "langname": "catalão",
+            "autonym": "català",
+            "title": "Sistema d'informació"
+          },
+          {
+            "lang": "cs",
+            "url": "https://cs.wikipedia.org/wiki/Informa%C4%8Dn%C3%AD_syst%C3%A9m",
+            "langname": "checo",
+            "autonym": "čeština",
+            "title": "Informační systém"
+          },
+          {
+            "lang": "da",
+            "url": "https://da.wikipedia.org/wiki/Informationssystem",
+            "langname": "dinamarquês",
+            "autonym": "dansk",
+            "title": "Informationssystem"
+          },
+          {
+            "lang": "de",
+            "url": "https://de.wikipedia.org/wiki/Informationssystem",
+            "langname": "alemão",
+            "autonym": "Deutsch",
+            "title": "Informationssystem"
+          },
+          {
+            "lang": "el",
+            "url": "https://el.wikipedia.org/wiki/%CE%A0%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%B9%CE%B1%CE%BA%CE%AC_%CF%83%CF%85%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1",
+            "langname": "grego",
+            "autonym": "Ελληνικά",
+            "title": "Πληροφοριακά συστήματα"
+          },
+          {
+            "lang": "en",
+            "url": "https://en.wikipedia.org/wiki/Information_system",
+            "langname": "inglês",
+            "autonym": "English",
+            "title": "Information system"
+          },
+          {
+            "lang": "eo",
+            "url": "https://eo.wikipedia.org/wiki/Informa_sistemo",
+            "langname": "esperanto",
+            "autonym": "Esperanto",
+            "title": "Informa sistemo"
+          },
+          {
+            "lang": "es",
+            "url": "https://es.wikipedia.org/wiki/Sistema_de_informaci%C3%B3n",
+            "langname": "espanhol",
+            "autonym": "español",
+            "title": "Sistema de información"
+          },
+          {
+            "lang": "et",
+            "url": "https://et.wikipedia.org/wiki/Infos%C3%BCsteem",
+            "langname": "estónio",
+            "autonym": "eesti",
+            "title": "Infosüsteem"
+          },
+          {
+            "lang": "eu",
+            "url": "https://eu.wikipedia.org/wiki/Informazio-sistema",
+            "langname": "basco",
+            "autonym": "euskara",
+            "title": "Informazio-sistema"
+          },
+          {
+            "lang": "fa",
+            "url": "https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C",
+            "langname": "persa",
+            "autonym": "فارسی",
+            "title": "سامانه اطلاعاتی"
+          },
+          {
+            "lang": "fi",
+            "url": "https://fi.wikipedia.org/wiki/Tietoj%C3%A4rjestelm%C3%A4",
+            "langname": "finlandês",
+            "autonym": "suomi",
+            "title": "Tietojärjestelmä"
+          },
+          {
+            "lang": "fr",
+            "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27information",
+            "langname": "francês",
+            "autonym": "français",
+            "title": "Système d'information"
+          },
+          {
+            "lang": "gl",
+            "url": "https://gl.wikipedia.org/wiki/Sistema_de_informaci%C3%B3n",
+            "langname": "galego",
+            "autonym": "galego",
+            "title": "Sistema de información"
+          },
+          {
+            "lang": "glk",
+            "url": "https://glk.wikipedia.org/wiki/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%D9%8A_%D8%B3%D9%8A%D8%B3%D8%AA%D9%85",
+            "langname": "Gilaki",
+            "autonym": "گیلکی",
+            "title": "اطلاعاتي سيستم"
+          },
+          {
+            "lang": "he",
+            "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA_%D7%9E%D7%99%D7%93%D7%A2",
+            "langname": "hebraico",
+            "autonym": "עברית",
+            "title": "מערכת מידע"
+          },
+          {
+            "lang": "hi",
+            "url": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE_%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0",
+            "langname": "hindi",
+            "autonym": "हिन्दी",
+            "title": "सूचना तंत्र"
+          },
+          {
+            "lang": "hr",
+            "url": "https://hr.wikipedia.org/wiki/Informacijski_sustavi",
+            "langname": "croata",
+            "autonym": "hrvatski",
+            "title": "Informacijski sustavi"
+          },
+          {
+            "lang": "hy",
+            "url": "https://hy.wikipedia.org/wiki/%D5%8F%D5%A5%D5%B2%D5%A5%D5%AF%D5%A1%D5%BF%D5%BE%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B0%D5%A1%D5%B4%D5%A1%D5%AF%D5%A1%D6%80%D5%A3",
+            "langname": "arménio",
+            "autonym": "հայերեն",
+            "title": "Տեղեկատվական համակարգ"
+          },
+          {
+            "lang": "ia",
+            "url": "https://ia.wikipedia.org/wiki/Systema_de_information",
+            "langname": "interlíngua",
+            "autonym": "interlingua",
+            "title": "Systema de information"
+          },
+          {
+            "lang": "id",
+            "url": "https://id.wikipedia.org/wiki/Sistem_informasi",
+            "langname": "indonésio",
+            "autonym": "Bahasa Indonesia",
+            "title": "Sistem informasi"
+          },
+          {
+            "lang": "io",
+            "url": "https://io.wikipedia.org/wiki/Informala_sistemo",
+            "langname": "ido",
+            "autonym": "Ido",
+            "title": "Informala sistemo"
+          },
+          {
+            "lang": "ja",
+            "url": "https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+            "langname": "japonês",
+            "autonym": "日本語",
+            "title": "情報システム"
+          },
+          {
+            "lang": "kaa",
+            "url": "https://kaa.wikipedia.org/wiki/Informaciyal%C4%B1q_sistema",
+            "langname": "kara-kalpak",
+            "autonym": "Qaraqalpaqsha",
+            "title": "Informaciyalıq sistema"
+          },
+          {
+            "lang": "ko",
+            "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EC%8B%9C%EC%8A%A4%ED%85%9C",
+            "langname": "coreano",
+            "autonym": "한국어",
+            "title": "정보 시스템"
+          },
+          {
+            "lang": "ky",
+            "url": "https://ky.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B0%D0%BB%D1%8B%D0%BC%D0%B0%D1%82_%D1%82%D1%83%D1%82%D1%83%D0%BC%D1%83",
+            "langname": "quirguiz",
+            "autonym": "кыргызча",
+            "title": "Маалымат тутуму"
+          },
+          {
+            "lang": "lt",
+            "url": "https://lt.wikipedia.org/wiki/Informacin%C4%97_sistema",
+            "langname": "lituano",
+            "autonym": "lietuvių",
+            "title": "Informacinė sistema"
+          },
+          {
+            "lang": "min",
+            "url": "https://min.wikipedia.org/wiki/Sistem_Informasi",
+            "langname": "minangkabau",
+            "autonym": "Minangkabau",
+            "title": "Sistem Informasi"
+          },
+          {
+            "lang": "mn",
+            "url": "https://mn.wikipedia.org/wiki/%D0%9C%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D0%BB%D0%B8%D0%B9%D0%BD_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC",
+            "langname": "mongol",
+            "autonym": "монгол",
+            "title": "Мэдээллийн систем"
+          },
+          {
+            "lang": "ms",
+            "url": "https://ms.wikipedia.org/wiki/Sistem_maklumat",
+            "langname": "malaio",
+            "autonym": "Bahasa Melayu",
+            "title": "Sistem maklumat"
+          },
+          {
+            "lang": "mwl",
+            "url": "https://mwl.wikipedia.org/wiki/Sistemas_d%27anforma%C3%A7on",
+            "langname": "mirandês",
+            "autonym": "Mirandés",
+            "title": "Sistemas d'anformaçon"
+          },
+          {
+            "lang": "nl",
+            "url": "https://nl.wikipedia.org/wiki/Informatiesysteem",
+            "langname": "neerlandês",
+            "autonym": "Nederlands",
+            "title": "Informatiesysteem"
+          },
+          {
+            "lang": "nb",
+            "url": "https://no.wikipedia.org/wiki/Informasjonssystem",
+            "langname": "norueguês bokmål",
+            "autonym": "norsk bokmål",
+            "title": "Informasjonssystem"
+          },
+          {
+            "lang": "pl",
+            "url": "https://pl.wikipedia.org/wiki/System_informacyjny",
+            "langname": "polaco",
+            "autonym": "polski",
+            "title": "System informacyjny"
+          },
+          {
+            "lang": "ro",
+            "url": "https://ro.wikipedia.org/wiki/Sistem_informatic",
+            "langname": "romeno",
+            "autonym": "română",
+            "title": "Sistem informatic"
+          },
+          {
+            "lang": "ru",
+            "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0",
+            "langname": "russo",
+            "autonym": "русский",
+            "title": "Информационная система"
+          },
+          {
+            "lang": "scn",
+            "url": "https://scn.wikipedia.org/wiki/Sistemi_%27nfurmativi",
+            "langname": "siciliano",
+            "autonym": "sicilianu",
+            "title": "Sistemi 'nfurmativi"
+          },
+          {
+            "lang": "sh",
+            "url": "https://sh.wikipedia.org/wiki/Informacioni_sistem",
+            "langname": "servo-croata",
+            "autonym": "srpskohrvatski / српскохрватски",
+            "title": "Informacioni sistem"
+          },
+          {
+            "lang": "simple",
+            "url": "https://simple.wikipedia.org/wiki/Information_systems",
+            "langname": "Simple English",
+            "autonym": "Simple English",
+            "title": "Information systems"
+          },
+          {
+            "lang": "sk",
+            "url": "https://sk.wikipedia.org/wiki/Informa%C4%8Dn%C3%BD_syst%C3%A9m",
+            "langname": "eslovaco",
+            "autonym": "slovenčina",
+            "title": "Informačný systém"
+          },
+          {
+            "lang": "sl",
+            "url": "https://sl.wikipedia.org/wiki/Informacijski_sistem",
+            "langname": "esloveno",
+            "autonym": "slovenščina",
+            "title": "Informacijski sistem"
+          },
+          {
+            "lang": "sq",
+            "url": "https://sq.wikipedia.org/wiki/Sistemi_i_informacionit",
+            "langname": "albanês",
+            "autonym": "shqip",
+            "title": "Sistemi i informacionit"
+          },
+          {
+            "lang": "sr",
+            "url": "https://sr.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B8_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC",
+            "langname": "sérvio",
+            "autonym": "српски / srpski",
+            "title": "Информациони систем"
+          },
+          {
+            "lang": "su",
+            "url": "https://su.wikipedia.org/wiki/Sistim_informasi",
+            "langname": "sundanês",
+            "autonym": "Sunda",
+            "title": "Sistim informasi"
+          },
+          {
+            "lang": "sv",
+            "url": "https://sv.wikipedia.org/wiki/Informationssystem",
+            "langname": "sueco",
+            "autonym": "svenska",
+            "title": "Informationssystem"
+          },
+          {
+            "lang": "ta",
+            "url": "https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D_%E0%AE%85%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AE%B3%E0%AF%8D",
+            "langname": "tâmil",
+            "autonym": "தமிழ்",
+            "title": "தகவல் அமைப்புகள்"
+          },
+          {
+            "lang": "th",
+            "url": "https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%A8",
+            "langname": "tailandês",
+            "autonym": "ไทย",
+            "title": "ระบบสารสนเทศ"
+          },
+          {
+            "lang": "tl",
+            "url": "https://tl.wikipedia.org/wiki/Sistema_ng_impormasyon",
+            "langname": "tagalo",
+            "autonym": "Tagalog",
+            "title": "Sistema ng impormasyon"
+          },
+          {
+            "lang": "tr",
+            "url": "https://tr.wikipedia.org/wiki/Bilgi_sistemi",
+            "langname": "turco",
+            "autonym": "Türkçe",
+            "title": "Bilgi sistemi"
+          },
+          {
+            "lang": "tum",
+            "url": "https://tum.wikipedia.org/wiki/Ndondomeko_ya_uthenga",
+            "langname": "tumbuka",
+            "autonym": "chiTumbuka",
+            "title": "Ndondomeko ya uthenga"
+          },
+          {
+            "lang": "uk",
+            "url": "https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B0_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0",
+            "langname": "ucraniano",
+            "autonym": "українська",
+            "title": "Інформаційна система"
+          },
+          {
+            "lang": "uz",
+            "url": "https://uz.wikipedia.org/wiki/Axborot_tizimi",
+            "langname": "usbeque",
+            "autonym": "oʻzbekcha / ўзбекча",
+            "title": "Axborot tizimi"
+          },
+          {
+            "lang": "vi",
+            "url": "https://vi.wikipedia.org/wiki/H%E1%BB%87_th%E1%BB%91ng_th%C3%B4ng_tin",
+            "langname": "vietnamita",
+            "autonym": "Tiếng Việt",
+            "title": "Hệ thống thông tin"
+          },
+          {
+            "lang": "wuu",
+            "url": "https://wuu.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F",
+            "langname": "wu",
+            "autonym": "吴语",
+            "title": "信息系统"
+          },
+          {
+            "lang": "xh",
+            "url": "https://xh.wikipedia.org/wiki/UHlakahlisombulu",
+            "langname": "xosa",
+            "autonym": "isiXhosa",
+            "title": "UHlakahlisombulu"
+          },
+          {
+            "lang": "zh",
+            "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F",
+            "langname": "chinês",
+            "autonym": "中文",
+            "title": "信息系统"
+          },
+          {
+            "lang": "yue",
+            "url": "https://zh-yue.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E7%B3%BB%E7%B5%B1",
+            "langname": "cantonês",
+            "autonym": "粵語",
+            "title": "資訊系統"
+          },
+          {
+            "lang": "zu",
+            "url": "https://zu.wikipedia.org/wiki/Uhlelo_lokwaziswa",
+            "langname": "zulu",
+            "autonym": "isiZulu",
+            "title": "Uhlelo lokwaziswa"
+          }
+        ],
+        "revisions": [
+          {
+            "timestamp": "2026-10-12T12:46:32Z"
+          }
+        ]
       }
     ]
   }
