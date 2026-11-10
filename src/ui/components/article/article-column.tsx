@@ -8,6 +8,7 @@ import {
 import { ArticleIntro } from "@/ui/components/article/article-intro";
 import { ArticleSection } from "@/ui/components/article/article-section";
 import { ArticleToolbar } from "@/ui/components/article/article-toolbar";
+import { EasyReadingSummary } from "@/ui/components/article/easy-reading-summary";
 import { RichText } from "@/ui/components/rich-text/rich-text";
 import { useArticle } from "@/ui/contexts/article-context";
 import { Separator } from "@/ui/primitives/separator";
@@ -25,6 +26,7 @@ export function ArticleColumn() {
       <div id="inicio" className="flex scroll-mt-8 flex-col gap-6 outline-none">
         <ArticleHeader />
         <Separator />
+        <EasyReadingSummary />
         <ArticleIntro />
       </div>
       {sections.map((section) => (

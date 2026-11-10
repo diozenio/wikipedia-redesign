@@ -15,7 +15,7 @@ import {
   type Spacing,
   type Theme,
 } from "@/ui/lib/appearance";
-import { cn } from "@/ui/lib/utils";
+import { cn, focusRing } from "@/ui/lib/utils";
 import { Button } from "@/ui/primitives/button";
 
 const THEME_OPTIONS: { value: Theme; label: string; swatch: string }[] = [
@@ -50,9 +50,6 @@ const SPACING_OPTIONS: { value: Spacing; label: string }[] = [
   { value: "wide", label: "Amplo" },
   { value: "wider", label: "Extra amplo" },
 ];
-
-const optionFocusRing =
-  "has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ring";
 
 function formatPercent(scale: FontScale) {
   return `${scale.toLocaleString("pt-BR")}%`;
@@ -91,6 +88,53 @@ function StepButton({
   );
 }
 
+function PreferenceSwitch({
+  id,
+  label,
+  description,
+  checked,
+  onCheckedChange,
+}: {
+  id: string;
+  label: string;
+  description: string;
+  checked: boolean;
+  onCheckedChange: (checked: boolean) => void;
+}) {
+  return (
+    <div className="flex items-center gap-3">
+      <div className="flex flex-1 flex-col gap-0.5">
+        <span
+          id={id}
+          className="text-[0.8125rem] font-semibold text-foreground"
+        >
+          {label}
+        </span>
+        <span
+          id={`${id}-description`}
+          className="text-xs text-muted-foreground"
+        >
+          {description}
+        </span>
+      </div>
+      <button
+        type="button"
+        role="switch"
+        aria-checked={checked}
+        aria-labelledby={id}
+        aria-describedby={`${id}-description`}
+        onClick={() => onCheckedChange(!checked)}
+        className={cn(
+          "inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full bg-muted-foreground p-0.5 transition-colors aria-checked:bg-primary",
+          focusRing,
+        )}
+      >
+        <span className="size-4 rounded-full bg-background shadow-xs transition-transform in-aria-checked:translate-x-4" />
+      </button>
+    </div>
+  );
+}
+
 export function AppearancePanel({
   header,
   footerHint,
@@ -100,7 +144,7 @@ export function AppearancePanel({
 }) {
   const id = useId();
   const { appearance, updateAppearance, resetAppearance } = useAppearance();
-  const { theme, fontScale, spacing, dyslexicFont } = appearance;
+  const { theme, fontScale, spacing, dyslexicFont, easyReading } = appearance;
   const scaleIndex = FONT_SCALES.indexOf(fontScale);
 
   function stepFontScale(direction: -1 | 1) {
@@ -120,10 +164,7 @@ export function AppearancePanel({
           {THEME_OPTIONS.map((option) => (
             <label
               key={option.value}
-              className={cn(
-                "group/option flex cursor-pointer flex-col gap-2 rounded-md border border-border p-2 has-checked:border-foreground has-checked:ring-1 has-checked:ring-foreground",
-                optionFocusRing,
-              )}
+              className="group/option relative flex cursor-pointer flex-col gap-2 rounded-md border border-border p-2 has-checked:border-foreground has-checked:ring-1 has-checked:ring-foreground"
             >
               <input
                 type="radio"
@@ -131,7 +172,10 @@ export function AppearancePanel({
                 value={option.value}
                 checked={theme === option.value}
                 onChange={() => updateAppearance({ theme: option.value })}
-                className="sr-only"
+                className={cn(
+                  "absolute inset-0 cursor-pointer appearance-none rounded-md",
+                  focusRing,
+                )}
               />
               <span
                 aria-hidden
@@ -201,10 +245,7 @@ export function AppearancePanel({
           {SPACING_OPTIONS.map((option) => (
             <label
               key={option.value}
-              className={cn(
-                "flex-1 cursor-pointer rounded-[calc(var(--radius-md)-2px)] px-2 py-1.5 text-center text-[0.8125rem] font-medium text-muted-foreground has-checked:bg-background has-checked:text-foreground has-checked:shadow-xs high-contrast:has-checked:ring-1 high-contrast:has-checked:ring-foreground",
-                optionFocusRing,
-              )}
+              className="relative flex-1 cursor-pointer rounded-[calc(var(--radius-md)-2px)] px-2 py-1.5 text-center text-[0.8125rem] font-medium text-muted-foreground has-checked:bg-background has-checked:text-foreground has-checked:shadow-xs high-contrast:has-checked:ring-1 high-contrast:has-checked:ring-foreground"
             >
               <input
                 type="radio"
@@ -212,7 +253,10 @@ export function AppearancePanel({
                 value={option.value}
                 checked={spacing === option.value}
                 onChange={() => updateAppearance({ spacing: option.value })}
-                className="sr-only"
+                className={cn(
+                  "absolute inset-0 cursor-pointer appearance-none rounded-[inherit]",
+                  focusRing,
+                )}
               />
               {option.label}
             </label>
@@ -224,33 +268,25 @@ export function AppearancePanel({
         </p>
       </fieldset>
 
-      <div className="flex items-center gap-3">
-        <div className="flex flex-1 flex-col gap-0.5">
-          <span
-            id={`${id}-dyslexic`}
-            className="text-[0.8125rem] font-semibold text-foreground"
-          >
-            Fonte para dislexia
-          </span>
-          <span
-            id={`${id}-dyslexic-description`}
-            className="text-xs text-muted-foreground"
-          >
-            Usa a OpenDyslexic em todo o site.
-          </span>
-        </div>
-        <button
-          type="button"
-          role="switch"
-          aria-checked={dyslexicFont}
-          aria-labelledby={`${id}-dyslexic`}
-          aria-describedby={`${id}-dyslexic-description`}
-          onClick={() => updateAppearance({ dyslexicFont: !dyslexicFont })}
-          className="inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full bg-muted-foreground p-0.5 transition-colors outline-none focus-visible:ring-3 focus-visible:ring-ring/50 aria-checked:bg-primary"
-        >
-          <span className="size-4 rounded-full bg-background shadow-xs transition-transform in-aria-checked:translate-x-4" />
-        </button>
-      </div>
+      <PreferenceSwitch
+        id={`${id}-dyslexic`}
+        label="Fonte para dislexia"
+        description="Usa a OpenDyslexic em todo o site."
+        checked={dyslexicFont}
+        onCheckedChange={(checked) =>
+          updateAppearance({ dyslexicFont: checked })
+        }
+      />
+
+      <PreferenceSwitch
+        id={`${id}-easy-reading`}
+        label="Leitura facilitada"
+        description="Divide parágrafos em blocos curtos e mostra um resumo simples no início."
+        checked={easyReading}
+        onCheckedChange={(checked) =>
+          updateAppearance({ easyReading: checked })
+        }
+      />
 
       <div className="flex flex-wrap items-center justify-between gap-2 border-t border-border pt-4">
         <Button variant="ghost" onClick={resetAppearance}>
