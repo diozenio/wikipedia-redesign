@@ -1,8 +1,18 @@
+import { cn, focusRing } from "@/ui/lib/utils";
+
 export function RichTextTable({ rows }: { rows: string[][] }) {
   const [header, ...body] = rows;
 
   return (
-    <div className="w-full overflow-x-auto rounded-lg border border-border">
+    <section
+      aria-label={header?.[0] ? `Tabela: ${header[0]}` : "Tabela"}
+      // biome-ignore lint/a11y/noNoninteractiveTabindex: wide tables scroll horizontally, so keyboard users must be able to focus and scroll them
+      tabIndex={0}
+      className={cn(
+        "w-full overflow-x-auto rounded-lg border border-border",
+        focusRing,
+      )}
+    >
       <table className="w-max min-w-full border-collapse text-left">
         {header && (
           <thead className="bg-muted">
@@ -37,6 +47,6 @@ export function RichTextTable({ rows }: { rows: string[][] }) {
           ))}
         </tbody>
       </table>
-    </div>
+    </section>
   );
 }

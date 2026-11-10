@@ -21,7 +21,7 @@ export function HeaderBrand() {
         <span className="hidden flex-col leading-tight @min-[40rem]:flex">
           <span className="text-base font-semibold tracking-[-0.02em] text-foreground">
             Wikipédia
-          </span>
+          </span>{" "}
           <span className="text-xs text-muted-foreground">
             A enciclopédia livre
           </span>

@@ -66,9 +66,9 @@ export function AudioPlayerBar({
       aria-label="Player do artigo"
       data-audio-player=""
       className="sticky bottom-0 z-40 px-4 pb-4"
-      initial={{ y: "120%", opacity: 0, scale: 0.96 }}
-      animate={{ y: 0, opacity: 1, scale: 1 }}
-      exit={{ y: "120%", opacity: 0, scale: 0.96 }}
+      initial={{ y: "120%", scale: 0.96 }}
+      animate={{ y: 0, scale: 1 }}
+      exit={{ y: "120%", scale: 0.96 }}
       transition={SLIDE}
     >
       <div className="mx-auto flex max-w-4xl flex-col gap-2 rounded-2xl border border-border bg-background/95 p-3 shadow-lg backdrop-blur">
