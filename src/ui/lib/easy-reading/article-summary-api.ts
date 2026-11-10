@@ -1,20 +1,20 @@
-export type ArticleSummaryResult =
-  | { status: "ready"; summary: string }
-  | { status: "unavailable"; reason: "not_configured" | "error" };
+import type {
+  ArticleSummaryInput,
+  ArticleSummaryResult,
+} from "@/ui/contexts/article-summary-context";
 
 function summaryEndpoint(articleId: string): string {
   return `/api/articles/${encodeURIComponent(articleId)}/summary`;
 }
 
 export async function fetchArticleSummary(
-  articleId: string,
-  input: { title: string; text: string },
+  { articleId, title, text }: ArticleSummaryInput,
   signal: AbortSignal,
 ): Promise<ArticleSummaryResult> {
   const response = await fetch(summaryEndpoint(articleId), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(input),
+    body: JSON.stringify({ title, text }),
     signal,
   });
 

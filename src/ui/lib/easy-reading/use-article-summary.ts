@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import {
   type ArticleSummaryResult,
-  fetchArticleSummary,
-} from "@/ui/lib/easy-reading/article-summary-api";
+  useArticleSummaryService,
+} from "@/ui/contexts/article-summary-context";
 
 export type ArticleSummaryState = { status: "loading" } | ArticleSummaryResult;
 
@@ -21,6 +21,7 @@ export function useArticleSummary({
   text: string;
   enabled: boolean;
 }): ArticleSummaryState {
+  const { summarizeArticle } = useArticleSummaryService();
   const input = text.slice(0, MAX_TEXT_LENGTH);
   const key = `${articleId}\n${title}\n${input}`;
   const [result, setResult] = useState<{
@@ -33,7 +34,7 @@ export function useArticleSummary({
 
     const controller = new AbortController();
 
-    fetchArticleSummary(articleId, { title, text: input }, controller.signal)
+    summarizeArticle({ articleId, title, text: input }, controller.signal)
       .then((value) => setResult({ key, value }))
       .catch(() => {
         if (controller.signal.aborted) return;
@@ -41,7 +42,7 @@ export function useArticleSummary({
       });
 
     return () => controller.abort();
-  }, [articleId, title, input, key, enabled]);
+  }, [summarizeArticle, articleId, title, input, key, enabled]);
 
   if (!input) return { status: "unavailable", reason: "error" };
   if (result?.key !== key) return { status: "loading" };

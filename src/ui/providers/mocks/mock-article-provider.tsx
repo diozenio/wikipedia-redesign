@@ -9,7 +9,9 @@ import {
 
 type MockArticleProviderProps = {
   slug?: string;
+  fallback?: ReactNode;
   notFound?: ReactNode;
+  error?: ReactNode;
   children: ReactNode;
 };
 

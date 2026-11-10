@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { HomePageLayout } from "@/ui/layouts/home-page-layout";
 import { getTodayFeaturedDate, isFeaturedDate } from "@/ui/lib/featured-date";
 import { AppProvider } from "@/ui/providers/app-provider";
-import { MediaWikiFeaturedArticlesProvider } from "@/ui/providers/mediawiki-featured-articles-provider";
-import { MediaWikiSearchProvider } from "@/ui/providers/mediawiki-search-provider";
+import {
+  FeaturedArticlesProvider,
+  SearchProvider,
+} from "@/ui/providers/data-providers";
 
 export const metadata: Metadata = {
   title: { absolute: "Wikipédia, a enciclopédia livre" },
@@ -14,13 +16,13 @@ export default async function HomePage({ searchParams }: PageProps<"/">) {
 
   return (
     <AppProvider>
-      <MediaWikiSearchProvider>
-        <MediaWikiFeaturedArticlesProvider
+      <SearchProvider>
+        <FeaturedArticlesProvider
           date={isFeaturedDate(date) ? date : getTodayFeaturedDate()}
         >
           <HomePageLayout />
-        </MediaWikiFeaturedArticlesProvider>
-      </MediaWikiSearchProvider>
+        </FeaturedArticlesProvider>
+      </SearchProvider>
     </AppProvider>
   );
 }
