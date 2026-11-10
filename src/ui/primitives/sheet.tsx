@@ -11,11 +11,22 @@ function SheetTrigger({ ...props }: SheetPrimitive.Trigger.Props) {
   return <SheetPrimitive.Trigger data-slot="sheet-trigger" {...props} />;
 }
 
+function SheetClose({ ...props }: SheetPrimitive.Close.Props) {
+  return <SheetPrimitive.Close data-slot="sheet-close" {...props} />;
+}
+
+const sideClassNames = {
+  bottom:
+    "inset-x-0 bottom-0 max-h-[90dvh] rounded-t-2xl border-t data-open:slide-in-from-bottom data-closed:slide-out-to-bottom",
+  left: "inset-y-0 left-0 w-[min(20rem,calc(100vw-3rem))] border-r data-open:slide-in-from-left data-closed:slide-out-to-left",
+};
+
 function SheetContent({
   className,
   children,
+  side = "bottom",
   ...props
-}: SheetPrimitive.Popup.Props) {
+}: SheetPrimitive.Popup.Props & { side?: keyof typeof sideClassNames }) {
   return (
     <SheetPrimitive.Portal>
       <SheetPrimitive.Backdrop
@@ -25,14 +36,17 @@ function SheetContent({
       <SheetPrimitive.Popup
         data-slot="sheet-content"
         className={cn(
-          "fixed inset-x-0 bottom-0 z-50 flex max-h-[90dvh] flex-col overflow-y-auto rounded-t-2xl border-t border-border bg-popover text-popover-foreground shadow-lg outline-none duration-200 data-open:animate-in data-open:slide-in-from-bottom data-closed:animate-out data-closed:slide-out-to-bottom",
+          "fixed z-50 flex flex-col overflow-y-auto border-border bg-popover text-popover-foreground shadow-lg outline-none duration-200 data-open:animate-in data-closed:animate-out",
+          sideClassNames[side],
           className,
         )}
         {...props}
       >
-        <div aria-hidden className="flex justify-center pt-3">
-          <div className="h-1 w-9 rounded-full bg-border" />
-        </div>
+        {side === "bottom" && (
+          <div aria-hidden className="flex justify-center pt-3">
+            <div className="h-1 w-9 rounded-full bg-border" />
+          </div>
+        )}
         {children}
       </SheetPrimitive.Popup>
     </SheetPrimitive.Portal>
@@ -49,4 +63,11 @@ function SheetDescription({ ...props }: SheetPrimitive.Description.Props) {
   );
 }
 
-export { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger };
+export {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+  SheetTrigger,
+};
