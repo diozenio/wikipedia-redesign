@@ -2,6 +2,7 @@
 
 import { Info } from "lucide-react";
 import { SidebarCard } from "@/ui/components/article-sidebar/sidebar-card";
+import { ImageWithFallback } from "@/ui/components/image/image-with-fallback";
 import { useArticle } from "@/ui/contexts/article-context";
 
 export function SummaryCard() {
@@ -13,12 +14,11 @@ export function SummaryCard() {
     <SidebarCard icon={Info} title={infobox.caption ?? "Resumo rápido"}>
       {infobox.image && (
         <figure className="flex flex-col gap-1.5 px-5 pb-3">
-          {/* biome-ignore lint/performance/noImgElement: Wikimedia thumbnails are already resized and served from their CDN */}
-          <img
+          <ImageWithFallback
             src={infobox.image.src}
             alt={infobox.image.alt}
-            width={infobox.image.width || undefined}
-            height={infobox.image.height || undefined}
+            width={infobox.image.width}
+            height={infobox.image.height}
             loading="lazy"
             decoding="async"
             className="mx-auto h-auto max-w-full rounded-sm"
