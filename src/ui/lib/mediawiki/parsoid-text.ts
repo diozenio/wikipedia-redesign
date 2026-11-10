@@ -135,6 +135,27 @@ function dimension(image: Element, rendered: string, original: string) {
   );
 }
 
+const THUMBNAIL_WIDTH = 960;
+
+function largerThumbnail(
+  src: string,
+  width: number,
+  height: number,
+  fileWidth: number,
+) {
+  const match = src.match(/\/(\d+)px-[^/]+$/);
+  if (!match || !width) return { src, width, height };
+
+  const target = Math.min(THUMBNAIL_WIDTH, fileWidth || THUMBNAIL_WIDTH);
+  if (target <= width) return { src, width, height };
+
+  return {
+    src: src.replace(/\/(\d+)px-([^/]+)$/, `/${target}px-$2`),
+    width: target,
+    height: height ? Math.round((height * target) / width) : 0,
+  };
+}
+
 export function toImage(
   container: Element,
   captionElement: Element | null,
@@ -142,13 +163,17 @@ export function toImage(
   const image = container.querySelector("img");
   if (!image) return null;
 
-  const src = image.getAttribute("src") ?? "";
+  const rawSrc = image.getAttribute("src") ?? "";
+  const thumbnail = largerThumbnail(
+    rawSrc.startsWith("//") ? `https:${rawSrc}` : rawSrc,
+    dimension(image, "width", "data-file-width"),
+    dimension(image, "height", "data-file-height"),
+    Number(image.getAttribute("data-file-width") ?? 0),
+  );
 
   return {
-    src: src.startsWith("//") ? `https:${src}` : src,
+    ...thumbnail,
     alt: (image.getAttribute("alt") ?? "").replace(/\s+/g, " ").trim(),
     caption: captionElement ? textOf(captionElement) : "",
-    width: dimension(image, "width", "data-file-width"),
-    height: dimension(image, "height", "data-file-height"),
   };
 }

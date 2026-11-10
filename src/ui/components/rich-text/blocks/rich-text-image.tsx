@@ -12,7 +12,7 @@ export function RichTextImage({
   height: number;
 }) {
   return (
-    <figure className="ml-auto flex w-55 max-w-full flex-col gap-1.5 rounded-sm border border-border bg-muted/30 p-1.5">
+    <figure className="mx-auto flex w-fit max-w-full flex-col gap-2">
       {/* biome-ignore lint/performance/noImgElement: Wikimedia thumbnails are already resized and served from their CDN */}
       <img
         src={src}
@@ -21,10 +21,10 @@ export function RichTextImage({
         height={height || undefined}
         loading="lazy"
         decoding="async"
-        className="h-auto w-full max-w-full rounded-[2px] object-cover"
+        className="mx-auto h-auto max-h-[32rem] w-auto max-w-full rounded-md border border-border bg-muted/30 object-contain"
       />
       {caption && (
-        <figcaption className="text-xs leading-snug text-muted-foreground">
+        <figcaption className="max-w-prose text-sm leading-snug text-muted-foreground">
           {caption}
         </figcaption>
       )}
